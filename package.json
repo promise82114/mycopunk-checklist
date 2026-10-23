@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check prototype/app.js && node --check prototype/model.js && node --check scripts/serve.mjs && node scripts/validate_site.mjs",
-    "import:excel": "python scripts/import_excel.py --strict"
+    "check": "node --check prototype/app.js && node --check prototype/model.js && node --check prototype/recommendations.js && node --check prototype/wiki.js && node --check prototype/patterns.js && node --check scripts/serve.mjs && node scripts/validate_site.mjs",
+    "import:excel": "python scripts/import_excel.py --strict",
+    "import:recommendations": "python scripts/import_recommendations.py",
+    "import:wiki": "python scripts/import_wiki.py"
   }
 }

@@ -1,0 +1,2145 @@
+{
+  "verifiedOn": "2026-10-23",
+  "profileUrl": "https://tiermaker.com/user/18796434",
+  "method": "TierMaker rendered tier rows and visible item background-image filenames; no author rationale or version inferred from asset paths.",
+  "sources": [
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/yellowprismpng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/purpleprismpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/blueprismpng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/greenprismpng.png",
+              "id": "10"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/tinderboxpng.png",
+              "id": "28"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/hullpiercerpng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/franticfingerspng.png",
+              "id": "9"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/lagrangehalopng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/ballisticchargerpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/firmlyplantedpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/gunshippng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/unarmoredpng.png",
+              "id": "29"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/missilebaypng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/hardricochetpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/thumperpng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/pointdemolitionpng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/safetyregulationspng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/stabilizerspng.png",
+              "id": "26"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/adaptivestabilizerspng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/industrialfeedmechanismpng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/cargostoragepng.png",
+              "id": "5"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/elementalmunitionspng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/highercaliberpng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/holdplatingpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/overclockedfiringchamberpng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/sawedoffpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/dragcapspng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/magneticloaderpng.png",
+              "id": "19"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/heavymunitionspng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gunship-upgrades-18796434/blowbackredirectpng.png",
+              "id": "3"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Gunship",
+      "url": "https://tiermaker.com/list/random/mycopunk-gunship-upgrades-18796434/5615819"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/plate.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/shocklance.png",
+              "id": "9"
+            }
+          ],
+          "tier": "SS"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/globbler.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/gsc.png",
+              "id": "5"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/jabbit.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/cycler.png",
+              "id": "2"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/lf.png",
+              "id": "7"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/swarm-launcher.png",
+              "id": "10"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/trident.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/chainsaw.png",
+              "id": "1"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18711617/mycopunk-weapon-tier-list-18711617/dmlr.png",
+              "id": "3"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Myco TL 1.4.6",
+      "url": "https://tiermaker.com/list/random/mycopunk-weapon-tier-list-18711617/5588347"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/shocklance-icon.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/plate-launcher-icon.png",
+              "id": "12"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/minicannonicon.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/globblericon.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/accelerator-icon.png",
+              "id": "1"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/bounce-shotgun-icon.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/smg-icon.png",
+              "id": "14"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/swarm-gun-icon.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/leadflinger-icon.png",
+              "id": "10"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/tridenticon.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/carver-icon.png",
+              "id": "3"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/heavylasericon.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/heavynukeicon.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/heavyshotgunicon.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/heavysnipericon.png",
+              "id": "9"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-gun-tierlist-18796434/dmlr-icon.png",
+              "id": "4"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Weapons",
+      "url": "https://tiermaker.com/list/random/mycopunk-gun-tierlist-18796434/5653581"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/explosivebulletspng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/remotechargingpng.png",
+              "id": "19"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/paybackpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/inertiaaccelerantpng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/oxythanespromisepng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/unstablerecursionpng.png",
+              "id": "30"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/requeeningpng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/awakenthehivepng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/feedbacklooppng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/shakethenestpng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/shockerpng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/shavedprojectilespng.png",
+              "id": "23"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/miniaturizedwarpcorepng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/rupturedspleenpng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/theroyaljellyofhazaranpng.png",
+              "id": "28"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/fullautotriggerpng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/momentumimpactpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/quickresetpng.png",
+              "id": "18"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/slipspacebullettransferpng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/threeinonepng.png",
+              "id": "29"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/waspgunpng.png",
+              "id": "31"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/hairtriggerpng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/honeysweetpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/kineticoptimizationpng.png",
+              "id": "10"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/sweetheavenspng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/number5togopng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/energycohesionpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/flashchargepng.png",
+              "id": "5"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/queenscannonspng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/sizethemuppng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-accelerator-upgrades-18796434/payloadamplifierpng.png",
+              "id": "16"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Accelerator",
+      "url": "https://tiermaker.com/list/random/mycopunk-accelerator-upgrades-18796434/5653578"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/halfcockedpng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/blackmarketbatterypng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/splinteredlancepng.png",
+              "id": "26"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/augersubroutinepng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/layingcablepng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/gearshiftpng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/killingfieldpng.png",
+              "id": "19"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/stormseyepng.png",
+              "id": "28"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/batteryrecursionpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/microdetonatorspng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/readyandwaitingpng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/subwaypng.png",
+              "id": "29"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/compressorpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/fwooshpng.png",
+              "id": "15"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/festerpng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/centripetalcorneringpng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/flurryingconfigurationpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/forwardchargepng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/notchedbreakpointpng.png",
+              "id": "22"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/extracapacitorspng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/railshotpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/swingthroughpng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/auxiliarychargerspng.png",
+              "id": "2"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/fisticuffspng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/skewerpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/coatedcoilspng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/gladiatorspocketspng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/tripleapng.png",
+              "id": "31"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/crescendopng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/coilextensionpng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-shocklance-upgrades-18796434/squiresupplierpng.png",
+              "id": "27"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Shocklance",
+      "url": "https://tiermaker.com/list/random/mycopunk-shocklance-upgrades-18796434/5615928"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/ragepng.png",
+              "id": "18"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/deflectorpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/overheatsystempng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bloodcoatingpng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bloodrampagepng.png",
+              "id": "9"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/supermagnetpng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/nutritionsamplerpng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bigdeflectorpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bloodlightningpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/aimfortheliverpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/safetywarningpng.png",
+              "id": "22"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/heavypocketspng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/greedyfuckpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/ignitionrechargepng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/rushpng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/swingingtechniquepng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/additionalramstickpng.png",
+              "id": "1"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bloodyjumpingpng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/shockingadrenalinepng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bladeextenderspng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bloodbucketpng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/bloodefficiencypng.png",
+              "id": "7"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/slipperybloodpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/corrosivecoatingpng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/ramstoragepng.png",
+              "id": "19"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/sharinglunchpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-carver-upgrades-18796434/repairingexhaustpng.png",
+              "id": "20"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Carver",
+      "url": "https://tiermaker.com/list/random/mycopunk-carver-upgrades-18796434/5615918"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/pressurecookerpng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/fullspectrumpng.png",
+              "id": "5"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/floodpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/impactfunnelpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/triagonpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/improvereplicationpng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/globblinpng.png",
+              "id": "7"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/slippershoespng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/globulousexcitementpng.png",
+              "id": "8"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/autoreplicatorpng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/glorbpng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/heavyglobspng.png",
+              "id": "12"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/globuloussiphonpng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/flashfloodpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/replicatorresistancepng.png",
+              "id": "19"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/packeaterpng.png",
+              "id": "16"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/pocketreplicationpng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/volatileelementpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/instantdetonationpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/theglobpng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/shrunkencontainerpng.png",
+              "id": "20"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/globballoonspng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/forcefulexpulsionpng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/gunpowderpackingpng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-globbler-upgrades-18796434/volatileacidpng.png",
+              "id": "24"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Globbler",
+      "url": "https://tiermaker.com/list/random/mycopunk-globbler-upgrades-18796434/5615847"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/heavensfurypng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/treadthelinepng.png",
+              "id": "29"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/lonecannoneerpng.png",
+              "id": "20"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/fireshotpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/fireintheholdpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/rotadvantagepng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/gunnersprecisionpng.png",
+              "id": "14"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/shredifypng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/hornethuntingpng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/tailwindpng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/energycondenserpng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/bottomheavypng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/squadronpng.png",
+              "id": "25"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/bailingwaterpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/broadsidepng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/gunpowderfinalepng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/ungovernablepng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/cargoholdpng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/lineeruppng.png",
+              "id": "19"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/thrillofthefightpng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/acidshotpng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/plunderpng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/spyglasspng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/topdeckstoragepng.png",
+              "id": "28"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/compatibleammunitionpng.png",
+              "id": "6"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/crossdeckpng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/increasedloadpng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/compressedammunitionpng.png",
+              "id": "7"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/corrosivereactionpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-trident-upgrades-18796434/discountmarksmanpng.png",
+              "id": "10"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Trident",
+      "url": "https://tiermaker.com/list/random/mycopunk-trident-upgrades-18796434/5615834"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/clearingplasmapng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/damagearcpng.png",
+              "id": "8"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/compressedplatestoragepng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/fencingconstructionpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/decayplatespng.png",
+              "id": "9"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/becallpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/saladplatespng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/autodemolitionpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/nicecatchpng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/powerrecallpng.png",
+              "id": "19"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/shishkebabpng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/tungstencubepng.png",
+              "id": "29"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/storagesurpluspng.png",
+              "id": "28"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/aerodynamicplatespng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/bouncyplatespng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/electrifiedplatespng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/weightrebalancedpng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/sharperedgespng.png",
+              "id": "23"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/chargerecyclingpng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/highgroundpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/railtuningpng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/simpleinertiapng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/doubleapng.png",
+              "id": "10"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/returntoreceiverpng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/impulseredirectionpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/polealignmentpng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/slapjobpng.png",
+              "id": "27"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/improvisedexplosivespng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/paintersattachmentpng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-plate-upgrades-18796434/shockwavepng.png",
+              "id": "25"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Plate",
+      "url": "https://tiermaker.com/list/random/mycopunk-plate-upgrades-18796434/5615809"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/bigfatdoobiepng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/luckybastardpng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/luckylastpng.png",
+              "id": "21"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/doubleactionpng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/moddedautopng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/burningtipspng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/fanfirepng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/homecookingpng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/shrapnelloadingpng.png",
+              "id": "29"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/chemicalsymbiosispng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/deliriumpng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/freshbulletfrenzypng.png",
+              "id": "13"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/juiceduppng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/outlawpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/adrenalinerushpng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/justaddmoregunpowderpng.png",
+              "id": "18"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/bloodrushpng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/volatilemunitionspng.png",
+              "id": "31"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/residuepng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/highcaliberpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/leadpoisoningpng.png",
+              "id": "19"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/ralphs-conundrumpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/selfstoragepng.png",
+              "id": "28"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/controlledsubstancepng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/unnaturalfocuspng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/bandolierpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/breathedeeppng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/hallucinatedspacepng.png",
+              "id": "14"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/feelingluckypng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/ridethehighpng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-flinger-upgrades-18796434/practicemakesperfectpng.png",
+              "id": "24"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Lead Flinger",
+      "url": "https://tiermaker.com/list/random/mycopunk-flinger-upgrades-18796434/5615797"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/autocyclerpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/hotswappng.png",
+              "id": "14"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/heavyhittingpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/trifectapng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/kineticamplifierpng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/triplepng.png",
+              "id": "31"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/coronalejectionpng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/pulverizerpng.png",
+              "id": "22"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/arclightningpng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/photonsurgepng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/corrosivelaserpng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/incendiarylaserpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/shockinglaserpng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/hardlightbypasspng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/beamamplifierpng.png",
+              "id": "5"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/overchargecyclingpng.png",
+              "id": "19"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/twowaychargingpng.png",
+              "id": "32"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/sturdypng.png",
+              "id": "28"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/voltaicbatterypng.png",
+              "id": "33"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/demonstratorstrickpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/hazardrecyclingpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/powercorepng.png",
+              "id": "21"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/taintedexhaustpng.png",
+              "id": "29"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/reorganizedreservespng.png",
+              "id": "25"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/engineeringnanitespng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/assistchargepng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/kineticimpossibilitypng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/auxreservespng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/feedbackamplifierpng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/quickswapcartridgepng.png",
+              "id": "23"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/shredderpng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/rapidchargepng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-dmlr-upgrades-18796434/longscopepng.png",
+              "id": "18"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "DMLR",
+      "url": "https://tiermaker.com/list/random/mycopunk-dmlr-upgrades-18796434/5615778"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/cropdusterpng.png",
+              "id": "5"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/scatterburstpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/thehivemustgrowpng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/electrifiedpelletspng.png",
+              "id": "7"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/mitosispng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/remotecontrolpng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/waitchargingpng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/migrationpng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/toolforthejobpng.png",
+              "id": "29"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/swarmreservespng.png",
+              "id": "26"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/overloadcontingencypng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/autoswarmpng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/highcaliberpelletspng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/quickgroupingpng.png",
+              "id": "19"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/staticreloadpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/largeenergystoragepng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/tightplantingpng.png",
+              "id": "28"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/breedingseasonpng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/powerredistributionpng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/atmosphericenergizerspng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/blitzplantingpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/rapidpollinationpng.png",
+              "id": "21"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/explosivepelletspng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/munitionsiphonpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/crosspollinationpng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/overextendedpng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/quickreleasepng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/sprinklerpng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/precisetargetingpng.png",
+              "id": "18"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-swarm-upgrades-18796434/portablesolararraypng.png",
+              "id": "16"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Swarm",
+      "url": "https://tiermaker.com/list/random/mycopunk-swarm-upgrades-18796434/5615767"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/infinityburnpng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/scorchingdetonationpng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/heatedbatterypng.png",
+              "id": "21"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/shockrecursionpng.png",
+              "id": "31"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/massaccelerationpng.png",
+              "id": "24"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/toxinrecyclingpng.png",
+              "id": "35"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/extralightframepng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/doubleshotpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/chargedcartridgespng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/overclockedfiringmechanismpng.png",
+              "id": "26"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/stabilitymodulepng.png",
+              "id": "33"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/corrodesiphonpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/momentumoverloadpng.png",
+              "id": "25"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/condensedejectionpng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/corrosiveplasmapng.png",
+              "id": "9"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/elementaldischargepng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/ricochetpng.png",
+              "id": "28"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/cyclingrepairspng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/dumpchargepng.png",
+              "id": "14"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/decayenergypng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/smartslidepng.png",
+              "id": "32"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/energyconvergencepng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/adrenalinereloadpng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/bigazinepng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/bulgingcartridgepng.png",
+              "id": "3"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/equipmentsiphonpng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/fullrangepng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/rocketburstpng.png",
+              "id": "29"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/focusedlensespng.png",
+              "id": "19"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/chargeshieldpng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/compactcartridgepng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/doublestackcartridgepng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/precisionfirepng.png",
+              "id": "27"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/violentignitionpng.png",
+              "id": "36"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/intensereactionpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-cycler-upgrades-18796434/superheatreactionpng.png",
+              "id": "34"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Cycler",
+      "url": "https://tiermaker.com/list/random/mycopunk-cycler-upgrades-18796434/5615756"
+    },
+    {
+      "rows": [
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/immolatorpng.png",
+              "id": "12"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/doublebarrelpng.png",
+              "id": "3"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/heavypng.png",
+              "id": "9"
+            }
+          ],
+          "tier": "S"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/shellpackerpng.png",
+              "id": "22"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/doubletimepng.png",
+              "id": "4"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/slideshotpng.png",
+              "id": "25"
+            }
+          ],
+          "tier": "A"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/fireinmyheartpng.png",
+              "id": "5"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/standtheheatpng.png",
+              "id": "27"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/hotpotatopng.png",
+              "id": "10"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/slamfirepng.png",
+              "id": "24"
+            }
+          ],
+          "tier": "B"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/pesticidepng.png",
+              "id": "17"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/molotovpng.png",
+              "id": "15"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/openingchargepng.png",
+              "id": "16"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/simplestsolutionpng.png",
+              "id": "23"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/wildfirepng.png",
+              "id": "30"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/meltingpointpng.png",
+              "id": "14"
+            }
+          ],
+          "tier": "C"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/pummelerpng.png",
+              "id": "19"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/deliciouscorespng.png",
+              "id": "2"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/frictioncompensatorspng.png",
+              "id": "7"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/hotreloadpng.png",
+              "id": "11"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/magextenderpng.png",
+              "id": "13"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/reinforcedcoatingpng.png",
+              "id": "21"
+            }
+          ],
+          "tier": "D"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/powerricochetpng.png",
+              "id": "18"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/reactivecoatingpng.png",
+              "id": "20"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/focusspreadpng.png",
+              "id": "6"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/steadieraimpng.png",
+              "id": "28"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/steadyaimpng.png",
+              "id": "29"
+            }
+          ],
+          "tier": "E"
+        },
+        {
+          "items": [
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/allpowdereduppng.png",
+              "id": "1"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/ghostingpng.png",
+              "id": "8"
+            },
+            {
+              "asset": "/images/media/template_images/2024/18796434/mycopunk-jackrabbit-upgrades-18796434/stablegrippng.png",
+              "id": "26"
+            }
+          ],
+          "tier": "F"
+        }
+      ],
+      "title": "Jackrabbit",
+      "url": "https://tiermaker.com/list/random/mycopunk-jackrabbit-upgrades-18796434/5615752"
+    }
+  ]
+}

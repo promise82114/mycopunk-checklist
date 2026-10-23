@@ -1,0 +1,446 @@
+[
+  {
+    "ownerId": "cycler",
+    "summaryEn": "Separate fire detonation from shock-based ammo recovery; infinite ammo adds a self-damage tradeoff.",
+    "summaryZh": "可分成火焰引爆與電擊回彈路線；無限彈藥另有自傷代價。",
+    "routes": [
+      {
+        "id": "fire-detonation",
+        "titleEn": "Fire application and detonation",
+        "titleZh": "火焰累積與擊殺引爆",
+        "coreIds": [
+          "cycler:heated-battery",
+          "cycler:scorching-detonation"
+        ],
+        "supportIds": [
+          "cycler:stability-module"
+        ],
+        "explanationEn": "Heated Battery applies fire; Scorching Detonation makes killed ignited targets explode. Stability Module reduces recoil while aiming.",
+        "explanationZh": "Heated Battery 讓子彈附加火焰；Scorching Detonation 在擊殺已點燃目標時引爆。Stability Module 可減少瞄準時的後座力。",
+        "tradeoffEn": "Applying fire is not the same as igniting a target. The explosion still requires a kill on an ignited target; these upgrades do not guarantee that every kill explodes.",
+        "tradeoffZh": "附加火焰不等於已成功點燃。引爆仍須擊殺已點燃的目標，不能保證每次擊殺都會爆炸。",
+        "contextEn": "Ignited-target kills against groups",
+        "contextZh": "點燃擊殺與群體戰"
+      },
+      {
+        "id": "shock-ammo",
+        "titleEn": "Shock and conditional ammo recovery",
+        "titleZh": "電擊與條件式彈藥回收",
+        "coreIds": [
+          "cycler:charged-cartridges",
+          "cycler:shock-recursion"
+        ],
+        "supportIds": [
+          "cycler:mass-acceleration"
+        ],
+        "explanationEn": "Charged Cartridges applies shock; Shock Recursion returns ammo when a target is electrocuted. Mass Acceleration increases fire rate for each loaded bullet.",
+        "explanationZh": "Charged Cartridges 附加電擊；Shock Recursion 在使目標觸電時回補彈匣。Mass Acceleration 隨彈匣內的子彈數增加射速。",
+        "tradeoffEn": "Ammo recovery requires electrocution, not merely a hit. Mass Acceleration lowers base fire rate. Infinity Burn is an alternative to investigate separately: sustained fire damages you according to the gun's element.",
+        "tradeoffZh": "回彈需要使目標觸電，單純命中並不保證觸發；Mass Acceleration 會降低基礎射速。可另行研究 Infinity Burn，但持續射擊會依武器元素傷害自己。",
+        "contextEn": "Conditional shock ammo sustain",
+        "contextZh": "條件式電擊彈藥續航"
+      }
+    ]
+  },
+  {
+    "ownerId": "jackrabbit",
+    "summaryEn": "Choose between a deliberate two-shot approach and a fire route that intentionally exposes you to self-ignition.",
+    "summaryZh": "可選擇雙發輸出，或以承擔自燃為前提的火焰路線。",
+    "routes": [
+      {
+        "id": "two-shot",
+        "titleEn": "Two-shot damage",
+        "titleZh": "雙發傷害路線",
+        "coreIds": [
+          "jackrabbit:double-barrel",
+          "jackrabbit:heavy"
+        ],
+        "supportIds": [
+          "jackrabbit:shell-packer",
+          "jackrabbit:slideshot"
+        ],
+        "explanationEn": "Double Barrel allows two shots before reloading and improves damage, reload speed and spread. Heavy adds damage and fire at a slower firing pace. Shell Packer adds a pellet; Slideshot boosts the next shot after sliding.",
+        "explanationZh": "Double Barrel 可連射兩次再裝填，並提升傷害、裝填速度及集中度。Heavy 以較慢射速換取傷害與火焰。Shell Packer 增加彈丸；Slideshot 強化滑行後的下一發。",
+        "tradeoffEn": "Heavy fires slower, and Slideshot requires sliding before the boosted shot. The effects do not establish how all firing modifiers combine.",
+        "tradeoffZh": "Heavy 會降低射速，Slideshot 則須先滑行。原表不足以確認所有射擊修正混用後的實際行為。",
+        "contextEn": "Reload rhythm and slide timing",
+        "contextZh": "裝填節奏與滑行時機"
+      },
+      {
+        "id": "immolation",
+        "titleEn": "Immolation with explicit self-fire risk",
+        "titleZh": "承擔自燃的焚身路線",
+        "coreIds": [
+          "jackrabbit:immolator",
+          "jackrabbit:heavy"
+        ],
+        "supportIds": [
+          "jackrabbit:stand-the-heat",
+          "jackrabbit:hot-potato"
+        ],
+        "explanationEn": "Heavy increases applied fire. Immolator also applies that fire to you and grants immolation for 6.5 seconds when you ignite yourself. Stand the Heat adds magazine ammo when you gain immolation; Hot Potato raises fire rate while ignited.",
+        "explanationZh": "Heavy 增加附加火焰。Immolator 也會把火焰施加到自己身上，自行點燃時獲得 6.5 秒的焚身效果。Stand the Heat 在獲得焚身時補充彈匣；Hot Potato 在自身點燃時提升射速。",
+        "tradeoffEn": "Heavy lowers fire rate. This route deliberately applies fire to you and requires self-ignition for immolation. The listed effects do not promise fire immunity or safe self-damage handling.",
+        "tradeoffZh": "Heavy 會降低射速。此路線會主動對自己施加火焰，且須自行點燃才能獲得焚身。這些效果沒有保證免疫火焰或免除自傷風險。",
+        "contextEn": "High-risk self-ignition fire play",
+        "contextZh": "承擔自燃的火焰玩法"
+      }
+    ]
+  },
+  {
+    "ownerId": "swarm-launcher",
+    "summaryEn": "Crop Duster rewards staying airborne, while magazine growth depends on actual upgrade adjacency.",
+    "summaryZh": "Crop Duster 以滯空為主軸，彈匣成長則取決於實際配件相鄰配置。",
+    "routes": [
+      {
+        "id": "airborne-swarm",
+        "titleEn": "Airborne swarm generation",
+        "titleZh": "滯空蜂群生成",
+        "coreIds": [
+          "swarm-launcher:crop-duster",
+          "swarm-launcher:electrified-pellets"
+        ],
+        "supportIds": [
+          "swarm-launcher:the-hive-must-grow"
+        ],
+        "explanationEn": "Crop Duster automatically spawns pellets while airborne, with a firing rate that rises the longer you remain in the air; it can trigger while the weapon is unequipped. Electrified Pellets adds shock. The Hive Must Grow increases magazine size for each unique upgrade touching it.",
+        "explanationZh": "Crop Duster 在空中自動生成彈丸，滯空越久生成越快，未裝備這把武器時也可觸發。Electrified Pellets 附加電擊；The Hive Must Grow 依接觸它的不同配件增加彈匣容量。",
+        "tradeoffEn": "Grounded play does not meet Crop Duster's airborne condition. Magazine bonuses require real adjacent upgrades; this guide provides no placement or automatic-pellet interaction guarantee.",
+        "tradeoffZh": "站在地面時不符合 Crop Duster 的滯空條件。彈匣加成須實際相鄰放置；本指南不保證棋盤排法或自動彈丸與其他修正的互動。",
+        "contextEn": "Airborne swarm generation and support",
+        "contextZh": "滯空蜂群生成與支援"
+      }
+    ]
+  },
+  {
+    "ownerId": "dmlr",
+    "summaryEn": "Autocycler and Hot Swap define different mode loops and are presented as separate routes.",
+    "summaryZh": "Autocycler 與 Hot Swap 代表不同的模式循環，分成兩條路線研究。",
+    "routes": [
+      {
+        "id": "autocycler",
+        "titleEn": "Automatic mode cycling",
+        "titleZh": "自動模式循環",
+        "coreIds": [
+          "dmlr:autocycler",
+          "dmlr:kinetic-amplifier"
+        ],
+        "supportIds": [
+          "dmlr:heavy-hitting"
+        ],
+        "explanationEn": "Autocycler automatically alternates DMR and laser modes, gives the laser infinite charge, and makes damage in either mode increase the other mode's damage. Kinetic Amplifier adds damage; Heavy Hitting trades DMR firing speed for damage.",
+        "explanationZh": "Autocycler 自動切換 DMR 與雷射，給予雷射無限充能，且兩種模式造成傷害時會提高另一模式的傷害。Kinetic Amplifier 增加傷害；Heavy Hitting 以 DMR 射速換取傷害。",
+        "tradeoffEn": "Automatic switching sets the mode rhythm, and Heavy Hitting slows DMR fire. Keep Hot Swap out of this starting route; its different default mode and ammo loop need separate testing.",
+        "tradeoffZh": "模式節奏由自動切換決定，Heavy Hitting 也會減慢 DMR 射速。此起始配置不混入 Hot Swap，其不同的預設模式與彈藥循環需另行測試。",
+        "contextEn": "Automatic alternating mode rhythm",
+        "contextZh": "自動交替模式循環"
+      },
+      {
+        "id": "hot-swap",
+        "titleEn": "Laser-led DMR ammo generation",
+        "titleZh": "雷射供應 DMR 彈藥",
+        "coreIds": [
+          "dmlr:hot-swap",
+          "dmlr:heavy-hitting"
+        ],
+        "supportIds": [
+          "dmlr:kinetic-amplifier"
+        ],
+        "explanationEn": "Hot Swap makes the laser the default mode and generates ammo for a stronger DMR mode by dealing laser damage. Heavy Hitting further increases DMR damage at a slower firing pace; Kinetic Amplifier adds damage.",
+        "explanationZh": "Hot Swap 以雷射為預設模式，透過雷射傷害產生強化 DMR 的彈藥。Heavy Hitting 再以較慢射速換取 DMR 傷害；Kinetic Amplifier 增加傷害。",
+        "tradeoffEn": "The ammo loop depends on dealing laser damage, and Heavy Hitting slows DMR fire. Autocycler is intentionally kept in a separate route; compatibility between the two mode conversions is unverified.",
+        "tradeoffZh": "彈藥循環需要雷射實際造成傷害，Heavy Hitting 也會減慢 DMR 射速。Autocycler 另列一條路線；兩種模式轉換混用的相容性未驗證。",
+        "contextEn": "Laser-led ammo and DMR follow-up",
+        "contextZh": "雷射供彈與步槍追擊"
+      }
+    ]
+  },
+  {
+    "ownerId": "lead-flinger",
+    "summaryEn": "Single-round and last-shot effects form one research route; deliberate hip-fire forms another.",
+    "summaryZh": "單發與尾彈效果可作為一條研究路線，腰射增傷則另列選擇。",
+    "routes": [
+      {
+        "id": "last-shot",
+        "titleEn": "Single-round last-shot effects",
+        "titleZh": "單發尾彈效果",
+        "coreIds": [
+          "lead-flinger:big-fat-doobie",
+          "lead-flinger:lucky-last",
+          "lead-flinger:lucky-bastard"
+        ],
+        "supportIds": [],
+        "explanationEn": "Big Fat Doobie loads one larger, higher-damage bullet. Lucky Last makes the last bullet explode, and Lucky Bastard gives the last shot a chance to refund ammo. Their descriptions suggest a last-shot-focused direction to investigate.",
+        "explanationZh": "Big Fat Doobie 只裝入一發更大、傷害更高的子彈。Lucky Last 讓最後一發爆炸；Lucky Bastard 讓最後一發有機率返還彈藥。依描述可研究以尾彈效果為主的方向。",
+        "tradeoffEn": "The chamber holds only one bullet, and refunds are chance-based. Whether the one-round conversion and both last-shot effects trigger together must be verified in game.",
+        "tradeoffZh": "彈膛只留一發，回彈也僅有機率觸發。單發轉換能否同時觸發兩個尾彈效果，仍需在遊戲內核對。",
+        "contextEn": "Single-round and last-shot research",
+        "contextZh": "單發與尾彈連動研究"
+      },
+      {
+        "id": "deliberate-hip-fire",
+        "titleEn": "Deliberate hip-fire",
+        "titleZh": "蓄勢腰射",
+        "coreIds": [
+          "lead-flinger:double-action",
+          "lead-flinger:fan-fire"
+        ],
+        "supportIds": [
+          "lead-flinger:burning-tips"
+        ],
+        "explanationEn": "Double Action requires a longer trigger pull for greatly increased damage. Fan Fire raises damage when hip-firing, while Burning Tips adds fire to bullets.",
+        "explanationZh": "Double Action 需要較長的扳機按壓時間，換取大幅增傷。Fan Fire 提高腰射傷害；Burning Tips 讓子彈附加火焰。",
+        "tradeoffEn": "The trigger delay changes responsiveness, and Fan Fire requires hip-firing. Added fire does not itself guarantee ignition.",
+        "tradeoffZh": "較長的扳機時間會改變操作反應，Fan Fire 也須腰射才有加成。附加火焰不代表一定點燃。",
+        "contextEn": "Deliberate trigger timing and hip-fire",
+        "contextZh": "掌握扳機時機與腰射"
+      }
+    ]
+  },
+  {
+    "ownerId": "plate-launcher",
+    "summaryEn": "Persistent plates offer area control, but placement and the space between plates matter.",
+    "summaryZh": "可研究持續飛盤的範圍控制，飛盤位置與彼此之間的空間是重點。",
+    "routes": [
+      {
+        "id": "plate-area-control",
+        "titleEn": "Spinning plates and lightning lanes",
+        "titleZh": "旋轉飛盤與電網通道",
+        "coreIds": [
+          "plate-launcher:clearing-plasma",
+          "plate-launcher:fencing-construction"
+        ],
+        "supportIds": [
+          "plate-launcher:compressed-plate-storage"
+        ],
+        "explanationEn": "Clearing Plasma gives plates spinning light blades. Fencing Construction arcs lightning between fired plates and increases magazine size. Compressed Plate Storage lets you fire up to four plates at once.",
+        "explanationZh": "Clearing Plasma 讓飛盤以旋轉光刃切割周遭。Fencing Construction 在已發射飛盤間連出閃電，並增加彈匣容量。Compressed Plate Storage 可一次發射最多四片。",
+        "tradeoffEn": "Fencing Construction damages targets between plates; simply having more plates does not guarantee useful lightning coverage. The combined behaviour of simultaneous plates and blades is untested.",
+        "tradeoffZh": "Fencing Construction 傷害的是飛盤之間的目標，飛盤多不代表電網位置一定有效。同時發射與光刃混用的實際行為尚未驗證。",
+        "contextEn": "Plate placement and area control",
+        "contextZh": "飛盤放置與區域控制"
+      }
+    ]
+  },
+  {
+    "ownerId": "gunship-cannon",
+    "summaryEn": "Prisms require deliberate grid adjacency; manual loading and single-shell conversion are a separate handling route.",
+    "summaryZh": "稜鏡須留意棋盤相鄰關係；手動補彈與單發轉換則另列操作路線。",
+    "routes": [
+      {
+        "id": "prism-adjacency",
+        "titleEn": "Prism adjacency research",
+        "titleZh": "稜鏡相鄰配置研究",
+        "coreIds": [
+          "gunship-cannon:yellow-prism",
+          "gunship-cannon:purple-prism",
+          "gunship-cannon:blue-prism"
+        ],
+        "supportIds": [
+          "gunship-cannon:green-prism"
+        ],
+        "explanationEn": "All four prisms are rated S in the cited upgrade list. Each workbook description says prism output increases recursively for each bordering prism, so adjacency is the key condition to investigate.",
+        "explanationZh": "四色稜鏡在引用的配件榜皆列 S。原表對每件都寫明：每多一個相鄰稜鏡，稜鏡輸出遞迴提高；因此研究重點是相鄰關係。",
+        "tradeoffEn": "The workbook does not fully explain each colour's output or the recursion calculation. This route does not provide a solved layout, guaranteed grid fit or measured benefit; Green Prism is an additional candidate, not a lower-rated colour.",
+        "tradeoffZh": "原表未完整說明各顏色的輸出與遞迴算法。此路線沒有已求解排法，不保證能全部放入或實際收益；Green Prism 列為追加候選，不代表其分級較低。",
+        "contextEn": "Prism adjacency and grid research",
+        "contextZh": "稜鏡相鄰與棋盤研究"
+      },
+      {
+        "id": "manual-single-shell",
+        "titleEn": "Manual loading and a heavy single shell",
+        "titleZh": "手動補彈與重型單發",
+        "coreIds": [
+          "gunship-cannon:hull-piercer",
+          "gunship-cannon:frantic-fingers"
+        ],
+        "supportIds": [],
+        "explanationEn": "Hull Piercer reduces the magazine to one shell while greatly increasing damage, explosion size and bullet size. Frantic Fingers replaces reloading with repeated RELOAD presses to load ammo into the magazine.",
+        "explanationZh": "Hull Piercer 把彈匣縮成一發，大幅增加傷害、爆炸與子彈大小。Frantic Fingers 以反覆按 RELOAD 逐次補彈，取代一般裝填。",
+        "tradeoffEn": "Hull Piercer reduces fire rate and ammo capacity; Frantic Fingers requires repeated input. Their one-shell loading interaction is untested. Tinderbox is not included here: overheating adds spontaneous-combustion risk.",
+        "tradeoffZh": "Hull Piercer 降低射速與備彈；Frantic Fingers 需要反覆操作，兩者的單發補彈互動尚未驗證。此處未納入 Tinderbox；其過熱會帶來自燃風險。",
+        "contextEn": "Manual loading and single-shell handling",
+        "contextZh": "手動補彈與單發操作"
+      }
+    ]
+  },
+  {
+    "ownerId": "trident",
+    "summaryEn": "Fire application can support an ignition-triggered firing bonus, with a separate chance-based lightning effect.",
+    "summaryZh": "以火焰協助觸發點燃後射速加成，並另有機率式閃電效果。",
+    "routes": [
+      {
+        "id": "fire-and-lightning",
+        "titleEn": "Ignition tempo and lightning",
+        "titleZh": "點燃節奏與閃電",
+        "coreIds": [
+          "trident:heaven-s-fury",
+          "trident:fire-shot",
+          "trident:fire-in-the-hold"
+        ],
+        "supportIds": [],
+        "explanationEn": "Fire Shot applies fire. Fire in the Hold increases fire rate after igniting a target, while Heaven's Fury gives damage a chance to call lightning strikes over an area.",
+        "explanationZh": "Fire Shot 附加火焰。Fire in the Hold 在點燃目標後提升射速；Heaven's Fury 讓造成傷害時有機率召來範圍閃電。",
+        "tradeoffEn": "The fire-rate bonus requires ignition, and lightning is chance-based. These descriptions do not guarantee a lightning strike on every hit or that every target ignites.",
+        "tradeoffZh": "射速加成須成功點燃，閃電則僅有機率觸發。描述不保證每次命中都有閃電，也不保證每個目標都會點燃。",
+        "contextEn": "Ignition tempo and chance-based lightning",
+        "contextZh": "點燃節奏與機率閃電"
+      }
+    ]
+  },
+  {
+    "ownerId": "globbler",
+    "summaryEn": "Surface acid waves and charged explosions provide distinct directions; charging all ammo carries an explicit self-explosion risk.",
+    "summaryZh": "地表酸液波與蓄力爆炸是不同方向；蓄盡全部彈藥有明確自爆風險。",
+    "routes": [
+      {
+        "id": "acid-wave",
+        "titleEn": "Surface acid waves",
+        "titleZh": "地表酸液波",
+        "coreIds": [
+          "globbler:flood"
+        ],
+        "supportIds": [
+          "globbler:flash-flood",
+          "globbler:improve-replication"
+        ],
+        "explanationEn": "Flood creates a running acid wave when a glob impacts a surface. Flash Flood lengthens those waves. Improve Replication increases magazine size through the Globblometer.",
+        "explanationZh": "Flood 讓酸液球撞上表面時產生向前流動的酸液波；Flash Flood 延長波的長度。Improve Replication 依 Globblometer 增加彈匣容量。",
+        "tradeoffEn": "The wave requires a surface impact. Improve Replication depends on the Globblometer, so no fixed magazine increase is promised.",
+        "tradeoffZh": "酸液波需要撞擊表面才能產生；Improve Replication 取決於 Globblometer，不能保證固定增加多少彈匣容量。",
+        "contextEn": "Surface impacts and acid coverage",
+        "contextZh": "地表撞擊與酸液覆蓋"
+      },
+      {
+        "id": "charged-glob",
+        "titleEn": "Charged explosions with a self-explosion limit",
+        "titleZh": "留意自爆界線的蓄力爆炸",
+        "coreIds": [
+          "globbler:pressure-cooker",
+          "globbler:full-spectrum"
+        ],
+        "supportIds": [
+          "globbler:improve-replication"
+        ],
+        "explanationEn": "Pressure Cooker lets you hold the trigger to enlarge the glob's explosion. Full Spectrum grants different stat boosts for adjacent upgrades of different rarities. Improve Replication increases magazine size through the Globblometer.",
+        "explanationZh": "Pressure Cooker 可按住扳機蓄力，擴大酸液球爆炸。Full Spectrum 依相鄰配件的不同稀有度提供不同屬性加成；Improve Replication 依 Globblometer 增加彈匣容量。",
+        "tradeoffEn": "Charging up all ammo causes the glob to explode on you. Full Spectrum requires deliberate rarity adjacency; a larger magazine does not remove the self-explosion condition.",
+        "tradeoffZh": "蓄盡全部彈藥會讓酸液球在自己身上爆炸。Full Spectrum 須規畫稀有度相鄰配置；彈匣增加也不會消除自爆條件。",
+        "contextEn": "High-risk charging and release timing",
+        "contextZh": "高風險蓄力與放開時機"
+      }
+    ]
+  },
+  {
+    "ownerId": "carver",
+    "summaryEn": "Rage rewards continued sawing after kills, supported by projectile deflection and blood-based resistance.",
+    "summaryZh": "Rage 鼓勵擊殺後持續切割，可搭配投射物偏轉與鮮血層數減傷。",
+    "routes": [
+      {
+        "id": "sustained-sawing",
+        "titleEn": "Sustained sawing and defensive support",
+        "titleZh": "持續切割與防禦支援",
+        "coreIds": [
+          "carver:rage",
+          "carver:deflector",
+          "carver:blood-coating"
+        ],
+        "supportIds": [
+          "carver:blood-efficiency"
+        ],
+        "explanationEn": "Rage gains stacks from kills and increases movement speed and damage while you keep sawing. Deflector deflects incoming projectiles and grants resistance while sawing. Blood Coating scales resistance with blood stacks; Blood Efficiency increases blood from kills.",
+        "explanationZh": "Rage 由擊殺取得層數，持續切割時提高移速與傷害。Deflector 在切割時偏轉投射物並提供減傷。Blood Coating 依鮮血層數增加減傷；Blood Efficiency 提高擊殺提供的鮮血。",
+        "tradeoffEn": "Rage requires kills and continued sawing; blood-based resistance depends on stacks. Deflection and resistance do not imply immunity to all damage.",
+        "tradeoffZh": "Rage 須先擊殺並持續切割；鮮血減傷也依賴層數。偏轉與減傷不代表免疫所有傷害。",
+        "contextEn": "Close-range sustained sawing and defence",
+        "contextZh": "近距離持續切割與防禦"
+      }
+    ]
+  },
+  {
+    "ownerId": "shocklance",
+    "summaryEn": "Choose a charge-focused route or an Auger movement route; slower charge and inaccurate multi-shot effects have explicit costs.",
+    "summaryZh": "可選擇蓄力射擊或 Auger 突進方向；更慢蓄力與低精度多發都有明確代價。",
+    "routes": [
+      {
+        "id": "flexible-charge",
+        "titleEn": "Flexible charge release",
+        "titleZh": "彈性放開蓄力",
+        "coreIds": [
+          "shocklance:half-cocked",
+          "shocklance:black-market-battery"
+        ],
+        "supportIds": [
+          "shocklance:killing-field"
+        ],
+        "explanationEn": "Half Cocked permits firing at any point during a longer charge, with damage, size and range growing as you charge. Black Market Battery increases damage and charge-up time. Killing Field leaves lingering coils that raise outgoing damage while you stand inside.",
+        "explanationZh": "Half Cocked 延長蓄力，但允許途中隨時發射，蓄得越久傷害、大小與射程越高。Black Market Battery 增加傷害與蓄力時間；Killing Field 留下線圈，站在其中可提高輸出傷害。",
+        "tradeoffEn": "Both core descriptions increase charge duration. Killing Field requires being inside a coil; the combined charge timing and damage are not established by the workbook.",
+        "tradeoffZh": "兩件核心描述都會延長蓄力。Killing Field 須站在線圈內；原表無法確認混用後的實際蓄力時間與傷害。",
+        "contextEn": "Charge timing and coil positioning",
+        "contextZh": "蓄力時機與線圈站位"
+      },
+      {
+        "id": "auger-movement",
+        "titleEn": "Auger movement and follow-up charging",
+        "titleZh": "Auger 突進與後續蓄力",
+        "coreIds": [
+          "shocklance:auger-subroutine",
+          "shocklance:gearshift"
+        ],
+        "supportIds": [
+          "shocklance:laying-cable"
+        ],
+        "explanationEn": "Hold RELOAD with Auger Subroutine to charge a forward launch that drills targets in your path. Gearshift improves charge speed and resistance during Auger and briefly afterward. Laying Cable tethers you to another employee for damage and resistance bonuses while helping their movement ability recharge.",
+        "explanationZh": "Auger Subroutine 按住 RELOAD 蓄力後向前發射自己，持續鑽擊路徑上的目標。Gearshift 在 Auger 期間及結束後短時間加快蓄力並減傷。Laying Cable 可連結另一位員工，提供自身傷害與減傷加成，並加快對方移動能力充能。",
+        "tradeoffEn": "Auger requires a clear intended launch path. Laying Cable requires another employee and an active tether, so its benefits cannot be assumed for solo play.",
+        "tradeoffZh": "Auger 須留意預定突進路徑。Laying Cable 需要另一位員工及有效連結，單人遊玩不能預設享有其加成。",
+        "contextEn": "Auger mobility and optional co-op support",
+        "contextZh": "突進移動與多人支援"
+      }
+    ]
+  },
+  {
+    "ownerId": "accelerator",
+    "summaryEn": "Grenade conversion offers an explosive route; Remote Charging only refills ammo when you are electrocuted.",
+    "summaryZh": "手榴彈轉換可作爆炸路線；Remote Charging 只有在自身觸電時才補滿彈匣。",
+    "routes": [
+      {
+        "id": "explosive-bursts",
+        "titleEn": "Grenade conversion and burst missiles",
+        "titleZh": "手榴彈轉換與連發飛彈",
+        "coreIds": [
+          "accelerator:explosive-bullets",
+          "accelerator:oxythane-s-promise"
+        ],
+        "supportIds": [
+          "accelerator:shaved-projectiles"
+        ],
+        "explanationEn": "Explosive Bullets consumes your grenade with a held R input and converts the remaining magazine into explosive bullets of its element. Oxythane's Promise adds a tracking missile at each burst's end, scaling its damage and explosion size with burst size. Shaved Projectiles increases magazine size.",
+        "explanationZh": "Explosive Bullets 按住 R 消耗手榴彈，把剩餘彈匣轉為該手榴彈元素的爆炸子彈。Oxythane's Promise 在每次連發末尾加上追蹤飛彈，傷害與爆炸大小隨連發子彈數提高。Shaved Projectiles 增加彈匣容量。",
+        "tradeoffEn": "Conversion spends a grenade and applies to the remaining magazine. A larger magazine is not the same as a larger burst, and no extra missile scaling is inferred from magazine size alone.",
+        "tradeoffZh": "轉換會花掉手榴彈，作用於剩餘彈匣。彈匣容量與單次連發子彈數不同，不能只因彈匣變大就推定飛彈加成提高。",
+        "contextEn": "Grenade conversion and burst missiles",
+        "contextZh": "手榴彈轉換與連發飛彈"
+      },
+      {
+        "id": "conditional-remote-charge",
+        "titleEn": "Movement with conditional remote charging",
+        "titleZh": "移動增傷與條件式遠端充能",
+        "coreIds": [
+          "accelerator:remote-charging",
+          "accelerator:inertia-accelerant"
+        ],
+        "supportIds": [
+          "accelerator:feedback-loop"
+        ],
+        "explanationEn": "Remote Charging refills the magazine when you are electrocuted. Inertia Accelerant increases damage with movement speed, and Feedback Loop grants a speed burst after firing a burst based on bullets fired.",
+        "explanationZh": "Remote Charging 在自身觸電時補滿彈匣。Inertia Accelerant 隨移速增加傷害；Feedback Loop 在連發後依已射子彈數提供短暫加速。",
+        "tradeoffEn": "These selected upgrades do not establish a self-electrocution source. Without that condition, Remote Charging provides no promised refill. Inertia Accelerant lowers base damage, and deliberately seeking electrocution can be dangerous.",
+        "tradeoffZh": "本組配件沒有建立自身觸電來源；缺少該條件時，Remote Charging 不保證提供補彈。Inertia Accelerant 降低基礎傷害，刻意讓自己觸電也有危險。",
+        "contextEn": "Movement damage and conditional ammo sustain",
+        "contextZh": "移動增傷與條件式續航"
+      }
+    ]
+  }
+]

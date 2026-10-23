@@ -25,13 +25,18 @@ jobs:
         run: |
           node --check prototype/app.js
           node --check prototype/model.js
+          node --check prototype/recommendations.js
+          node --check prototype/wiki.js
+          node --check prototype/patterns.js
           node --check scripts/serve.mjs
           node scripts/validate_site.mjs
-      - name: Verify reproducible Excel import
+      - name: Verify reproducible data imports
         run: |
           python3 scripts/import_excel.py --strict
+          python3 scripts/import_recommendations.py
+          python3 scripts/import_wiki.py
           if [ -n "$(git status --porcelain -- prototype/data prototype/assets/icons localization/phrases.json)" ]; then
-            echo "Generated catalogue differs from committed files. Run the Excel importer and commit its output."
+            echo "Generated data differs from committed files. Run the data importers and commit their output."
             exit 1
           fi
       - name: Configure Pages

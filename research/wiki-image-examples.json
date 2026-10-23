@@ -1,0 +1,39 @@
+{
+  "checkedOn": "2026-10-23",
+  "usageNoteEn": "Reference examples only. File descriptions do not state a separate game-art license; the general Wiki footer license does not by itself establish ownership of game artwork. Confirm reuse rights before importing assets.",
+  "usageNoteZh": "僅為來源示例。檔案說明未另列遊戲美術授權，Wiki 通用頁尾授權本身不代表擁有遊戲美術著作權；實際匯入前仍需確認素材使用權。",
+  "pages": [
+    {
+      "path": "File:WranglerCharacterSelectionArtFull.png",
+      "permalink": "https://mycopunk.miraheze.org/wiki/File:WranglerCharacterSelectionArtFull.png?oldid=5265",
+      "summary": "Wrangler looking face forward at the camera",
+      "history": "\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t03:51, 2 January 2026\t\t1,708 × 1,024 (963 KB)\tTaiiat (talk | contribs)\tnewer art version\n\t10:14, 14 May 2025\t\t1,708 × 1,024 (679 KB)\tMushu (talk | contribs)\t",
+      "license": "Content is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) unless otherwise noted.",
+      "original": "https://static.wikitide.net/mycopunkwiki/2/25/WranglerCharacterSelectionArtFull.png"
+    },
+    {
+      "path": "File:The_Cycler_Icon.png",
+      "permalink": "https://mycopunk.miraheze.org/wiki/File:The_Cycler_Icon.png?oldid=23149",
+      "summary": "Uploaded icon for cycler (ID: 31816) (v1.8.1H1)\n\nThe Cycler\n\nIcon for the The Cycler gear in Mycopunk.",
+      "history": "\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t18:17, 22 October 2026\t\t871 × 336 (82 KB)\tSparroh (talk | contribs)\t\n\t18:49, 4 May 2026\t\t2,010 × 430 (516 KB)\tVilsol (talk | contribs)\tUploaded icon for cycler (ID: 31816) (v1.8.3) '''The Cycler''' Icon for the The Cycler gear in Mycopunk. Category:Gear Icons\n\t18:33, 30 April 2026\t\t2,010 × 430 (505 KB)\tVilsol (talk | contribs)\tUploaded icon for cycler (ID: 31816) (v1.8.1H1) '''The Cycler''' Icon for the The Cycler gear in Mycopunk. Category:Gear Icons",
+      "license": "Content is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) unless otherwise noted.",
+      "original": "https://static.wikitide.net/mycopunkwiki/d/df/The_Cycler_Icon.png"
+    },
+    {
+      "path": "File:Incendiary_Grenade_Icon.png",
+      "permalink": "https://mycopunk.miraheze.org/wiki/File:Incendiary_Grenade_Icon.png?oldid=18124",
+      "summary": "Grenade",
+      "history": "\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t18:49, 4 May 2026\t\t512 × 512 (13 KB)\tVilsol (talk | contribs)\tUploaded icon for firegrenade (ID: 32232) (v1.8.3) '''Incendiary Grenade''' Icon for the Incendiary Grenade gear in Mycopunk. Category:Gear Icons\n\t18:33, 30 April 2026\t\t512 × 512 (11 KB)\tVilsol (talk | contribs)\tUploaded icon for firegrenade (ID: 32232) (v1.8.1H1) '''Incendiary Grenade''' Icon for the Incendiary Grenade gear in Mycopunk. Category:Gear Icons\n\t19:49, 17 May 2025\t\t91 × 117 (16 KB)\tShadow Dragon001 (talk | contribs)\t",
+      "license": "Content is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) unless otherwise noted.",
+      "original": "https://static.wikitide.net/mycopunkwiki/7/7f/Incendiary_Grenade_Icon.png"
+    },
+    {
+      "path": "File:A16_Beam_Ripper_Icon.png",
+      "permalink": "https://mycopunk.miraheze.org/wiki/File:A16_Beam_Ripper_Icon.png?oldid=18131",
+      "summary": "Uploaded icon for heavysniper (ID: 32434) (v1.8.1H1)\n\nA16 Beam Ripper\n\nIcon for the A16 Beam Ripper gear in Mycopunk.",
+      "history": "\tDate/Time\tThumbnail\tDimensions\tUser\tComment\ncurrent\t18:49, 4 May 2026\t\t2,010 × 430 (952 KB)\tVilsol (talk | contribs)\tUploaded icon for heavysniper (ID: 32434) (v1.8.3) '''A16 Beam Ripper''' Icon for the A16 Beam Ripper gear in Mycopunk. Category:Gear Icons\n\t18:34, 30 April 2026\t\t2,010 × 430 (936 KB)\tVilsol (talk | contribs)\tUploaded icon for heavysniper (ID: 32434) (v1.8.1H1) '''A16 Beam Ripper''' Icon for the A16 Beam Ripper gear in Mycopunk. Category:Gear Icons",
+      "license": "Content is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) unless otherwise noted.",
+      "original": "https://static.wikitide.net/mycopunkwiki/b/bb/A16_Beam_Ripper_Icon.png"
+    }
+  ]
+}

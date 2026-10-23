@@ -1,0 +1,1728 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "source": {
+    "publisher": "Mycopunk Wiki contributors",
+    "url": "https://mycopunk.miraheze.org/wiki/Main_Page",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptationEn": "English summaries are paraphrased and Traditional Chinese translations are edited for this guide. The adapted Wiki text is offered under CC BY-SA 4.0.",
+    "adaptationZh": "英文摘要經改寫，繁體中文為本站修飾暫譯；改作的 Wiki 文字依 CC BY-SA 4.0 提供。"
+  },
+  "versionNoteEn": "Page revision dates do not establish a compatible game version. No equipment page checked here specifies an applicable game version.",
+  "versionNoteZh": "頁面修訂日期不等於適用遊戲版本；本次核對的裝備頁均未標明適用版本。",
+  "counts": {
+    "characters": 5,
+    "weapons": 13,
+    "grenades": 5,
+    "heavy": 4,
+    "total": 27,
+    "workbookBacked": 19
+  },
+  "items": [
+    {
+      "ownerId": "cycler",
+      "category": "weapons",
+      "nameEn": "The Cycler",
+      "nameZh": "循環者",
+      "summaryEn": "Battery-powered energy submachine gun.",
+      "summaryZh": "使用電池匣供能的能量衝鋒槍。",
+      "traits": [
+        {
+          "labelEn": "Battery cartridges",
+          "labelZh": "電池彈匣",
+          "textEn": "Standard-issue SMG with a 30-round magazine.",
+          "textZh": "制式衝鋒槍，基礎彈匣為 30 發。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "20"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "706"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "30"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "240"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.5"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/The_Cycler",
+      "sourceRevision": 23018,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/The_Cycler?oldid=23018",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "jackrabbit",
+      "category": "weapons",
+      "nameEn": "Au-Si Jackrabbit",
+      "nameZh": "野兔",
+      "summaryEn": "Ricochet shotgun whose pellets become stronger and apply fire after bouncing.",
+      "summaryZh": "彈丸反彈後會提高傷害並附加火焰的跳彈霰彈槍。",
+      "traits": [
+        {
+          "labelEn": "Ricochet shells",
+          "labelZh": "跳彈彈丸",
+          "textEn": "Shots gain damage and fire application after a bounce.",
+          "textZh": "利用反彈讓彈丸獲得額外傷害與火焰效果。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "21"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Fire"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "3"
+        },
+        {
+          "labelEn": "Bullets per Shot",
+          "labelZh": "每發彈丸",
+          "value": "6"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "200"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "72"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.5"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Au-Si_Jackrabbit",
+      "sourceRevision": 23013,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Au-Si_Jackrabbit?oldid=23013",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "swarm-launcher",
+      "category": "weapons",
+      "nameEn": "Swarm Launcher",
+      "nameZh": "蜂群發射器",
+      "summaryEn": "Creates a hovering pellet swarm that dives toward enemies when released.",
+      "summaryZh": "先形成懸浮彈丸群，釋放後再俯衝追蹤敵人。",
+      "traits": [
+        {
+          "labelEn": "Remote release",
+          "labelZh": "遙控釋放",
+          "textEn": "Hovering pellets track to enemies on release.",
+          "textZh": "彈丸先停留空中，釋放後才追蹤目標。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "32"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Bullets per Shot",
+          "labelZh": "每發彈丸",
+          "value": "2"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "857"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "36"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "288"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.2"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Swarm_Launcher",
+      "sourceRevision": 23027,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Swarm_Launcher?oldid=23027",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "dmlr",
+      "category": "weapons",
+      "nameEn": "DMLR",
+      "nameZh": "DMLR",
+      "summaryEn": "Precision energy rifle whose accurate bolts charge a powerful laser beam.",
+      "summaryZh": "以精準能量彈為強力雷射蓄能的能量步槍。",
+      "traits": [
+        {
+          "labelEn": "Bolt-to-beam charging",
+          "labelZh": "能量彈蓄能",
+          "textEn": "Accurate bolts build charge for a laser beam.",
+          "textZh": "先用精準能量彈累積強力雷射所需能量。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "50"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "231"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "20"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "90"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.8"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/DMLR",
+      "sourceRevision": 23022,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/DMLR?oldid=23022",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "lead-flinger",
+      "category": "weapons",
+      "nameEn": "Lead Flinger",
+      "nameZh": "鉛彈投射器",
+      "summaryEn": "Revolver that fires with each trigger pull and reloads faster after a kill.",
+      "summaryZh": "依扣扳機速度射擊，擊殺後裝填更快的左輪手槍。",
+      "traits": [
+        {
+          "labelEn": "Kill reload bonus",
+          "labelZh": "擊殺加速裝填",
+          "textEn": "Getting a kill speeds up reloading.",
+          "textZh": "擊殺目標後獲得裝填加速。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "50"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "840"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "6"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "126"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.4"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Lead_Flinger",
+      "sourceRevision": 23015,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Lead_Flinger?oldid=23015",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "plate-launcher",
+      "category": "weapons",
+      "nameEn": "FR.15833 Plate Launcher",
+      "nameZh": "飛盤發射器",
+      "summaryEn": "Repurposed construction tool that fires heavy metal plates and recalls them magnetically.",
+      "summaryZh": "由工程工具改裝，射出重金屬盤並以磁力回收。",
+      "traits": [
+        {
+          "labelEn": "Magnetic recall",
+          "labelZh": "磁力回收",
+          "textEn": "Plates stick in targets and can be recalled magnetically.",
+          "textZh": "金屬盤會嵌入目標，再以磁力召回。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "76"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "150"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "1"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "100"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.5"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/FR.15833_Plate_Launcher",
+      "sourceRevision": 23016,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/FR.15833_Plate_Launcher?oldid=23016",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "gunship-cannon",
+      "category": "weapons",
+      "nameEn": "Gunship Cannon",
+      "nameZh": "砲艇機砲",
+      "summaryEn": "Repurposed high-caliber gunship cannon firing large explosive shells.",
+      "summaryZh": "由砲艇拆用的大口徑連射機砲，發射大型爆炸砲彈。",
+      "traits": [
+        {
+          "labelEn": "Explosive shells",
+          "labelZh": "爆炸砲彈",
+          "textEn": "Large shells explode rather than behaving like ordinary bullets.",
+          "textZh": "大型砲彈帶有爆炸效果。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "24"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "240"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "60"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "180"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "2.5"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Gunship_Cannon",
+      "sourceRevision": 23020,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Gunship_Cannon?oldid=23020",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "trident",
+      "category": "weapons",
+      "nameEn": "Trident S2",
+      "nameZh": "三叉戟 S2",
+      "summaryEn": "Automatic kinetic rifle that fires three bullets per shot.",
+      "summaryZh": "每次射擊同時打出三發子彈的大口徑自動步槍。",
+      "traits": [
+        {
+          "labelEn": "Three bullets per shot",
+          "labelZh": "每發三彈",
+          "textEn": "Each shot fires three bullets.",
+          "textZh": "每次射擊會發射三枚子彈。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "15"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Bullets per Shot",
+          "labelZh": "每發彈丸",
+          "value": "3"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "366"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "75"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "450"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.6"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Trident_S2",
+      "sourceRevision": 23026,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Trident_S2?oldid=23026",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "globbler",
+      "category": "weapons",
+      "nameEn": "Globbler",
+      "nameZh": "酸液投射器",
+      "summaryEn": "Acid grenade launcher that fires bouncing globs.",
+      "summaryZh": "發射可反彈酸液團的榴彈發射器。",
+      "traits": [
+        {
+          "labelEn": "Bouncing acid",
+          "labelZh": "反彈酸液",
+          "textEn": "Fires acidic projectiles that bounce.",
+          "textZh": "以會反彈的酸液團攻擊。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "33"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Acid"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "6"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "150"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "7"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "63"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.6"
+        }
+      ],
+      "acquisition": {
+        "status": "legacy-guide",
+        "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3523943228",
+        "sourceTitle": "Secrets & Weapon Unlocks",
+        "sourceAuthor": "the dragon mom",
+        "sourcePublishedOn": "2025-07-12",
+        "sourceUpdatedOn": "2025-09-18",
+        "checkedOn": "2026-10-23",
+        "gameVersion": null,
+        "currentReleaseVerified": false,
+        "versionNoteEn": "Legacy guide. The author says it has not been updated for procedural maps.",
+        "versionNoteZh": "舊版指南；作者表示尚未更新程序生成地圖的內容。",
+        "textEn": "Legacy route: activate the three colored switches in Gravity Farms; retrieve and consume the Scorched Transponder, finish its survival mission, then use the ship's hidden switch to unlock crafting.",
+        "textZh": "舊路線：啟動農場三色開關，取得並使用燒焦應答器；完成其生存任務，再操作船內隱藏開關開放製作。",
+        "sourceSection": "Weapon 2: Gravity Farms light switches"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Globbler",
+      "sourceRevision": 23011,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Globbler?oldid=23011",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "carver",
+      "category": "weapons",
+      "nameEn": "The Carver",
+      "nameZh": "切割者",
+      "summaryEn": "Heavy combat chainsaw repurposed from an industrial cutting tool.",
+      "summaryZh": "由工業切割工具改裝的重型戰鬥鏈鋸。",
+      "traits": [
+        {
+          "labelEn": "Close-range chainsaw",
+          "labelZh": "近戰鏈鋸",
+          "textEn": "Industrial cutting tool with a listed maximum damage range of 5 m.",
+          "textZh": "工業鏈鋸；Wiki 列出的最大傷害距離為 5 公尺。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "21.85"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "526"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "100"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "200"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "3"
+        },
+        {
+          "labelEn": "Charge Time (s)",
+          "labelZh": "蓄力時間（秒）",
+          "value": "0.15"
+        }
+      ],
+      "acquisition": {
+        "status": "legacy-guide",
+        "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3523943228",
+        "sourceTitle": "Secrets & Weapon Unlocks",
+        "sourceAuthor": "the dragon mom",
+        "sourcePublishedOn": "2025-07-12",
+        "sourceUpdatedOn": "2025-09-18",
+        "checkedOn": "2026-10-23",
+        "gameVersion": null,
+        "currentReleaseVerified": false,
+        "versionNoteEn": "Legacy guide. The author says it has not been updated for procedural maps.",
+        "versionNoteZh": "舊版指南；作者表示尚未更新程序生成地圖的內容。",
+        "textEn": "Legacy route: obtain the Broken Frame and server codes in the City secret area; collect four modules from the ship, Desert, Tundra and Gravity Farms, spend 8 Saxonite total, then arrange them in a diamond to craft.",
+        "textZh": "舊路線：城市密區取得機架與伺服器碼；船上、沙漠、苔原、重力農場收四模組，花共八顆 Saxonite，再排成菱形製作。",
+        "sourceSection": "Server Access Codes & Broken Frame; Broken Frame modules: Weapon #1"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/The_Carver",
+      "sourceRevision": 23017,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/The_Carver?oldid=23017",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "shocklance",
+      "category": "weapons",
+      "nameEn": "Shocklance",
+      "nameZh": "電擊長槍",
+      "summaryEn": "Close-range electron railgun whose shock shots pass through targets.",
+      "summaryZh": "近距離電子軌道武器，電擊射擊可貫穿目標。",
+      "traits": [
+        {
+          "labelEn": "Piercing shock",
+          "labelZh": "貫穿電擊",
+          "textEn": "Shock attacks pass through targets.",
+          "textZh": "以可穿透目標的電擊攻擊。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "60"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Shock"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "5.5"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "90"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "32"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.9"
+        },
+        {
+          "labelEn": "Charge Time (s)",
+          "labelZh": "蓄力時間（秒）",
+          "value": "0.3"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Shocklance",
+      "sourceRevision": 23028,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Shocklance?oldid=23028",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "accelerator",
+      "category": "weapons",
+      "nameEn": "The Accelerator",
+      "nameZh": "加速器",
+      "summaryEn": "Burst SMG whose shocking bursts grow with each trigger pull; it can fire while sprinting.",
+      "summaryZh": "電擊連發衝鋒槍，每次扣扳機會增加連發數，並可在衝刺時射擊。",
+      "traits": [
+        {
+          "labelEn": "Growing bursts",
+          "labelZh": "遞增連發",
+          "textEn": "Burst size increases with each trigger pull; firing while sprinting is allowed.",
+          "textZh": "重複扣扳機會提高連發彈數，也能邊衝刺邊開火。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "20"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Shock"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "1.25"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "857"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "38"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "304"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1.4"
+        }
+      ],
+      "acquisition": {
+        "status": "directive-named",
+        "textEn": "The Wiki lists the unlock directive as Elemental Testing; its objective is not detailed on this page.",
+        "textZh": "Wiki 列出的解鎖指令為 Elemental Testing（元素測試，暫譯）；此頁未詳列完成條件。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/The_Accelerator",
+      "sourceRevision": 21271,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/The_Accelerator?oldid=21271",
+      "sourceEdited": "This page was last edited on 2 July 2026, at 19:10.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "diffraction-driver",
+      "category": "weapons",
+      "nameEn": "Diffraction Driver",
+      "nameZh": "繞射驅動器",
+      "summaryEn": "Ion scattergun that fires a cone of energy. Aiming spins up its halo to improve damage, range and accuracy.",
+      "summaryZh": "發射錐形能量的離子散射槍；瞄準可讓光環加速，提高傷害、射程與精準度。",
+      "traits": [
+        {
+          "labelEn": "Aim to spin up",
+          "labelZh": "瞄準加速",
+          "textEn": "Aiming increases damage, range and accuracy by spinning up the halo.",
+          "textZh": "瞄準時光環逐漸加速，強化傷害、射程和精準度。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "75"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "130"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "3"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "30"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0.4"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Diffraction_Driver",
+      "sourceRevision": 21711,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Diffraction_Driver?oldid=21711",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 18:47.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "wrangler",
+      "category": "characters",
+      "nameEn": "Wrangler",
+      "nameZh": "牧人",
+      "summaryEn": "Mobile lasso specialist with a midair dash.",
+      "summaryZh": "以火箭套索與空中衝刺見長的高機動角色。",
+      "traits": [
+        {
+          "labelEn": "Rocket Lasso",
+          "labelZh": "火箭套索",
+          "textEn": "Throws a rocket-powered lasso that pulls objects or launches Wrangler forward.",
+          "textZh": "拋出火箭套索拉動物件，或將自己向前拋射。"
+        },
+        {
+          "labelEn": "Air Dash",
+          "labelZh": "空中衝刺",
+          "textEn": "Jump while airborne to dash forward.",
+          "textZh": "在空中按跳躍可向前衝刺。"
+        }
+      ],
+      "stats": [],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Wrangler",
+      "sourceRevision": 23194,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Wrangler?oldid=23194",
+      "sourceEdited": "This page was last edited on 22 October 2026, at 20:56.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "bruiser",
+      "category": "characters",
+      "nameEn": "Bruiser",
+      "nameZh": "重拳",
+      "summaryEn": "Shield specialist who can dive from the air and create a damaging shockwave.",
+      "summaryZh": "以護盾防守，並能從空中下砸製造衝擊波的角色。",
+      "traits": [
+        {
+          "labelEn": "Hard-Light Projector",
+          "labelZh": "硬光投影器",
+          "textEn": "Projects a shield that stuns enemies and reflects projectiles.",
+          "textZh": "投射護盾，使敵人暈眩並反射來襲投射物。"
+        },
+        {
+          "labelEn": "Nose Dive",
+          "labelZh": "俯衝下砸",
+          "textEn": "Jump while airborne to slam down, damaging and launching nearby targets.",
+          "textZh": "在空中按跳躍下砸，傷害並彈起附近目標。"
+        }
+      ],
+      "stats": [],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Bruiser",
+      "sourceRevision": 23198,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Bruiser?oldid=23198",
+      "sourceEdited": "This page was last edited on 22 October 2026, at 20:58.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "scrapper",
+      "category": "characters",
+      "nameEn": "Scrapper",
+      "nameZh": "拾荒者",
+      "summaryEn": "Builds a shared grapple pole and uses a jetpack for vertical movement.",
+      "summaryZh": "可建立隊友共用的鉤索柱，並以噴射背包向上移動。",
+      "traits": [
+        {
+          "labelEn": "Grapple Pole",
+          "labelZh": "鉤索柱",
+          "textEn": "Constructs a tall pole that any ally can grapple to.",
+          "textZh": "建造高柱，讓所有隊友都能以鉤索連接。"
+        },
+        {
+          "labelEn": "Jetpack",
+          "labelZh": "噴射背包",
+          "textEn": "Hold jump to gain height.",
+          "textZh": "按住跳躍以噴射背包爬升。"
+        }
+      ],
+      "stats": [],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Scrapper",
+      "sourceRevision": 23196,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Scrapper?oldid=23196",
+      "sourceEdited": "This page was last edited on 22 October 2026, at 20:57.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "glider",
+      "category": "characters",
+      "nameEn": "Glider",
+      "nameZh": "滑翔者",
+      "summaryEn": "Aerial support character with a wingsuit and rockets that damage enemies or heal allies.",
+      "summaryZh": "以翼裝飛行支援隊伍，火箭可傷害敵人或治療隊友。",
+      "traits": [
+        {
+          "labelEn": "Rocket Salvo",
+          "labelZh": "火箭齊射",
+          "textEn": "Locks on and launches rockets to damage enemies and heal allies.",
+          "textZh": "鎖定目標後發射火箭，對敵造成傷害、為友軍恢復生命。"
+        },
+        {
+          "labelEn": "Wingsuit",
+          "labelZh": "翼裝",
+          "textEn": "Hold jump to activate jets and fly forward.",
+          "textZh": "按住跳躍啟動翼裝噴射，向前飛行。"
+        }
+      ],
+      "stats": [],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Glider",
+      "sourceRevision": 23197,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Glider?oldid=23197",
+      "sourceEdited": "This page was last edited on 22 October 2026, at 20:57.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "mycologist",
+      "category": "characters",
+      "nameEn": "Mycologist",
+      "nameZh": "真菌學家",
+      "summaryEn": "Controls enemies with Fungal Skewer and gains height with Sporelift while managing infection.",
+      "summaryZh": "以真菌尖刺限制敵人，以孢子升騰移動，並需要管理感染值。",
+      "traits": [
+        {
+          "labelEn": "Fungal Skewer",
+          "labelZh": "真菌尖刺",
+          "textEn": "Raises a skewer that immobilizes enemies and consumes infection for extra damage.",
+          "textZh": "從地面拉出尖刺定住敵人，並消耗感染值提高傷害。"
+        },
+        {
+          "labelEn": "Infection",
+          "labelZh": "感染",
+          "textEn": "Combat, enemy damage and Fungal Skewer build infection; at full infection it consumes maximum health.",
+          "textZh": "戰鬥、敵人傷害與真菌尖刺會累積感染；感染全滿後會侵蝕生命上限。"
+        },
+        {
+          "labelEn": "Sporelift",
+          "labelZh": "孢子升騰",
+          "textEn": "Hold jump to rise; releasing launches you harder after a longer hold and builds infection.",
+          "textZh": "按住跳躍向上推進，蓄力越久，放開時推進越強；此動作會累積感染。"
+        }
+      ],
+      "stats": [],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Mycologist",
+      "sourceRevision": 23189,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Mycologist?oldid=23189",
+      "sourceEdited": "This page was last edited on 22 October 2026, at 20:36.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "incendiary-grenade",
+      "category": "grenades",
+      "nameEn": "Incendiary Grenade",
+      "nameZh": "燃燒手榴彈",
+      "summaryEn": "Deals area damage and ignites targets.",
+      "summaryZh": "對範圍內目標造成傷害並點燃。",
+      "traits": [
+        {
+          "labelEn": "Fire explosion",
+          "labelZh": "火焰爆炸",
+          "textEn": "Applies fire to targets in a radius.",
+          "textZh": "對爆炸範圍內目標附加火焰。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "10"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Fire"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "10"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "240"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0"
+        },
+        {
+          "labelEn": "Recharge Duration (s)",
+          "labelZh": "充能時間（秒）",
+          "value": "50"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Incendiary_Grenade",
+      "sourceRevision": 21425,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Incendiary_Grenade?oldid=21425",
+      "sourceEdited": "This page was last edited on 21 September 2026, at 08:52.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。"
+    },
+    {
+      "ownerId": "shock-grenade",
+      "category": "grenades",
+      "nameEn": "Voltaic Grenade",
+      "nameZh": "電擊手榴彈",
+      "summaryEn": "Deals area damage and electrocutes targets.",
+      "summaryZh": "對範圍內目標造成傷害並施加電擊。",
+      "traits": [
+        {
+          "labelEn": "Shock explosion",
+          "labelZh": "電擊爆炸",
+          "textEn": "Electrocutes targets in a radius.",
+          "textZh": "使範圍內目標遭受電擊。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "10"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Shock"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "10"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "240"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0"
+        },
+        {
+          "labelEn": "Recharge Duration (s)",
+          "labelZh": "充能時間（秒）",
+          "value": "50"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Voltaic_Grenade",
+      "sourceRevision": 21709,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Voltaic_Grenade?oldid=21709",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 18:47.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。",
+      "workbookNameEn": "Shock Grenade"
+    },
+    {
+      "ownerId": "acid-grenade",
+      "category": "grenades",
+      "nameEn": "Caustic Grenade",
+      "nameZh": "酸液手榴彈",
+      "summaryEn": "Deals area damage and corrodes targets.",
+      "summaryZh": "對範圍內目標造成傷害並施加腐蝕。",
+      "traits": [
+        {
+          "labelEn": "Acid explosion",
+          "labelZh": "酸液爆炸",
+          "textEn": "Corrodes targets in a radius.",
+          "textZh": "使範圍內目標遭受腐蝕。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "10"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Acid"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "10"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "240"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0"
+        },
+        {
+          "labelEn": "Recharge Duration (s)",
+          "labelZh": "充能時間（秒）",
+          "value": "50"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Caustic_Grenade",
+      "sourceRevision": 21710,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Caustic_Grenade?oldid=21710",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 18:47.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": true,
+      "upgradeCoverageEn": "Upgrade list supplied by workbook v1.6.",
+      "upgradeCoverageZh": "升級清單來自工作簿 v1.6。",
+      "workbookNameEn": "Acid Grenade"
+    },
+    {
+      "ownerId": "photon-disc",
+      "category": "grenades",
+      "nameEn": "Photon Disc",
+      "nameZh": "光子飛盤",
+      "summaryEn": "Throws an energy disc that tumbles across surfaces.",
+      "summaryZh": "投出會沿表面翻滾的能量飛盤。",
+      "traits": [
+        {
+          "labelEn": "Surface traversal",
+          "labelZh": "沿表面翻滾",
+          "textEn": "The thrown energy disc tumbles across surfaces.",
+          "textZh": "能量盤投出後會沿接觸表面翻滾。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "20"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Shock"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "10"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "1200"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0"
+        },
+        {
+          "labelEn": "Recharge Duration (s)",
+          "labelZh": "充能時間（秒）",
+          "value": "11.5"
+        },
+        {
+          "labelEn": "Max Charges",
+          "labelZh": "最大充能數",
+          "value": "4"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Photon_Disc",
+      "sourceRevision": 23023,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Photon_Disc?oldid=23023",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "snowball-grenade",
+      "category": "grenades",
+      "nameEn": "Snowball Grenade",
+      "nameZh": "雪球手榴彈",
+      "summaryEn": "Travels in a straight line; pressing Q detonates it in a cryo explosion.",
+      "summaryZh": "沿直線飛行，再按 Q 可引爆為冰凍爆炸。",
+      "traits": [
+        {
+          "labelEn": "Manual cryo detonation",
+          "labelZh": "手動引爆冰凍",
+          "textEn": "Press Q to detonate the traveling grenade.",
+          "textZh": "投出後按 Q 手動引爆。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "10"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "10"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "240"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "8"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0"
+        },
+        {
+          "labelEn": "Recharge Duration (s)",
+          "labelZh": "充能時間（秒）",
+          "value": "50"
+        }
+      ],
+      "acquisition": {
+        "status": "incomplete",
+        "textEn": "The Wiki only lists Mission Directive as the unlock directive; the specific objective is not supplied.",
+        "textZh": "Wiki 的解鎖欄僅寫 Mission Directive（任務指令），未提供具體目標。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Snowball_Grenade",
+      "sourceRevision": 21708,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Snowball_Grenade?oldid=21708",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 18:47.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "g6-street-sweeper",
+      "category": "heavy",
+      "nameEn": "G6 Street Sweeper",
+      "nameZh": "G6 街道清掃者",
+      "summaryEn": "Heavy shotgun delivering a massive burst of acidic energy at very short range.",
+      "summaryZh": "在極近距離轟出大量酸性能量的重型霰彈槍。",
+      "traits": [
+        {
+          "labelEn": "Short-range acid burst",
+          "labelZh": "近距離酸液爆發",
+          "textEn": "Fires 16 projectiles per shot according to the listed base stats.",
+          "textZh": "Wiki 基礎數值列為每發 16 枚彈丸。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "70"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Acid"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "3.5"
+        },
+        {
+          "labelEn": "Bullets per Shot",
+          "labelZh": "每發彈丸",
+          "value": "16"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "120"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "1"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "6"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "1"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/G6_Street_Sweeper",
+      "sourceRevision": 23024,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/G6_Street_Sweeper?oldid=23024",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "a16-beam-ripper",
+      "category": "heavy",
+      "nameEn": "A16 Beam Ripper",
+      "nameZh": "A16 光束撕裂者",
+      "summaryEn": "Heavy railgun that charges a powerful piercing shot.",
+      "summaryZh": "蓄力後發射強力貫穿射擊的重型軌道砲。",
+      "traits": [
+        {
+          "labelEn": "Charged piercing shot",
+          "labelZh": "蓄力貫穿",
+          "textEn": "Charges before releasing a piercing attack.",
+          "textZh": "先蓄力，再發射可貫穿的攻擊。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "840"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Shock"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "10"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "30"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "1"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "5"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "2"
+        },
+        {
+          "labelEn": "Charge Time (s)",
+          "labelZh": "蓄力時間（秒）",
+          "value": "0.9"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/A16_Beam_Ripper",
+      "sourceRevision": 23009,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/A16_Beam_Ripper?oldid=23009",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "laser-cannon",
+      "category": "heavy",
+      "nameEn": "Laser Cannon",
+      "nameZh": "雷射砲",
+      "summaryEn": "Heavy laser emitter that ignites targets along its beam.",
+      "summaryZh": "以大型光束點燃沿途目標的重型雷射發射器。",
+      "traits": [
+        {
+          "labelEn": "Igniting beam",
+          "labelZh": "點燃光束",
+          "textEn": "Its large laser beam ignites targets in its path.",
+          "textZh": "大型雷射光束會點燃路徑上的目標。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "936"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Fire"
+        },
+        {
+          "labelEn": "Element Amount",
+          "labelZh": "元素量",
+          "value": "24"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "231"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "450"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "0"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "3"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Laser_Cannon",
+      "sourceRevision": 23014,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/Laser_Cannon?oldid=23014",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    },
+    {
+      "ownerId": "last-argument",
+      "category": "heavy",
+      "nameEn": "The Last Argument",
+      "nameZh": "最後論證",
+      "summaryEn": "Heavy rocket launcher; its Wiki description advises aiming far away.",
+      "summaryZh": "重型火箭發射器；Wiki 的介紹特別提醒要往遠處瞄準。",
+      "traits": [
+        {
+          "labelEn": "Long charge",
+          "labelZh": "長時間蓄力",
+          "textEn": "The base stat table lists an 8-second charge time.",
+          "textZh": "Wiki 基礎數值列出的蓄力時間為 8 秒。"
+        }
+      ],
+      "stats": [
+        {
+          "labelEn": "Damage",
+          "labelZh": "傷害",
+          "value": "700"
+        },
+        {
+          "labelEn": "Element",
+          "labelZh": "元素",
+          "value": "Normal"
+        },
+        {
+          "labelEn": "Fire Rate (RPM)",
+          "labelZh": "射速（RPM）",
+          "value": "120"
+        },
+        {
+          "labelEn": "Magazine Size",
+          "labelZh": "彈匣容量",
+          "value": "1"
+        },
+        {
+          "labelEn": "Ammo Capacity",
+          "labelZh": "備彈量",
+          "value": "1"
+        },
+        {
+          "labelEn": "Reload Duration (s)",
+          "labelZh": "裝填時間（秒）",
+          "value": "0.1"
+        },
+        {
+          "labelEn": "Charge Time (s)",
+          "labelZh": "蓄力時間（秒）",
+          "value": "8"
+        }
+      ],
+      "acquisition": {
+        "status": "not-documented",
+        "textEn": "The checked Wiki page does not state how to acquire this gear.",
+        "textZh": "已核對的 Wiki 個別頁未記載此裝備的取得方式，待補證據。"
+      },
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/The_Last_Argument",
+      "sourceRevision": 23021,
+      "sourceRevisionUrl": "https://mycopunk.miraheze.org/wiki/The_Last_Argument?oldid=23021",
+      "sourceEdited": "This page was last edited on 20 October 2026, at 20:14.",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "workbookBacked": false,
+      "upgradeCoverageEn": "Not included in workbook v1.6; no upgrade list has been imported.",
+      "upgradeCoverageZh": "工作簿 v1.6 未收錄此裝備，尚未匯入升級清單。"
+    }
+  ]
+}

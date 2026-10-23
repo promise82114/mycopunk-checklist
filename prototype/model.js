@@ -66,7 +66,7 @@ export function normalizeSearch(text) {
 }
 
 export function buildSearchIndex(upgrade, owner) {
-  return normalizeSearch([upgrade.nameEn, upgrade.nameZh, upgrade.descriptionEn, upgrade.descriptionZh, upgrade.turbochargeEn, upgrade.turbochargeZh, owner.nameEn, owner.nameZh, upgrade.rarity, rarityLabels[upgrade.rarity], ...upgrade.tags.flatMap(tag => [tag, tagLabels[tag]]), ...upgrade.stats.flatMap(stat => [stat.nameEn, stat.nameZh])].join(' '));
+  return normalizeSearch([upgrade.nameEn, upgrade.nameZh, upgrade.descriptionEn, upgrade.descriptionZh, upgrade.turbochargeEn, upgrade.turbochargeZh, owner.nameEn, owner.nameZh, upgrade.rarity, rarityLabels[upgrade.rarity], upgrade.size, ...upgrade.tags.flatMap(tag => [tag, tagLabels[tag]]), ...upgrade.stats.flatMap(stat => [stat.nameEn, stat.nameZh, stat.display, stat.minRaw, stat.maxRaw])].join(' '));
 }
 
 export function filterUpgrades(upgrades, filters, records, searchIndex) {

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "method": "指定 Wiki 的實際瀏覽器頁面、檔案歷史與修訂永久連結；補充有日期的玩家原始討論。未進入遊戲驗證，未將社群說法提升為官方規則。",
+  "mechanics": [
+    {
+      "id": "hidden-paths",
+      "titleEn": "Hidden Paths",
+      "titleZh": "隱藏路徑解鎖",
+      "summaryEn": "Players describe hidden layouts that trigger a reward when their cells are covered by installed upgrades. This is a placement puzzle, rather than a requirement to equip a specific named combination.",
+      "summaryZh": "玩家回報，安裝升級時若覆蓋了面板內的隱藏圖樣，就可能觸發獎勵。重點是覆蓋指定格子，並非必須裝上某幾個指定名稱的配件。",
+      "steps": [
+        {
+          "en": "Cover every cell of a hidden path with installed upgrades. The pieces may extend outside the path and do not have to connect end to end.",
+          "zh": "用已安裝的升級覆蓋隱藏路徑所占的每一格；配件可以延伸到路徑之外，不必逐塊首尾相接。"
+        },
+        {
+          "en": "The October 22, 2026 discussion reports seven paths: four accept any rarity, two require green / Rare pieces, and one requires purple / Epic pieces.",
+          "zh": "2026-10-22 的玩家討論回報共 7 條：4 條接受任意稀有度、2 條要求綠色 Rare、1 條要求紫色 Epic。各圖樣的精確對應仍待核對。"
+        },
+        {
+          "en": "That discussion says no path requires a specific weapon or character. The earlier guide author says a claimed path is shared across grids and cannot reward you again.",
+          "zh": "該討論指出不限定武器或角色；較早的攻略作者則說明，同一路徑的領取進度跨面板共用，不能換裝備重複領獎。"
+        },
+        {
+          "en": "An older guide author suggests moving a completed layout one cell left or right when it fails to register. This is a historical workaround, not a confirmed current requirement.",
+          "zh": "舊攻略作者建議：圖樣已覆蓋卻沒觸發時，可嘗試整體往左或右移一格。這是早期版本的排錯方法，尚未確認現行版是否仍需要。"
+        }
+      ],
+      "sourceUrl": "https://www.reddit.com/r/MycopunkGame/comments/1xbu0cp/hidden_paths_no_spoilers_please/",
+      "sourceType": "community-player-report",
+      "sourceTitle": "Hidden Paths (No Spoilers, please)",
+      "sourceAuthor": "Door-Mateu",
+      "sourcePublishedOn": "2026-10-22",
+      "additionalSources": [
+        {
+          "url": "https://www.reddit.com/r/MycopunkGame/comments/1m1l4z3/everything_there_is_to_know_about_hidden_paths/",
+          "title": "Everything there is to know about HIDDEN PATHS!",
+          "author": "slidedrum",
+          "sourceType": "community-guide-author-report",
+          "publishedOn": "2025-07-16",
+          "relevantCommentDates": ["2025-07-17", "2025-07-23"],
+          "evidence": "Author says path claims are shared across grids and suggests shifting one tile for a historical indexing bug."
+        }
+      ],
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "limitsEn": "Player reports; no explicit game version and no in-game verification. Exact path diagrams, coordinates, individual rewards and fixed upgrade IDs remain unknown. The specified Wiki has no search result for Hidden Paths; Upgrade Tree is a stub. Do not interpret these paths as permanent stat bonuses, Turbocharge, or the prism unlock quest.",
+      "limitsZh": "屬玩家回報，來源未標明遊戲版本，本站未實機驗證。7 條路徑的圖形、座標、逐條獎勵與固定配件 ID 尚未核對，不能自行補圖或指定獎品。指定 Wiki 搜尋 Hidden Paths 無結果，Upgrade Tree 仍是未完成頁。請勿把此機制混同永久能力加成、Turbocharge 或稜鏡解鎖任務。",
+      "patternStatus": "unknown",
+      "rewardUpgradeIds": [],
+      "followupResearch": {
+        "checkedOn": "2026-10-23",
+        "patternCoordinates": "unknown",
+        "checks": [
+          {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3523943228", "sourceType": "community-player-guide", "title": "Secrets & Weapon Unlocks", "author": "the dragon mom", "publishedOn": "2025-07-12", "updatedOn": "2025-09-18", "resultZh": "原始攻略確實提及在升級排列系統覆蓋隱藏路徑會獲得配件，但該段沒有路徑圖形或座標。"},
+          {"url": "https://playmycopunk.wiki/secrets/mycopunk-hidden-paths", "sourceType": "secondary-fan-guide", "title": "Hidden Paths: Unlock Upgrade Patterns", "resultZh": "只有文字及獎勵表，沒有可核對的路徑格形。其第7條稀有度敘述與近期原始玩家討論不一致，且表格漏列自己所說的Epic路徑，故不採為精確配方證據。"},
+          {"url": "https://www.reddit.com/r/MycopunkGame/comments/1m1l4z3/everything_there_is_to_know_about_hidden_paths/", "sourceType": "community-guide-author-report", "resultZh": "可讀評論確認共用與早期位移排錯，未能取得可逐格核對的原始影片圖樣。"
+          }
+        ],
+        "limitsZh": "本輪有界補查仍未取得可信的逐格輸入資料，不能製作7張示意圖或聲稱已收錄完整攻略。"
+      }
+    },
+    {
+      "id": "pattern-infusion",
+      "titleEn": "Pattern Infusion",
+      "titleZh": "格形灌注與解鎖",
+      "summaryEn": "The Wiki places Pattern Infuser access at player level 13. Infusion changes an upgrade pattern and spends Antimass Substrate; it is separate from receiving a Hidden Path reward.",
+      "summaryZh": "Wiki 記載 Pattern Infuser 在玩家等級 13 解鎖。灌注用於改變升級配件格形，消耗 Antimass Substrate；它與隱藏路徑送出的解鎖獎勵是不同機制。",
+      "steps": [
+        {"en": "Reach player level 13 to access the Pattern Infuser. The Cycler page independently lists the same player-level requirement for pattern infusion on that weapon.", "zh": "先達到玩家等級 13。The Cycler 條目也獨立列出此武器格形灌注的相同玩家等級門檻。"},
+        {"en": "The documented cost is max(10 + cellDifference × 5, 1) + targetRarity × 2 Antimass Substrate. The Wiki describes cellDifference as the difference in cell counts and targetRarity as Standard = 0 through Contraband = 5.", "zh": "Wiki 列出的 Antimass Substrate 費用公式為 max(10 + cellDifference × 5, 1) + targetRarity × 2；cellDifference 是兩配件占格數差，targetRarity 從 Standard = 0 到 Contraband = 5。"},
+        {"en": "The separate Pattern Inheriting article discusses Interim Manager and Fake ID in Ouroboros. Do not treat those mode-specific pickups as the general Pattern Infuser unlock condition.", "zh": "另一篇 Pattern Inheriting 講的是 Ouroboros 模式的 Interim Manager、Fake ID 拾取效果；不應把該模式的拾取物當成一般 Pattern Infuser 的解鎖條件。"}
+      ],
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Crafting?oldid=22969",
+      "sourceType": "community-wiki",
+      "sourceTitle": "Crafting — Pattern Infusion",
+      "revision": 22969,
+      "additionalSources": [
+        {"url": "https://mycopunk.miraheze.org/wiki/The_Cycler?oldid=23018", "title": "The Cycler — Pattern Infusion", "sourceType": "community-wiki", "revision": 23018},
+        {"url": "https://mycopunk.miraheze.org/wiki/Pattern_Inheriting?oldid=5313", "title": "Pattern Inheriting", "sourceType": "community-wiki", "revision": 5313, "lastEditedOn": "2026-01-08"}
+      ],
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "limitsEn": "The checked pages do not label these mechanics with a game version. The cost section does not explicitly state which operand is subtracted from which in cellDifference. Donor eligibility, item consumption, and changes to stat scaling are not established by these passages; confirm the in-game preview before paying.",
+      "limitsZh": "已核對段落沒有註明適用遊戲版本。費用段落未明說 cellDifference 的相減方向；可用供體條件、是否消耗物品及改形後的數值縮放，也不能由這幾段文字確定，實際支付前應核對遊戲內預覽。"
+    },
+    {
+      "id": "gear-level-rewards",
+      "titleEn": "Gear Level Rewards — The Cycler",
+      "titleZh": "裝備等級獎勵：The Cycler",
+      "summaryEn": "The Cycler Wiki page lists rewards earned by leveling this weapon. This gear progression is separate from player level 13 unlocking Pattern Infusion.",
+      "summaryZh": "The Cycler 的 Wiki 條目列有武器升級獎勵。此處是該武器的裝備等級，與玩家等級 13 解鎖格形灌注的進度分開。",
+      "steps": [
+        {"en": "Gear levels 3, 5 and 7 award an upgrade from a curated set. Level 10 awards an Epic upgrade; level 12 awards an Exotic upgrade.", "zh": "裝備等級 3、5、7 各可獲得指定候選池中的升級；等級 10 為 Epic 升級、等級 12 為 Exotic 升級。"},
+        {"en": "The table also lists a Rare skin at level 2, an Epic skin at level 9, one Saxonite at level 15, and an Oddity upgrade at level 32.", "zh": "表中另列等級 2 的 Rare 外觀、等級 9 的 Epic 外觀、等級 15 的 1 Saxonite，以及等級 32 的 Oddity 升級。"}
+      ],
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/The_Cycler?oldid=23018",
+      "sourceType": "community-wiki",
+      "sourceTitle": "The Cycler — Level Unlocks",
+      "revision": 23018,
+      "ownerId": "cycler",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "rewards": [
+        {"level": 2, "rewardEn": "Rare skin", "rewardZh": "Rare 外觀"},
+        {"level": 3, "rewardEn": "upgrade from a curated set", "rewardZh": "指定候選池中的升級"},
+        {"level": 5, "rewardEn": "upgrade from a curated set", "rewardZh": "指定候選池中的升級"},
+        {"level": 7, "rewardEn": "upgrade from a curated set", "rewardZh": "指定候選池中的升級"},
+        {"level": 9, "rewardEn": "Epic skin", "rewardZh": "Epic 外觀"},
+        {"level": 10, "rewardEn": "Epic upgrade", "rewardZh": "Epic 升級"},
+        {"level": 12, "rewardEn": "Exotic upgrade", "rewardZh": "Exotic 升級"},
+        {"level": 15, "rewardEn": "1 Saxonite", "rewardZh": "1 Saxonite"},
+        {"level": 32, "rewardEn": "Oddity upgrade", "rewardZh": "Oddity 升級"}
+      ],
+      "limitsEn": "This is the checked Cycler table, not a verified universal schedule for every weapon, employee, or grenade. It does not name the level-32 Oddity or document grid expansion at levels 3, 6 and 10. No game version is specified and no in-game test was performed.",
+      "limitsZh": "此處只代表已核對的 Cycler 表，不是所有武器、角色、手榴彈通用且經驗證的進度表。原表沒有指定等級 32 的 Oddity 名稱，也未記載等級 3、6、10 擴格；不從其他攻略傳言補上。來源未註明遊戲版本，本站未實機驗證。"
+    }
+  ],
+  "upgrades": [
+    {
+      "upgradeId": "dmlr:pulverizer",
+      "ownerId": "dmlr",
+      "nameEn": "Pulverizer",
+      "kindEn": "World drop pool (Wiki entry)",
+      "kindZh": "世界掉落池（Wiki 記載）",
+      "conditionEn": "The checked Wiki revision lists the world drop pool as its source; it does not document a placement recipe.",
+      "conditionZh": "已核對的 Wiki 修訂將取得來源列為世界掉落池，未提供面板擺放配方。",
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Pulverizer_Upgrade?oldid=12986",
+      "revision": 12986,
+      "sourceType": "community-wiki",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "versionEvidence": "Acquisition section does not state a game version. The v1.7.3 changelog heading is not treated as an acquisition-version guarantee.",
+      "limitsEn": "The workbook landing page labels a Pulverizer Unlock resource but supplies no text condition. Older unlock requirements and applicability to the launch build are unverified.",
+      "limitsZh": "工作簿首頁雖有 Pulverizer Unlock 標題，但沒有文字條件；舊版特殊解鎖與正式版是否相同，仍待核對。"
+    },
+    {
+      "upgradeId": "gunship-cannon:yellow-prism",
+      "ownerId": "gunship-cannon",
+      "nameEn": "Yellow Prism",
+      "kindEn": "World drop pool (Wiki entry)",
+      "kindZh": "世界掉落池（Wiki 記載）",
+      "conditionEn": "The checked Wiki revision lists the world drop pool as its source. Its bordering-prism description is an installed effect, not an acquisition condition.",
+      "conditionZh": "已核對的 Wiki 修訂將取得來源列為世界掉落池。「與其他稜鏡相鄰而遞迴提高輸出」屬安裝效果，並非取得條件。",
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Yellow_Prism_Upgrade?oldid=13402",
+      "revision": 13402,
+      "sourceType": "community-wiki",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "versionEvidence": "Acquisition section does not state a game version. Changelog headings are not treated as acquisition-version guarantees.",
+      "limitsEn": "This one revision does not establish the original prism quest or whether every other prism has the same acquisition route.",
+      "limitsZh": "此一修訂不足以確認最初的稜鏡解鎖任務，也不能據此推定其他顏色稜鏡都使用相同取得條件。"
+    }
+  ],
+  "patterns": [
+    {
+      "upgradeId": "dmlr:pulverizer",
+      "ownerId": "dmlr",
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Pulverizer_Upgrade?oldid=12986",
+      "filePageUrl": "https://mycopunk.miraheze.org/wiki/File:Pulverizer_Pattern.svg?oldid=11856",
+      "svgUrl": "https://static.wikitide.net/mycopunkwiki/1/12/Pulverizer_Pattern.svg",
+      "revision": 11856,
+      "author": "Vilsol",
+      "uploadedOn": "2026-04-29T21:20:00Z",
+      "checkedOn": "2026-10-23",
+      "sourceType": "community-wiki-file",
+      "gameVersion": "1.8",
+      "versionEvidence": "File history upload comment: Uploaded pattern for Pulverizer upgrade (v1.8)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "The checked file page footer states CC BY-SA 4.0 unless otherwise noted; no separate override was displayed.",
+      "coordinates": null,
+      "limitsZh": "已確認是 Wiki 的真實格形 SVG；尚未解析格子座標，亦未確認與工作簿 v1.6 或正式版相符。"
+    },
+    {
+      "upgradeId": "gunship-cannon:yellow-prism",
+      "ownerId": "gunship-cannon",
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/Yellow_Prism_Upgrade?oldid=13402",
+      "filePageUrl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Yellow_Prism_font_Pattern.svg?oldid=14529",
+      "svgUrl": "https://static.wikitide.net/mycopunkwiki/5/5c/Font_H_Yellow_Prism_font_Pattern.svg",
+      "revision": 14529,
+      "author": "Vilsol",
+      "uploadedOn": "2026-04-30T18:28:00Z",
+      "checkedOn": "2026-10-23",
+      "sourceType": "community-wiki-file",
+      "gameVersion": "1.8.1H1",
+      "versionEvidence": "File description and history: Uploaded pattern for PrismEx (ID: 1101996) (v1.8.1H1)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "The checked file page footer states CC BY-SA 4.0 unless otherwise noted; no separate override was displayed.",
+      "coordinates": null,
+      "limitsZh": "已確認是 Wiki 的真實格形 SVG；尚未解析格子座標，亦未確認與工作簿 v1.6 或正式版相符。"
+    }
+  ],
+  "workbookEvidence": {
+    "sourceFile": "Mycopunk Upgrades v1.6.xlsx",
+    "readOnly": true,
+    "checkedOn": "2026-10-23",
+    "shapeStatus": "not-present-in-cell-data",
+    "shapeEvidenceZh": "20 個裝備分頁的 AO 是 Size，占格數；Up Cells 也只有數量。Up Icon 是配件圖示，沒有格子座標或形狀欄位。Globbler 的 Spread Shape 是射擊散布形狀，不是配件格形。不得由 Size 推算占位圖樣。",
+    "auxiliarySheets": ["Up Names", "Up Ref", "Up Icon", "Up Wiki", "Up Desc", "Up Turbo", "Up Rarity", "Up Cells", "Up Stats", "Up Min", "Up Max"],
+    "landingPageLabels": [
+      {"cell": "A23", "text": "Globbler Unlock:"},
+      {"cell": "A25", "text": "Carver Unlock:"},
+      {"cell": "A27", "text": "Pulverizer Unlock:"},
+      {"cell": "A28", "text": "Prism Unlock:"},
+      {"cell": "A29", "text": "ERROR REDACTED"},
+      {"cell": "A32", "text": "H.U.B. Upgrades:"},
+      {"cell": "A33", "text": "Direct all suggestions / errors to @Sparroh in the Mycopunk Discord\nMycopunk v1.2"}
+    ],
+    "landingPageFormulaLinks": [
+      {"cell": "A24", "text": "Globbler", "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3523968444"},
+      {"cell": "A26", "text": "Carver", "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3523943228"},
+      {"cell": "A29", "text": "ERROR REDACTED", "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3523943228"}
+    ],
+    "limitsZh": "上述首頁文字是資源標題，未提供實際解鎖配方。HYPERLINK 公式提供三個外部攻略連結；Pulverizer Unlock 旁沒有配方或連結。首頁 drawing1.xml 是空容器，沒有可辨識的配方圖片；不把標題當作配方證據。"
+  },
+  "wikiCoverage": {
+    "searchUrl": "https://mycopunk.miraheze.org/wiki/Special:Search?search=%22Hidden+Paths%22&fulltext=1",
+    "searchResult": "No results matching the query in the visible Wiki search.",
+    "upgradeTreeUrl": "https://mycopunk.miraheze.org/wiki/Upgrade_Tree?oldid=9063",
+    "upgradeTreeText": "stub, will fill this out later to explain leveling to players.",
+    "apiStatus": "not-tested",
+    "batchRetrievalZh": "本次只核對兩筆格形，沒有全量掃描。Wiki 的 Upgrades 表可讀且連到個別條目；MediaWiki API 的批次可用性尚未測試。"
+  }
+}

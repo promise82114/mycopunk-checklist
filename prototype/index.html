@@ -3,45 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#161d19">
-  <meta name="description" content="Mycopunk 英文與繁體中文升級配件圖鑑，支援分類搜尋、個人收集清單與備份。">
-  <title>Mycopunk Field Guide — 升級配件收集圖鑑</title>
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="Mycopunk 簡明攻略 Wiki：角色、武器、手榴彈、重武器介紹，升級效果、數值與隱藏解鎖中英對照。">
+  <title>Mycopunk Field Guide — 裝備與升級攻略</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="recommendations.css">
   <script src="app.js" type="module"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to upgrades / 跳至配件清單</a>
+  <a class="skip-link" href="#main">Skip to content / 跳至內容</a>
   <header class="site-header">
-    <a class="brand" href="./" aria-label="Mycopunk Field Guide 首頁"><span class="brand-mark" aria-hidden="true">M<span>＋</span></span><span><strong>MYCOPUNK</strong><span class="brand-sub">FIELD GUIDE <span lang="zh-Hant">升級配件手冊</span></span></span></a>
-    <div class="header-tools"><button id="language-toggle" type="button" aria-pressed="true">EN <span aria-hidden="true">＋</span> 繁中</button><button id="export-button" type="button" disabled>Export <span>匯出備份</span></button><button id="import-button" type="button" disabled>Import <span>匯入備份</span></button><input id="import-file" type="file" accept="application/json,.json" hidden></div>
+    <a class="brand" href="./" data-home><span class="brand-mark" aria-hidden="true">M<span>✳</span></span><span><strong>MYCOPUNK</strong><span class="brand-sub">FIELD GUIDE <span>攻略手冊</span></span></span></a>
+    <nav class="primary-nav" aria-label="主要導覽"><button type="button" data-view="home">Explore <span>裝備索引</span></button><button type="button" data-view="unlocks">Hidden paths <span>隱藏解鎖</span></button><button type="button" data-view="recommendations">Tier guides <span>分級搭配</span></button><button type="button" data-view="collection">Checklist <span>收集清單</span></button></nav>
+    <button id="language-toggle" type="button" aria-pressed="true">EN + 繁中</button>
   </header>
-  <div id="storage-notice" class="storage-notice" role="status" hidden></div>
+  <div id="storage-notice" class="storage-notice" role="alert" hidden></div>
   <div id="app-error" class="app-error" role="alert" hidden></div>
   <div class="app-layout">
-    <aside class="sidebar" aria-label="裝備分類">
-      <div class="sidebar-top"><span class="eyebrow">DIRECTORY / 裝備索引</span><span id="source-version" class="version-badge">v1.6</span></div>
-      <div id="directory" aria-label="Browse by category"><p class="loading-copy">Loading database…<br>正在載入配件資料</p></div>
-      <div class="sidebar-footer"><span class="status-dot" aria-hidden="true"></span>LOCAL COLLECTION <span>此瀏覽器個人紀錄</span></div>
-    </aside>
+    <aside id="sidebar" class="sidebar" aria-label="裝備導覽"><p class="eyebrow">FIELD INDEX / 攻略目錄</p><div id="directory"></div><button id="about-button" class="source-button" type="button">Sources & data <span>來源與資料說明 ↗</span></button></aside>
     <main id="main" class="main" tabindex="-1">
-      <nav class="view-tabs" aria-label="資料檢視"><button id="library-tab" data-view="library" type="button" aria-pressed="true">Database <span>配件圖鑑</span></button><button id="collection-tab" data-view="collection" type="button" aria-pressed="false">My collection <span>我的收集</span></button></nav>
-      <section class="page-heading" aria-labelledby="page-title"><div><p id="breadcrumb" class="eyebrow">UPGRADE DATABASE / 升級配件</p><h1 id="page-title">All upgrades <span>全部配件</span></h1><p id="page-description">Find your next upgrade. Keep track of every discovery.<br><span>查詢配件效果，記下每一次收穫。</span></p></div><div class="collection-meter"><span class="eyebrow">COLLECTED / 已取得</span><div id="progress-count" class="progress-count">— <span>/ —</span></div><progress id="collection-progress" max="660" value="0" aria-label="目前分類的收集進度"></progress><span id="progress-caption">依來源收錄範圍計算</span></div></section>
-      <div class="coverage-note"><span class="note-symbol" aria-hidden="true">i</span><p><strong>Workbook v1.6 · Formal release coverage pending</strong><span>依 Excel 收錄資料顯示。正式版新增內容與獎盃需求待核對，這不是全獎盃完成度。</span></p><button id="about-button" type="button">Source notes <span>資料說明</span></button></div>
-      <form id="filters" class="filter-panel" role="search">
-        <label class="search-field"><span>Search upgrades <span class="secondary-label">中英搜尋</span></span><input id="search" type="search" placeholder="Name, effect, note… / 名稱、效果、筆記" autocomplete="off" disabled></label>
-        <div class="filter-row"><label>Rarity <span>稀有度</span><select id="rarity-filter" disabled><option value="">All rarities / 全部</option></select></label><label>Effect <span>效果分類</span><select id="tag-filter" disabled><option value="">All effects / 全部</option></select></label><label>Collection <span>收集狀態</span><select id="status-filter" disabled><option value="all">All / 全部</option><option value="missing">Missing / 未取得</option><option value="collected">Collected / 已取得</option><option value="tracked">Tracked / 追蹤中</option></select></label><label>Sort <span>排序</span><select id="sort-filter" disabled><option value="source">Source order / 原表順序</option><option value="name">Name / 名稱</option><option value="rarity">Rarity / 稀有度</option><option value="size">Cells / 占格數</option><option value="missing">Missing first / 未取得優先</option></select></label></div>
-        <div class="filter-actions"><button id="missing-toggle" type="button" aria-pressed="false" disabled>Missing only <span>只看未取得</span></button><button id="clear-filters" type="button" class="text-button" disabled>Clear filters / 清除篩選</button></div>
-      </form>
-      <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite">Loading upgrades / 正在載入</p><span class="translation-label">EN original <span>原文</span> <span class="translation-divider">/</span> 繁中輔助暫譯</span></div>
-      <div id="upgrade-list" aria-label="Upgrade results" aria-busy="true"></div>
-      <button id="load-more" type="button" class="load-more" hidden>Load more / 顯示更多</button>
-      <footer class="page-footer"><span id="dataset-footer">Mycopunk community field guide</span><span>Unofficial / 非官方整理 <span aria-hidden="true">·</span> 無帳號、無雲端同步</span></footer>
+      <div id="breadcrumbs" class="breadcrumbs"></div>
+      <section id="page-heading" class="page-heading"><div><p id="eyebrow" class="eyebrow"></p><h1 id="page-title">Mycopunk Field Guide <span>裝備與升級攻略</span></h1><p id="page-description"></p></div></section>
+      <div id="page-content"></div>
+      <section id="catalogue-view" hidden>
+        <div class="section-heading"><h2 id="upgrades-title">Upgrades <span>升級配件</span></h2><span class="muted">EN original · 繁中輔助</span></div>
+        <form id="filters" class="filter-panel" role="search"><label class="search-field">Search upgrades <span>搜尋名稱、效果、屬性</span><input id="search" type="search" placeholder="Name, effect, stat… / 名稱、效果、數值" autocomplete="off"></label><label>Quality / 品質<select id="rarity-filter"><option value="">All qualities / 全部品質</option></select></label><label>Effect / 效果<select id="tag-filter"><option value="">All effects / 全部效果</option></select></label><label>Sort / 排序<select id="sort-filter"><option value="source">Workbook / 原表順序</option><option value="name">Name / 名稱</option><option value="rarity">Quality / 品質</option><option value="size">Cells / 占格數</option><option value="missing">Missing first / 未收集優先</option></select></label><label id="collection-status-label">Collection / 收集狀態<select id="status-filter"><option value="all">All / 全部</option><option value="missing">Missing / 未取得</option><option value="collected">Collected / 已取得</option><option value="tracked">Tracked / 追蹤</option></select></label><button id="clear-filters" type="button" class="text-button">Reset / 清除</button></form>
+        <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite"></p><span>✓ <span class="zh-copy">旁側勾選僅供個人收集</span></span></div>
+        <div id="table-header"></div><div id="upgrade-list" aria-label="Upgrade reference / 升級資料列表"></div>
+        <p id="upgrade-data-note" class="data-note"></p>
+      </section>
+      <section id="recommendations-view" aria-label="武器分級與配件搭配" hidden></section>
+      <footer class="page-footer"><div><strong>MYCOPUNK FIELD GUIDE</strong><p>Unofficial reference · 非官方攻略整理</p></div><div><p>Wiki text adapted from <a href="https://mycopunk.miraheze.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Mycopunk Wiki contributors</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></p><p>English source first. Chinese translations are provisional. / 英文原文為準，繁中為輔助暫譯。</p><button type="button" data-action="about">Source notes / 來源說明</button></div></footer>
     </main>
   </div>
-  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><div class="dialog-header"><span class="eyebrow">UPGRADE DETAILS / 配件詳情</span><button type="button" data-close="detail-dialog" class="close-button" aria-label="Close details / 關閉詳情">✕</button></div><div id="detail-content"></div></dialog>
-  <dialog id="import-dialog" class="small-dialog" aria-labelledby="import-title"><div class="dialog-header"><h2 id="import-title">Import backup <span>匯入備份</span></h2><button type="button" data-close="import-dialog" class="close-button" aria-label="關閉">✕</button></div><div id="import-preview"></div><p class="dialog-note">同一配件保留更新時間較新的整筆紀錄。未出現在備份的本機紀錄不會刪除，未對應目前圖鑑的項目仍會保留。</p><p id="import-feedback" role="alert"></p><div class="dialog-actions"><button type="button" data-close="import-dialog">Cancel / 取消</button><button id="apply-import" type="button" class="primary-button">Merge records / 合併紀錄</button></div></dialog>
-  <dialog id="about-dialog" class="small-dialog" aria-labelledby="about-title"><div class="dialog-header"><h2 id="about-title">Source notes <span>資料說明</span></h2><button type="button" data-close="about-dialog" class="close-button" aria-label="關閉">✕</button></div><div id="about-content"></div><div class="dialog-actions"><button id="raw-export" type="button" hidden>Download original storage / 下載原始儲存資料</button><button id="previous-export" type="button" hidden>Pre-import backup / 匯入前備份</button></div></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <dialog id="import-dialog" class="small-dialog" aria-labelledby="import-title"><div class="dialog-header"><h2 id="import-title">Import backup <span>匯入備份</span></h2><button type="button" data-close="import-dialog" class="close-button" aria-label="關閉">✕</button></div><div id="import-preview"></div><p class="dialog-note">同一配件保留更新時間較新的整筆紀錄；未出現在備份的本機紀錄與舊筆記均會保留。</p><p id="import-feedback" role="alert"></p><div class="dialog-actions"><button type="button" data-close="import-dialog">Cancel / 取消</button><button id="apply-import" type="button" class="primary-button">Merge / 合併紀錄</button></div></dialog>
+  <dialog id="about-dialog" class="small-dialog" aria-labelledby="about-title"><div class="dialog-header"><h2 id="about-title">Sources & data <span>來源與資料</span></h2><button type="button" data-close="about-dialog" class="close-button" aria-label="關閉">✕</button></div><div id="about-content"></div><div class="dialog-actions"><button id="raw-export" type="button" hidden>Download original / 下載原始資料</button><button id="previous-export" type="button" hidden>Pre-import backup / 匯入前備份</button></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <noscript><p class="app-error">請開啟 JavaScript，才能使用搜尋與收集紀錄。</p></noscript>
+  <noscript><p class="app-error">請開啟 JavaScript 以瀏覽攻略、搜尋及記錄收集進度。</p></noscript>
 </body>
 </html>

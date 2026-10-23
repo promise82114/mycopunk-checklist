@@ -1,0 +1,3808 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-23",
+  "sources": [
+    {
+      "id": "no-you-gunship-cannon",
+      "title": "Gunship",
+      "url": "https://tiermaker.com/list/random/mycopunk-gunship-upgrades-18796434/5615819",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "gunship-cannon",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "carson-weapons-1-4-6",
+      "title": "Myco TL 1.4.6",
+      "url": "https://tiermaker.com/list/random/mycopunk-weapon-tier-list-18711617/5588347",
+      "author": "Carson Kong",
+      "authorUrl": "https://tiermaker.com/user/18711617",
+      "kind": "weapons",
+      "ownerId": null,
+      "gameVersion": "1.4.6",
+      "versionEvidence": "list-title",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-weapons",
+      "title": "Weapons",
+      "url": "https://tiermaker.com/list/random/mycopunk-gun-tierlist-18796434/5653581",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "weapons",
+      "ownerId": null,
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": [
+        {
+          "sourceId": "no-you-weapons",
+          "tier": "E",
+          "sourceItemId": "6",
+          "assetFilename": "heavylasericon.png",
+          "reason": "outside-current-catalogue"
+        },
+        {
+          "sourceId": "no-you-weapons",
+          "tier": "E",
+          "sourceItemId": "7",
+          "assetFilename": "heavynukeicon.png",
+          "reason": "outside-current-catalogue"
+        },
+        {
+          "sourceId": "no-you-weapons",
+          "tier": "E",
+          "sourceItemId": "8",
+          "assetFilename": "heavyshotgunicon.png",
+          "reason": "outside-current-catalogue"
+        },
+        {
+          "sourceId": "no-you-weapons",
+          "tier": "E",
+          "sourceItemId": "9",
+          "assetFilename": "heavysnipericon.png",
+          "reason": "outside-current-catalogue"
+        }
+      ]
+    },
+    {
+      "id": "no-you-accelerator",
+      "title": "Accelerator",
+      "url": "https://tiermaker.com/list/random/mycopunk-accelerator-upgrades-18796434/5653578",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "accelerator",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-shocklance",
+      "title": "Shocklance",
+      "url": "https://tiermaker.com/list/random/mycopunk-shocklance-upgrades-18796434/5615928",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "shocklance",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-carver",
+      "title": "Carver",
+      "url": "https://tiermaker.com/list/random/mycopunk-carver-upgrades-18796434/5615918",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "carver",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-globbler",
+      "title": "Globbler",
+      "url": "https://tiermaker.com/list/random/mycopunk-globbler-upgrades-18796434/5615847",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "globbler",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-trident",
+      "title": "Trident",
+      "url": "https://tiermaker.com/list/random/mycopunk-trident-upgrades-18796434/5615834",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "trident",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-plate-launcher",
+      "title": "Plate",
+      "url": "https://tiermaker.com/list/random/mycopunk-plate-upgrades-18796434/5615809",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "plate-launcher",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-lead-flinger",
+      "title": "Lead Flinger",
+      "url": "https://tiermaker.com/list/random/mycopunk-flinger-upgrades-18796434/5615797",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "lead-flinger",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-dmlr",
+      "title": "DMLR",
+      "url": "https://tiermaker.com/list/random/mycopunk-dmlr-upgrades-18796434/5615778",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "dmlr",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-swarm-launcher",
+      "title": "Swarm",
+      "url": "https://tiermaker.com/list/random/mycopunk-swarm-upgrades-18796434/5615767",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "swarm-launcher",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-cycler",
+      "title": "Cycler",
+      "url": "https://tiermaker.com/list/random/mycopunk-cycler-upgrades-18796434/5615756",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "cycler",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    },
+    {
+      "id": "no-you-jackrabbit",
+      "title": "Jackrabbit",
+      "url": "https://tiermaker.com/list/random/mycopunk-jackrabbit-upgrades-18796434/5615752",
+      "author": "No You",
+      "authorUrl": "https://tiermaker.com/user/18796434",
+      "kind": "upgrades",
+      "ownerId": "jackrabbit",
+      "gameVersion": null,
+      "versionEvidence": "not-stated",
+      "verifiedOn": "2026-10-23",
+      "rationaleProvided": false,
+      "excludedItems": []
+    }
+  ],
+  "weaponRatings": [
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "SS",
+      "sourceItemId": "8",
+      "assetFilename": "plate.png",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "SS",
+      "sourceItemId": "9",
+      "assetFilename": "shocklance.png",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "S",
+      "sourceItemId": "4",
+      "assetFilename": "globbler.png",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "S",
+      "sourceItemId": "5",
+      "assetFilename": "gsc.png",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "A",
+      "sourceItemId": "6",
+      "assetFilename": "jabbit.png",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "A",
+      "sourceItemId": "2",
+      "assetFilename": "cycler.png",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "B",
+      "sourceItemId": "7",
+      "assetFilename": "lf.png",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "C",
+      "sourceItemId": "10",
+      "assetFilename": "swarm-launcher.png",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "D",
+      "sourceItemId": "11",
+      "assetFilename": "trident.png",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "D",
+      "sourceItemId": "1",
+      "assetFilename": "chainsaw.png",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "carson-weapons-1-4-6",
+      "tier": "F",
+      "sourceItemId": "3",
+      "assetFilename": "dmlr.png",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "S",
+      "sourceItemId": "13",
+      "assetFilename": "shocklance-icon.png",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "S",
+      "sourceItemId": "12",
+      "assetFilename": "plate-launcher-icon.png",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "A",
+      "sourceItemId": "11",
+      "assetFilename": "minicannonicon.png",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "A",
+      "sourceItemId": "5",
+      "assetFilename": "globblericon.png",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "A",
+      "sourceItemId": "1",
+      "assetFilename": "accelerator-icon.png",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "B",
+      "sourceItemId": "2",
+      "assetFilename": "bounce-shotgun-icon.png",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "B",
+      "sourceItemId": "14",
+      "assetFilename": "smg-icon.png",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "C",
+      "sourceItemId": "15",
+      "assetFilename": "swarm-gun-icon.png",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "C",
+      "sourceItemId": "10",
+      "assetFilename": "leadflinger-icon.png",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "D",
+      "sourceItemId": "16",
+      "assetFilename": "tridenticon.png",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "D",
+      "sourceItemId": "3",
+      "assetFilename": "carver-icon.png",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-weapons",
+      "tier": "F",
+      "sourceItemId": "4",
+      "assetFilename": "dmlr-icon.png",
+      "ownerId": "dmlr"
+    }
+  ],
+  "upgradeRatings": [
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "S",
+      "sourceItemId": "30",
+      "assetFilename": "yellowprismpng.png",
+      "upgradeId": "gunship-cannon:yellow-prism",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "S",
+      "sourceItemId": "23",
+      "assetFilename": "purpleprismpng.png",
+      "upgradeId": "gunship-cannon:purple-prism",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "S",
+      "sourceItemId": "4",
+      "assetFilename": "blueprismpng.png",
+      "upgradeId": "gunship-cannon:blue-prism",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "S",
+      "sourceItemId": "10",
+      "assetFilename": "greenprismpng.png",
+      "upgradeId": "gunship-cannon:green-prism",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "A",
+      "sourceItemId": "28",
+      "assetFilename": "tinderboxpng.png",
+      "upgradeId": "gunship-cannon:tinderbox",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "A",
+      "sourceItemId": "16",
+      "assetFilename": "hullpiercerpng.png",
+      "upgradeId": "gunship-cannon:hull-piercer",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "A",
+      "sourceItemId": "9",
+      "assetFilename": "franticfingerspng.png",
+      "upgradeId": "gunship-cannon:frantic-fingers",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "B",
+      "sourceItemId": "18",
+      "assetFilename": "lagrangehalopng.png",
+      "upgradeId": "gunship-cannon:lagrange-halo",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "B",
+      "sourceItemId": "2",
+      "assetFilename": "ballisticchargerpng.png",
+      "upgradeId": "gunship-cannon:ballistic-charger",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "B",
+      "sourceItemId": "8",
+      "assetFilename": "firmlyplantedpng.png",
+      "upgradeId": "gunship-cannon:firmly-planted",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "B",
+      "sourceItemId": "11",
+      "assetFilename": "gunshippng.png",
+      "upgradeId": "gunship-cannon:gunship",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "B",
+      "sourceItemId": "29",
+      "assetFilename": "unarmoredpng.png",
+      "upgradeId": "gunship-cannon:unarmored",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "C",
+      "sourceItemId": "20",
+      "assetFilename": "missilebaypng.png",
+      "upgradeId": "gunship-cannon:missile-bay",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "C",
+      "sourceItemId": "12",
+      "assetFilename": "hardricochetpng.png",
+      "upgradeId": "gunship-cannon:hard-ricochet",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "C",
+      "sourceItemId": "27",
+      "assetFilename": "thumperpng.png",
+      "upgradeId": "gunship-cannon:thumper",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "C",
+      "sourceItemId": "22",
+      "assetFilename": "pointdemolitionpng.png",
+      "upgradeId": "gunship-cannon:point-demolition",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "C",
+      "sourceItemId": "24",
+      "assetFilename": "safetyregulationspng.png",
+      "upgradeId": "gunship-cannon:safety-regulations",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "C",
+      "sourceItemId": "26",
+      "assetFilename": "stabilizerspng.png",
+      "upgradeId": "gunship-cannon:stabilizers",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "D",
+      "sourceItemId": "1",
+      "assetFilename": "adaptivestabilizerspng.png",
+      "upgradeId": "gunship-cannon:adaptive-stabilizers",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "D",
+      "sourceItemId": "17",
+      "assetFilename": "industrialfeedmechanismpng.png",
+      "upgradeId": "gunship-cannon:industrial-feed-mechanism",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "D",
+      "sourceItemId": "5",
+      "assetFilename": "cargostoragepng.png",
+      "upgradeId": "gunship-cannon:cargo-storage",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "7",
+      "assetFilename": "elementalmunitionspng.png",
+      "upgradeId": "gunship-cannon:elemental-munitions",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "14",
+      "assetFilename": "highercaliberpng.png",
+      "upgradeId": "gunship-cannon:higher-caliber",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "15",
+      "assetFilename": "holdplatingpng.png",
+      "upgradeId": "gunship-cannon:hold-plating",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "21",
+      "assetFilename": "overclockedfiringchamberpng.png",
+      "upgradeId": "gunship-cannon:overclocked-firing-chamber",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "25",
+      "assetFilename": "sawedoffpng.png",
+      "upgradeId": "gunship-cannon:sawed-off",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "6",
+      "assetFilename": "dragcapspng.png",
+      "upgradeId": "gunship-cannon:drag-caps",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "E",
+      "sourceItemId": "19",
+      "assetFilename": "magneticloaderpng.png",
+      "upgradeId": "gunship-cannon:magnetic-loader",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "F",
+      "sourceItemId": "13",
+      "assetFilename": "heavymunitionspng.png",
+      "upgradeId": "gunship-cannon:heavy-munitions",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-gunship-cannon",
+      "tier": "F",
+      "sourceItemId": "3",
+      "assetFilename": "blowbackredirectpng.png",
+      "upgradeId": "gunship-cannon:blowback-redirect",
+      "ownerId": "gunship-cannon"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "S",
+      "sourceItemId": "3",
+      "assetFilename": "explosivebulletspng.png",
+      "upgradeId": "accelerator:explosive-bullets",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "S",
+      "sourceItemId": "19",
+      "assetFilename": "remotechargingpng.png",
+      "upgradeId": "accelerator:remote-charging",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "A",
+      "sourceItemId": "15",
+      "assetFilename": "paybackpng.png",
+      "upgradeId": "accelerator:payback",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "A",
+      "sourceItemId": "9",
+      "assetFilename": "inertiaaccelerantpng.png",
+      "upgradeId": "accelerator:inertia-accelerant",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "A",
+      "sourceItemId": "14",
+      "assetFilename": "oxythanespromisepng.png",
+      "upgradeId": "accelerator:oxythane-s-promise",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "A",
+      "sourceItemId": "30",
+      "assetFilename": "unstablerecursionpng.png",
+      "upgradeId": "accelerator:unstable-recursion",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "B",
+      "sourceItemId": "20",
+      "assetFilename": "requeeningpng.png",
+      "upgradeId": "accelerator:requeening",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "B",
+      "sourceItemId": "1",
+      "assetFilename": "awakenthehivepng.png",
+      "upgradeId": "accelerator:awaken-the-hive",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "B",
+      "sourceItemId": "4",
+      "assetFilename": "feedbacklooppng.png",
+      "upgradeId": "accelerator:feedback-loop",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "B",
+      "sourceItemId": "22",
+      "assetFilename": "shakethenestpng.png",
+      "upgradeId": "accelerator:shake-the-nest",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "B",
+      "sourceItemId": "24",
+      "assetFilename": "shockerpng.png",
+      "upgradeId": "accelerator:shocker",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "B",
+      "sourceItemId": "23",
+      "assetFilename": "shavedprojectilespng.png",
+      "upgradeId": "accelerator:shaved-projectiles",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "C",
+      "sourceItemId": "11",
+      "assetFilename": "miniaturizedwarpcorepng.png",
+      "upgradeId": "accelerator:miniaturized-warp-core",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "C",
+      "sourceItemId": "21",
+      "assetFilename": "rupturedspleenpng.png",
+      "upgradeId": "accelerator:ruptured-spleen",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "C",
+      "sourceItemId": "28",
+      "assetFilename": "theroyaljellyofhazaranpng.png",
+      "upgradeId": "accelerator:the-royal-jelly-of-hazaran",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "C",
+      "sourceItemId": "6",
+      "assetFilename": "fullautotriggerpng.png",
+      "upgradeId": "accelerator:full-auto-trigger",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "C",
+      "sourceItemId": "12",
+      "assetFilename": "momentumimpactpng.png",
+      "upgradeId": "accelerator:momentum-impact",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "C",
+      "sourceItemId": "18",
+      "assetFilename": "quickresetpng.png",
+      "upgradeId": "accelerator:quick-reset",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "D",
+      "sourceItemId": "26",
+      "assetFilename": "slipspacebullettransferpng.png",
+      "upgradeId": "accelerator:slipspace-bullet-transfer",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "D",
+      "sourceItemId": "29",
+      "assetFilename": "threeinonepng.png",
+      "upgradeId": "accelerator:three-in-one",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "D",
+      "sourceItemId": "31",
+      "assetFilename": "waspgunpng.png",
+      "upgradeId": "accelerator:wasp-gun",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "D",
+      "sourceItemId": "7",
+      "assetFilename": "hairtriggerpng.png",
+      "upgradeId": "accelerator:hair-trigger",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "D",
+      "sourceItemId": "8",
+      "assetFilename": "honeysweetpng.png",
+      "upgradeId": "accelerator:honey-sweet",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "D",
+      "sourceItemId": "10",
+      "assetFilename": "kineticoptimizationpng.png",
+      "upgradeId": "accelerator:kinetic-optimization",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "E",
+      "sourceItemId": "27",
+      "assetFilename": "sweetheavenspng.png",
+      "upgradeId": "accelerator:sweet-heavens",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "E",
+      "sourceItemId": "13",
+      "assetFilename": "number5togopng.png",
+      "upgradeId": "accelerator:number-5-to-go",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "E",
+      "sourceItemId": "2",
+      "assetFilename": "energycohesionpng.png",
+      "upgradeId": "accelerator:energy-cohesion",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "E",
+      "sourceItemId": "5",
+      "assetFilename": "flashchargepng.png",
+      "upgradeId": "accelerator:flash-charge",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "F",
+      "sourceItemId": "17",
+      "assetFilename": "queenscannonspng.png",
+      "upgradeId": "accelerator:queen-s-cannons",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "F",
+      "sourceItemId": "25",
+      "assetFilename": "sizethemuppng.png",
+      "upgradeId": "accelerator:size-them-up",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-accelerator",
+      "tier": "F",
+      "sourceItemId": "16",
+      "assetFilename": "payloadamplifierpng.png",
+      "upgradeId": "accelerator:payload-amplifier",
+      "ownerId": "accelerator"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "S",
+      "sourceItemId": "18",
+      "assetFilename": "halfcockedpng.png",
+      "upgradeId": "shocklance:half-cocked",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "S",
+      "sourceItemId": "4",
+      "assetFilename": "blackmarketbatterypng.png",
+      "upgradeId": "shocklance:black-market-battery",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "S",
+      "sourceItemId": "26",
+      "assetFilename": "splinteredlancepng.png",
+      "upgradeId": "shocklance:splintered-lance",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "A",
+      "sourceItemId": "1",
+      "assetFilename": "augersubroutinepng.png",
+      "upgradeId": "shocklance:auger-subroutine",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "A",
+      "sourceItemId": "20",
+      "assetFilename": "layingcablepng.png",
+      "upgradeId": "shocklance:laying-cable",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "A",
+      "sourceItemId": "16",
+      "assetFilename": "gearshiftpng.png",
+      "upgradeId": "shocklance:gearshift",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "A",
+      "sourceItemId": "19",
+      "assetFilename": "killingfieldpng.png",
+      "upgradeId": "shocklance:killing-field",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "A",
+      "sourceItemId": "28",
+      "assetFilename": "stormseyepng.png",
+      "upgradeId": "shocklance:storm-s-eye",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "B",
+      "sourceItemId": "3",
+      "assetFilename": "batteryrecursionpng.png",
+      "upgradeId": "shocklance:battery-recursion",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "B",
+      "sourceItemId": "21",
+      "assetFilename": "microdetonatorspng.png",
+      "upgradeId": "shocklance:micro-detonators",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "B",
+      "sourceItemId": "24",
+      "assetFilename": "readyandwaitingpng.png",
+      "upgradeId": "shocklance:ready-and-waiting",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "B",
+      "sourceItemId": "29",
+      "assetFilename": "subwaypng.png",
+      "upgradeId": "shocklance:subway",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "B",
+      "sourceItemId": "8",
+      "assetFilename": "compressorpng.png",
+      "upgradeId": "shocklance:compressor",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "B",
+      "sourceItemId": "15",
+      "assetFilename": "fwooshpng.png",
+      "upgradeId": "shocklance:fwoosh",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "C",
+      "sourceItemId": "11",
+      "assetFilename": "festerpng.png",
+      "upgradeId": "shocklance:fester",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "C",
+      "sourceItemId": "5",
+      "assetFilename": "centripetalcorneringpng.png",
+      "upgradeId": "shocklance:centripetal-cornering",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "C",
+      "sourceItemId": "13",
+      "assetFilename": "flurryingconfigurationpng.png",
+      "upgradeId": "shocklance:flurrying-configuration",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "C",
+      "sourceItemId": "14",
+      "assetFilename": "forwardchargepng.png",
+      "upgradeId": "shocklance:forward-charge",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "C",
+      "sourceItemId": "22",
+      "assetFilename": "notchedbreakpointpng.png",
+      "upgradeId": "shocklance:notched-breakpoint",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "D",
+      "sourceItemId": "10",
+      "assetFilename": "extracapacitorspng.png",
+      "upgradeId": "shocklance:extra-capacitors",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "D",
+      "sourceItemId": "23",
+      "assetFilename": "railshotpng.png",
+      "upgradeId": "shocklance:railshot",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "D",
+      "sourceItemId": "30",
+      "assetFilename": "swingthroughpng.png",
+      "upgradeId": "shocklance:swing-through",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "D",
+      "sourceItemId": "2",
+      "assetFilename": "auxiliarychargerspng.png",
+      "upgradeId": "shocklance:auxiliary-chargers",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "E",
+      "sourceItemId": "12",
+      "assetFilename": "fisticuffspng.png",
+      "upgradeId": "shocklance:fisticuffs",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "E",
+      "sourceItemId": "25",
+      "assetFilename": "skewerpng.png",
+      "upgradeId": "shocklance:skewer",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "E",
+      "sourceItemId": "6",
+      "assetFilename": "coatedcoilspng.png",
+      "upgradeId": "shocklance:coated-coils",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "E",
+      "sourceItemId": "17",
+      "assetFilename": "gladiatorspocketspng.png",
+      "upgradeId": "shocklance:gladiator-s-pockets",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "E",
+      "sourceItemId": "31",
+      "assetFilename": "tripleapng.png",
+      "upgradeId": "shocklance:triple-a",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "F",
+      "sourceItemId": "9",
+      "assetFilename": "crescendopng.png",
+      "upgradeId": "shocklance:crescendo",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "F",
+      "sourceItemId": "7",
+      "assetFilename": "coilextensionpng.png",
+      "upgradeId": "shocklance:coil-extension",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-shocklance",
+      "tier": "F",
+      "sourceItemId": "27",
+      "assetFilename": "squiresupplierpng.png",
+      "upgradeId": "shocklance:squire-supplier",
+      "ownerId": "shocklance"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "S",
+      "sourceItemId": "18",
+      "assetFilename": "ragepng.png",
+      "upgradeId": "carver:rage",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "A",
+      "sourceItemId": "12",
+      "assetFilename": "deflectorpng.png",
+      "upgradeId": "carver:deflector",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "A",
+      "sourceItemId": "17",
+      "assetFilename": "overheatsystempng.png",
+      "upgradeId": "carver:overheat-system",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "A",
+      "sourceItemId": "6",
+      "assetFilename": "bloodcoatingpng.png",
+      "upgradeId": "carver:blood-coating",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "A",
+      "sourceItemId": "9",
+      "assetFilename": "bloodrampagepng.png",
+      "upgradeId": "carver:blood-rampage",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "B",
+      "sourceItemId": "26",
+      "assetFilename": "supermagnetpng.png",
+      "upgradeId": "carver:super-magnet",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "B",
+      "sourceItemId": "16",
+      "assetFilename": "nutritionsamplerpng.png",
+      "upgradeId": "carver:nutrition-sampler",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "B",
+      "sourceItemId": "3",
+      "assetFilename": "bigdeflectorpng.png",
+      "upgradeId": "carver:big-deflector",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "B",
+      "sourceItemId": "8",
+      "assetFilename": "bloodlightningpng.png",
+      "upgradeId": "carver:blood-lightning",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "B",
+      "sourceItemId": "2",
+      "assetFilename": "aimfortheliverpng.png",
+      "upgradeId": "carver:aim-for-the-liver",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "B",
+      "sourceItemId": "22",
+      "assetFilename": "safetywarningpng.png",
+      "upgradeId": "carver:safety-warning",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "C",
+      "sourceItemId": "14",
+      "assetFilename": "heavypocketspng.png",
+      "upgradeId": "carver:heavy-pockets",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "C",
+      "sourceItemId": "13",
+      "assetFilename": "greedyfuckpng.png",
+      "upgradeId": "carver:greedy-fuck",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "C",
+      "sourceItemId": "15",
+      "assetFilename": "ignitionrechargepng.png",
+      "upgradeId": "carver:ignition-recharge",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "C",
+      "sourceItemId": "21",
+      "assetFilename": "rushpng.png",
+      "upgradeId": "carver:rush",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "C",
+      "sourceItemId": "27",
+      "assetFilename": "swingingtechniquepng.png",
+      "upgradeId": "carver:swinging-technique",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "C",
+      "sourceItemId": "1",
+      "assetFilename": "additionalramstickpng.png",
+      "upgradeId": "carver:additional-ram-stick",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "D",
+      "sourceItemId": "10",
+      "assetFilename": "bloodyjumpingpng.png",
+      "upgradeId": "carver:bloody-jumping",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "D",
+      "sourceItemId": "24",
+      "assetFilename": "shockingadrenalinepng.png",
+      "upgradeId": "carver:shocking-adrenaline",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "D",
+      "sourceItemId": "4",
+      "assetFilename": "bladeextenderspng.png",
+      "upgradeId": "carver:blade-extenders",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "D",
+      "sourceItemId": "5",
+      "assetFilename": "bloodbucketpng.png",
+      "upgradeId": "carver:blood-bucket",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "D",
+      "sourceItemId": "7",
+      "assetFilename": "bloodefficiencypng.png",
+      "upgradeId": "carver:blood-efficiency",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "E",
+      "sourceItemId": "25",
+      "assetFilename": "slipperybloodpng.png",
+      "upgradeId": "carver:slippery-blood",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "E",
+      "sourceItemId": "11",
+      "assetFilename": "corrosivecoatingpng.png",
+      "upgradeId": "carver:corrosive-coating",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "E",
+      "sourceItemId": "19",
+      "assetFilename": "ramstoragepng.png",
+      "upgradeId": "carver:ram-storage",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "F",
+      "sourceItemId": "23",
+      "assetFilename": "sharinglunchpng.png",
+      "upgradeId": "carver:sharing-lunch",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-carver",
+      "tier": "F",
+      "sourceItemId": "20",
+      "assetFilename": "repairingexhaustpng.png",
+      "upgradeId": "carver:repairing-exhaust",
+      "ownerId": "carver"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "S",
+      "sourceItemId": "18",
+      "assetFilename": "pressurecookerpng.png",
+      "upgradeId": "globbler:pressure-cooker",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "S",
+      "sourceItemId": "5",
+      "assetFilename": "fullspectrumpng.png",
+      "upgradeId": "globbler:full-spectrum",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "A",
+      "sourceItemId": "3",
+      "assetFilename": "floodpng.png",
+      "upgradeId": "globbler:flood",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "A",
+      "sourceItemId": "13",
+      "assetFilename": "impactfunnelpng.png",
+      "upgradeId": "globbler:impact-funnel",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "A",
+      "sourceItemId": "23",
+      "assetFilename": "triagonpng.png",
+      "upgradeId": "globbler:triagon",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "A",
+      "sourceItemId": "14",
+      "assetFilename": "improvereplicationpng.png",
+      "upgradeId": "globbler:improve-replication",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "A",
+      "sourceItemId": "7",
+      "assetFilename": "globblinpng.png",
+      "upgradeId": "globbler:globblin",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "B",
+      "sourceItemId": "21",
+      "assetFilename": "slippershoespng.png",
+      "upgradeId": "globbler:slipper-shoes",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "B",
+      "sourceItemId": "8",
+      "assetFilename": "globulousexcitementpng.png",
+      "upgradeId": "globbler:globulous-excitement",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "C",
+      "sourceItemId": "1",
+      "assetFilename": "autoreplicatorpng.png",
+      "upgradeId": "globbler:auto-replicator",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "C",
+      "sourceItemId": "10",
+      "assetFilename": "glorbpng.png",
+      "upgradeId": "globbler:glorb",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "C",
+      "sourceItemId": "12",
+      "assetFilename": "heavyglobspng.png",
+      "upgradeId": "globbler:heavy-globs",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "D",
+      "sourceItemId": "9",
+      "assetFilename": "globuloussiphonpng.png",
+      "upgradeId": "globbler:globulous-siphon",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "D",
+      "sourceItemId": "2",
+      "assetFilename": "flashfloodpng.png",
+      "upgradeId": "globbler:flash-flood",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "D",
+      "sourceItemId": "19",
+      "assetFilename": "replicatorresistancepng.png",
+      "upgradeId": "globbler:replicator-resistance",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "D",
+      "sourceItemId": "16",
+      "assetFilename": "packeaterpng.png",
+      "upgradeId": "globbler:pack-eater",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "E",
+      "sourceItemId": "17",
+      "assetFilename": "pocketreplicationpng.png",
+      "upgradeId": "globbler:pocket-replication",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "E",
+      "sourceItemId": "25",
+      "assetFilename": "volatileelementpng.png",
+      "upgradeId": "globbler:volatile-element",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "E",
+      "sourceItemId": "15",
+      "assetFilename": "instantdetonationpng.png",
+      "upgradeId": "globbler:instant-detonation",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "E",
+      "sourceItemId": "22",
+      "assetFilename": "theglobpng.png",
+      "upgradeId": "globbler:the-glob",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "E",
+      "sourceItemId": "20",
+      "assetFilename": "shrunkencontainerpng.png",
+      "upgradeId": "globbler:shrunken-container",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "F",
+      "sourceItemId": "6",
+      "assetFilename": "globballoonspng.png",
+      "upgradeId": "globbler:glob-balloons",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "F",
+      "sourceItemId": "4",
+      "assetFilename": "forcefulexpulsionpng.png",
+      "upgradeId": "globbler:forceful-expulsion",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "F",
+      "sourceItemId": "11",
+      "assetFilename": "gunpowderpackingpng.png",
+      "upgradeId": "globbler:gunpowder-packing",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-globbler",
+      "tier": "F",
+      "sourceItemId": "24",
+      "assetFilename": "volatileacidpng.png",
+      "upgradeId": "globbler:volatile-acid",
+      "ownerId": "globbler"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "S",
+      "sourceItemId": "16",
+      "assetFilename": "heavensfurypng.png",
+      "upgradeId": "trident:heaven-s-fury",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "S",
+      "sourceItemId": "29",
+      "assetFilename": "treadthelinepng.png",
+      "upgradeId": "trident:tread-the-line",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "S",
+      "sourceItemId": "20",
+      "assetFilename": "lonecannoneerpng.png",
+      "upgradeId": "trident:lone-cannoneer",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "A",
+      "sourceItemId": "13",
+      "assetFilename": "fireshotpng.png",
+      "upgradeId": "trident:fire-shot",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "A",
+      "sourceItemId": "12",
+      "assetFilename": "fireintheholdpng.png",
+      "upgradeId": "trident:fire-in-the-hold",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "A",
+      "sourceItemId": "22",
+      "assetFilename": "rotadvantagepng.png",
+      "upgradeId": "trident:rot-advantage",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "A",
+      "sourceItemId": "14",
+      "assetFilename": "gunnersprecisionpng.png",
+      "upgradeId": "trident:gunner-s-precision",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "B",
+      "sourceItemId": "23",
+      "assetFilename": "shredifypng.png",
+      "upgradeId": "trident:shredify",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "B",
+      "sourceItemId": "17",
+      "assetFilename": "hornethuntingpng.png",
+      "upgradeId": "trident:hornet-hunting",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "B",
+      "sourceItemId": "26",
+      "assetFilename": "tailwindpng.png",
+      "upgradeId": "trident:tailwind",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "B",
+      "sourceItemId": "11",
+      "assetFilename": "energycondenserpng.png",
+      "upgradeId": "trident:energy-condenser",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "B",
+      "sourceItemId": "3",
+      "assetFilename": "bottomheavypng.png",
+      "upgradeId": "trident:bottom-heavy",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "B",
+      "sourceItemId": "25",
+      "assetFilename": "squadronpng.png",
+      "upgradeId": "trident:squadron",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "C",
+      "sourceItemId": "2",
+      "assetFilename": "bailingwaterpng.png",
+      "upgradeId": "trident:bailing-water",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "C",
+      "sourceItemId": "4",
+      "assetFilename": "broadsidepng.png",
+      "upgradeId": "trident:broadside",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "C",
+      "sourceItemId": "15",
+      "assetFilename": "gunpowderfinalepng.png",
+      "upgradeId": "trident:gunpowder-finale",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "C",
+      "sourceItemId": "30",
+      "assetFilename": "ungovernablepng.png",
+      "upgradeId": "trident:ungovernable",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "C",
+      "sourceItemId": "5",
+      "assetFilename": "cargoholdpng.png",
+      "upgradeId": "trident:cargo-hold",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "C",
+      "sourceItemId": "19",
+      "assetFilename": "lineeruppng.png",
+      "upgradeId": "trident:line-er-up",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "D",
+      "sourceItemId": "27",
+      "assetFilename": "thrillofthefightpng.png",
+      "upgradeId": "trident:thrill-of-the-fight",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "D",
+      "sourceItemId": "1",
+      "assetFilename": "acidshotpng.png",
+      "upgradeId": "trident:acid-shot",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "D",
+      "sourceItemId": "21",
+      "assetFilename": "plunderpng.png",
+      "upgradeId": "trident:plunder",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "D",
+      "sourceItemId": "24",
+      "assetFilename": "spyglasspng.png",
+      "upgradeId": "trident:spyglass",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "D",
+      "sourceItemId": "28",
+      "assetFilename": "topdeckstoragepng.png",
+      "upgradeId": "trident:top-deck-storage",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "D",
+      "sourceItemId": "6",
+      "assetFilename": "compatibleammunitionpng.png",
+      "upgradeId": "trident:compatible-ammunition",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "E",
+      "sourceItemId": "9",
+      "assetFilename": "crossdeckpng.png",
+      "upgradeId": "trident:cross-deck",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "E",
+      "sourceItemId": "18",
+      "assetFilename": "increasedloadpng.png",
+      "upgradeId": "trident:increased-load",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "E",
+      "sourceItemId": "7",
+      "assetFilename": "compressedammunitionpng.png",
+      "upgradeId": "trident:compressed-ammunition",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "F",
+      "sourceItemId": "8",
+      "assetFilename": "corrosivereactionpng.png",
+      "upgradeId": "trident:corrosive-reaction",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-trident",
+      "tier": "F",
+      "sourceItemId": "10",
+      "assetFilename": "discountmarksmanpng.png",
+      "upgradeId": "trident:discount-marksman",
+      "ownerId": "trident"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "S",
+      "sourceItemId": "6",
+      "assetFilename": "clearingplasmapng.png",
+      "upgradeId": "plate-launcher:clearing-plasma",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "S",
+      "sourceItemId": "8",
+      "assetFilename": "damagearcpng.png",
+      "upgradeId": "plate-launcher:damage-arc",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "A",
+      "sourceItemId": "7",
+      "assetFilename": "compressedplatestoragepng.png",
+      "upgradeId": "plate-launcher:compressed-plate-storage",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "A",
+      "sourceItemId": "12",
+      "assetFilename": "fencingconstructionpng.png",
+      "upgradeId": "plate-launcher:fencing-construction",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "A",
+      "sourceItemId": "9",
+      "assetFilename": "decayplatespng.png",
+      "upgradeId": "plate-launcher:decay-plates",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "3",
+      "assetFilename": "becallpng.png",
+      "upgradeId": "plate-launcher:becall",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "22",
+      "assetFilename": "saladplatespng.png",
+      "upgradeId": "plate-launcher:salad-plates",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "2",
+      "assetFilename": "autodemolitionpng.png",
+      "upgradeId": "plate-launcher:auto-demolition",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "16",
+      "assetFilename": "nicecatchpng.png",
+      "upgradeId": "plate-launcher:nice-catch",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "19",
+      "assetFilename": "powerrecallpng.png",
+      "upgradeId": "plate-launcher:power-recall",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "24",
+      "assetFilename": "shishkebabpng.png",
+      "upgradeId": "plate-launcher:shish-kebab",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "B",
+      "sourceItemId": "29",
+      "assetFilename": "tungstencubepng.png",
+      "upgradeId": "plate-launcher:tungsten-cube",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "C",
+      "sourceItemId": "28",
+      "assetFilename": "storagesurpluspng.png",
+      "upgradeId": "plate-launcher:storage-surplus",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "C",
+      "sourceItemId": "1",
+      "assetFilename": "aerodynamicplatespng.png",
+      "upgradeId": "plate-launcher:aerodynamic-plates",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "C",
+      "sourceItemId": "4",
+      "assetFilename": "bouncyplatespng.png",
+      "upgradeId": "plate-launcher:bouncy-plates",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "C",
+      "sourceItemId": "11",
+      "assetFilename": "electrifiedplatespng.png",
+      "upgradeId": "plate-launcher:electrified-plates",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "C",
+      "sourceItemId": "30",
+      "assetFilename": "weightrebalancedpng.png",
+      "upgradeId": "plate-launcher:weight-rebalanced",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "C",
+      "sourceItemId": "23",
+      "assetFilename": "sharperedgespng.png",
+      "upgradeId": "plate-launcher:sharper-edges",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "D",
+      "sourceItemId": "5",
+      "assetFilename": "chargerecyclingpng.png",
+      "upgradeId": "plate-launcher:charge-recycling",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "D",
+      "sourceItemId": "13",
+      "assetFilename": "highgroundpng.png",
+      "upgradeId": "plate-launcher:high-ground",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "D",
+      "sourceItemId": "20",
+      "assetFilename": "railtuningpng.png",
+      "upgradeId": "plate-launcher:rail-tuning",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "D",
+      "sourceItemId": "26",
+      "assetFilename": "simpleinertiapng.png",
+      "upgradeId": "plate-launcher:simple-inertia",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "D",
+      "sourceItemId": "10",
+      "assetFilename": "doubleapng.png",
+      "upgradeId": "plate-launcher:double-a",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "E",
+      "sourceItemId": "21",
+      "assetFilename": "returntoreceiverpng.png",
+      "upgradeId": "plate-launcher:return-to-receiver",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "E",
+      "sourceItemId": "15",
+      "assetFilename": "impulseredirectionpng.png",
+      "upgradeId": "plate-launcher:impulse-redirection",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "E",
+      "sourceItemId": "18",
+      "assetFilename": "polealignmentpng.png",
+      "upgradeId": "plate-launcher:pole-alignment",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "E",
+      "sourceItemId": "27",
+      "assetFilename": "slapjobpng.png",
+      "upgradeId": "plate-launcher:slap-job",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "F",
+      "sourceItemId": "14",
+      "assetFilename": "improvisedexplosivespng.png",
+      "upgradeId": "plate-launcher:improvised-explosives",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "F",
+      "sourceItemId": "17",
+      "assetFilename": "paintersattachmentpng.png",
+      "upgradeId": "plate-launcher:painter-s-attachment",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-plate-launcher",
+      "tier": "F",
+      "sourceItemId": "25",
+      "assetFilename": "shockwavepng.png",
+      "upgradeId": "plate-launcher:shockwave",
+      "ownerId": "plate-launcher"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "S",
+      "sourceItemId": "3",
+      "assetFilename": "bigfatdoobiepng.png",
+      "upgradeId": "lead-flinger:big-fat-doobie",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "S",
+      "sourceItemId": "20",
+      "assetFilename": "luckybastardpng.png",
+      "upgradeId": "lead-flinger:lucky-bastard",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "S",
+      "sourceItemId": "21",
+      "assetFilename": "luckylastpng.png",
+      "upgradeId": "lead-flinger:lucky-last",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "A",
+      "sourceItemId": "10",
+      "assetFilename": "doubleactionpng.png",
+      "upgradeId": "lead-flinger:double-action",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "A",
+      "sourceItemId": "22",
+      "assetFilename": "moddedautopng.png",
+      "upgradeId": "lead-flinger:modded-auto",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "A",
+      "sourceItemId": "6",
+      "assetFilename": "burningtipspng.png",
+      "upgradeId": "lead-flinger:burning-tips",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "A",
+      "sourceItemId": "11",
+      "assetFilename": "fanfirepng.png",
+      "upgradeId": "lead-flinger:fan-fire",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "A",
+      "sourceItemId": "16",
+      "assetFilename": "homecookingpng.png",
+      "upgradeId": "lead-flinger:home-cooking",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "A",
+      "sourceItemId": "29",
+      "assetFilename": "shrapnelloadingpng.png",
+      "upgradeId": "lead-flinger:shrapnel-loading",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "B",
+      "sourceItemId": "7",
+      "assetFilename": "chemicalsymbiosispng.png",
+      "upgradeId": "lead-flinger:chemical-symbiosis",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "B",
+      "sourceItemId": "9",
+      "assetFilename": "deliriumpng.png",
+      "upgradeId": "lead-flinger:delirium",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "B",
+      "sourceItemId": "13",
+      "assetFilename": "freshbulletfrenzypng.png",
+      "upgradeId": "lead-flinger:fresh-bullet-frenzy",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "C",
+      "sourceItemId": "17",
+      "assetFilename": "juiceduppng.png",
+      "upgradeId": "lead-flinger:juiced-up",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "C",
+      "sourceItemId": "23",
+      "assetFilename": "outlawpng.png",
+      "upgradeId": "lead-flinger:outlaw",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "C",
+      "sourceItemId": "1",
+      "assetFilename": "adrenalinerushpng.png",
+      "upgradeId": "lead-flinger:adrenaline-rush",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "C",
+      "sourceItemId": "18",
+      "assetFilename": "justaddmoregunpowderpng.png",
+      "upgradeId": "lead-flinger:just-add-more-gunpowder",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "D",
+      "sourceItemId": "4",
+      "assetFilename": "bloodrushpng.png",
+      "upgradeId": "lead-flinger:blood-rush",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "D",
+      "sourceItemId": "31",
+      "assetFilename": "volatilemunitionspng.png",
+      "upgradeId": "lead-flinger:volatile-munitions",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "D",
+      "sourceItemId": "26",
+      "assetFilename": "residuepng.png",
+      "upgradeId": "lead-flinger:residue",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "D",
+      "sourceItemId": "15",
+      "assetFilename": "highcaliberpng.png",
+      "upgradeId": "lead-flinger:high-caliber",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "D",
+      "sourceItemId": "19",
+      "assetFilename": "leadpoisoningpng.png",
+      "upgradeId": "lead-flinger:lead-poisoning",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "25",
+      "assetFilename": "ralphs-conundrumpng.png",
+      "upgradeId": "lead-flinger:ralph-s-conundrum",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "28",
+      "assetFilename": "selfstoragepng.png",
+      "upgradeId": "lead-flinger:self-storage",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "8",
+      "assetFilename": "controlledsubstancepng.png",
+      "upgradeId": "lead-flinger:controlled-substance",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "30",
+      "assetFilename": "unnaturalfocuspng.png",
+      "upgradeId": "lead-flinger:unnatural-focus",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "2",
+      "assetFilename": "bandolierpng.png",
+      "upgradeId": "lead-flinger:bandolier",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "5",
+      "assetFilename": "breathedeeppng.png",
+      "upgradeId": "lead-flinger:breathe-deep",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "E",
+      "sourceItemId": "14",
+      "assetFilename": "hallucinatedspacepng.png",
+      "upgradeId": "lead-flinger:hallucinated-space",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "F",
+      "sourceItemId": "12",
+      "assetFilename": "feelingluckypng.png",
+      "upgradeId": "lead-flinger:feeling-lucky",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "F",
+      "sourceItemId": "27",
+      "assetFilename": "ridethehighpng.png",
+      "upgradeId": "lead-flinger:ride-the-high",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-lead-flinger",
+      "tier": "F",
+      "sourceItemId": "24",
+      "assetFilename": "practicemakesperfectpng.png",
+      "upgradeId": "lead-flinger:practice-makes-perfect",
+      "ownerId": "lead-flinger"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "S",
+      "sourceItemId": "3",
+      "assetFilename": "autocyclerpng.png",
+      "upgradeId": "dmlr:autocycler",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "S",
+      "sourceItemId": "14",
+      "assetFilename": "hotswappng.png",
+      "upgradeId": "dmlr:hot-swap",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "A",
+      "sourceItemId": "13",
+      "assetFilename": "heavyhittingpng.png",
+      "upgradeId": "dmlr:heavy-hitting",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "A",
+      "sourceItemId": "30",
+      "assetFilename": "trifectapng.png",
+      "upgradeId": "dmlr:trifecta",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "A",
+      "sourceItemId": "16",
+      "assetFilename": "kineticamplifierpng.png",
+      "upgradeId": "dmlr:kinetic-amplifier",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "A",
+      "sourceItemId": "31",
+      "assetFilename": "triplepng.png",
+      "upgradeId": "dmlr:triple",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "A",
+      "sourceItemId": "6",
+      "assetFilename": "coronalejectionpng.png",
+      "upgradeId": "dmlr:coronal-ejection",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "A",
+      "sourceItemId": "22",
+      "assetFilename": "pulverizerpng.png",
+      "upgradeId": "dmlr:pulverizer",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "1",
+      "assetFilename": "arclightningpng.png",
+      "upgradeId": "dmlr:arc-lightning",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "20",
+      "assetFilename": "photonsurgepng.png",
+      "upgradeId": "dmlr:photon-surge",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "7",
+      "assetFilename": "corrosivelaserpng.png",
+      "upgradeId": "dmlr:corrosive-laser",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "15",
+      "assetFilename": "incendiarylaserpng.png",
+      "upgradeId": "dmlr:incendiary-laser",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "26",
+      "assetFilename": "shockinglaserpng.png",
+      "upgradeId": "dmlr:shocking-laser",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "11",
+      "assetFilename": "hardlightbypasspng.png",
+      "upgradeId": "dmlr:hard-light-bypass",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "B",
+      "sourceItemId": "5",
+      "assetFilename": "beamamplifierpng.png",
+      "upgradeId": "dmlr:beam-amplifier",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "C",
+      "sourceItemId": "19",
+      "assetFilename": "overchargecyclingpng.png",
+      "upgradeId": "dmlr:overcharge-cycling",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "C",
+      "sourceItemId": "32",
+      "assetFilename": "twowaychargingpng.png",
+      "upgradeId": "dmlr:two-way-charging",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "C",
+      "sourceItemId": "28",
+      "assetFilename": "sturdypng.png",
+      "upgradeId": "dmlr:sturdy",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "D",
+      "sourceItemId": "33",
+      "assetFilename": "voltaicbatterypng.png",
+      "upgradeId": "dmlr:voltaic-battery",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "D",
+      "sourceItemId": "8",
+      "assetFilename": "demonstratorstrickpng.png",
+      "upgradeId": "dmlr:demonstrator-s-trick",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "D",
+      "sourceItemId": "12",
+      "assetFilename": "hazardrecyclingpng.png",
+      "upgradeId": "dmlr:hazard-recycling",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "D",
+      "sourceItemId": "21",
+      "assetFilename": "powercorepng.png",
+      "upgradeId": "dmlr:power-core",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "D",
+      "sourceItemId": "29",
+      "assetFilename": "taintedexhaustpng.png",
+      "upgradeId": "dmlr:tainted-exhaust",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "D",
+      "sourceItemId": "25",
+      "assetFilename": "reorganizedreservespng.png",
+      "upgradeId": "dmlr:reorganized-reserves",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "E",
+      "sourceItemId": "9",
+      "assetFilename": "engineeringnanitespng.png",
+      "upgradeId": "dmlr:engineering-nanites",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "E",
+      "sourceItemId": "2",
+      "assetFilename": "assistchargepng.png",
+      "upgradeId": "dmlr:assist-charge",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "E",
+      "sourceItemId": "17",
+      "assetFilename": "kineticimpossibilitypng.png",
+      "upgradeId": "dmlr:kinetic-impossibility",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "E",
+      "sourceItemId": "4",
+      "assetFilename": "auxreservespng.png",
+      "upgradeId": "dmlr:aux-reserves",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "E",
+      "sourceItemId": "10",
+      "assetFilename": "feedbackamplifierpng.png",
+      "upgradeId": "dmlr:feedback-amplifier",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "E",
+      "sourceItemId": "23",
+      "assetFilename": "quickswapcartridgepng.png",
+      "upgradeId": "dmlr:quickswap-cartridge",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "F",
+      "sourceItemId": "27",
+      "assetFilename": "shredderpng.png",
+      "upgradeId": "dmlr:shredder",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "F",
+      "sourceItemId": "24",
+      "assetFilename": "rapidchargepng.png",
+      "upgradeId": "dmlr:rapid-charge",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-dmlr",
+      "tier": "F",
+      "sourceItemId": "18",
+      "assetFilename": "longscopepng.png",
+      "upgradeId": "dmlr:long-scope",
+      "ownerId": "dmlr"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "S",
+      "sourceItemId": "5",
+      "assetFilename": "cropdusterpng.png",
+      "upgradeId": "swarm-launcher:crop-duster",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "A",
+      "sourceItemId": "23",
+      "assetFilename": "scatterburstpng.png",
+      "upgradeId": "swarm-launcher:scatterburst",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "A",
+      "sourceItemId": "27",
+      "assetFilename": "thehivemustgrowpng.png",
+      "upgradeId": "swarm-launcher:the-hive-must-grow",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "A",
+      "sourceItemId": "7",
+      "assetFilename": "electrifiedpelletspng.png",
+      "upgradeId": "swarm-launcher:electrified-pellets",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "B",
+      "sourceItemId": "12",
+      "assetFilename": "mitosispng.png",
+      "upgradeId": "swarm-launcher:mitosis",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "B",
+      "sourceItemId": "22",
+      "assetFilename": "remotecontrolpng.png",
+      "upgradeId": "swarm-launcher:remote-control",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "B",
+      "sourceItemId": "30",
+      "assetFilename": "waitchargingpng.png",
+      "upgradeId": "swarm-launcher:wait-charging",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "B",
+      "sourceItemId": "11",
+      "assetFilename": "migrationpng.png",
+      "upgradeId": "swarm-launcher:migration",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "B",
+      "sourceItemId": "29",
+      "assetFilename": "toolforthejobpng.png",
+      "upgradeId": "swarm-launcher:tool-for-the-job",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "B",
+      "sourceItemId": "26",
+      "assetFilename": "swarmreservespng.png",
+      "upgradeId": "swarm-launcher:swarm-reserves",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "15",
+      "assetFilename": "overloadcontingencypng.png",
+      "upgradeId": "swarm-launcher:overload-contingency",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "2",
+      "assetFilename": "autoswarmpng.png",
+      "upgradeId": "swarm-launcher:autoswarm",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "9",
+      "assetFilename": "highcaliberpelletspng.png",
+      "upgradeId": "swarm-launcher:high-caliber-pellets",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "19",
+      "assetFilename": "quickgroupingpng.png",
+      "upgradeId": "swarm-launcher:quick-grouping",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "25",
+      "assetFilename": "staticreloadpng.png",
+      "upgradeId": "swarm-launcher:static-reload",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "10",
+      "assetFilename": "largeenergystoragepng.png",
+      "upgradeId": "swarm-launcher:large-energy-storage",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "C",
+      "sourceItemId": "28",
+      "assetFilename": "tightplantingpng.png",
+      "upgradeId": "swarm-launcher:tight-planting",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "D",
+      "sourceItemId": "4",
+      "assetFilename": "breedingseasonpng.png",
+      "upgradeId": "swarm-launcher:breeding-season",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "D",
+      "sourceItemId": "17",
+      "assetFilename": "powerredistributionpng.png",
+      "upgradeId": "swarm-launcher:power-redistribution",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "D",
+      "sourceItemId": "1",
+      "assetFilename": "atmosphericenergizerspng.png",
+      "upgradeId": "swarm-launcher:atmospheric-energizers",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "D",
+      "sourceItemId": "3",
+      "assetFilename": "blitzplantingpng.png",
+      "upgradeId": "swarm-launcher:blitz-planting",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "D",
+      "sourceItemId": "21",
+      "assetFilename": "rapidpollinationpng.png",
+      "upgradeId": "swarm-launcher:rapid-pollination",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "8",
+      "assetFilename": "explosivepelletspng.png",
+      "upgradeId": "swarm-launcher:explosive-pellets",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "13",
+      "assetFilename": "munitionsiphonpng.png",
+      "upgradeId": "swarm-launcher:munition-siphon",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "6",
+      "assetFilename": "crosspollinationpng.png",
+      "upgradeId": "swarm-launcher:cross-pollination",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "14",
+      "assetFilename": "overextendedpng.png",
+      "upgradeId": "swarm-launcher:over-extended",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "20",
+      "assetFilename": "quickreleasepng.png",
+      "upgradeId": "swarm-launcher:quick-release",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "24",
+      "assetFilename": "sprinklerpng.png",
+      "upgradeId": "swarm-launcher:sprinkler",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "E",
+      "sourceItemId": "18",
+      "assetFilename": "precisetargetingpng.png",
+      "upgradeId": "swarm-launcher:precise-targeting",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-swarm-launcher",
+      "tier": "F",
+      "sourceItemId": "16",
+      "assetFilename": "portablesolararraypng.png",
+      "upgradeId": "swarm-launcher:portable-solar-array",
+      "ownerId": "swarm-launcher"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "S",
+      "sourceItemId": "22",
+      "assetFilename": "infinityburnpng.png",
+      "upgradeId": "cycler:infinity-burn",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "S",
+      "sourceItemId": "30",
+      "assetFilename": "scorchingdetonationpng.png",
+      "upgradeId": "cycler:scorching-detonation",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "S",
+      "sourceItemId": "21",
+      "assetFilename": "heatedbatterypng.png",
+      "upgradeId": "cycler:heated-battery",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "31",
+      "assetFilename": "shockrecursionpng.png",
+      "upgradeId": "cycler:shock-recursion",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "24",
+      "assetFilename": "massaccelerationpng.png",
+      "upgradeId": "cycler:mass-acceleration",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "35",
+      "assetFilename": "toxinrecyclingpng.png",
+      "upgradeId": "cycler:toxin-recycling",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "18",
+      "assetFilename": "extralightframepng.png",
+      "upgradeId": "cycler:extralight-frame",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "12",
+      "assetFilename": "doubleshotpng.png",
+      "upgradeId": "cycler:double-shot",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "4",
+      "assetFilename": "chargedcartridgespng.png",
+      "upgradeId": "cycler:charged-cartridges",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "26",
+      "assetFilename": "overclockedfiringmechanismpng.png",
+      "upgradeId": "cycler:overclocked-firing-mechanism",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "A",
+      "sourceItemId": "33",
+      "assetFilename": "stabilitymodulepng.png",
+      "upgradeId": "cycler:stability-module",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "B",
+      "sourceItemId": "8",
+      "assetFilename": "corrodesiphonpng.png",
+      "upgradeId": "cycler:corrode-siphon",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "B",
+      "sourceItemId": "25",
+      "assetFilename": "momentumoverloadpng.png",
+      "upgradeId": "cycler:momentum-overload",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "B",
+      "sourceItemId": "7",
+      "assetFilename": "condensedejectionpng.png",
+      "upgradeId": "cycler:condensed-ejection",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "B",
+      "sourceItemId": "9",
+      "assetFilename": "corrosiveplasmapng.png",
+      "upgradeId": "cycler:corrosive-plasma",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "B",
+      "sourceItemId": "15",
+      "assetFilename": "elementaldischargepng.png",
+      "upgradeId": "cycler:elemental-discharge",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "B",
+      "sourceItemId": "28",
+      "assetFilename": "ricochetpng.png",
+      "upgradeId": "cycler:ricochet",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "10",
+      "assetFilename": "cyclingrepairspng.png",
+      "upgradeId": "cycler:cycling-repairs",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "14",
+      "assetFilename": "dumpchargepng.png",
+      "upgradeId": "cycler:dump-charge",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "11",
+      "assetFilename": "decayenergypng.png",
+      "upgradeId": "cycler:decay-energy",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "32",
+      "assetFilename": "smartslidepng.png",
+      "upgradeId": "cycler:smart-slide",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "16",
+      "assetFilename": "energyconvergencepng.png",
+      "upgradeId": "cycler:energy-convergence",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "1",
+      "assetFilename": "adrenalinereloadpng.png",
+      "upgradeId": "cycler:adrenaline-reload",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "2",
+      "assetFilename": "bigazinepng.png",
+      "upgradeId": "cycler:bigazine",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "C",
+      "sourceItemId": "3",
+      "assetFilename": "bulgingcartridgepng.png",
+      "upgradeId": "cycler:bulging-cartridge",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "D",
+      "sourceItemId": "17",
+      "assetFilename": "equipmentsiphonpng.png",
+      "upgradeId": "cycler:equipment-siphon",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "D",
+      "sourceItemId": "20",
+      "assetFilename": "fullrangepng.png",
+      "upgradeId": "cycler:full-range",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "D",
+      "sourceItemId": "29",
+      "assetFilename": "rocketburstpng.png",
+      "upgradeId": "cycler:rocket-burst",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "D",
+      "sourceItemId": "19",
+      "assetFilename": "focusedlensespng.png",
+      "upgradeId": "cycler:focused-lenses",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "E",
+      "sourceItemId": "5",
+      "assetFilename": "chargeshieldpng.png",
+      "upgradeId": "cycler:charge-shield",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "E",
+      "sourceItemId": "6",
+      "assetFilename": "compactcartridgepng.png",
+      "upgradeId": "cycler:compact-cartridge",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "E",
+      "sourceItemId": "13",
+      "assetFilename": "doublestackcartridgepng.png",
+      "upgradeId": "cycler:doublestack-cartridge",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "E",
+      "sourceItemId": "27",
+      "assetFilename": "precisionfirepng.png",
+      "upgradeId": "cycler:precision-fire",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "F",
+      "sourceItemId": "36",
+      "assetFilename": "violentignitionpng.png",
+      "upgradeId": "cycler:violent-ignition",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "F",
+      "sourceItemId": "23",
+      "assetFilename": "intensereactionpng.png",
+      "upgradeId": "cycler:intense-reaction",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-cycler",
+      "tier": "F",
+      "sourceItemId": "34",
+      "assetFilename": "superheatreactionpng.png",
+      "upgradeId": "cycler:superheat-reaction",
+      "ownerId": "cycler"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "S",
+      "sourceItemId": "12",
+      "assetFilename": "immolatorpng.png",
+      "upgradeId": "jackrabbit:immolator",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "S",
+      "sourceItemId": "3",
+      "assetFilename": "doublebarrelpng.png",
+      "upgradeId": "jackrabbit:double-barrel",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "S",
+      "sourceItemId": "9",
+      "assetFilename": "heavypng.png",
+      "upgradeId": "jackrabbit:heavy",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "A",
+      "sourceItemId": "22",
+      "assetFilename": "shellpackerpng.png",
+      "upgradeId": "jackrabbit:shell-packer",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "A",
+      "sourceItemId": "4",
+      "assetFilename": "doubletimepng.png",
+      "upgradeId": "jackrabbit:double-time",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "A",
+      "sourceItemId": "25",
+      "assetFilename": "slideshotpng.png",
+      "upgradeId": "jackrabbit:slideshot",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "B",
+      "sourceItemId": "5",
+      "assetFilename": "fireinmyheartpng.png",
+      "upgradeId": "jackrabbit:fire-in-my-heart",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "B",
+      "sourceItemId": "27",
+      "assetFilename": "standtheheatpng.png",
+      "upgradeId": "jackrabbit:stand-the-heat",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "B",
+      "sourceItemId": "10",
+      "assetFilename": "hotpotatopng.png",
+      "upgradeId": "jackrabbit:hot-potato",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "B",
+      "sourceItemId": "24",
+      "assetFilename": "slamfirepng.png",
+      "upgradeId": "jackrabbit:slam-fire",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "C",
+      "sourceItemId": "17",
+      "assetFilename": "pesticidepng.png",
+      "upgradeId": "jackrabbit:pesticide",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "C",
+      "sourceItemId": "15",
+      "assetFilename": "molotovpng.png",
+      "upgradeId": "jackrabbit:molotov",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "C",
+      "sourceItemId": "16",
+      "assetFilename": "openingchargepng.png",
+      "upgradeId": "jackrabbit:opening-charge",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "C",
+      "sourceItemId": "23",
+      "assetFilename": "simplestsolutionpng.png",
+      "upgradeId": "jackrabbit:simplest-solution",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "C",
+      "sourceItemId": "30",
+      "assetFilename": "wildfirepng.png",
+      "upgradeId": "jackrabbit:wild-fire",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "C",
+      "sourceItemId": "14",
+      "assetFilename": "meltingpointpng.png",
+      "upgradeId": "jackrabbit:melting-point",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "D",
+      "sourceItemId": "19",
+      "assetFilename": "pummelerpng.png",
+      "upgradeId": "jackrabbit:pummeler",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "D",
+      "sourceItemId": "2",
+      "assetFilename": "deliciouscorespng.png",
+      "upgradeId": "jackrabbit:delicious-cores",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "D",
+      "sourceItemId": "7",
+      "assetFilename": "frictioncompensatorspng.png",
+      "upgradeId": "jackrabbit:friction-compensators",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "D",
+      "sourceItemId": "11",
+      "assetFilename": "hotreloadpng.png",
+      "upgradeId": "jackrabbit:hot-reload",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "D",
+      "sourceItemId": "13",
+      "assetFilename": "magextenderpng.png",
+      "upgradeId": "jackrabbit:mag-extender",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "D",
+      "sourceItemId": "21",
+      "assetFilename": "reinforcedcoatingpng.png",
+      "upgradeId": "jackrabbit:reinforced-coating",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "E",
+      "sourceItemId": "18",
+      "assetFilename": "powerricochetpng.png",
+      "upgradeId": "jackrabbit:power-ricochet",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "E",
+      "sourceItemId": "20",
+      "assetFilename": "reactivecoatingpng.png",
+      "upgradeId": "jackrabbit:reactive-coating",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "E",
+      "sourceItemId": "6",
+      "assetFilename": "focusspreadpng.png",
+      "upgradeId": "jackrabbit:focus-spread",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "E",
+      "sourceItemId": "28",
+      "assetFilename": "steadieraimpng.png",
+      "upgradeId": "jackrabbit:steadier-aim",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "E",
+      "sourceItemId": "29",
+      "assetFilename": "steadyaimpng.png",
+      "upgradeId": "jackrabbit:steady-aim",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "F",
+      "sourceItemId": "1",
+      "assetFilename": "allpowdereduppng.png",
+      "upgradeId": "jackrabbit:all-powdered-up",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "F",
+      "sourceItemId": "8",
+      "assetFilename": "ghostingpng.png",
+      "upgradeId": "jackrabbit:ghosting",
+      "ownerId": "jackrabbit"
+    },
+    {
+      "sourceId": "no-you-jackrabbit",
+      "tier": "F",
+      "sourceItemId": "26",
+      "assetFilename": "stablegrippng.png",
+      "upgradeId": "jackrabbit:stable-grip",
+      "ownerId": "jackrabbit"
+    }
+  ],
+  "guides": [
+    {
+      "ownerId": "cycler",
+      "summaryEn": "Separate fire detonation from shock-based ammo recovery; infinite ammo adds a self-damage tradeoff.",
+      "summaryZh": "可分成火焰引爆與電擊回彈路線；無限彈藥另有自傷代價。",
+      "routes": [
+        {
+          "id": "fire-detonation",
+          "titleEn": "Fire application and detonation",
+          "titleZh": "火焰累積與擊殺引爆",
+          "coreIds": [
+            "cycler:heated-battery",
+            "cycler:scorching-detonation"
+          ],
+          "supportIds": [
+            "cycler:stability-module"
+          ],
+          "explanationEn": "Heated Battery applies fire; Scorching Detonation makes killed ignited targets explode. Stability Module reduces recoil while aiming.",
+          "explanationZh": "Heated Battery 讓子彈附加火焰；Scorching Detonation 在擊殺已點燃目標時引爆。Stability Module 可減少瞄準時的後座力。",
+          "tradeoffEn": "Applying fire is not the same as igniting a target. The explosion still requires a kill on an ignited target; these upgrades do not guarantee that every kill explodes.",
+          "tradeoffZh": "附加火焰不等於已成功點燃。引爆仍須擊殺已點燃的目標，不能保證每次擊殺都會爆炸。",
+          "contextEn": "Ignited-target kills against groups",
+          "contextZh": "點燃擊殺與群體戰"
+        },
+        {
+          "id": "shock-ammo",
+          "titleEn": "Shock and conditional ammo recovery",
+          "titleZh": "電擊與條件式彈藥回收",
+          "coreIds": [
+            "cycler:charged-cartridges",
+            "cycler:shock-recursion"
+          ],
+          "supportIds": [
+            "cycler:mass-acceleration"
+          ],
+          "explanationEn": "Charged Cartridges applies shock; Shock Recursion returns ammo when a target is electrocuted. Mass Acceleration increases fire rate for each loaded bullet.",
+          "explanationZh": "Charged Cartridges 附加電擊；Shock Recursion 在使目標觸電時回補彈匣。Mass Acceleration 隨彈匣內的子彈數增加射速。",
+          "tradeoffEn": "Ammo recovery requires electrocution, not merely a hit. Mass Acceleration lowers base fire rate. Infinity Burn is an alternative to investigate separately: sustained fire damages you according to the gun's element.",
+          "tradeoffZh": "回彈需要使目標觸電，單純命中並不保證觸發；Mass Acceleration 會降低基礎射速。可另行研究 Infinity Burn，但持續射擊會依武器元素傷害自己。",
+          "contextEn": "Conditional shock ammo sustain",
+          "contextZh": "條件式電擊彈藥續航"
+        }
+      ],
+      "sourceId": "no-you-cycler",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "jackrabbit",
+      "summaryEn": "Choose between a deliberate two-shot approach and a fire route that intentionally exposes you to self-ignition.",
+      "summaryZh": "可選擇雙發輸出，或以承擔自燃為前提的火焰路線。",
+      "routes": [
+        {
+          "id": "two-shot",
+          "titleEn": "Two-shot damage",
+          "titleZh": "雙發傷害路線",
+          "coreIds": [
+            "jackrabbit:double-barrel",
+            "jackrabbit:heavy"
+          ],
+          "supportIds": [
+            "jackrabbit:shell-packer",
+            "jackrabbit:slideshot"
+          ],
+          "explanationEn": "Double Barrel allows two shots before reloading and improves damage, reload speed and spread. Heavy adds damage and fire at a slower firing pace. Shell Packer adds a pellet; Slideshot boosts the next shot after sliding.",
+          "explanationZh": "Double Barrel 可連射兩次再裝填，並提升傷害、裝填速度及集中度。Heavy 以較慢射速換取傷害與火焰。Shell Packer 增加彈丸；Slideshot 強化滑行後的下一發。",
+          "tradeoffEn": "Heavy fires slower, and Slideshot requires sliding before the boosted shot. The effects do not establish how all firing modifiers combine.",
+          "tradeoffZh": "Heavy 會降低射速，Slideshot 則須先滑行。原表不足以確認所有射擊修正混用後的實際行為。",
+          "contextEn": "Reload rhythm and slide timing",
+          "contextZh": "裝填節奏與滑行時機"
+        },
+        {
+          "id": "immolation",
+          "titleEn": "Immolation with explicit self-fire risk",
+          "titleZh": "承擔自燃的焚身路線",
+          "coreIds": [
+            "jackrabbit:immolator",
+            "jackrabbit:heavy"
+          ],
+          "supportIds": [
+            "jackrabbit:stand-the-heat",
+            "jackrabbit:hot-potato"
+          ],
+          "explanationEn": "Heavy increases applied fire. Immolator also applies that fire to you and grants immolation for 6.5 seconds when you ignite yourself. Stand the Heat adds magazine ammo when you gain immolation; Hot Potato raises fire rate while ignited.",
+          "explanationZh": "Heavy 增加附加火焰。Immolator 也會把火焰施加到自己身上，自行點燃時獲得 6.5 秒的焚身效果。Stand the Heat 在獲得焚身時補充彈匣；Hot Potato 在自身點燃時提升射速。",
+          "tradeoffEn": "Heavy lowers fire rate. This route deliberately applies fire to you and requires self-ignition for immolation. The listed effects do not promise fire immunity or safe self-damage handling.",
+          "tradeoffZh": "Heavy 會降低射速。此路線會主動對自己施加火焰，且須自行點燃才能獲得焚身。這些效果沒有保證免疫火焰或免除自傷風險。",
+          "contextEn": "High-risk self-ignition fire play",
+          "contextZh": "承擔自燃的火焰玩法"
+        }
+      ],
+      "sourceId": "no-you-jackrabbit",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "swarm-launcher",
+      "summaryEn": "Crop Duster rewards staying airborne, while magazine growth depends on actual upgrade adjacency.",
+      "summaryZh": "Crop Duster 以滯空為主軸，彈匣成長則取決於實際配件相鄰配置。",
+      "routes": [
+        {
+          "id": "airborne-swarm",
+          "titleEn": "Airborne swarm generation",
+          "titleZh": "滯空蜂群生成",
+          "coreIds": [
+            "swarm-launcher:crop-duster",
+            "swarm-launcher:electrified-pellets"
+          ],
+          "supportIds": [
+            "swarm-launcher:the-hive-must-grow"
+          ],
+          "explanationEn": "Crop Duster automatically spawns pellets while airborne, with a firing rate that rises the longer you remain in the air; it can trigger while the weapon is unequipped. Electrified Pellets adds shock. The Hive Must Grow increases magazine size for each unique upgrade touching it.",
+          "explanationZh": "Crop Duster 在空中自動生成彈丸，滯空越久生成越快，未裝備這把武器時也可觸發。Electrified Pellets 附加電擊；The Hive Must Grow 依接觸它的不同配件增加彈匣容量。",
+          "tradeoffEn": "Grounded play does not meet Crop Duster's airborne condition. Magazine bonuses require real adjacent upgrades; this guide provides no placement or automatic-pellet interaction guarantee.",
+          "tradeoffZh": "站在地面時不符合 Crop Duster 的滯空條件。彈匣加成須實際相鄰放置；本指南不保證棋盤排法或自動彈丸與其他修正的互動。",
+          "contextEn": "Airborne swarm generation and support",
+          "contextZh": "滯空蜂群生成與支援"
+        }
+      ],
+      "sourceId": "no-you-swarm-launcher",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "dmlr",
+      "summaryEn": "Autocycler and Hot Swap define different mode loops and are presented as separate routes.",
+      "summaryZh": "Autocycler 與 Hot Swap 代表不同的模式循環，分成兩條路線研究。",
+      "routes": [
+        {
+          "id": "autocycler",
+          "titleEn": "Automatic mode cycling",
+          "titleZh": "自動模式循環",
+          "coreIds": [
+            "dmlr:autocycler",
+            "dmlr:kinetic-amplifier"
+          ],
+          "supportIds": [
+            "dmlr:heavy-hitting"
+          ],
+          "explanationEn": "Autocycler automatically alternates DMR and laser modes, gives the laser infinite charge, and makes damage in either mode increase the other mode's damage. Kinetic Amplifier adds damage; Heavy Hitting trades DMR firing speed for damage.",
+          "explanationZh": "Autocycler 自動切換 DMR 與雷射，給予雷射無限充能，且兩種模式造成傷害時會提高另一模式的傷害。Kinetic Amplifier 增加傷害；Heavy Hitting 以 DMR 射速換取傷害。",
+          "tradeoffEn": "Automatic switching sets the mode rhythm, and Heavy Hitting slows DMR fire. Keep Hot Swap out of this starting route; its different default mode and ammo loop need separate testing.",
+          "tradeoffZh": "模式節奏由自動切換決定，Heavy Hitting 也會減慢 DMR 射速。此起始配置不混入 Hot Swap，其不同的預設模式與彈藥循環需另行測試。",
+          "contextEn": "Automatic alternating mode rhythm",
+          "contextZh": "自動交替模式循環"
+        },
+        {
+          "id": "hot-swap",
+          "titleEn": "Laser-led DMR ammo generation",
+          "titleZh": "雷射供應 DMR 彈藥",
+          "coreIds": [
+            "dmlr:hot-swap",
+            "dmlr:heavy-hitting"
+          ],
+          "supportIds": [
+            "dmlr:kinetic-amplifier"
+          ],
+          "explanationEn": "Hot Swap makes the laser the default mode and generates ammo for a stronger DMR mode by dealing laser damage. Heavy Hitting further increases DMR damage at a slower firing pace; Kinetic Amplifier adds damage.",
+          "explanationZh": "Hot Swap 以雷射為預設模式，透過雷射傷害產生強化 DMR 的彈藥。Heavy Hitting 再以較慢射速換取 DMR 傷害；Kinetic Amplifier 增加傷害。",
+          "tradeoffEn": "The ammo loop depends on dealing laser damage, and Heavy Hitting slows DMR fire. Autocycler is intentionally kept in a separate route; compatibility between the two mode conversions is unverified.",
+          "tradeoffZh": "彈藥循環需要雷射實際造成傷害，Heavy Hitting 也會減慢 DMR 射速。Autocycler 另列一條路線；兩種模式轉換混用的相容性未驗證。",
+          "contextEn": "Laser-led ammo and DMR follow-up",
+          "contextZh": "雷射供彈與步槍追擊"
+        }
+      ],
+      "sourceId": "no-you-dmlr",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "lead-flinger",
+      "summaryEn": "Single-round and last-shot effects form one research route; deliberate hip-fire forms another.",
+      "summaryZh": "單發與尾彈效果可作為一條研究路線，腰射增傷則另列選擇。",
+      "routes": [
+        {
+          "id": "last-shot",
+          "titleEn": "Single-round last-shot effects",
+          "titleZh": "單發尾彈效果",
+          "coreIds": [
+            "lead-flinger:big-fat-doobie",
+            "lead-flinger:lucky-last",
+            "lead-flinger:lucky-bastard"
+          ],
+          "supportIds": [],
+          "explanationEn": "Big Fat Doobie loads one larger, higher-damage bullet. Lucky Last makes the last bullet explode, and Lucky Bastard gives the last shot a chance to refund ammo. Their descriptions suggest a last-shot-focused direction to investigate.",
+          "explanationZh": "Big Fat Doobie 只裝入一發更大、傷害更高的子彈。Lucky Last 讓最後一發爆炸；Lucky Bastard 讓最後一發有機率返還彈藥。依描述可研究以尾彈效果為主的方向。",
+          "tradeoffEn": "The chamber holds only one bullet, and refunds are chance-based. Whether the one-round conversion and both last-shot effects trigger together must be verified in game.",
+          "tradeoffZh": "彈膛只留一發，回彈也僅有機率觸發。單發轉換能否同時觸發兩個尾彈效果，仍需在遊戲內核對。",
+          "contextEn": "Single-round and last-shot research",
+          "contextZh": "單發與尾彈連動研究"
+        },
+        {
+          "id": "deliberate-hip-fire",
+          "titleEn": "Deliberate hip-fire",
+          "titleZh": "蓄勢腰射",
+          "coreIds": [
+            "lead-flinger:double-action",
+            "lead-flinger:fan-fire"
+          ],
+          "supportIds": [
+            "lead-flinger:burning-tips"
+          ],
+          "explanationEn": "Double Action requires a longer trigger pull for greatly increased damage. Fan Fire raises damage when hip-firing, while Burning Tips adds fire to bullets.",
+          "explanationZh": "Double Action 需要較長的扳機按壓時間，換取大幅增傷。Fan Fire 提高腰射傷害；Burning Tips 讓子彈附加火焰。",
+          "tradeoffEn": "The trigger delay changes responsiveness, and Fan Fire requires hip-firing. Added fire does not itself guarantee ignition.",
+          "tradeoffZh": "較長的扳機時間會改變操作反應，Fan Fire 也須腰射才有加成。附加火焰不代表一定點燃。",
+          "contextEn": "Deliberate trigger timing and hip-fire",
+          "contextZh": "掌握扳機時機與腰射"
+        }
+      ],
+      "sourceId": "no-you-lead-flinger",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "plate-launcher",
+      "summaryEn": "Persistent plates offer area control, but placement and the space between plates matter.",
+      "summaryZh": "可研究持續飛盤的範圍控制，飛盤位置與彼此之間的空間是重點。",
+      "routes": [
+        {
+          "id": "plate-area-control",
+          "titleEn": "Spinning plates and lightning lanes",
+          "titleZh": "旋轉飛盤與電網通道",
+          "coreIds": [
+            "plate-launcher:clearing-plasma",
+            "plate-launcher:fencing-construction"
+          ],
+          "supportIds": [
+            "plate-launcher:compressed-plate-storage"
+          ],
+          "explanationEn": "Clearing Plasma gives plates spinning light blades. Fencing Construction arcs lightning between fired plates and increases magazine size. Compressed Plate Storage lets you fire up to four plates at once.",
+          "explanationZh": "Clearing Plasma 讓飛盤以旋轉光刃切割周遭。Fencing Construction 在已發射飛盤間連出閃電，並增加彈匣容量。Compressed Plate Storage 可一次發射最多四片。",
+          "tradeoffEn": "Fencing Construction damages targets between plates; simply having more plates does not guarantee useful lightning coverage. The combined behaviour of simultaneous plates and blades is untested.",
+          "tradeoffZh": "Fencing Construction 傷害的是飛盤之間的目標，飛盤多不代表電網位置一定有效。同時發射與光刃混用的實際行為尚未驗證。",
+          "contextEn": "Plate placement and area control",
+          "contextZh": "飛盤放置與區域控制"
+        }
+      ],
+      "sourceId": "no-you-plate-launcher",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "gunship-cannon",
+      "summaryEn": "Prisms require deliberate grid adjacency; manual loading and single-shell conversion are a separate handling route.",
+      "summaryZh": "稜鏡須留意棋盤相鄰關係；手動補彈與單發轉換則另列操作路線。",
+      "routes": [
+        {
+          "id": "prism-adjacency",
+          "titleEn": "Prism adjacency research",
+          "titleZh": "稜鏡相鄰配置研究",
+          "coreIds": [
+            "gunship-cannon:yellow-prism",
+            "gunship-cannon:purple-prism",
+            "gunship-cannon:blue-prism"
+          ],
+          "supportIds": [
+            "gunship-cannon:green-prism"
+          ],
+          "explanationEn": "All four prisms are rated S in the cited upgrade list. Each workbook description says prism output increases recursively for each bordering prism, so adjacency is the key condition to investigate.",
+          "explanationZh": "四色稜鏡在引用的配件榜皆列 S。原表對每件都寫明：每多一個相鄰稜鏡，稜鏡輸出遞迴提高；因此研究重點是相鄰關係。",
+          "tradeoffEn": "The workbook does not fully explain each colour's output or the recursion calculation. This route does not provide a solved layout, guaranteed grid fit or measured benefit; Green Prism is an additional candidate, not a lower-rated colour.",
+          "tradeoffZh": "原表未完整說明各顏色的輸出與遞迴算法。此路線沒有已求解排法，不保證能全部放入或實際收益；Green Prism 列為追加候選，不代表其分級較低。",
+          "contextEn": "Prism adjacency and grid research",
+          "contextZh": "稜鏡相鄰與棋盤研究"
+        },
+        {
+          "id": "manual-single-shell",
+          "titleEn": "Manual loading and a heavy single shell",
+          "titleZh": "手動補彈與重型單發",
+          "coreIds": [
+            "gunship-cannon:hull-piercer",
+            "gunship-cannon:frantic-fingers"
+          ],
+          "supportIds": [],
+          "explanationEn": "Hull Piercer reduces the magazine to one shell while greatly increasing damage, explosion size and bullet size. Frantic Fingers replaces reloading with repeated RELOAD presses to load ammo into the magazine.",
+          "explanationZh": "Hull Piercer 把彈匣縮成一發，大幅增加傷害、爆炸與子彈大小。Frantic Fingers 以反覆按 RELOAD 逐次補彈，取代一般裝填。",
+          "tradeoffEn": "Hull Piercer reduces fire rate and ammo capacity; Frantic Fingers requires repeated input. Their one-shell loading interaction is untested. Tinderbox is not included here: overheating adds spontaneous-combustion risk.",
+          "tradeoffZh": "Hull Piercer 降低射速與備彈；Frantic Fingers 需要反覆操作，兩者的單發補彈互動尚未驗證。此處未納入 Tinderbox；其過熱會帶來自燃風險。",
+          "contextEn": "Manual loading and single-shell handling",
+          "contextZh": "手動補彈與單發操作"
+        }
+      ],
+      "sourceId": "no-you-gunship-cannon",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "trident",
+      "summaryEn": "Fire application can support an ignition-triggered firing bonus, with a separate chance-based lightning effect.",
+      "summaryZh": "以火焰協助觸發點燃後射速加成，並另有機率式閃電效果。",
+      "routes": [
+        {
+          "id": "fire-and-lightning",
+          "titleEn": "Ignition tempo and lightning",
+          "titleZh": "點燃節奏與閃電",
+          "coreIds": [
+            "trident:heaven-s-fury",
+            "trident:fire-shot",
+            "trident:fire-in-the-hold"
+          ],
+          "supportIds": [],
+          "explanationEn": "Fire Shot applies fire. Fire in the Hold increases fire rate after igniting a target, while Heaven's Fury gives damage a chance to call lightning strikes over an area.",
+          "explanationZh": "Fire Shot 附加火焰。Fire in the Hold 在點燃目標後提升射速；Heaven's Fury 讓造成傷害時有機率召來範圍閃電。",
+          "tradeoffEn": "The fire-rate bonus requires ignition, and lightning is chance-based. These descriptions do not guarantee a lightning strike on every hit or that every target ignites.",
+          "tradeoffZh": "射速加成須成功點燃，閃電則僅有機率觸發。描述不保證每次命中都有閃電，也不保證每個目標都會點燃。",
+          "contextEn": "Ignition tempo and chance-based lightning",
+          "contextZh": "點燃節奏與機率閃電"
+        }
+      ],
+      "sourceId": "no-you-trident",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "globbler",
+      "summaryEn": "Surface acid waves and charged explosions provide distinct directions; charging all ammo carries an explicit self-explosion risk.",
+      "summaryZh": "地表酸液波與蓄力爆炸是不同方向；蓄盡全部彈藥有明確自爆風險。",
+      "routes": [
+        {
+          "id": "acid-wave",
+          "titleEn": "Surface acid waves",
+          "titleZh": "地表酸液波",
+          "coreIds": [
+            "globbler:flood"
+          ],
+          "supportIds": [
+            "globbler:flash-flood",
+            "globbler:improve-replication"
+          ],
+          "explanationEn": "Flood creates a running acid wave when a glob impacts a surface. Flash Flood lengthens those waves. Improve Replication increases magazine size through the Globblometer.",
+          "explanationZh": "Flood 讓酸液球撞上表面時產生向前流動的酸液波；Flash Flood 延長波的長度。Improve Replication 依 Globblometer 增加彈匣容量。",
+          "tradeoffEn": "The wave requires a surface impact. Improve Replication depends on the Globblometer, so no fixed magazine increase is promised.",
+          "tradeoffZh": "酸液波需要撞擊表面才能產生；Improve Replication 取決於 Globblometer，不能保證固定增加多少彈匣容量。",
+          "contextEn": "Surface impacts and acid coverage",
+          "contextZh": "地表撞擊與酸液覆蓋"
+        },
+        {
+          "id": "charged-glob",
+          "titleEn": "Charged explosions with a self-explosion limit",
+          "titleZh": "留意自爆界線的蓄力爆炸",
+          "coreIds": [
+            "globbler:pressure-cooker",
+            "globbler:full-spectrum"
+          ],
+          "supportIds": [
+            "globbler:improve-replication"
+          ],
+          "explanationEn": "Pressure Cooker lets you hold the trigger to enlarge the glob's explosion. Full Spectrum grants different stat boosts for adjacent upgrades of different rarities. Improve Replication increases magazine size through the Globblometer.",
+          "explanationZh": "Pressure Cooker 可按住扳機蓄力，擴大酸液球爆炸。Full Spectrum 依相鄰配件的不同稀有度提供不同屬性加成；Improve Replication 依 Globblometer 增加彈匣容量。",
+          "tradeoffEn": "Charging up all ammo causes the glob to explode on you. Full Spectrum requires deliberate rarity adjacency; a larger magazine does not remove the self-explosion condition.",
+          "tradeoffZh": "蓄盡全部彈藥會讓酸液球在自己身上爆炸。Full Spectrum 須規畫稀有度相鄰配置；彈匣增加也不會消除自爆條件。",
+          "contextEn": "High-risk charging and release timing",
+          "contextZh": "高風險蓄力與放開時機"
+        }
+      ],
+      "sourceId": "no-you-globbler",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "carver",
+      "summaryEn": "Rage rewards continued sawing after kills, supported by projectile deflection and blood-based resistance.",
+      "summaryZh": "Rage 鼓勵擊殺後持續切割，可搭配投射物偏轉與鮮血層數減傷。",
+      "routes": [
+        {
+          "id": "sustained-sawing",
+          "titleEn": "Sustained sawing and defensive support",
+          "titleZh": "持續切割與防禦支援",
+          "coreIds": [
+            "carver:rage",
+            "carver:deflector",
+            "carver:blood-coating"
+          ],
+          "supportIds": [
+            "carver:blood-efficiency"
+          ],
+          "explanationEn": "Rage gains stacks from kills and increases movement speed and damage while you keep sawing. Deflector deflects incoming projectiles and grants resistance while sawing. Blood Coating scales resistance with blood stacks; Blood Efficiency increases blood from kills.",
+          "explanationZh": "Rage 由擊殺取得層數，持續切割時提高移速與傷害。Deflector 在切割時偏轉投射物並提供減傷。Blood Coating 依鮮血層數增加減傷；Blood Efficiency 提高擊殺提供的鮮血。",
+          "tradeoffEn": "Rage requires kills and continued sawing; blood-based resistance depends on stacks. Deflection and resistance do not imply immunity to all damage.",
+          "tradeoffZh": "Rage 須先擊殺並持續切割；鮮血減傷也依賴層數。偏轉與減傷不代表免疫所有傷害。",
+          "contextEn": "Close-range sustained sawing and defence",
+          "contextZh": "近距離持續切割與防禦"
+        }
+      ],
+      "sourceId": "no-you-carver",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "shocklance",
+      "summaryEn": "Choose a charge-focused route or an Auger movement route; slower charge and inaccurate multi-shot effects have explicit costs.",
+      "summaryZh": "可選擇蓄力射擊或 Auger 突進方向；更慢蓄力與低精度多發都有明確代價。",
+      "routes": [
+        {
+          "id": "flexible-charge",
+          "titleEn": "Flexible charge release",
+          "titleZh": "彈性放開蓄力",
+          "coreIds": [
+            "shocklance:half-cocked",
+            "shocklance:black-market-battery"
+          ],
+          "supportIds": [
+            "shocklance:killing-field"
+          ],
+          "explanationEn": "Half Cocked permits firing at any point during a longer charge, with damage, size and range growing as you charge. Black Market Battery increases damage and charge-up time. Killing Field leaves lingering coils that raise outgoing damage while you stand inside.",
+          "explanationZh": "Half Cocked 延長蓄力，但允許途中隨時發射，蓄得越久傷害、大小與射程越高。Black Market Battery 增加傷害與蓄力時間；Killing Field 留下線圈，站在其中可提高輸出傷害。",
+          "tradeoffEn": "Both core descriptions increase charge duration. Killing Field requires being inside a coil; the combined charge timing and damage are not established by the workbook.",
+          "tradeoffZh": "兩件核心描述都會延長蓄力。Killing Field 須站在線圈內；原表無法確認混用後的實際蓄力時間與傷害。",
+          "contextEn": "Charge timing and coil positioning",
+          "contextZh": "蓄力時機與線圈站位"
+        },
+        {
+          "id": "auger-movement",
+          "titleEn": "Auger movement and follow-up charging",
+          "titleZh": "Auger 突進與後續蓄力",
+          "coreIds": [
+            "shocklance:auger-subroutine",
+            "shocklance:gearshift"
+          ],
+          "supportIds": [
+            "shocklance:laying-cable"
+          ],
+          "explanationEn": "Hold RELOAD with Auger Subroutine to charge a forward launch that drills targets in your path. Gearshift improves charge speed and resistance during Auger and briefly afterward. Laying Cable tethers you to another employee for damage and resistance bonuses while helping their movement ability recharge.",
+          "explanationZh": "Auger Subroutine 按住 RELOAD 蓄力後向前發射自己，持續鑽擊路徑上的目標。Gearshift 在 Auger 期間及結束後短時間加快蓄力並減傷。Laying Cable 可連結另一位員工，提供自身傷害與減傷加成，並加快對方移動能力充能。",
+          "tradeoffEn": "Auger requires a clear intended launch path. Laying Cable requires another employee and an active tether, so its benefits cannot be assumed for solo play.",
+          "tradeoffZh": "Auger 須留意預定突進路徑。Laying Cable 需要另一位員工及有效連結，單人遊玩不能預設享有其加成。",
+          "contextEn": "Auger mobility and optional co-op support",
+          "contextZh": "突進移動與多人支援"
+        }
+      ],
+      "sourceId": "no-you-shocklance",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    },
+    {
+      "ownerId": "accelerator",
+      "summaryEn": "Grenade conversion offers an explosive route; Remote Charging only refills ammo when you are electrocuted.",
+      "summaryZh": "手榴彈轉換可作爆炸路線；Remote Charging 只有在自身觸電時才補滿彈匣。",
+      "routes": [
+        {
+          "id": "explosive-bursts",
+          "titleEn": "Grenade conversion and burst missiles",
+          "titleZh": "手榴彈轉換與連發飛彈",
+          "coreIds": [
+            "accelerator:explosive-bullets",
+            "accelerator:oxythane-s-promise"
+          ],
+          "supportIds": [
+            "accelerator:shaved-projectiles"
+          ],
+          "explanationEn": "Explosive Bullets consumes your grenade with a held R input and converts the remaining magazine into explosive bullets of its element. Oxythane's Promise adds a tracking missile at each burst's end, scaling its damage and explosion size with burst size. Shaved Projectiles increases magazine size.",
+          "explanationZh": "Explosive Bullets 按住 R 消耗手榴彈，把剩餘彈匣轉為該手榴彈元素的爆炸子彈。Oxythane's Promise 在每次連發末尾加上追蹤飛彈，傷害與爆炸大小隨連發子彈數提高。Shaved Projectiles 增加彈匣容量。",
+          "tradeoffEn": "Conversion spends a grenade and applies to the remaining magazine. A larger magazine is not the same as a larger burst, and no extra missile scaling is inferred from magazine size alone.",
+          "tradeoffZh": "轉換會花掉手榴彈，作用於剩餘彈匣。彈匣容量與單次連發子彈數不同，不能只因彈匣變大就推定飛彈加成提高。",
+          "contextEn": "Grenade conversion and burst missiles",
+          "contextZh": "手榴彈轉換與連發飛彈"
+        },
+        {
+          "id": "conditional-remote-charge",
+          "titleEn": "Movement with conditional remote charging",
+          "titleZh": "移動增傷與條件式遠端充能",
+          "coreIds": [
+            "accelerator:remote-charging",
+            "accelerator:inertia-accelerant"
+          ],
+          "supportIds": [
+            "accelerator:feedback-loop"
+          ],
+          "explanationEn": "Remote Charging refills the magazine when you are electrocuted. Inertia Accelerant increases damage with movement speed, and Feedback Loop grants a speed burst after firing a burst based on bullets fired.",
+          "explanationZh": "Remote Charging 在自身觸電時補滿彈匣。Inertia Accelerant 隨移速增加傷害；Feedback Loop 在連發後依已射子彈數提供短暫加速。",
+          "tradeoffEn": "These selected upgrades do not establish a self-electrocution source. Without that condition, Remote Charging provides no promised refill. Inertia Accelerant lowers base damage, and deliberately seeking electrocution can be dangerous.",
+          "tradeoffZh": "本組配件沒有建立自身觸電來源；缺少該條件時，Remote Charging 不保證提供補彈。Inertia Accelerant 降低基礎傷害，刻意讓自己觸電也有危險。",
+          "contextEn": "Movement damage and conditional ammo sustain",
+          "contextZh": "移動增傷與條件式續航"
+        }
+      ],
+      "sourceId": "no-you-accelerator",
+      "basis": "editorial-from-workbook-effects",
+      "effectsDatasetVersion": "workbook-1.6",
+      "testedInGame": false
+    }
+  ],
+  "counts": {
+    "sources": 14,
+    "weaponRatings": 23,
+    "upgradeRatings": 364,
+    "guides": 12
+  }
+}

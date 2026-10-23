@@ -1,0 +1,219 @@
+{
+  "checkedOn": "2026-10-23",
+  "publisher": "Mycopunk Wiki contributors",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "method": "Rendered page text and permanent links read in the browser; no game version inferred from edit dates.",
+  "pages": [
+    {
+      "path": "Equipment",
+      "title": "Equipment",
+      "text": "stub while i outline the wiki\n\nCharacters\nWeapons\nThrowables\nHeavy Weapons\nVehicles\nDrop Pod\nCharacters[edit | edit source]\n\nWrangler\nBruiser\nScrapper\nGlider\nWeapons[edit | edit source]\n\nThe Cycler\nAu-Si Jackrabbit\nSwarm Launcher\nDMLR\nLead Flinger\nFR.15833 Plate Launcher\nGunship Cannon\nTrident S2\nGlobbler\nThe Carver\nShocklance\nThe Accelerator\nThrowables[edit | edit source]\n\nIncendiary Grenade\nShock Grenade\nAcid Grenade\nPhoton Disc\nHeavy Weapons[edit | edit source]\n\nG6 Street Sweeper\nA16 Beam Ripper\nLaser Cannon\nThe Last Argument\nVehicles[edit | edit source]\n\nBlitseg\nD-19 Dart\nMonovan\nWheelbox\nDrop Pod[edit | edit source]\n\nDrop Pod",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Equipment?oldid=16099",
+      "edited": "This page was last edited on 2 May 2026, at 02:07."
+    },
+    {
+      "path": "The_Cycler",
+      "title": "The Cycler",
+      "text": "The Cycler\nPrimary\nBattery-Powered Submachine Gun\nTechnical Information\nAPI Name\ncycler\nThe Cycler\n\nStandard-issue energy SMG powered by battery cartridges.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t20\nElement\tNormal\nFire Rate (RPM)\t706\nFire Interval (s)\t0.085\nMagazine Size\t30\nAmmo Capacity\t240\nReload Duration (s)\t1.5\nBullet Speed\t28\nFalloff Start (m)\t20\nFalloff End (m)\t100\nMax Damage Range (m)\t800\nMax Falloff Damage Multiplier\t0.2\nSpread (Horizontal)\t1.8\nSpread (Vertical)\t1.8\nRecoil X\t0.5 – 1.5\nRecoil Y\t2 – 2\nAmmo Pickup Multiplier\t2\nAmmo Generation Efficiency\t1\nFirst Shot Spread Multiplier\t0.2\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tRare skin\n3\tupgrade from a curated set\n5\tupgrade from a curated set\n7\tupgrade from a curated set\n9\tEpic skin\n10\tEpic upgrade\n12\tExotic upgrade\n15\t1 Saxonite\n32\tOddity upgrade\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/The_Cycler?oldid=23018",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Au-Si_Jackrabbit",
+      "title": "Au-Si Jackrabbit",
+      "text": "Au-Si Jackrabbit\nPrimary\nRicochet Shotgun\nTechnical Information\nAPI Name\nbounceshotgun\nAu-Si Jackrabbit\n\nFires shells that deal increased damage and apply fire after bouncing.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t21\nElement\tFire\nElement Amount\t3\nBullets per Shot\t6\nFire Rate (RPM)\t200\nFire Interval (s)\t0.3\nMagazine Size\t8\nAmmo Capacity\t72\nReload Duration (s)\t1.5\nBullet Speed\t100\nMax Bounces\t1\nFalloff Start (m)\t13\nFalloff End (m)\t37\nMax Damage Range (m)\t150\nMax Falloff Damage Multiplier\t0.1\nSpread (Horizontal)\t6\nSpread (Vertical)\t6\nRecoil X\t1.5 – 2\nRecoil Y\t7.5 – 7.5\nAmmo Generation Efficiency\t0.7\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n3\tRare skin\n4\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Au-Si_Jackrabbit?oldid=23013",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Swarm_Launcher",
+      "title": "Swarm Launcher",
+      "text": "Swarm Launcher\nPrimary\nRemote Control Pellet Launcher\nTechnical Information\nAPI Name\nswarmgun\nSwarm Launcher\n\nLaunches a hovering swarm of pellets that dive and track to enemies when released.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t32\nElement\tNormal\nBullets per Shot\t2\nFire Rate (RPM)\t857\nFire Interval (s)\t0.07\nMagazine Size\t36\nAmmo Capacity\t288\nReload Duration (s)\t1.2\nBullet Speed\t100\nBullet Gravity\t20\nFalloff Start (m)\t24\nFalloff End (m)\t25\nMax Damage Range (m)\t25\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t15.4\nSpread (Vertical)\t7\nRecoil X\t1 – 3.25\nRecoil Y\t1 – 1\nAmmo Pickup Multiplier\t3.7\nAmmo Generation Efficiency\t0.8\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Swarm_Launcher?oldid=23027",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "DMLR",
+      "title": "DMLR",
+      "text": "DMLR\nPrimary\nPrecision Energy Rifle\nTechnical Information\nAPI Name\ndmlr\nDMLR\n\nFires high-accuracy bolts that charge up a powerful laser beam.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t50\nElement\tNormal\nFire Rate (RPM)\t231\nFire Interval (s)\t0.26\nMagazine Size\t20\nAmmo Capacity\t90\nReload Duration (s)\t1.8\nBullet Speed\t100\nFalloff Start (m)\t300\nFalloff End (m)\t500\nMax Damage Range (m)\t900\nMax Falloff Damage Multiplier\t0.3\nSpread (Horizontal)\t0\nSpread (Vertical)\t0\nRecoil X\t0.3 – 0.9\nRecoil Y\t2.8 – 2.8\nAmmo Pickup Multiplier\t1.5\nAmmo Generation Efficiency\t1.2\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/DMLR?oldid=23022",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Lead_Flinger",
+      "title": "Lead Flinger",
+      "text": "Lead Flinger\nPrimary\nRevolver\nTechnical Information\nAPI Name\nleadflinger\nLead Flinger\n\nFires slugs as fast as you can pull the trigger and reloads faster after getting a kill.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t50\nElement\tNormal\nFire Rate (RPM)\t840\nFire Interval (s)\t0.071\nMagazine Size\t6\nAmmo Capacity\t126\nReload Duration (s)\t1.4\nBullet Speed\t100\nFalloff Start (m)\t35\nFalloff End (m)\t60\nMax Damage Range (m)\t100\nMax Falloff Damage Multiplier\t0.1\nSpread (Horizontal)\t0.15\nSpread (Vertical)\t0.15\nRecoil X\t1.9 – 2.4\nRecoil Y\t6 – 6\nAmmo Generation Efficiency\t1\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Lead_Flinger?oldid=23015",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "FR.15833_Plate_Launcher",
+      "title": "FR.15833 Plate Launcher",
+      "text": "FR.15833 Plate Launcher\nPrimary\nRepurposed Construction Tool\nTechnical Information\nAPI Name\nplatelauncher\nFR.15833 Plate Launcher\n\nLaunches heavy metal plates that stick in targets and recall magnetically.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t76\nElement\tNormal\nFire Rate (RPM)\t150\nFire Interval (s)\t0.4\nMagazine Size\t1\nAmmo Capacity\t100\nReload Duration (s)\t1.5\nBullet Speed\t320\nFalloff Start (m)\t250\nFalloff End (m)\t500\nMax Damage Range (m)\t500\nMax Falloff Damage Multiplier\t0.75\nSpread (Horizontal)\t0\nSpread (Vertical)\t0\nRecoil X\t3 – 4\nRecoil Y\t10 – 10\nAmmo Pickup Multiplier\t0\nAmmo Generation Efficiency\t1\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/FR.15833_Plate_Launcher?oldid=23016",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Gunship_Cannon",
+      "title": "Gunship Cannon",
+      "text": "Gunship Cannon\nPrimary\nHigh-Caliber Repeating Cannon\nTechnical Information\nAPI Name\ngunshipcannon\nGunship Cannon\n\nA repurposed gunship cannon that fires large explosive shells.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t24\nElement\tNormal\nFire Rate (RPM)\t240\nFire Interval (s)\t0.25\nMagazine Size\t60\nAmmo Capacity\t180\nReload Duration (s)\t2.5\nBullet Speed\t70\nBullet Gravity\t100\nFalloff Start (m)\t200\nFalloff End (m)\t400\nMax Damage Range (m)\t700\nMax Falloff Damage Multiplier\t0.25\nSpread (Horizontal)\t2\nSpread (Vertical)\t2\nRecoil X\t2 – 4\nRecoil Y\t2 – 4\nAmmo Pickup Multiplier\t2.5\nAmmo Generation Efficiency\t0.6\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Gunship_Cannon?oldid=23020",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Trident_S2",
+      "title": "Trident S2",
+      "text": "Trident S2\nPrimary\nKinetic Multishot Rifle\nTechnical Information\nAPI Name\ntrident\nTrident S2\n\nHigh caliber automatic rifle that fires three bullets per shot.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t15\nElement\tNormal\nBullets per Shot\t3\nFire Rate (RPM)\t366\nFire Interval (s)\t0.164\nMagazine Size\t75\nAmmo Capacity\t450\nReload Duration (s)\t1.6\nBullet Speed\t28\nFalloff Start (m)\t40\nFalloff End (m)\t100\nMax Damage Range (m)\t150\nMax Falloff Damage Multiplier\t0.4\nSpread (Horizontal)\t0.24\nSpread (Vertical)\t3.84\nRecoil X\t0.5 – 2\nRecoil Y\t3 – 3\nAmmo Pickup Multiplier\t4.5\nAmmo Generation Efficiency\t0.9\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Trident_S2?oldid=23026",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Globbler",
+      "title": "Globbler",
+      "text": "Globbler\nPrimary\nAcidic Grenade Launcher\nTechnical Information\nAPI Name\nglobbler\nGlobbler\n\nGrenade launcher that fires bouncy globs of acid.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t33\nElement\tAcid\nElement Amount\t6\nFire Rate (RPM)\t150\nFire Interval (s)\t0.4\nMagazine Size\t7\nAmmo Capacity\t63\nReload Duration (s)\t1.6\nBullet Speed\t40\nBullet Gravity\t19\nMax Bounces\t5\nFalloff Start (m)\t500\nFalloff End (m)\t500\nMax Damage Range (m)\t500\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t0\nSpread (Vertical)\t0\nRecoil X\t1.2 – 2.2\nRecoil Y\t5.2 – 5.2\nAmmo Generation Efficiency\t0.34\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Globbler?oldid=23011",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "The_Carver",
+      "title": "The Carver",
+      "text": "The Carver\nPrimary\nIndustrial Cutting Tool\nTechnical Information\nAPI Name\ncarver\nThe Carver\n\nHeavy combat chainsaw with a high user fatality rate.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t21.85\nElement\tNormal\nFire Rate (RPM)\t526\nFire Interval (s)\t0.114\nMagazine Size\t100\nAmmo Capacity\t200\nReload Duration (s)\t3\nBullet Speed\t28\nCharge Time (s)\t0.15\nFalloff Start (m)\t4\nFalloff End (m)\t5\nMax Damage Range (m)\t5\nMax Falloff Damage Multiplier\t0.4\nSpread (Horizontal)\t1.8\nSpread (Vertical)\t1.8\nRecoil X\t2 – 2\nRecoil Y\t2 – 2\nAmmo Pickup Multiplier\t2\nAmmo Generation Efficiency\t0.31\nFirst Shot Spread Multiplier\t0.2\nFiring Restrictions\tcan aim while sliding\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/The_Carver?oldid=23017",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Shocklance",
+      "title": "Shocklance",
+      "text": "Shocklance\nPrimary\nElectron Railgun\nTechnical Information\nAPI Name\nshocklance\nShocklance\n\nClose-range shock weapon that passes through targets.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t60\nElement\tShock\nElement Amount\t5.5\nFire Rate (RPM)\t90\nFire Interval (s)\t0.67\nMagazine Size\t8\nAmmo Capacity\t32\nReload Duration (s)\t1.9\nBullet Speed\t210\nCharge Time (s)\t0.3\nFalloff Start (m)\t16\nFalloff End (m)\t22\nMax Damage Range (m)\t26\nMax Falloff Damage Multiplier\t0.5\nSpread (Horizontal)\t0\nSpread (Vertical)\t0\nRecoil X\t6 – 6\nRecoil Y\t3 – 3\nAmmo Generation Efficiency\t0.8\nFiring Restrictions\tcan aim while sliding\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Shocklance?oldid=23028",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "The_Accelerator",
+      "title": "The Accelerator",
+      "text": "The Accelerator\nPrimary\nAccelerating Burst SMG\nTechnical Information\nAPI Name\naccelerator\n\nFires shocking bursts that increase in size with each trigger pull. Can be fired while sprinting.\n\nLore[edit | edit source]\nThe Accelerator\n\nTo be written.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t20\nElement\tShock\nElement Amount\t1.25\nBurst Size\t4\nBurst Interval (s)\t0.133\nFire Rate (RPM)\t857\nFire Interval (s)\t0.07\nMagazine Size\t38\nAmmo Capacity\t304\nReload Duration (s)\t1.4\nBullet Speed\t28\nFalloff Start (m)\t30\nFalloff End (m)\t60\nMax Damage Range (m)\t200\nMax Falloff Damage Multiplier\t0.25\nSpread (Horizontal)\t1\nSpread (Vertical)\t1\nRecoil X\t0.5 – 0.5\nRecoil Y\t1.6 – 1.6\nAmmo Pickup Multiplier\t2\nAmmo Generation Efficiency\t1.09\nFirst Shot Spread Multiplier\t0.2\nFiring Restrictions\tcan aim while sliding\nMax Burst Size\t8\nBurst Size Increase\t1\nUnlock Directive\tElemental Testing\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/The_Accelerator?oldid=21271",
+      "edited": "This page was last edited on 2 July 2026, at 19:10."
+    },
+    {
+      "path": "Diffraction_Driver",
+      "title": "Diffraction Driver",
+      "text": "Diffraction Driver\nPrimary\nIon Scattergun\nTechnical Information\nAPI Name\nscattergun\nFile:Diffraction Driver Showcase.png\nDiffraction Driver\n\nFires a cone of energy. Aim to spin up the halo, increasing damage, range, and accuracy.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t75\nElement\tNormal\nFire Rate (RPM)\t130\nFire Interval (s)\t0.46\nMagazine Size\t3\nAmmo Capacity\t30\nReload Duration (s)\t0.4\nBullet Speed\t100\nBullet Gravity\t20\nFalloff Start (m)\t8\nFalloff End (m)\t14\nMax Damage Range (m)\t14\nMax Falloff Damage Multiplier\t0.2\nSpread (Horizontal)\t20\nSpread (Vertical)\t20\nRecoil X\t1 – 1\nRecoil Y\t3 – 3\nAmmo Pickup Multiplier\t0.85\nAmmo Generation Efficiency\t0.8\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n3\tRare skin\n5\tRare upgrade\n7\tEpic upgrade\n9\tEpic skin\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Diffraction_Driver?oldid=21711",
+      "edited": "This page was last edited on 20 October 2026, at 18:47."
+    },
+    {
+      "path": "Wrangler",
+      "title": "Wrangler",
+      "text": "\n\n\nWrangler\nBruiser\nScrapper\nGlider\nMycologist\n\nWrangler\nEmployee #84239756\nTechnical Information\nAPI Name\nWrangler\n\n\"Since the Wild West craze ended, Wrangler has had a tough time landing an audition. Saxon immediately scooped him up upon realizing he could do a triple blackflip like it was nothing. Still hopeful for his next big break, he does his best to spin his stunt skills towards actual combat, complete with a lasso and a healthy amount of southern charm. COMPANY CULTURE RATING: 2/5\"\n\nWrangler performing his signature dance\n\nWrangler is a washed up actor, left without work after people lost interest in the Wild West. He can use his lasso to pull himself and enemies, and is capable of dashing midair.\n\nAbilities[edit | edit source]\nRocket Lasso - Throw a rocket-powered lasso that can pull objects or launch you forward.\nAir Dash - Jump while airborne to dash forward.\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Wrangler?oldid=23194",
+      "edited": "This page was last edited on 22 October 2026, at 20:56."
+    },
+    {
+      "path": "Bruiser",
+      "title": "Bruiser",
+      "text": "\n\n\nWrangler\nBruiser\nScrapper\nGlider\nMycologist\n\nBruiser\nEmployee #1353876\nTechnical Information\nAPI Name\nBruiser\nBruiser performing their signature dance\n\n\"Retired as an automated security robot and given sentience, Bruiser was awoken with the worst hangover imaginable. Upon taking their first look around, Bruiser knocked nearly every tooth out of their superior's mouth with a single punch, and was escorted out of the building. What followed was a series of gambling, drinking, fights, and other bad decisions that eventually landed them here. COMPANY CULTURE RATING: 1/5\"\n\nBruiser is a former automated security bot, and after being given sentience and a lot of gambling, drinking, and fighting has ended up working for Saxon. They are capable of creating a shield that blocks incoming bullets and ground pounding while in the air to damage nearby enemies.\n\nAbilities[edit | edit source]\nHard-Light Projector - Project a shield that stuns enemies and reflects incoming projectiles.\nNose Dive - Jump while airborne to slam into the ground, emitting a shockwave that damages and launches nearby targets.\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Bruiser?oldid=23198",
+      "edited": "This page was last edited on 22 October 2026, at 20:58."
+    },
+    {
+      "path": "Scrapper",
+      "title": "Scrapper",
+      "text": "\n\n\nWrangler\nBruiser\nScrapper\nGlider\nMycologist\n\nScrapper\nEmployee #5947206\nTechnical Information\nAPI Name\nScrapper\nScrapper performing her signature dance\n\n\"Accidentally left to rust on a Saxon dumping planet, Scrapper built herself up from the scraps others left behind. Over countless years she honed her skills and improved herself. One fateful day she hijacked a dumping ship and threatened to crash it into something important if her demands weren't met. Not wanting to waste such an interesting asset, Saxon offered her a job instead. COMPANY CULTURE RATING: N/A\"\n\nScrapper was accidentally left on a Saxon dumping planet, and built herself up until she could hijack a ship, but instead of having to crash it, Saxon offered her a job. Scrapper can construct a grappling pole for herself and allies to use as well as use her salvaged jetpack for vertical mobility.\n\nAbilities[edit | edit source]\nGrapple Pole - Construct a tall pole that any ally can grapple to.\nJetpack - Hold jump to gain height.\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Scrapper?oldid=23196",
+      "edited": "This page was last edited on 22 October 2026, at 20:57."
+    },
+    {
+      "path": "Glider",
+      "title": "Glider",
+      "text": "\n\n\nWrangler\nBruiser\nScrapper\nGlider\nMycologist\n\nGlider\nEmployee #913268181\nTechnical Information\nAPI Name\nGlider\nGlider performing her signature dance\n\n\"Formerly a member of the Galactic Safety Commission, Glider was built and trained as a search and rescue drone. Being a drone, she was programmed with limited mental faculties and her memories were strictly proprietary. Saxon offered to remove these restrictions if she defect and join their expedition. Unbeknownst to her, this allows Saxon to automatically pass GSC inspections. COMPANY CULTURE RATING: 3/5\"\n\nGlider is a former GSC rescue drone, recruited by Saxon in exchange for removing her restrictions, and used by them as a sort of insider in the GSC, capable of allowing Saxon to pass GSC inspections automatically. Glider is capable of firing a barrage of rockets that hurt enemies and heal teammates, as well as using her wingsuit to swiftly fly over terrain and enemies.\n\nAbilities[edit | edit source]\nRocket Salvo - Lock on and fire a barrage of rockets and damage enemies and heal allies.\nWingsuit - Hold jump to activate your wingsuit jets and fly forward.\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Glider?oldid=23197",
+      "edited": "This page was last edited on 22 October 2026, at 20:57."
+    },
+    {
+      "path": "Mycologist",
+      "title": "Mycologist",
+      "text": "Wrangler\nBruiser\nScrapper\nGlider\nMycologist\n\nMycologist\nEmployee #2437823\nTechnical Information\nAPI Name\nMycologist\nMycologist performing her signature dance.\nInnate Abilities[edit | edit source]\nAbility\tDescription\nFungal Skewer\tPull a fungal skewer from the ground that immobilizes enemies and consumes infection for extra damage.\nInfection\tBeing in combat, taking damage from enemies, and using Fungal Skewer builds infection. Once full, infection eats your max health.\nSporelift\tHold to push yourself upward. Release to launch yourself with more force the longer you held jump. Builds infection.\nUpgrade Grid[edit | edit source]\n\nThe upgrade grid grows with player level.\n\n\n\n\nFrom player level\tUpgrade grid\n0\t5×5\n3\t6×5\n6\t6×6\n10\t7×6\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Mycologist?oldid=23189",
+      "edited": "This page was last edited on 22 October 2026, at 20:36."
+    },
+    {
+      "path": "Incendiary_Grenade",
+      "title": "Incendiary Grenade",
+      "text": "Incendiary Grenade\nThrowable\nGrenade\nTechnical Information\nAPI Name\nfiregrenade\n\nDamages and ignites targets in a radius.\n\nLore[edit | edit source]\nFile:Incendiary Grenade Showcase.png\nIncendiary Grenade\n\nTo be written.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t10\nElement\tFire\nElement Amount\t10\nFire Rate (RPM)\t240\nFire Interval (s)\t0.25\nMagazine Size\t8\nAmmo Capacity\t8\nReload Duration (s)\t0\nBullet Speed\t50\nBullet Gravity\t25\nFalloff Start (m)\t999\nFalloff End (m)\t1000\nMax Damage Range (m)\t1001\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t0.2\nSpread (Vertical)\t0.2\nRecoil X\t0.5 – 1.5\nRecoil Y\t2.4 – 2.4\nRecharge Duration (s)\t50\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n5\tRare upgrade\n7\tEpic upgrade\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Incendiary_Grenade?oldid=21425",
+      "edited": "This page was last edited on 21 September 2026, at 08:52."
+    },
+    {
+      "path": "Voltaic_Grenade",
+      "title": "Voltaic Grenade",
+      "text": "Voltaic Grenade\nThrowable\nGrenade\nTechnical Information\nAPI Name\nshockgrenade\nFile:Voltaic Grenade Showcase.png\nVoltaic Grenade\n\nDamages and electrocutes targets in a radius\n\nStats[edit | edit source]\nStat\tValue\nDamage\t10\nElement\tShock\nElement Amount\t10\nFire Rate (RPM)\t240\nFire Interval (s)\t0.25\nMagazine Size\t8\nAmmo Capacity\t8\nReload Duration (s)\t0\nBullet Speed\t50\nBullet Gravity\t25\nFalloff Start (m)\t999\nFalloff End (m)\t1000\nMax Damage Range (m)\t1001\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t0.2\nSpread (Vertical)\t0.2\nRecoil X\t0.5 – 1.5\nRecoil Y\t2.4 – 2.4\nRecharge Duration (s)\t50\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n5\tRare upgrade\n7\tEpic upgrade\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Voltaic_Grenade?oldid=21709",
+      "edited": "This page was last edited on 20 October 2026, at 18:47."
+    },
+    {
+      "path": "Caustic_Grenade",
+      "title": "Caustic Grenade",
+      "text": "Caustic Grenade\nThrowable\nGrenade\nTechnical Information\nAPI Name\nacidgrenade\nFile:Caustic Grenade Showcase.png\nCaustic Grenade\n\nDamages and corrodes targets in a radius.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t10\nElement\tAcid\nElement Amount\t10\nFire Rate (RPM)\t240\nFire Interval (s)\t0.25\nMagazine Size\t8\nAmmo Capacity\t8\nReload Duration (s)\t0\nBullet Speed\t50\nBullet Gravity\t25\nFalloff Start (m)\t999\nFalloff End (m)\t1000\nMax Damage Range (m)\t1001\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t0.2\nSpread (Vertical)\t0.2\nRecoil X\t0.5 – 1.5\nRecoil Y\t2.4 – 2.4\nRecharge Duration (s)\t50\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n5\tRare upgrade\n7\tEpic upgrade\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Caustic_Grenade?oldid=21710",
+      "edited": "This page was last edited on 20 October 2026, at 18:47."
+    },
+    {
+      "path": "Photon_Disc",
+      "title": "Photon Disc",
+      "text": "Photon Disc\nThrowable\nGrenade\nTechnical Information\nAPI Name\nphotondisc\nFile:Photon Disc Showcase.png\nPhoton Disc\n\nToss out an energy disc that tumbles across surfaces.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t20\nElement\tShock\nElement Amount\t10\nFire Rate (RPM)\t1200\nFire Interval (s)\t0.05\nMagazine Size\t8\nAmmo Capacity\t8\nReload Duration (s)\t0\nBullet Speed\t100\nBullet Gravity\t100\nFalloff Start (m)\t999\nFalloff End (m)\t1000\nMax Damage Range (m)\t1001\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t0.12\nSpread (Vertical)\t0.12\nRecoil X\t0.5 – 1.5\nRecoil Y\t2.4 – 2.4\nRecharge Duration (s)\t11.5\nMax Charges\t4\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n5\tRare upgrade\n7\tEpic upgrade\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Photon_Disc?oldid=23023",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Snowball_Grenade",
+      "title": "Snowball Grenade",
+      "text": "Snowball Grenade\nThrowable\nGrenade\nTechnical Information\nAPI Name\ncryogrenade\nFile:Snowball Grenade Showcase.png\nSnowball Grenade\n\nTravels in a straight line and detonates in a cryo explosion when you press Q.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t10\nElement\t10\nElement Amount\t10\nFire Rate (RPM)\t240\nFire Interval (s)\t0.25\nMagazine Size\t8\nAmmo Capacity\t8\nReload Duration (s)\t0\nBullet Speed\t15\nBullet Gravity\t1\nFalloff Start (m)\t999\nFalloff End (m)\t1000\nMax Damage Range (m)\t1001\nMax Falloff Damage Multiplier\t1\nSpread (Horizontal)\t0.2\nSpread (Vertical)\t0.2\nRecoil X\t0.5 – 1.5\nRecoil Y\t2.4 – 2.4\nRecharge Duration (s)\t50\nUnlock Directive\tMission Directive\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\nLevel Unlocks[edit | edit source]\nLevel\tReward\n2\tStandard upgrade\n5\tRare upgrade\n7\tEpic upgrade\n12\tExotic upgrade\n15\t1 Saxonite\n20\tExotic upgrade\n32\tUpgrade: 1042560\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Snowball_Grenade?oldid=21708",
+      "edited": "This page was last edited on 20 October 2026, at 18:47."
+    },
+    {
+      "path": "G6_Street_Sweeper",
+      "title": "G6 Street Sweeper",
+      "text": "G6 Street Sweeper\nHeavy\nHeavy Shotgun\nTechnical Information\nAPI Name\nheavyshotgun\nG6 Street Sweeper\n\nFires a massive burst of acidic energy in a very short range.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t70\nElement\tAcid\nElement Amount\t3.5\nBullets per Shot\t16\nFire Rate (RPM)\t120\nFire Interval (s)\t0.5\nMagazine Size\t1\nAmmo Capacity\t6\nReload Duration (s)\t1\nBullet Speed\t100\nFalloff Start (m)\t10\nFalloff End (m)\t20\nMax Damage Range (m)\t25\nMax Falloff Damage Multiplier\t0.1\nSpread (Horizontal)\t50\nSpread (Vertical)\t40\nRecoil X\t6 – 9\nRecoil Y\t20 – 20\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/G6_Street_Sweeper?oldid=23024",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "A16_Beam_Ripper",
+      "title": "A16 Beam Ripper",
+      "text": "A16 Beam Ripper\nHeavy\nHeavy Railgun\nTechnical Information\nAPI Name\nheavysniper\nA16 Beam Ripper\n\nCharges up a powerful piercing shot.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t840\nElement\tShock\nElement Amount\t10\nFire Rate (RPM)\t30\nFire Interval (s)\t2\nMagazine Size\t1\nAmmo Capacity\t5\nReload Duration (s)\t2\nBullet Speed\t100\nCharge Time (s)\t0.9\nFalloff Start (m)\t500\nFalloff End (m)\t800\nMax Damage Range (m)\t1000\nMax Falloff Damage Multiplier\t0.5\nSpread (Horizontal)\t0.01\nSpread (Vertical)\t0.01\nRecoil X\t3 – 5\nRecoil Y\t35 – 35\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/A16_Beam_Ripper?oldid=23009",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Laser_Cannon",
+      "title": "Laser Cannon",
+      "text": "Laser Cannon\nHeavy\nHeavy Laser Emitter\nTechnical Information\nAPI Name\nheavylaser\nLaser Cannon\n\nFires a large laser beam that ignites anything in its path.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t936\nElement\tFire\nElement Amount\t24\nFire Rate (RPM)\t231\nFire Interval (s)\t0.26\nMagazine Size\t450\nAmmo Capacity\t0\nReload Duration (s)\t3\nBullet Speed\t100\nFalloff Start (m)\t300\nFalloff End (m)\t400\nMax Damage Range (m)\t500\nMax Falloff Damage Multiplier\t0.5\nSpread (Horizontal)\t0.01\nSpread (Vertical)\t0.01\nRecoil X\t2 – 4\nRecoil Y\t1 – 2\nAmmo Pickup Multiplier\t12\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Laser_Cannon?oldid=23014",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "The_Last_Argument",
+      "title": "The Last Argument",
+      "text": "The Last Argument\nHeavy\nHeavy Rocket Launcher\nTechnical Information\nAPI Name\nheavynuke\nThe Last Argument\n\nAim far away.\n\nStats[edit | edit source]\nStat\tValue\nDamage\t700\nElement\tNormal\nFire Rate (RPM)\t120\nFire Interval (s)\t0.5\nMagazine Size\t1\nAmmo Capacity\t1\nReload Duration (s)\t0.1\nBullet Speed\t75\nBullet Gravity\t40\nCharge Time (s)\t8\nFalloff Start (m)\t500\nFalloff End (m)\t800\nMax Damage Range (m)\t1000\nMax Falloff Damage Multiplier\t0.5\nSpread (Horizontal)\t0.01\nSpread (Vertical)\t0.01\nRecoil X\t5 – 5\nRecoil Y\t20 – 20\nPattern Infusion[edit | edit source]\n\nUpgrade patterns on this gear can be infused once you reach player level 13. See Pattern infusion for costs.\n\n",
+      "permalink": "https://mycopunk.miraheze.org/wiki/The_Last_Argument?oldid=23021",
+      "edited": "This page was last edited on 20 October 2026, at 20:14."
+    },
+    {
+      "path": "Backlog",
+      "title": "Backlog",
+      "text": "stub while i outline the wiki\n\nthings needed:\n\nquests\nrewards\n\nThe backlog is a system of objectives that the player can use to gain bonus rewards while on their missions. Players can move to the next page upon finishing by paying 10% of their current resources. The backlog is also the only location by which the player can gain access to a set of skins for the characters. This is an excellent progression system for newer players to gain bonus experience and upgrades.",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Backlog?oldid=16095",
+      "edited": "This page was last edited on 2 May 2026, at 01:36."
+    },
+    {
+      "path": "Missions",
+      "title": "Missions",
+      "text": "im going to gut this page out for a bit and rework it since its all kinds of outdated.\n\nCategory:Missions\nCategory:Mission_Modifiers\nCategory:Regions\nCategory:Threats\nCategory:Collectables\nMissions[edit | edit source]\n\nCranius\nPanel Mission (unsure what this is?)\nAbomination Assault\nAmalgamation Hunt\nCleanup Detail\nGround Zero\nOuroboros\nOxythane Breach\nOxythane Breach: Escalation\nPaid Time Off\nPlanetary Defense\nPrized Possession\nRegulated Rampage\nSatellite Salvage\nSaxonite Transport\nSulfur Collection (not implemented)\nThe Fungal Moon\nThe Hellpit (not implemented)\n//CONTAINMENT//\nMission Modifiers[edit | edit source]\n\nBees (Modifier)\nBlasting Caps\nBullet Hell\nButter Fingers\nBurn\nConductive Machinery\nCorrosive Coating\nDave vs Goliath\nEclipse\nElectrified\nERROR REDACTED\nEscalation\nExplodungus\nFairy Tale\nFog\nFungal Workout\nGallbladder\nHorde\nMacrowave\nMeteor Shower\nMitosis (Modifier)\nOverclocker\nOverheated Cores\nPowder Keg\nRot (Modifier)\nSaxonite Storm\nSharpshooter\nSinged Nerves\nSplit Personality\nTread Carefully\nTussle\nUnder Fire\nUnhealthy Charging\nWarranty Expiration\nWeak Link\nAmalgamation Hunt (Modifier)\nRegions[edit | edit source]\n\nFlourishing Desert\nGravity Farms\nIce Floes\nMoldy Tundra\nTitan City\nThreats[edit | edit source]\n\nSafe\nRisky\nPerilous\nTreacherous\nDeadly\nOnslaught\nPredicament\nCollectables[edit | edit source]\n\nBruiser's Bears\nRoachard's Lost Pumpkins\nTerry's Stolen Pumpkins\n\nA total of 6 different missions can be played.\n\nIcon\tName\tDescription\tXP\tThreat lvl 1\tThreat lvl 2\tThreat Lvl 3\tThreat Lvl 4\tThreat Lvl 5\tThreat Lvl 6\n\tSaxonite Transport\tSort barrels and transport them to a cargo ship\t\t100\t125\t150\t175\t200\t216\n\tPrized Possession\tBreach a facility, remove its power core, then return it to the drop pod.\t\t100\t125\t150\t175\t200\t216\n\tRegulated Rampage\tClear the area of hostiles.\t\t65\t82\t98\t114\t130\t140\n\tCleanup Detail\tClear the fungal infestation.\t\t100\t125\t150\t175\t200\t216\n\tSatellite Salvage\tPull a satellite out of orbit and salvage its data cores.\t\t100\t125\t150\t175\t200\t216\n\tPlanetary Defense\tPower up and fire a planetary railgun to take out a rival company's spy ship.\t\t100\t125\t150\t175\t200\t216\n\tPaid Time Off\n\tAbomination Assault\n\nThese 6 missions rotate every ~10 minutes and can be found in the 4 different zones on New Atlas.\n\nMission Modifiers\n\nThere is a total of 29 types of modifiers that can appear on missions.\n\nAs of now there is one additional modifier (30) for the Amalgamation Hunt Event.\n\nEach modifier varies in how much flat additional increase in experience ranging from +0% - +100%.\n\nModifiers\nicon\tname\tbonus xp\tdescription\n\tBees\t50%\tEnemies have a chance to release a hornet when killed.\n\tBullet Hell\t30%\tEnemies spawn with extra autocannons.\n\tBurn\t0%\tPlayers deal 20% more fire damage.\n\n\tConductive Machinery\t25%\tNormal damage applies shock to you.\n\tCorrosive Coating\t25%\tNormal damage applies acid to you.\n\tDave vs Goliath\t25%\tAbominations spawn much more frequently.\n\tEclipse\t20%\tThe area is shrouded in darkness.\n\tElectrified\t0%\tPlayers deal 20% more shock damage.\n\tError_Redacted\t0%\t*Information Redacted*\n\tExplodungus\t20%\tEnemy cores explode on death.\n\tFairy Tale\t20%\tPixies spawn more often.\n\tFog\t10%\tThe area is covered in a thick fog.\n\tFungal Workout\t30%\tGrunts move much faster.\n\tGallbladder\t30%\tEnemies leave behind an acid puddle when they die.\n\tHorde\t60%\tEnemies constantly spawn. Grunts are more common.\n\tMacrowave\t30%\tEnemies spawn with extra lasers.\n\tMeteor Shower\t70%\tMeteor chunks fall from the sky.\n\tMitosis\t25%\tBrutes split into grunts when killed.\n\tOverclocker\t10%\tEnemies are more likely to be overclocked.\n\tOverheated Cores\t25%\tNormal damage applies fire to you.\n\tPowder Keg\t20%\tExploders spawn more frequently.\n\tRot\t0%\tPlayers deal 20% more acid damage.\n\tSaxonite Storm\t0%\tSaxonite radiation decreases gravity in the area.\n\tSharpshooter\t30%\tDeal 50% more damage to targets further than 28m, but 50% less damage to enemies closer than 28m.\n\tTread Carefully\t100%\tNo team revives, if everyone dies, the mission fails.\n\tTussle\t30%\tDeal 65% more damage to targets within 18m, but 65% less damage to enemies further than 18m.\n\tUnhealthy Charging\t20%\tPlayers take twice as much damage, but start regenerating health twice as fast.\n\tWarranty Expiration\t100%\tThis mission is timed. When the timer runs out, players no longer regenerate health.\n\tWeak Link\t0%\tEnemy limbs are more likely to spawn with weakpoints.\n\t[SPECIAL]\n\nAmalgamation Hunt\n\n\t0%\tThe Amalgamation may appear",
+      "permalink": "https://mycopunk.miraheze.org/wiki/Missions?oldid=20441",
+      "edited": "This page was last edited on 29 June 2026, at 18:40."
+    }
+  ]
+}
