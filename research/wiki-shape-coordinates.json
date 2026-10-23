@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-23",
+  "checkedOn": "2026-10-24",
   "coordinates": [
     {
       "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Acid_Affinity_Pattern.svg",
@@ -14089,6 +14089,5941 @@
     {
       "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Yank_Em!_Pattern.svg",
       "error": "unsupported-svg-schema"
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Acid_Shot_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "0c9ff9a7d0d1faa03d393214050363a872eb8cf1d79a756c90552206344b49a7",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Adaptive_Stabilizers_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "40633899ad7e5942f313ad0b13021555b277f7012cc719eee7d8af669b46a8c6",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Adrenaline_Reload_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "f83e2cbd0d36b78e3da7eb63a5a6c014c955724a3fbc1c802b4af9ab9ab720a0",
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Adrenaline_Rush_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ec75dfa8194522fa8cbac1b3ddd7e5e4b85490f49447d6de4bd0ba612e1fb5e9",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Aerodynamic_Plates_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c1dbe4a00eee89eeadc3840b0ed582192a6e9d919f38621b935174de7c4937f1",
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Aft_Thrusters_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "db1118d9c7e3942cff1206b3180cc58b64c91faaae26fa43ba8293ced78741e8",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Arc_Lightning_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "d1aeb314a7b27eac7015db27e6dd72b1c8162297d83c43158e91f09e5ca67dc6",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Assist_Charge_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7c92e6a431285c0c1a1834d7e655d0a7d5dbf3cfd2f337e98775a927b985af43",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Atmospheric_Energizers_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "14e7a0b54af25d527befd7dcffc821d849fd1e15af725f88cff941b1bff46773",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Auger_Subroutine_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "bc865c1cee25c9dc44acb1f1c1d45ba1aac79d7abf16ee8883bebb8facde197f",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Auto-Replicator_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7fe667bb52a6bcdfa568a799df98b83230368057289b4388b73eb06dfdc88a07",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Auxiliary_Chargers_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7abcaec986e79f6833f277fb537679054f48fa15845a8419e47bbf0ac5e2ba3c",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Bailing_Water_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3d03a12cb921054e1afe8fc259ceac1757b26c47eb6e33ada1c80122425259e4",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Base_Coating_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "52bedd0e132d8ca7a7e5abaf2d3e221194b8c9e443cdff6c159ef863f43ce89b",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Blood_Coating_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "51f2eafec3bbf428ef8a6b4e222c8adc1e17acbb07ca33ee3476fa5c5a7d04ef",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Blood_Efficiency_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3e3c593503b70d6505613f667505b1acc6f589ea5a4fced5f65745193684447c",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Blood_Lightning_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "6c9f232a7047c348cbcaaf54ad526623ffccaf6edcf66338fe502d3c26d26f9d",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Blood_Rampage_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "f6e4448f0f57d1b2a11cd1d22956aa15589876930bc8f63ef991ff6c44c772c4",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Bottom_Heavy_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ee9bf58c4b6020989cca4f85ab41537e7482f65aae4dad052c7ba6c82d9e9ffe",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Boundary_Incursion_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "2795f3ff924b4bcdb92d881ef6ac51352f4652656d52dc44a4b7952b6dacefa9",
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Brittle_Battery_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "61196bf1174b2fa22dc6b64a7b224a3be8ba4be3dda3de8ececb08f1bef4c059",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Bruise_Protection_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "d9bae29cf88247315c750d0041dcc04fa6b97d327d4bee609516f4a4be54897d",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Burst_Release_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "64617d20f977acf401ea765c051b648e2cb6aaee66e4007a8ce039d99ea3d557",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Clearing_Plasma_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "a9a54892fcc2106640f09b608d48079252d47b44bb1172a8cfbd8123b4803941",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Coil_Springs_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "abd83a6d8db15e1a8b96617a0b89838774e754c3cee124eb5dbc327e5ec452e2",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Comet_Splash_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "6f2cf19c87627f45e5b91f3df5365bd948b502ad0ecc60b14ac2beafd356b94e",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Condensed_Ejection_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "98c1739714a8872f9499259123fa178ea93b066742566adbabeb6355eacddbcf",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Connected_Systems_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "813d1f846d9e5efbea0dfac80b85f596173db6600b6c7e257cf99e5a66a32b81",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Core_Repurposing_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "23e20ee3f4bae11d89ff0b74d5f4aeafa1cfb0855c728b6efae5654f5e88fcaa",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Corrode_Siphon_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3b99481427af2c05bb8d6520e349f0a67424c49d5cb5f2190c51321eae7de2cd",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Corrosive_Plasma_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "dad85ecb635045b4e3ed4cd1ea44f0713932cb25b3b9f9c4c18dbb39f1bfbd87",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Cosmic_Microwave_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "6fd8f181bc9ffa327a2b4aee6ecc5737d5909d07e4ada85d5540a54f095d8f3b",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Cycling_Repairs_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "95806bcd3a706941a14325be91aa4528ba8554002e73526abaf431db80e038a1",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Damage_Arc_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "faa868789429add1f26e20acba1696874b646be4d5164baae7fa997c5a2d3f21",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Dash_Immunity_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "22bb7bdaac357baaaf599f2012b2d30e96c3422eb56b11b6cbb5fda2de14cf32",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Decay_Plates_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "43747a24156539e256fa29036a1555824c3f804d9dda4ed48f695725126db2b1",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Discount_Marksman_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "887a6a62b7603c1e0b01d57110c5e259868bac072db9f1410c79da65e7543008",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Dive_Interrupt_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "f23f1c4bcfaeaebb34fe349531dfe7ff14b4a3c3f400940e848862184359a629",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Double_Action_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8f87df9748355ab9446e1c850e93d3ca00562a442fbf76175e542de30b590e4d",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Double_Lasso_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8bcc95d3c9208641fcb76e490dee00bf62b6aad575aa7411fa7903243d8a9a13",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Edge_Fault_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4c854ee30d083b6c51e7f0d1125acea67389b9c683580c97116390bc07f5567d",
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Efficient_Storage_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "50e6b16ff4373ba91988af37e018f2e95264874b45fc23679565d703dbde6031",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Electrified_Pellets_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "75faee017ea987a66a10f6424c161b625467424661ce57a8c778e5b017ee19cc",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Elemental_Tips_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "9f4d5f1cb2cd944d55b0228296d64490904fb493aa186f2dbc7c9db07fedfa53",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Energy_Condenser_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "9b257dd23069b53c2efca07cf51098149cbe1e19d5cbf2503616820cd4cd36e9",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Energy_Injection_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ee9bf58c4b6020989cca4f85ab41537e7482f65aae4dad052c7ba6c82d9e9ffe",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Equipment_Siphon_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "1831bc53552f21ffbd9a2cd45db8899ad9634a78bfd7ab8da0c3538a4ec17267",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Explosive_Pellets_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "d553b4b4706d6213490c831199f0c1a591bf705382fed49b91d2dd9a7fdfe053",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Extra_Capacitors_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "140055072f4b80588084762dc7133233fb528145ed7fe046f24b2df0dcfade6b",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Extralight_Frame_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3651ffc99c87a74f85c22b065a4bf459c5231efdcb19477469c95b8736f80e27",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Fan_Fire_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "68b6603283525546ed550baaffe45561f55809beef8f00870b45fb5360943bb0",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Feedback_Relay_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "67dd43351d7463a1a1a3ddf719f46ded0e38e8cd00f6769d383d40e6a5c445b6",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Feeling_Lucky_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "759fbc31222e7f3064e52ad4b3e7b543ec82f572f25d2535971e29a90d61d311",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Flash_Flood_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "6c245527a30d9817bac5adf4455b38f686fee2715cb15dc3bf7c7b3fe6eacbcb",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Flash_Storm_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8cc7f78a50c1d57ddd042b311f52ea6f916fa25c2e6ea2e97e46a824373e2628",
+      "cells": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Focused_Lenses_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "77198b67cc68a8d37e174031c10412d5901365627d4bdb0bad61914f55825d07",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Forceful_Expulsion_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "0ffde05c9487f80be38e8dff3a8a2b90fb539524dfc45de891364a21b41819ea",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Frantic_Fingers_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "66dc6340cfe8c74b845e9f8820972335f2fea89a48753ddb8619165cdfb798b6",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Frantic_Greed_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ecc9add4f6305b70ae5d361d4c48029d397c21378a22a2ebd6807e0428e7dab1",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Frantic_Mechanism_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "6ac5c737c0fd1e201c1652bc2391c98360d721bbb2a00bf917277f23b63465fe",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Friction_Compensators_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "152896b88be8fdd74efeeb16ea0242818eaffa49c37f45cc1b814ff78091733f",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Fueling_Station_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "5858739c1717c390e57d744dc8141051bab599fa956ad5d15f427d34e3ff7b1b",
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Fuel_Rations_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e15e97e96a0e311dc5f51f3cc90bae60eb8ff8a62a150933e08764a38401155c",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Fulmination_Core_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4c2d8d020334aa4d60860e847b0bf1979dc28ab086241838b8a670a58333e6dd",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Greased_Mixture_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "2d716db86ccd5d0d04c2a84d6408cc3e3c494efb63c43ad896a6f370ae8835ef",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Gunpowder_Packing_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b3a70f5a31c8705a5ae587ceea35b5d73428c726bac757aedc1033ae12a7a1f4",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hard_Ricochet_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ff7bf723b098c4a5fef2098d801a6fc94c0cb0698de0f525579d234a6368029f",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hazard_Recycling_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "51f4d4b4ae5c126616dbce29453c4817ee26289921633f5820636d4915184377",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Heated_Charge_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b5e902de77dc16d2904e5ba7f97b2c387411b999315d67b08f95163023a166fc",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Heat_Sink_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3e7fd277ef04e183e495e7a0653f472f3d8ae7826701943a6cb02a0781d23bee",
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Globs_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "84617f205c843a5ce991d529e757482d918d10d16cb12eb275e5f3327d9c8051",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Hitting_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c12e4ad4da7c82c42a4344d0ba89424782e06a14f100ef0fc1934ba23c0eecee",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Munitions_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e6493d50a45c40ed064371bf45a67cae9e4670828e57f85dbaf50c700d04e4d7",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        2,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Support_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "30c672701fba08c9de3ae8a8ced2c3073cb3360795959be5da31e3962c42d526",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Higher_Voltage_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4be49ac8b356df81cbb066e43b881bb882574529d977b22481b8ff8b8a5fdbd9",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hold_Onto_Your_Hats_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "9fef10274e8772d19d5518ab46c4ce99d9f295ffab65e5a4e0cdffec0d1d4b35",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hometown_Hero_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7c92e6a431285c0c1a1834d7e655d0a7d5dbf3cfd2f337e98775a927b985af43",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hornet_Interference_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3caf0e3bbca6c0e99a96111e36ceee4f3b0e3af1907843c1044e3885a53869ad",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hot_Boxing_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "03b73c2942a408f9182e4fd759d886bce0f21a90550be2b035fee6ef256cb490",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hot_Potato_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3024fcb16d5da6bec03bdfc36448ff5cff18cd795b0db40ff3b0d64524a9d84d",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hot_Swap_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "58cf08b7ccf89fefcc3a21a4301120dc3c64c859598f0755a9bd68b7aac8a8da",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Hover_Precision_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7fe667bb52a6bcdfa568a799df98b83230368057289b4388b73eb06dfdc88a07",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Ignition_Recharge_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "116cb05dc1de6d640990ef93d1fcf3b709d5a7d7a275676ea892c90d13fc3611",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Impact_Funnel_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "83610577a8615ea78088348b2922542dbf554b8b87c13e9025b0f38561bdee91",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Improved_Refueling_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ed9c3169a794b073b26585e06551c576e7e2c946b0b44bf8519dadef96fd34b4",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Inertia_Accelerant_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "44a2d284c5de603b9dd78653333307f60f5f62776aa9e80283045627d9fee394",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Instant_Detonation_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "fa8c6a65cb25e11a3da75c23ee09f1ce3a8b865be3047e6cc128b4e8fb05b65b",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Insulated_Gloves_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "52bedd0e132d8ca7a7e5abaf2d3e221194b8c9e443cdff6c159ef863f43ce89b",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Interim_Manager_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4c854ee30d083b6c51e7f0d1125acea67389b9c683580c97116390bc07f5567d",
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Just_Add_More_Gunpowder_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "71d2c5e1b74b53ff425a240a17ac0a738cc58c5da03ce4da06afbe1196be31f4",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Kernel_Rerouter_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ef1dc35742b35084a6dd8f5c8efac58c3767987638d28c5343ef6c001a49df3c",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Killing_Field_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7b617dadf3d84951ce215e7650fc23f62bf73515ad6b88dfbfdda837cc47d9dc",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Kinetic_Effect_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c9f474e3f3ace9bd79928e6d6c63775a16259aee36b1520613b9302f92e260ab",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Kinetic_Optimization_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "a4eb5d2b7466c704b868a65dadfdd3c19f717f2cf4534873e7e49676b96b50e9",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Knee-Dive_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "55ff1919dd0072a3ef32164bcf653a34fd1f1cd8e57521db63fc7495a683757b",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Knee_Slide_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ed5f3dbfe25c42f03ad3341bdfa0c4a7c7088b7a7dbe0117266aad47cfb2fa9b",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Launch_Charge_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "74788f5c1603b8f219c0a4172cb65cc8ca84825786c172a8e0048a5e21734466",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Laying_Cable_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b1b7e209fab41cad958ef8bc6d7424fa776ac1ac27f43b638355bd14c06092f4",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Lead_Poisoning_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "2c598c965c2cd7df732ffae23a95bc21275fc4431266a55aa6cdd310b5dc80fd",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Lucky_Bastard_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "50398bf98f950a2a1c529c0e9107c12795ce0133b0a2f90381aefdbec43d124a",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Magnetic_Loader_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "52bedd0e132d8ca7a7e5abaf2d3e221194b8c9e443cdff6c159ef863f43ce89b",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Maniac_Maneuver_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "66cf297f7ed5b15c0e62c81b8c112d02922eb3367a868e5ffdcc1f4fb6e2e80d",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Micro_Detonators_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "5fa3113195ff2c3f0f80df2236454a26f33c3f8315744f95ab50535f6ddfc3ad",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Missile_Bay_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "1abf1581e8d10f26a11f8fadf45457cb83b5c055428b9cdc883e043fee7666db",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Momentum_Impact_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e9afeb2d1aaeb629052bd7a2cf750ac1a15901f8007b86fe5755b04375f74b1a",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Multiversal_Thievery_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4c854ee30d083b6c51e7f0d1125acea67389b9c683580c97116390bc07f5567d",
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Nice_Catch_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "26e16770a8ac04b797dfe06d95e7d076920d4d2e10f1ac30a386edbb12fb848f",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Notched_Breakpoint_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "6757a595824f0f96516c0941abdc31439236eb82492c58c68d8745a572c2014d",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Nutrition_Sampler_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "67aae501ea74f3252b34d3128b53dd68bafdc59c5e97d89f2a690a2897b01ee0",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Odd_Cocktail_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "55d2bcac7f8f32dbfcc4cb1920c02fbf8eb898d02bd2185784c3eac743f1ebb8",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Optical_Attraction_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8a4ce3ad47e09c86dc5415d5bc8d441a23c1ba11a72c6904a639612b96a5e038",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Overheat_System_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "5d24ad4cdf111f5bca73428871efdd67f9159e31839eeea2f26ae8241ea248af",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Overload_Contingency_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "3146a039dcc25e89c5214b08e432f781d557a03695bdecb922d10b4e66fd0891",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Point_Demolition_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7e1516c313195c7519a283ca90e39afc8be8ea85fc914a17dc0136faf8c6e495",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Point_Detonators_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "ab3dc4d0f6a3c0ac562762649c1fbfcd604ca78073459422483cdd50b9523daa",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Pole_Alignment_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "67dd43351d7463a1a1a3ddf719f46ded0e38e8cd00f6769d383d40e6a5c445b6",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Powder_Player_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e4167bba11f88a435f697a2628c9a311bbf74a3fb2c989f7a66be65c86c25e17",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Power_Core_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "43747a24156539e256fa29036a1555824c3f804d9dda4ed48f695725126db2b1",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Power_Recall_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "f7c6d5971d581f181d76f6cb765c239a3415bb24e21cc792328469a18cf327a9",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Power_Redistribution_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "247cb8bb1c79e2731fd2c8891acd4c45396aea2b75810e07f8feba6f198513ec",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Power_Ricochet_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8841a5ea7674ea3e3386b9487b05ddcca8e8b4eec161525a758c85380dcb36a6",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Precision_Fire_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "2f335980bcfaf8879cccdc837c5446f8eeb5965ed34c36e706f9fedacaecc732",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Pressure_Increase_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7fe667bb52a6bcdfa568a799df98b83230368057289b4388b73eb06dfdc88a07",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Pseudo_Science_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "404d70ffaee92e89fcaa98753fd7833dc5ea310389554b696017f5cf8475c522",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Quick_Knot_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "038d417ad143b017f8dce31c97c341466e2600b3d8f117217025261c0804d7df",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Quickswap_Cartridge_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7abcaec986e79f6833f277fb537679054f48fa15845a8419e47bbf0ac5e2ba3c",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Rapid_Charge_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "08185fb1ea72a1c774a52ba2dad89145d68a077b116acb45e1a7db1375eba691",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Reactive_Coating_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "09c29d1476665d8f57353c64703470cc3483fadc5e2dfe9f09b1d7a0445a6ca4",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Rearm_Mechanism_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b5e902de77dc16d2904e5ba7f97b2c387411b999315d67b08f95163023a166fc",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Recycled_Fuel_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7fe667bb52a6bcdfa568a799df98b83230368057289b4388b73eb06dfdc88a07",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Reinforced_Coating_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "fbbc4f73b60b33c5e68fa15fa199ac648f89e954aa379f9f3a408f9721fdba69",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Reinforced_Plating_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "079dcb8063e0496beaea24f2b9411064694a86376b0829989c0d7cdc8c554435",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Reorganized_Reserves_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "a4eb5d2b7466c704b868a65dadfdd3c19f717f2cf4534873e7e49676b96b50e9",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Repair_Siphon_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e4cc16fd07765a601af9d28be0c317b4349935e6732a68adef37816a2a4a6f2a",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Reserve_Material_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "1ddf27f560bfa26f3b7b7a33db2ec2dbe7c608a04dfbb66bb69a223abf9658e7",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Restoration_Protocol_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e9780b70c9cafdfbebfbece113a137f466a2d566f3898bfad1807a0e1df4e927",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Rocket_Burst_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b7c56c197dae8d601cadb0048b7c321986fb7aeb4eb424e2b6930a0a78de58ea",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Rocket_Jump_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c683106e70c62685d19135212ebd0c5df9dfe5d5c26c51730837530e831f7071",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Rot_Advantage_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "bb1e9381215236ee5d048c629e67ff47c887a443f926e8a8f12a623850f9ce69",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Ruptured_Spleen_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "99899447b216c95b7eee50d9e29b34b817914d813b4c6c188423303e7ebe55e2",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Scrap_Funnel_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b3c2315c2df5fffd579f4da807619c33f1b91cad428e0be3ff46097804f7d427",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Scrap_Repurposing_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "923c6f11358a799d9975af233d0a52e9c977b6ce9d70eccb48a5fa27169efa41",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Shaved_Projectiles_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "533b292a899ff9ffe17909d436e307904df2fb2b72a6ec3d64579c3ddf707107",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Shock_Affinity_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c12e4ad4da7c82c42a4344d0ba89424782e06a14f100ef0fc1934ba23c0eecee",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Shock_Resistance_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "9e775cf425f5d6e5f3c885df6b9825300032925b5e179ab77f5b0aec3caf9f2e",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Shrapnel_Loading_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "64156aab44ad0242bfad7d780b362bdec3a9a8eac4a95b8581a168932f224dfc",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -2
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Size_Them_Up_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b3a70f5a31c8705a5ae587ceea35b5d73428c726bac757aedc1033ae12a7a1f4",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Slipper_Shoes_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "454bb767a0c5ca441f267dd5585ae716579c0ff991cf31222192b02e856a071b",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Slippery_Blood_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e29229869e201123484140c6833e8fbf8072e7f2c4d3b330e072f89157b1dc0a",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Static_Reload_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "67dd43351d7463a1a1a3ddf719f46ded0e38e8cd00f6769d383d40e6a5c445b6",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Steadier_Aim_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "789be164e25e19062df6916e9e9d290710bb402a1c9376ef2e2e1b20fcdb0ad7",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Steady_Aim_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "2f335980bcfaf8879cccdc837c5446f8eeb5965ed34c36e706f9fedacaecc732",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Storage_Surplus_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "684e6d08e4b4e72018fb7c23ac0b9398beecd792bb81b97a0c193974f348b6c1",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Super_Magnet_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "348d8c88c7dcc988bb4d1b4dd20401003b7b9edebcd2774c140b40d2c0437b50",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Swarm_Reserves_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8f21bdd42993ee14426570c65c6d179631b0740a67a25841c5ae02e76a195244",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Swinging_Technique_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "1e28a168b3b706bfeec75d0e78650e7c965b3474fa5f0e673bc5aec705422437",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:System_Overload_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "799abafeb9979e1a8db5d0ad7dfdebc816858ba8e72468e32b9fa07c9d2867b7",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:The_Glob_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "1eab56a2776e6b8950fa52cdc96f8b6087b60c07a049878478ce738e75100d50",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Thunder_Pressure_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "d5bc9c413498c4e5dabd1f31ba954ea915cc91290f7563f7578a7a53ea00788a",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Triple_A_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "1caa88158da3844decdebfcca743bc0e80131a1156576490c2ef73c5ece8fd6b",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Tungsten_Cube_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c0187646c2a4901d9904e251e612c5c58432786e93572620b91bee99f3cad157",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Unnatural_Focus_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "31bac75abaacd0ef9837a4e8f7844c007c2347e2071e5b0dd807dffa707a8e10",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Upset_Stomach_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c398acbe9c12bb894a4d95656461e5ad8e8f68765050abf5d6e8c165ba1cc019",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Vending_Machine_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "8f87df9748355ab9446e1c850e93d3ca00562a442fbf76175e542de30b590e4d",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Violent_Ignition_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "b7f688bd6e1fd70daa5c7762603f75cb45383dd6794289edd24080e07fc9db3c",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        1,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Violent_Reaction_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e21ecec2b166220a205995730b0d759daef28ac8ce0a1e9a1238f4a8ee1d8ed3",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Volatile_Acid_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "793ecb3278c758b9d3a552331a6ddcf986cb66ce194737cb58e333924b59c7de",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Volatile_Explosives_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "c5cbeab72ec9c7bc9948ed726e141e79cfaa502582cccfa822fcc102bc623c5e",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Volatile_Munitions_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "19d95914ea08b5414a5e6eaadeea531d1db4a078b0e9b0b8024e59465c973a43",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Voltaic_Battery_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e4deade3c11a7b738396a5fd9548603618fe926eb32ccdeeace79ab47b06a3fd",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Weight_Rebalanced_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "27d486e7fccabe2bd065cf3fae7569a1fdc5365023ab0368624b145b5a0e3321",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Welding_Heat_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "48f9762efc6bd44ffad7dee39250cc740d423f5a60f85386eb2690afe4247510",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Wild_Fire_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e5abd40b41b8744df38082a5f8a6c80c489b5bfbfa44b606d7701a699b3ebaad",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -2
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Wireless_Extenders_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "a9144ef67a97082085984f5adfc37c3dca08e0eef3242a8900f92472a7e44dbb",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Blue_Prism_font_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4a59a9bd0a4f9d88c4caa9cb4eeec0fef8793496ce04789918ec5929e36a27d9",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Green_Prism_font_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "4609f21730bc46cdff817f4762782a4fe81d870e77db91755e9a1051ba5ce53f",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Purple_Prism_font_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "7ab9e132336c58b01b0e1f780db01dad481573e3cdf823ee473b008e44c2088a",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Rail-Tuning_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e8fb92f5d35a5091d2286c98ea93b02d9e7d2dea8e98db058c660d175fda0f6f",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        -1
+      ]
+    },
+    {
+      "sourceUrl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Yellow_Prism_font_Pattern.svg",
+      "checkedOn": "2026-10-24",
+      "svgSha256": "e871e5c40871ecf0fb14c419b8b288ad9dd3faa7873fbf49736cc2271bca70dd",
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "coordinateSystem": "axial-flat-top",
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source-svg"
+      },
+      "sourceGridOffset": [
+        0,
+        0
+      ]
     }
   ]
 }

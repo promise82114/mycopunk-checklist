@@ -13,7 +13,7 @@ export const wikiCategories = [
 export function sourceAnchor(url, label = 'Mycopunk Wiki ↗') {
   try {
     const parsed = new URL(url);
-    if (parsed.protocol !== 'https:' || !['mycopunk.miraheze.org', 'tiermaker.com', 'www.reddit.com', 'reddit.com', 'steamcommunity.com', 'www.youtube.com', 'youtu.be'].includes(parsed.hostname)) return '';
+    if (parsed.protocol !== 'https:' || !['mycopunk.miraheze.org', 'tiermaker.com', 'www.reddit.com', 'reddit.com', 'steamcommunity.com', 'www.youtube.com', 'youtu.be', 'github.com', 'raw.githubusercontent.com'].includes(parsed.hostname)) return '';
     return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
   } catch { return ''; }
 }
@@ -64,7 +64,7 @@ export function renderShape(shape, size) {
   if (shape?.cells?.length) {
     return `${renderHexPattern(shape.cells)}<span>${shape.cells.length} cells / 六角格</span><span class="shape-unknown">Wiki ${escapeHtml(shape.gameVersion || 'version not stated')}<br>Excel: ${size} cells / 格${shape.cells.length !== size ? '<br><strong>Count differs / 格數不同</strong>' : ''}</span>${sourceAnchor(shape.sourceUrl, 'Source / 來源 ↗')}`;
   }
-  return `<span class="cell-count">${size ?? '—'} <small>cells / 格</small></span><span class="shape-unknown">Shape not recorded<br><span class="zh-copy">形狀未收錄</span></span>`;
+  return `<span class="cell-count">${size ?? '—'} <small>cells / 格</small></span><span class="shape-unknown">Workbook cell count only<br><span class="zh-copy">僅原表占格數</span><br>Coordinates pending<br><span class="zh-copy">格形座標待補；不代表 Wiki 無圖</span></span>`;
 }
 
 export function renderUpgrade(upgrade, owner, record, options = {}) {

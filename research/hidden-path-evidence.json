@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-24",
+  "scope": "歷史影片與玩家討論的來源、版本及限制；完整現行七條路徑改由 hidden-paths-current.json 的 PC v2.0.2 匯出資料核對。僅保存文字與座標，不保存來源媒體。",
+  "sources": [
+    {
+      "id": "slidedrum-hidden-paths-video",
+      "sourceType": "community-original-video-guide",
+      "url": "https://www.youtube.com/watch?v=2azMQacNAzA",
+      "title": "How to unlock FREE UPGRADES with HIDDEN PATHS in Mycopunk!  Everything there is to know!",
+      "author": "SlideDrum",
+      "channelId": "UC_nNTF5Jgov1f43UGuA2TOA",
+      "channelUrl": "https://www.youtube.com/channel/UC_nNTF5Jgov1f43UGuA2TOA/videos",
+      "publishedAt": "2025-07-16T11:48:28-07:00",
+      "durationSeconds": 238,
+      "gameVersion": "1.0.3",
+      "gameVersionDate": "2025-07-14",
+      "versionEvidence": "The author's public video description explicitly says the guide covers update 1.0.3 of Mycopunk (Jul 14th 2025).",
+      "checkedOn": "2026-10-23",
+      "retrieval": "Read public YouTube channel video cards and watch-page metadata over ordinary HTTPS; no login, cookies or media download.",
+      "chapters": [
+        {
+          "seconds": 0,
+          "title": "Intro"
+        },
+        {
+          "seconds": 26,
+          "title": "What are hidden paths?"
+        },
+        {
+          "seconds": 80,
+          "title": "All paths",
+          "url": "https://www.youtube.com/watch?v=2azMQacNAzA&t=80s"
+        },
+        {
+          "seconds": 102,
+          "title": "More info",
+          "url": "https://www.youtube.com/watch?v=2azMQacNAzA&t=102s"
+        },
+        {
+          "seconds": 163,
+          "title": "Bugs",
+          "url": "https://www.youtube.com/watch?v=2azMQacNAzA&t=163s"
+        },
+        {
+          "seconds": 210,
+          "title": "Outro"
+        }
+      ],
+      "limitsZh": "目前確認作者、原片網址、日期、章節與明示版本；尚未在此資產填入逐格目視核對結果。不得宣稱早期版本圖樣已適用正式版。公開英文自動字幕端點回傳空內容，沒有據此補寫台詞。"
+    },
+    {
+      "id": "slidedrum-reddit-guide",
+      "sourceType": "community-guide-author-discussion",
+      "url": "https://www.reddit.com/r/MycopunkGame/comments/1m1l4z3/everything_there_is_to_know_about_hidden_paths/",
+      "title": "Everything there is to know about HIDDEN PATHS!",
+      "author": "slidedrum",
+      "publishedOn": "2025-07-16",
+      "checkedOn": "2026-10-23",
+      "retrieval": "Search index and previously readable public comments; direct browser currently asks for human verification and was not interacted with.",
+      "claims": [
+        {
+          "date": "2025-07-17",
+          "claimEn": "A claimed path is shared across upgrade grids and cannot grant its reward again.",
+          "claimZh": "已領取路徑跨升級面板共用，不能換裝備重複領獎。"
+        },
+        {
+          "date": "2025-07-23",
+          "claimEn": "For the historical indexing bug, the author suggests moving the pattern one tile left or right.",
+          "claimZh": "針對早期索引問題，作者建議把整個圖樣向左或右移一格。"
+        }
+      ],
+      "limitsZh": "未繞過驗證；上述是作者評論，不等於本站實機測試或現行版本保證。原片係由作者公開 YouTube 頻道獨立定位。"
+    },
+    {
+      "id": "recent-player-hidden-paths",
+      "sourceType": "community-player-discussion",
+      "url": "https://www.reddit.com/r/MycopunkGame/comments/1xbu0cp/hidden_paths_no_spoilers_please/",
+      "title": "Hidden Paths (No Spoilers, please)",
+      "author": "Door-Mateu (comments)",
+      "publishedOn": "2026-10-22",
+      "checkedOn": "2026-10-23",
+      "gameVersion": null,
+      "claims": [
+        {
+          "claimEn": "The comment reports seven paths: four unrestricted, two requiring green rarity, and one requiring purple rarity.",
+          "claimZh": "留言回報共 7 條：4 條不限制稀有度、2 條要求綠色、1 條要求紫色。"
+        },
+        {
+          "claimEn": "Cover the path cells; pieces may extend beyond the path and no particular weapon or character is required.",
+          "claimZh": "須覆蓋路徑格子，配件可延伸到路徑之外，且不指定武器或角色。"
+        }
+      ],
+      "limitsZh": "未標明遊戲版本，也沒有逐條圖樣與獎勵；不得把文字分類硬套到尚未核對的七張圖。"
+    }
+  ],
+  "paths": [],
+  "coordinateConvention": null,
+  "pendingEvidence": [
+    {
+      "sourceId": "slidedrum-hidden-paths-video",
+      "startSeconds": 80,
+      "endSeconds": 102,
+      "taskZh": "從原片 All paths 段落目視核對七個圖形、顏色與面板基準，再保存相對格子座標；保留每圖時間碼。"
+    },
+    {
+      "sourceId": "slidedrum-hidden-paths-video",
+      "startSeconds": 102,
+      "endSeconds": 210,
+      "taskZh": "核對逐條稀有度要求、獎勵、額外格是否可覆蓋及舊版索引問題；不由二手摘要猜測。"
+    }
+  ],
+  "currentDefinitions": "hidden-paths-current.json",
+  "notEstablishedByHistoricalVideoResearch": [
+    "Seven individually verified shapes and coordinate lists",
+    "An in-game panel origin for each path",
+    "Whether rotations or reflections of the target path trigger it",
+    "Individual reward mapping and whether each reward is random",
+    "Applicability of the July 2025 update 1.0.3 guide to the October 2026 launch build"
+  ],
+  "visualSpotCheck": {
+    "checkedOn": "2026-10-24",
+    "sourceId": "slidedrum-hidden-paths-video",
+    "aroundSeconds": 85.7,
+    "observedZh": "瀏覽器目視原片可見外框與分叉圖；只作歷史圖樣抽查，沒有據此聲稱逐格核對七張舊圖。",
+    "mediaSaved": false
+  }
+}

@@ -1,0 +1,2170 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "sourceType": "community-game-data-dump",
+  "author": "Vilsol",
+  "sourceUrl": "https://github.com/Vilsol/mycopunk-data",
+  "manifestUrl": "https://raw.githubusercontent.com/Vilsol/mycopunk-data/main/index.json",
+  "dataUrl": "https://raw.githubusercontent.com/Vilsol/mycopunk-data/main/data/v2.0.2/data.json.gz",
+  "manifestEntry": {
+    "version": "v2.0.2",
+    "buildId": "26120128",
+    "dumpedAt": "2026-10-22T21:03:57Z",
+    "dumperCommit": "d56bb7e",
+    "size": 666901,
+    "sha256": "70eda67bddb8313f68cbe45702e0e6ff9d3fc84cefb6845351ad6a69a6a9b4c0",
+    "steamManifestId": "5210132114692865506"
+  },
+  "gameVersion": {
+    "Version": "v2.0.2",
+    "BuildID": "26120128",
+    "DumpedAt": "2026-10-22T21:03:57Z"
+  },
+  "compressedBytes": 666901,
+  "expandedBytes": 5359740,
+  "dataSha256": "70eda67bddb8313f68cbe45702e0e6ff9d3fc84cefb6845351ad6a69a6a9b4c0",
+  "patternPaths": {
+    "4507464": {
+      "ID": 4507464,
+      "Name": "Path 1",
+      "Rarities": "All",
+      "Pattern": {
+        "width": 7,
+        "height": 6,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 12
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 20
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 20
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 24
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 5
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 20
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 20
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 17
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Exotic"
+        }
+      ]
+    },
+    "4507472": {
+      "ID": 4507472,
+      "Name": "Path 2",
+      "Rarities": "Rare",
+      "Pattern": {
+        "width": 4,
+        "height": 6,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 16
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 10
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 10
+              },
+              {
+                "enabled": true,
+                "connections": 17
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 17
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 2
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ]
+    },
+    "4507476": {
+      "ID": 4507476,
+      "Name": "Path 3",
+      "Rarities": "Epic",
+      "Pattern": {
+        "width": 4,
+        "height": 5,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 20
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 2
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 36
+              },
+              {
+                "enabled": true,
+                "connections": 40
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 17
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 4
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 18
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Epic"
+        }
+      ]
+    },
+    "4507480": {
+      "ID": 4507480,
+      "Name": "Path 4",
+      "Rarities": "All",
+      "Pattern": {
+        "width": 3,
+        "height": 5,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 8
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": true,
+                "connections": 18
+              },
+              {
+                "enabled": true,
+                "connections": 24
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 3
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 18
+              },
+              {
+                "enabled": true,
+                "connections": 17
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 2
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ]
+    },
+    "4507484": {
+      "ID": 4507484,
+      "Name": "Path 5",
+      "Rarities": "All",
+      "Pattern": {
+        "width": 5,
+        "height": 5,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 8
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 18
+              },
+              {
+                "enabled": true,
+                "connections": 21
+              },
+              {
+                "enabled": true,
+                "connections": 36
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 6
+              },
+              {
+                "enabled": true,
+                "connections": 32
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 2
+              },
+              {
+                "enabled": true,
+                "connections": 48
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ]
+    },
+    "4507488": {
+      "ID": 4507488,
+      "Name": "Path 6",
+      "Rarities": "Standard, Rare",
+      "Pattern": {
+        "width": 5,
+        "height": 5,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 8
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 18
+              },
+              {
+                "enabled": true,
+                "connections": 21
+              },
+              {
+                "enabled": true,
+                "connections": 36
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 6
+              },
+              {
+                "enabled": true,
+                "connections": 36
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 18
+              },
+              {
+                "enabled": true,
+                "connections": 48
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 42
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": true,
+                "connections": 1
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ]
+    },
+    "94784": {
+      "ID": 94784,
+      "Name": "Path 0",
+      "Rarities": "All",
+      "Pattern": {
+        "width": 4,
+        "height": 4,
+        "nodes": [
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 12
+              },
+              {
+                "enabled": true,
+                "connections": 34
+              },
+              {
+                "enabled": true,
+                "connections": 20
+              },
+              {
+                "enabled": true,
+                "connections": 32
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 9
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          },
+          {
+            "nodes": [
+              {
+                "enabled": true,
+                "connections": 1
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              },
+              {
+                "enabled": false,
+                "connections": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Rewards": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Epic"
+        }
+      ]
+    }
+  },
+  "limits": "Seven exact source patterns extracted from version-pinned v2.0.2 public game-data snapshot. Original coordinates, rarity flags and all reward fields preserved. Row/column-to-axial conversion verified against the public Wiki generator. Current game matching, board translation/rotation validity and slot anchoring have not been tested. Full dump was read into memory only and not saved; no source SVG/image was read or saved in this step.",
+  "coordinateEvidence": {
+    "sourceUrl": "https://github.com/Vilsol/mycopunk-wiki-generator/blob/9e797d160237883abc994ee7957a3b9988333940/scripts/shared/upgrades/svg-generator.ts#L88",
+    "rawSourceUrl": "https://raw.githubusercontent.com/Vilsol/mycopunk-wiki-generator/9e797d160237883abc994ee7957a3b9988333940/scripts/shared/upgrades/svg-generator.ts",
+    "repositoryCommit": "9e797d160237883abc994ee7957a3b9988333940",
+    "fileSha256": "a8e1ce340e9adf003e2cae405fe486ff8f6713e413f748de86a61c7d4c5a3326",
+    "verifiedLines": {
+      "defaultRadius": [
+        8,
+        15
+      ],
+      "hexVertices": [
+        25,
+        31
+      ],
+      "spacing": [
+        80,
+        83
+      ],
+      "rowColumnIndexing": [
+        88,
+        95
+      ],
+      "centerCoordinates": [
+        106,
+        112
+      ]
+    },
+    "indexing": "Pattern.nodes[row].nodes[column]; outer array length=height; inner array length=width",
+    "layout": "odd-q offset, flat-top hexes; odd columns are shifted down by one half row",
+    "offsetToAxial": "q=column; r=row-floor(column/2)",
+    "axialToOffset": "column=q; row=r+floor(q/2)",
+    "pixelCenter": "cx=radius+1.5*radius*column; cy=radius+sqrt(3)*radius*(row+(column%2)/2)",
+    "sourceDefaultRadius": 56,
+    "normalization": "none; preserve original Pattern rectangle, row=0/column=0 origin, and disabled cells",
+    "limits": "Rendering/index convention verified against the public Wiki generator; current game matching code was not inspected. Data rectangle origin is not proof of mandatory fixed placement on a gear grid."
+  },
+  "derivedPaths": [
+    {
+      "id": 94784,
+      "nameEn": "Path 0",
+      "width": 4,
+      "height": 4,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "cellCount": 7,
+      "enabledCells": [
+        {
+          "column": 0,
+          "row": 0,
+          "q": 0,
+          "r": 0,
+          "connections": 12
+        },
+        {
+          "column": 1,
+          "row": 0,
+          "q": 1,
+          "r": 0,
+          "connections": 34
+        },
+        {
+          "column": 2,
+          "row": 0,
+          "q": 2,
+          "r": -1,
+          "connections": 20
+        },
+        {
+          "column": 3,
+          "row": 0,
+          "q": 3,
+          "r": -1,
+          "connections": 32
+        },
+        {
+          "column": 0,
+          "row": 1,
+          "q": 0,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 0,
+          "row": 2,
+          "q": 0,
+          "r": 2,
+          "connections": 9
+        },
+        {
+          "column": 0,
+          "row": 3,
+          "q": 0,
+          "r": 3,
+          "connections": 1
+        }
+      ],
+      "raritiesRaw": "All",
+      "rarityRule": {
+        "any": true,
+        "allowed": []
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Epic"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    },
+    {
+      "id": 4507464,
+      "nameEn": "Path 1",
+      "width": 7,
+      "height": 6,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          6,
+          -3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          -2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          -1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "cellCount": 22,
+      "enabledCells": [
+        {
+          "column": 0,
+          "row": 0,
+          "q": 0,
+          "r": 0,
+          "connections": 12
+        },
+        {
+          "column": 1,
+          "row": 0,
+          "q": 1,
+          "r": 0,
+          "connections": 34
+        },
+        {
+          "column": 2,
+          "row": 0,
+          "q": 2,
+          "r": -1,
+          "connections": 20
+        },
+        {
+          "column": 3,
+          "row": 0,
+          "q": 3,
+          "r": -1,
+          "connections": 34
+        },
+        {
+          "column": 4,
+          "row": 0,
+          "q": 4,
+          "r": -2,
+          "connections": 20
+        },
+        {
+          "column": 5,
+          "row": 0,
+          "q": 5,
+          "r": -2,
+          "connections": 34
+        },
+        {
+          "column": 6,
+          "row": 0,
+          "q": 6,
+          "r": -3,
+          "connections": 24
+        },
+        {
+          "column": 0,
+          "row": 1,
+          "q": 0,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 6,
+          "row": 1,
+          "q": 6,
+          "r": -2,
+          "connections": 9
+        },
+        {
+          "column": 0,
+          "row": 2,
+          "q": 0,
+          "r": 2,
+          "connections": 9
+        },
+        {
+          "column": 6,
+          "row": 2,
+          "q": 6,
+          "r": -1,
+          "connections": 9
+        },
+        {
+          "column": 0,
+          "row": 3,
+          "q": 0,
+          "r": 3,
+          "connections": 9
+        },
+        {
+          "column": 6,
+          "row": 3,
+          "q": 6,
+          "r": 0,
+          "connections": 9
+        },
+        {
+          "column": 0,
+          "row": 4,
+          "q": 0,
+          "r": 4,
+          "connections": 9
+        },
+        {
+          "column": 6,
+          "row": 4,
+          "q": 6,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 0,
+          "row": 5,
+          "q": 0,
+          "r": 5,
+          "connections": 5
+        },
+        {
+          "column": 1,
+          "row": 5,
+          "q": 1,
+          "r": 5,
+          "connections": 34
+        },
+        {
+          "column": 2,
+          "row": 5,
+          "q": 2,
+          "r": 4,
+          "connections": 20
+        },
+        {
+          "column": 3,
+          "row": 5,
+          "q": 3,
+          "r": 4,
+          "connections": 34
+        },
+        {
+          "column": 4,
+          "row": 5,
+          "q": 4,
+          "r": 3,
+          "connections": 20
+        },
+        {
+          "column": 5,
+          "row": 5,
+          "q": 5,
+          "r": 3,
+          "connections": 34
+        },
+        {
+          "column": 6,
+          "row": 5,
+          "q": 6,
+          "r": 2,
+          "connections": 17
+        }
+      ],
+      "raritiesRaw": "All",
+      "rarityRule": {
+        "any": true,
+        "allowed": []
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Exotic"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    },
+    {
+      "id": 4507472,
+      "nameEn": "Path 2",
+      "width": 4,
+      "height": 6,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          3,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "cellCount": 7,
+      "enabledCells": [
+        {
+          "column": 3,
+          "row": 0,
+          "q": 3,
+          "r": -1,
+          "connections": 16
+        },
+        {
+          "column": 2,
+          "row": 1,
+          "q": 2,
+          "r": 0,
+          "connections": 10
+        },
+        {
+          "column": 1,
+          "row": 2,
+          "q": 1,
+          "r": 2,
+          "connections": 10
+        },
+        {
+          "column": 2,
+          "row": 2,
+          "q": 2,
+          "r": 1,
+          "connections": 17
+        },
+        {
+          "column": 1,
+          "row": 3,
+          "q": 1,
+          "r": 3,
+          "connections": 9
+        },
+        {
+          "column": 1,
+          "row": 4,
+          "q": 1,
+          "r": 4,
+          "connections": 17
+        },
+        {
+          "column": 0,
+          "row": 5,
+          "q": 0,
+          "r": 5,
+          "connections": 2
+        }
+      ],
+      "raritiesRaw": "Rare",
+      "rarityRule": {
+        "any": false,
+        "allowed": [
+          "Rare"
+        ]
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    },
+    {
+      "id": 4507476,
+      "nameEn": "Path 3",
+      "width": 4,
+      "height": 5,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cellCount": 9,
+      "enabledCells": [
+        {
+          "column": 1,
+          "row": 0,
+          "q": 1,
+          "r": 0,
+          "connections": 20
+        },
+        {
+          "column": 0,
+          "row": 1,
+          "q": 0,
+          "r": 1,
+          "connections": 2
+        },
+        {
+          "column": 2,
+          "row": 1,
+          "q": 2,
+          "r": 0,
+          "connections": 36
+        },
+        {
+          "column": 3,
+          "row": 1,
+          "q": 3,
+          "r": 0,
+          "connections": 40
+        },
+        {
+          "column": 3,
+          "row": 2,
+          "q": 3,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 3,
+          "row": 3,
+          "q": 3,
+          "r": 2,
+          "connections": 17
+        },
+        {
+          "column": 0,
+          "row": 4,
+          "q": 0,
+          "r": 4,
+          "connections": 4
+        },
+        {
+          "column": 1,
+          "row": 4,
+          "q": 1,
+          "r": 4,
+          "connections": 34
+        },
+        {
+          "column": 2,
+          "row": 4,
+          "q": 2,
+          "r": 3,
+          "connections": 18
+        }
+      ],
+      "raritiesRaw": "Epic",
+      "rarityRule": {
+        "any": false,
+        "allowed": [
+          "Epic"
+        ]
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Epic"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    },
+    {
+      "id": 4507480,
+      "nameEn": "Path 4",
+      "width": 3,
+      "height": 5,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "cellCount": 9,
+      "enabledCells": [
+        {
+          "column": 0,
+          "row": 0,
+          "q": 0,
+          "r": 0,
+          "connections": 8
+        },
+        {
+          "column": 0,
+          "row": 1,
+          "q": 0,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 1,
+          "row": 1,
+          "q": 1,
+          "r": 1,
+          "connections": 18
+        },
+        {
+          "column": 2,
+          "row": 1,
+          "q": 2,
+          "r": 0,
+          "connections": 24
+        },
+        {
+          "column": 0,
+          "row": 2,
+          "q": 0,
+          "r": 2,
+          "connections": 3
+        },
+        {
+          "column": 2,
+          "row": 2,
+          "q": 2,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 1,
+          "row": 3,
+          "q": 1,
+          "r": 3,
+          "connections": 18
+        },
+        {
+          "column": 2,
+          "row": 3,
+          "q": 2,
+          "r": 2,
+          "connections": 17
+        },
+        {
+          "column": 0,
+          "row": 4,
+          "q": 0,
+          "r": 4,
+          "connections": 2
+        }
+      ],
+      "raritiesRaw": "All",
+      "rarityRule": {
+        "any": true,
+        "allowed": []
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    },
+    {
+      "id": 4507484,
+      "nameEn": "Path 5",
+      "width": 5,
+      "height": 5,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "cellCount": 10,
+      "enabledCells": [
+        {
+          "column": 2,
+          "row": 0,
+          "q": 2,
+          "r": -1,
+          "connections": 8
+        },
+        {
+          "column": 2,
+          "row": 1,
+          "q": 2,
+          "r": 0,
+          "connections": 9
+        },
+        {
+          "column": 2,
+          "row": 2,
+          "q": 2,
+          "r": 1,
+          "connections": 9
+        },
+        {
+          "column": 1,
+          "row": 3,
+          "q": 1,
+          "r": 3,
+          "connections": 18
+        },
+        {
+          "column": 2,
+          "row": 3,
+          "q": 2,
+          "r": 2,
+          "connections": 21
+        },
+        {
+          "column": 3,
+          "row": 3,
+          "q": 3,
+          "r": 2,
+          "connections": 36
+        },
+        {
+          "column": 0,
+          "row": 4,
+          "q": 0,
+          "r": 4,
+          "connections": 6
+        },
+        {
+          "column": 1,
+          "row": 4,
+          "q": 1,
+          "r": 4,
+          "connections": 32
+        },
+        {
+          "column": 3,
+          "row": 4,
+          "q": 3,
+          "r": 3,
+          "connections": 2
+        },
+        {
+          "column": 4,
+          "row": 4,
+          "q": 4,
+          "r": 2,
+          "connections": 48
+        }
+      ],
+      "raritiesRaw": "All",
+      "rarityRule": {
+        "any": true,
+        "allowed": []
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    },
+    {
+      "id": 4507488,
+      "nameEn": "Path 6",
+      "width": 5,
+      "height": 5,
+      "coordinateSystem": "axial-flat-top",
+      "offsetCoordinateSystem": "odd-q",
+      "anchor": {
+        "column": 0,
+        "row": 0,
+        "q": 0,
+        "r": 0,
+        "basis": "original source Pattern rectangle, including disabled cells",
+        "fixedGearSlotRequired": null
+      },
+      "orientation": {
+        "rotationDegrees": 0,
+        "reflected": false,
+        "basis": "source Pattern array"
+      },
+      "cells": [
+        [
+          2,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cellCount": 10,
+      "enabledCells": [
+        {
+          "column": 2,
+          "row": 0,
+          "q": 2,
+          "r": -1,
+          "connections": 8
+        },
+        {
+          "column": 1,
+          "row": 1,
+          "q": 1,
+          "r": 1,
+          "connections": 18
+        },
+        {
+          "column": 2,
+          "row": 1,
+          "q": 2,
+          "r": 0,
+          "connections": 21
+        },
+        {
+          "column": 3,
+          "row": 1,
+          "q": 3,
+          "r": 0,
+          "connections": 36
+        },
+        {
+          "column": 0,
+          "row": 2,
+          "q": 0,
+          "r": 2,
+          "connections": 6
+        },
+        {
+          "column": 1,
+          "row": 2,
+          "q": 1,
+          "r": 2,
+          "connections": 36
+        },
+        {
+          "column": 3,
+          "row": 2,
+          "q": 3,
+          "r": 1,
+          "connections": 18
+        },
+        {
+          "column": 4,
+          "row": 2,
+          "q": 4,
+          "r": 0,
+          "connections": 48
+        },
+        {
+          "column": 2,
+          "row": 3,
+          "q": 2,
+          "r": 2,
+          "connections": 42
+        },
+        {
+          "column": 2,
+          "row": 4,
+          "q": 2,
+          "r": 3,
+          "connections": 1
+        }
+      ],
+      "raritiesRaw": "Standard, Rare",
+      "rarityRule": {
+        "any": false,
+        "allowed": [
+          "Standard",
+          "Rare"
+        ]
+      },
+      "rewardsRaw": [
+        {
+          "Type": "LevelUnlock_UpgradeRarity",
+          "Level": 0,
+          "Count": 1,
+          "Chance": 0.0,
+          "Rarity": "Rare"
+        }
+      ],
+      "gameVersion": "v2.0.2",
+      "buildId": "26120128",
+      "testedInGame": false,
+      "sourceType": "community-game-data-dump"
+    }
+  ],
+  "sourceRevision": {
+    "commit": "a63cb1a6064030f77fc602e6d00b83dd967208aa",
+    "commitUrl": "https://github.com/Vilsol/mycopunk-data/commit/a63cb1a6064030f77fc602e6d00b83dd967208aa",
+    "committedOn": "2026-10-22T21:04:13Z",
+    "fileUrl": "https://github.com/Vilsol/mycopunk-data/blob/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+    "immutableDataUrl": "https://raw.githubusercontent.com/Vilsol/mycopunk-data/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+    "method": "Public GitHub commit history for this exact versioned file; its content was separately verified against the version manifest SHA256."
+  },
+  "schemaEvidence": {
+    "sourceUrl": "https://github.com/Vilsol/mycopunk-dumper/blob/main/data.schema.json",
+    "rawSourceUrl": "https://raw.githubusercontent.com/Vilsol/mycopunk-dumper/main/data.schema.json",
+    "checkedOn": "2026-10-24",
+    "jsonPointers": [
+      "/properties/patternPaths",
+      "/$defs/PatternPath",
+      "/$defs/HexMap",
+      "/$defs/LevelUnlockEntry/properties/Chance"
+    ],
+    "patternPaths": "The schema explicitly describes seven special hex-grid definitions; source arrays carry enabled flags and edge-connection bitmasks.",
+    "chanceMeaning": "The schema describes Chance as probability 0..1, but explicitly treats zero as deterministic with weighting elsewhere. All seven raw rewards use Chance=0.0. Do not present this field as a zero percent unlock chance; current trigger logic has not been verified in game.",
+    "versionLimit": "This schema was read from the public repository main branch on the checked date; the snapshot itself is pinned by sourceRevision commit and manifest SHA256."
+  }
+}

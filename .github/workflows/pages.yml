@@ -28,6 +28,7 @@ jobs:
           node --check prototype/recommendations.js
           node --check prototype/wiki.js
           node --check prototype/patterns.js
+          node --check prototype/hidden-paths.js
           node --check scripts/serve.mjs
           node scripts/validate_site.mjs
       - name: Verify reproducible data imports

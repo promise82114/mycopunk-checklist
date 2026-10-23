@@ -1,0 +1,103 @@
+{
+  "checkedOn": "2026-10-24",
+  "request": {
+    "action": "query",
+    "titles": "Rail-Tuning Upgrade|Yellow Prism Upgrade|Purple Prism Upgrade|Blue Prism Upgrade|Green Prism Upgrade|Improve Replication Upgrade|Explosive Bullets Upgrade",
+    "prop": "images",
+    "imlimit": 50,
+    "redirects": 1,
+    "format": "json"
+  },
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "1237": {
+          "pageid": 1237,
+          "ns": 0,
+          "title": "Blue Prism Upgrade",
+          "images": [
+            {
+              "ns": 6,
+              "title": "File:Font H Blue Prism font Icon.png"
+            },
+            {
+              "ns": 6,
+              "title": "File:Font H Blue Prism font Pattern.svg"
+            }
+          ]
+        },
+        "2170": {
+          "pageid": 2170,
+          "ns": 0,
+          "title": "Explosive Bullets Upgrade"
+        },
+        "1297": {
+          "pageid": 1297,
+          "ns": 0,
+          "title": "Green Prism Upgrade",
+          "images": [
+            {
+              "ns": 6,
+              "title": "File:Font H Green Prism font Icon.png"
+            },
+            {
+              "ns": 6,
+              "title": "File:Font H Green Prism font Pattern.svg"
+            }
+          ]
+        },
+        "2861": {
+          "pageid": 2861,
+          "ns": 0,
+          "title": "Improve Replication Upgrade"
+        },
+        "1553": {
+          "pageid": 1553,
+          "ns": 0,
+          "title": "Purple Prism Upgrade",
+          "images": [
+            {
+              "ns": 6,
+              "title": "File:Font H Purple Prism font Icon.png"
+            },
+            {
+              "ns": 6,
+              "title": "File:Font H Purple Prism font Pattern.svg"
+            }
+          ]
+        },
+        "1443": {
+          "pageid": 1443,
+          "ns": 0,
+          "title": "Rail-Tuning Upgrade",
+          "images": [
+            {
+              "ns": 6,
+              "title": "File:Rail-Tuning Icon.png"
+            },
+            {
+              "ns": 6,
+              "title": "File:Rail-Tuning Pattern.svg"
+            }
+          ]
+        },
+        "1122": {
+          "pageid": 1122,
+          "ns": 0,
+          "title": "Yellow Prism Upgrade",
+          "images": [
+            {
+              "ns": 6,
+              "title": "File:Font H Yellow Prism font Icon.png"
+            },
+            {
+              "ns": 6,
+              "title": "File:Font H Yellow Prism font Pattern.svg"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

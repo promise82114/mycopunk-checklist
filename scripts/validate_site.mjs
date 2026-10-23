@@ -7,6 +7,7 @@ import { buildSearchIndex, filterUpgrades, tagLabels, rarities, emptyCollection,
 import { validateRecommendations, selectRankedUpgrades, routeCollection } from '../prototype/recommendations.js';
 import { validateFieldGuide, renderShape, renderUpgrade, escapeHtml } from '../prototype/wiki.js';
 import { normalizeHexCells, rotateHexCells, hexCellsOverlap, renderHexPattern } from '../prototype/patterns.js';
+import { validateHiddenPaths, renderPathDiagram, renderHiddenPaths } from '../prototype/hidden-paths.js';
 
 const repoRoot = fileURLToPath(new URL('../', import.meta.url));
 const siteRoot = path.join(repoRoot, 'prototype');
@@ -91,10 +92,24 @@ for (const profile of fieldGuide.equipment.items) {
   assert.equal(profile.gameVersion, null, '裝備來源未註明遊戲版本');
 }
 const shapeSource = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-shapes.json'), 'utf8'));
+const shapeCoordinates = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-shape-coordinates.json'), 'utf8'));
+const geometryBySource = new Map(shapeCoordinates.coordinates.filter(item => item.cells).map(item => [item.sourceUrl, item]));
+const coveredShapeIds = new Set(fieldGuide.shapes.patterns.flatMap(item => item.upgradeIds));
+assert.equal(coveredShapeIds.size, fieldGuide.shapes.coverage.coveredUpgradeRecords, '格形覆蓋統計不符');
+assert.deepEqual(catalogue.upgrades.filter(item => !coveredShapeIds.has(item.id)).map(item => item.id), shapeSource.unmatchedUpgradeIds, '缺圖清單不符');
+for (const id of ['cycler:corrode-siphon', 'cycler:violent-ignition', 'cycler:edge-fault', 'gunship-cannon:yellow-prism', 'gunship-cannon:blue-prism', 'gunship-cannon:green-prism', 'gunship-cannon:purple-prism', 'plate-launcher:rail-tuning']) {
+  assert(coveredShapeIds.has(id), '索引漏項或名稱差異再次造成缺圖：' + id);
+}
+const pageEvidence = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-shape-page-evidence.json'), 'utf8'));
+for (const pattern of shapeSource.patterns.filter(item => item.nameMatchEvidenceUrl)) {
+  const page = Object.values(pageEvidence.response.query.pages).find(page => pattern.nameMatchEvidenceUrl.endsWith('/' + page.title.replaceAll(' ', '_')));
+  assert(page?.images?.some(image => image.title === pattern.fileTitle), '名稱對應缺少條目引用證據');
+}
 for (const pattern of fieldGuide.shapes.patterns) {
   const original = shapeSource.patterns.find(item => item.sourceUrl === pattern.sourceUrl);
   assert(original, '格形缺少來源');
   assert.deepEqual(pattern.cells, original.cells, '格形座標與解析來源不符');
+  assert.deepEqual(pattern.cells, geometryBySource.get(pattern.sourceUrl)?.cells, '格形與記憶體解析快照不符');
   assert.equal(pattern.gameVersion, original.gameVersion, '格形版本不符');
   assert.deepEqual(rotateHexCells(pattern.cells, 6), normalizeHexCells(pattern.cells), '六次旋轉未回到原格形');
   assert.equal(rotateHexCells(pattern.cells).length, pattern.cells.length, '旋轉改變格數');
@@ -105,6 +120,7 @@ assert(!hexCellsOverlap([[0, 0]], [[1, 0]]), '不相交格子誤判');
 const sampleShape = fieldGuide.shapes.patterns.find(pattern => pattern.upgradeIds.includes('dmlr:autocycler'));
 assert(sampleShape && renderShape(sampleShape, 7).includes('Count differs'), '版本格數差異未標示');
 assert.equal((renderHexPattern(sampleShape.cells).match(/<polygon /g) || []).length, sampleShape.cellCount, '繪圖數量不符');
+assert(renderShape(null, 5).includes('Coordinates pending') && !renderShape(null, 5).includes('not provided'), '未匯入不應宣稱來源無圖');
 const inlineUpgrade = renderUpgrade(sample, owners.get(sample.ownerId), {}, {});
 assert(!inlineUpgrade.includes('data-detail') && !inlineUpgrade.includes('textarea'), '攻略仍依賴詳情或筆記介面');
 assert(inlineUpgrade.includes(escapeHtml(sample.descriptionEn)) && inlineUpgrade.includes('upgrade-stats'), '效果與數值未直接列出');
@@ -117,3 +133,35 @@ invalidPattern.shapes.patterns[0].cells.push(invalidPattern.shapes.patterns[0].c
 assert.throws(() => validateFieldGuide(invalidPattern, catalogue), /格形|格點/);
 for (const asset of ['wiki.js', 'patterns.js']) await access(path.join(siteRoot, asset));
 console.log(`Validated ${fieldGuide.equipment.items.length} Wiki profiles, ${fieldGuide.shapes.patterns.length} coordinate patterns, ${fieldGuide.unlocks.mechanics.length} unlock topics, rotations and collision geometry.`);
+
+const hiddenPaths = validateHiddenPaths(fieldGuide.hiddenPaths);
+const pathSnapshot = JSON.parse(await readFile(path.join(repoRoot, 'research/hidden-paths-current.json'), 'utf8'));
+assert.equal(hiddenPaths.source.revision, pathSnapshot.sourceRevision.commit, '路徑固定來源修訂不符');
+assert.equal(hiddenPaths.source.sha256, pathSnapshot.manifestEntry.sha256, '路徑匯出雜湊不符');
+assert.equal(hiddenPaths.source.gameVersion, pathSnapshot.gameVersion.Version, '路徑版本不符');
+assert.equal(hiddenPaths.source.buildId, pathSnapshot.gameVersion.BuildID, '路徑 Build 不符');
+for (const [index, item] of hiddenPaths.paths.entries()) {
+  const original = pathSnapshot.patternPaths[item.id];
+  const enabledCells = [];
+  original.Pattern.nodes.forEach((row, y) => row.nodes.forEach((cell, x) => {
+    if (cell.enabled) enabledCells.push({ column: x, row: y, q: x, r: y - Math.floor(x / 2), connections: cell.connections });
+  }));
+  assert.equal(item.width, original.Pattern.width);
+  assert.equal(item.height, original.Pattern.height);
+  assert.deepEqual(item.enabledCells, enabledCells, '路徑與原始逐格資料不符');
+  assert.deepEqual(item.rewardsRaw, original.Rewards, '路徑獎勵不符');
+  assert.equal(item.raritiesRaw, original.Rarities);
+  assert.equal(item.cellCount, [7, 22, 7, 9, 9, 10, 10][index]);
+  assert.deepEqual(item.rarityRule, index === 2 ? { any: false, allowed: ['Rare'] } : index === 3 ? { any: false, allowed: ['Epic'] } : index === 6 ? { any: false, allowed: ['Standard', 'Rare'] } : { any: true, allowed: [] });
+  const svg = renderPathDiagram(item);
+  assert.equal((svg.match(/class="path-cell path-required"/g) || []).length, item.cellCount);
+  assert.equal((svg.match(/<polygon /g) || []).length, item.width * item.height);
+  assert(!/<image|<img|https?:/.test(svg), '路徑不可使用外部貼圖');
+}
+for (const mutate of [d => d.paths.pop(), d => d.paths[0].cells[0][1]++, d => d.paths[0].buildId = 'unknown']) {
+  const invalid = structuredClone(hiddenPaths); mutate(invalid);
+  assert.throws(() => validateHiddenPaths(invalid), /隱藏路徑/);
+}
+assert(renderHiddenPaths(hiddenPaths).includes('v2.0.2') && renderHiddenPaths(hiddenPaths).includes('1.0.3'), '新舊版本未區分');
+await access(path.join(siteRoot, 'hidden-paths.js'));
+console.log('Validated seven Hidden Paths against original cells, rarity rules, rewards, source versions and generated diagrams.');

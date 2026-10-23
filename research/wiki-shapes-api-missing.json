@@ -1,0 +1,2974 @@
+{
+  "checkedOn": "2026-10-24",
+  "method": "Exact file titles for missing workbook names; no search pagination",
+  "batches": [
+    {
+      "requestedTitles": [
+        "File:Acid Shot Pattern.svg",
+        "File:Adaptive Stabilizers Pattern.svg",
+        "File:Adrenaline Reload Pattern.svg",
+        "File:Adrenaline Rush Pattern.svg",
+        "File:Aerodynamic Plates Pattern.svg",
+        "File:Aft Thrusters Pattern.svg",
+        "File:Arc Lightning Pattern.svg",
+        "File:Assist Charge Pattern.svg",
+        "File:Atmospheric Energizers Pattern.svg",
+        "File:Auger Subroutine Pattern.svg",
+        "File:Auto-Replicator Pattern.svg",
+        "File:Auxiliary Chargers Pattern.svg",
+        "File:Bailing Water Pattern.svg",
+        "File:Base Coating Pattern.svg",
+        "File:Blood Coating Pattern.svg",
+        "File:Blood Efficiency Pattern.svg",
+        "File:Blood Lightning Pattern.svg",
+        "File:Blood Rampage Pattern.svg",
+        "File:Blue Prism Pattern.svg",
+        "File:Bottom Heavy Pattern.svg",
+        "File:Boundary Incursion Pattern.svg",
+        "File:Brittle Battery Pattern.svg",
+        "File:Bruise Protection Pattern.svg",
+        "File:Burst Release Pattern.svg",
+        "File:Clearing Plasma Pattern.svg",
+        "File:Coil Springs Pattern.svg",
+        "File:Comet Splash Pattern.svg",
+        "File:Condensed Ejection Pattern.svg",
+        "File:Connected Systems Pattern.svg",
+        "File:Core Repurposing Pattern.svg",
+        "File:Corrode Siphon Pattern.svg",
+        "File:Corrosive Plasma Pattern.svg",
+        "File:Cosmic Microwave Pattern.svg",
+        "File:Cycling Repairs Pattern.svg",
+        "File:Damage Arc Pattern.svg",
+        "File:Dash Immunity Pattern.svg",
+        "File:Decay Plates Pattern.svg",
+        "File:Discount Marksman Pattern.svg",
+        "File:Dive Interrupt Pattern.svg",
+        "File:Double Action Pattern.svg",
+        "File:Double Lasso Pattern.svg",
+        "File:Edge Fault Pattern.svg",
+        "File:Efficient Storage Pattern.svg",
+        "File:Electrified Pellets Pattern.svg",
+        "File:Elemental Tips Pattern.svg",
+        "File:Energy Condenser Pattern.svg",
+        "File:Energy Injection Pattern.svg",
+        "File:Equipment Siphon Pattern.svg",
+        "File:Explosive Bullets Pattern.svg",
+        "File:Explosive Pellets Pattern.svg"
+      ],
+      "response": {
+        "batchcomplete": "",
+        "query": {
+          "pages": {
+            "-1": {
+              "ns": 6,
+              "title": "File:Blue Prism Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "-2": {
+              "ns": 6,
+              "title": "File:Explosive Bullets Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "2812": {
+              "pageid": 2812,
+              "ns": 6,
+              "title": "File:Acid Shot Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:56Z",
+                  "comment": "Uploaded pattern for Acid Shot upgrade (v1.8)\n\n'''Acid Shot'''\n\nHex pattern for the Acid Shot upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/a0/Acid_Shot_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Acid_Shot_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2812"
+                }
+              ]
+            },
+            "2779": {
+              "pageid": 2779,
+              "ns": 6,
+              "title": "File:Adaptive Stabilizers Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:25:50Z",
+                  "comment": "Uploaded pattern for Adaptive Stabilizers upgrade (v1.8)\n\n'''Adaptive Stabilizers'''\n\nHex pattern for the Adaptive Stabilizers upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e7/Adaptive_Stabilizers_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Adaptive_Stabilizers_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2779"
+                }
+              ]
+            },
+            "2560": {
+              "pageid": 2560,
+              "ns": 6,
+              "title": "File:Adrenaline Reload Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:01:03Z",
+                  "comment": "Uploaded pattern for Adrenaline Reload upgrade (v1.8)\n\n'''Adrenaline Reload'''\n\nHex pattern for the Adrenaline Reload upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/2b/Adrenaline_Reload_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Adrenaline_Reload_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2560"
+                }
+              ]
+            },
+            "2711": {
+              "pageid": 2711,
+              "ns": 6,
+              "title": "File:Adrenaline Rush Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:10:30Z",
+                  "comment": "Uploaded pattern for Adrenaline Rush upgrade (v1.8)\n\n'''Adrenaline Rush'''\n\nHex pattern for the Adrenaline Rush upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/71/Adrenaline_Rush_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Adrenaline_Rush_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2711"
+                }
+              ]
+            },
+            "2745": {
+              "pageid": 2745,
+              "ns": 6,
+              "title": "File:Aerodynamic Plates Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:55Z",
+                  "comment": "Uploaded pattern for Aerodynamic Plates upgrade (v1.8)\n\n'''Aerodynamic Plates'''\n\nHex pattern for the Aerodynamic Plates upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/0/04/Aerodynamic_Plates_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Aerodynamic_Plates_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2745"
+                }
+              ]
+            },
+            "2391": {
+              "pageid": 2391,
+              "ns": 6,
+              "title": "File:Aft Thrusters Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:14:45Z",
+                  "comment": "Uploaded pattern for Aft Thrusters upgrade (v1.8)\n\n'''Aft Thrusters'''\n\nHex pattern for the Aft Thrusters upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/4c/Aft_Thrusters_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Aft_Thrusters_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2391"
+                }
+              ]
+            },
+            "2677": {
+              "pageid": 2677,
+              "ns": 6,
+              "title": "File:Arc Lightning Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:01:41Z",
+                  "comment": "Uploaded pattern for Arc Lightning upgrade (v1.8)\n\n'''Arc Lightning'''\n\nHex pattern for the Arc Lightning upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/9e/Arc_Lightning_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Arc_Lightning_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2677"
+                }
+              ]
+            },
+            "2678": {
+              "pageid": 2678,
+              "ns": 6,
+              "title": "File:Assist Charge Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:02Z",
+                  "comment": "Uploaded pattern for Assist Charge upgrade (v1.8)\n\n'''Assist Charge'''\n\nHex pattern for the Assist Charge upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c8/Assist_Charge_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Assist_Charge_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2678"
+                }
+              ]
+            },
+            "2636": {
+              "pageid": 2636,
+              "ns": 6,
+              "title": "File:Atmospheric Energizers Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:01:56Z",
+                  "comment": "Uploaded pattern for Atmospheric Energizers upgrade (v1.8)\n\n'''Atmospheric Energizers'''\n\nHex pattern for the Atmospheric Energizers upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5e/Atmospheric_Energizers_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Atmospheric_Energizers_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2636"
+                }
+              ]
+            },
+            "2904": {
+              "pageid": 2904,
+              "ns": 6,
+              "title": "File:Auger Subroutine Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:02Z",
+                  "comment": "Uploaded pattern for Auger Subroutine upgrade (v1.8)\n\n'''Auger Subroutine'''\n\nHex pattern for the Auger Subroutine upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5a/Auger_Subroutine_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Auger_Subroutine_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2904"
+                }
+              ]
+            },
+            "2847": {
+              "pageid": 2847,
+              "ns": 6,
+              "title": "File:Auto-Replicator Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:11:52Z",
+                  "comment": "Uploaded pattern for Auto-Replicator upgrade (v1.8)\n\n'''Auto-Replicator'''\n\nHex pattern for the Auto-Replicator upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/20/Auto-Replicator_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Auto-Replicator_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2847"
+                }
+              ]
+            },
+            "2905": {
+              "pageid": 2905,
+              "ns": 6,
+              "title": "File:Auxiliary Chargers Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:02:07Z",
+                  "comment": "Uploaded pattern for Auxiliary Chargers upgrade (v1.8)\n\n'''Auxiliary Chargers'''\n\nHex pattern for the Auxiliary Chargers upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/cf/Auxiliary_Chargers_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Auxiliary_Chargers_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2905"
+                }
+              ]
+            },
+            "2813": {
+              "pageid": 2813,
+              "ns": 6,
+              "title": "File:Bailing Water Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:53Z",
+                  "comment": "Uploaded pattern for Bailing Water upgrade (v1.8)\n\n'''Bailing Water'''\n\nHex pattern for the Bailing Water upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8e/Bailing_Water_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Bailing_Water_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2813"
+                }
+              ]
+            },
+            "2516": {
+              "pageid": 2516,
+              "ns": 6,
+              "title": "File:Base Coating Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:17Z",
+                  "comment": "Uploaded pattern for Base Coating upgrade (v1.8)\n\n'''Base Coating'''\n\nHex pattern for the Base Coating upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8a/Base_Coating_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Base_Coating_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2516"
+                }
+              ]
+            },
+            "2880": {
+              "pageid": 2880,
+              "ns": 6,
+              "title": "File:Blood Coating Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:22Z",
+                  "comment": "Uploaded pattern for Blood Coating upgrade (v1.8)\n\n'''Blood Coating'''\n\nHex pattern for the Blood Coating upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/53/Blood_Coating_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Blood_Coating_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2880"
+                }
+              ]
+            },
+            "2881": {
+              "pageid": 2881,
+              "ns": 6,
+              "title": "File:Blood Efficiency Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:09Z",
+                  "comment": "Uploaded pattern for Blood Efficiency upgrade (v1.8)\n\n'''Blood Efficiency'''\n\nHex pattern for the Blood Efficiency upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5a/Blood_Efficiency_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Blood_Efficiency_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2881"
+                }
+              ]
+            },
+            "2882": {
+              "pageid": 2882,
+              "ns": 6,
+              "title": "File:Blood Lightning Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:24Z",
+                  "comment": "Uploaded pattern for Blood Lightning upgrade (v1.8)\n\n'''Blood Lightning'''\n\nHex pattern for the Blood Lightning upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/2b/Blood_Lightning_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Blood_Lightning_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2882"
+                }
+              ]
+            },
+            "2883": {
+              "pageid": 2883,
+              "ns": 6,
+              "title": "File:Blood Rampage Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:13Z",
+                  "comment": "Uploaded pattern for Blood Rampage upgrade (v1.8)\n\n'''Blood Rampage'''\n\nHex pattern for the Blood Rampage upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/6e/Blood_Rampage_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Blood_Rampage_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2883"
+                }
+              ]
+            },
+            "2814": {
+              "pageid": 2814,
+              "ns": 6,
+              "title": "File:Bottom Heavy Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:34Z",
+                  "comment": "Uploaded pattern for Bottom Heavy upgrade (v1.8)\n\n'''Bottom Heavy'''\n\nHex pattern for the Bottom Heavy upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/43/Bottom_Heavy_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Bottom_Heavy_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2814"
+                }
+              ]
+            },
+            "2289": {
+              "pageid": 2289,
+              "ns": 6,
+              "title": "File:Boundary Incursion Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:23Z",
+                  "comment": "Uploaded pattern for Boundary Incursion upgrade (v1.8)\n\n'''Boundary Incursion'''\n\nHex pattern for the Boundary Incursion upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/ca/Boundary_Incursion_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Boundary_Incursion_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2289"
+                }
+              ]
+            },
+            "2279": {
+              "pageid": 2279,
+              "ns": 6,
+              "title": "File:Brittle Battery Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:45Z",
+                  "comment": "Uploaded pattern for Brittle Battery upgrade (v1.8)\n\n'''Brittle Battery'''\n\nHex pattern for the Brittle Battery upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8c/Brittle_Battery_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Brittle_Battery_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2279"
+                }
+              ]
+            },
+            "2357": {
+              "pageid": 2357,
+              "ns": 6,
+              "title": "File:Bruise Protection Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:59Z",
+                  "comment": "Uploaded pattern for Bruise Protection upgrade (v1.8)\n\n'''Bruise Protection'''\n\nHex pattern for the Bruise Protection upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/7b/Bruise_Protection_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Bruise_Protection_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2357"
+                }
+              ]
+            },
+            "2393": {
+              "pageid": 2393,
+              "ns": 6,
+              "title": "File:Burst Release Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:04:12Z",
+                  "comment": "Uploaded pattern for Burst Release upgrade (v1.8)\n\n'''Burst Release'''\n\nHex pattern for the Burst Release upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/bf/Burst_Release_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Burst_Release_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2393"
+                }
+              ]
+            },
+            "2752": {
+              "pageid": 2752,
+              "ns": 6,
+              "title": "File:Clearing Plasma Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:00Z",
+                  "comment": "Uploaded pattern for Clearing Plasma upgrade (v1.8)\n\n'''Clearing Plasma'''\n\nHex pattern for the Clearing Plasma upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/ff/Clearing_Plasma_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Clearing_Plasma_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2752"
+                }
+              ]
+            },
+            "2394": {
+              "pageid": 2394,
+              "ns": 6,
+              "title": "File:Coil Springs Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:05Z",
+                  "comment": "Uploaded pattern for Coil Springs upgrade (v1.8)\n\n'''Coil Springs'''\n\nHex pattern for the Coil Springs upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/0/03/Coil_Springs_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Coil_Springs_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2394"
+                }
+              ]
+            },
+            "2359": {
+              "pageid": 2359,
+              "ns": 6,
+              "title": "File:Comet Splash Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:09Z",
+                  "comment": "Uploaded pattern for Comet Splash upgrade (v1.8)\n\n'''Comet Splash'''\n\nHex pattern for the Comet Splash upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e5/Comet_Splash_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Comet_Splash_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2359"
+                }
+              ]
+            },
+            "2568": {
+              "pageid": 2568,
+              "ns": 6,
+              "title": "File:Condensed Ejection Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:02Z",
+                  "comment": "Uploaded pattern for Condensed Ejection upgrade (v1.8)\n\n'''Condensed Ejection'''\n\nHex pattern for the Condensed Ejection upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/d1/Condensed_Ejection_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Condensed_Ejection_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2568"
+                }
+              ]
+            },
+            "2517": {
+              "pageid": 2517,
+              "ns": 6,
+              "title": "File:Connected Systems Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:27Z",
+                  "comment": "Uploaded pattern for Connected Systems upgrade (v1.8)\n\n'''Connected Systems'''\n\nHex pattern for the Connected Systems upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/73/Connected_Systems_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Connected_Systems_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2517"
+                }
+              ]
+            },
+            "2281": {
+              "pageid": 2281,
+              "ns": 6,
+              "title": "File:Core Repurposing Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:31Z",
+                  "comment": "Uploaded pattern for Core Repurposing upgrade (v1.8)\n\n'''Core Repurposing'''\n\nHex pattern for the Core Repurposing upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/9b/Core_Repurposing_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Core_Repurposing_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2281"
+                }
+              ]
+            },
+            "2569": {
+              "pageid": 2569,
+              "ns": 6,
+              "title": "File:Corrode Siphon Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:10:22Z",
+                  "comment": "Uploaded pattern for Corrode Siphon (ID: 40972) (v2.0)\n\n'''Corrode Siphon'''\n\nHex pattern for the Corrode Siphon upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e3/Corrode_Siphon_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Corrode_Siphon_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2569"
+                }
+              ]
+            },
+            "2570": {
+              "pageid": 2570,
+              "ns": 6,
+              "title": "File:Corrosive Plasma Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:51Z",
+                  "comment": "Uploaded pattern for Corrosive Plasma upgrade (v1.8)\n\n'''Corrosive Plasma'''\n\nHex pattern for the Corrosive Plasma upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/14/Corrosive_Plasma_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Corrosive_Plasma_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2570"
+                }
+              ]
+            },
+            "2271": {
+              "pageid": 2271,
+              "ns": 6,
+              "title": "File:Cosmic Microwave Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:35Z",
+                  "comment": "Uploaded pattern for Cosmic Microwave upgrade (v1.8)\n\n'''Cosmic Microwave'''\n\nHex pattern for the Cosmic Microwave upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/f8/Cosmic_Microwave_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Cosmic_Microwave_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2271"
+                }
+              ]
+            },
+            "2571": {
+              "pageid": 2571,
+              "ns": 6,
+              "title": "File:Cycling Repairs Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:02:24Z",
+                  "comment": "Uploaded pattern for Cycling Repairs upgrade (v1.8)\n\n'''Cycling Repairs'''\n\nHex pattern for the Cycling Repairs upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8a/Cycling_Repairs_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Cycling_Repairs_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2571"
+                }
+              ]
+            },
+            "2754": {
+              "pageid": 2754,
+              "ns": 6,
+              "title": "File:Damage Arc Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:06:07Z",
+                  "comment": "Uploaded pattern for Damage Arc upgrade (v1.8)\n\n'''Damage Arc'''\n\nHex pattern for the Damage Arc upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/89/Damage_Arc_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Damage_Arc_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2754"
+                }
+              ]
+            },
+            "2313": {
+              "pageid": 2313,
+              "ns": 6,
+              "title": "File:Dash Immunity Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:14:00Z",
+                  "comment": "Uploaded pattern for Dash Immunity upgrade (v1.8)\n\n'''Dash Immunity'''\n\nHex pattern for the Dash Immunity upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/90/Dash_Immunity_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Dash_Immunity_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2313"
+                }
+              ]
+            },
+            "2755": {
+              "pageid": 2755,
+              "ns": 6,
+              "title": "File:Decay Plates Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:06:29Z",
+                  "comment": "Uploaded pattern for Decay Plates upgrade (v1.8)\n\n'''Decay Plates'''\n\nHex pattern for the Decay Plates upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/cb/Decay_Plates_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Decay_Plates_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2755"
+                }
+              ]
+            },
+            "2824": {
+              "pageid": 2824,
+              "ns": 6,
+              "title": "File:Discount Marksman Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:06:59Z",
+                  "comment": "Uploaded pattern for Discount Marksman upgrade (v1.8)\n\n'''Discount Marksman'''\n\nHex pattern for the Discount Marksman upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/37/Discount_Marksman_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Discount_Marksman_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2824"
+                }
+              ]
+            },
+            "2360": {
+              "pageid": 2360,
+              "ns": 6,
+              "title": "File:Dive Interrupt Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:07:02Z",
+                  "comment": "Uploaded pattern for Dive Interrupt upgrade (v1.8)\n\n'''Dive Interrupt'''\n\nHex pattern for the Dive Interrupt upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/87/Dive_Interrupt_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Dive_Interrupt_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2360"
+                }
+              ]
+            },
+            "2720": {
+              "pageid": 2720,
+              "ns": 6,
+              "title": "File:Double Action Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:02Z",
+                  "comment": "Uploaded pattern for Double Action upgrade (v1.8)\n\n'''Double Action'''\n\nHex pattern for the Double Action upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/ac/Double_Action_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Double_Action_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2720"
+                }
+              ]
+            },
+            "2317": {
+              "pageid": 2317,
+              "ns": 6,
+              "title": "File:Double Lasso Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:07:37Z",
+                  "comment": "Uploaded pattern for Double Lasso upgrade (v1.8)\n\n'''Double Lasso'''\n\nHex pattern for the Double Lasso upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/96/Double_Lasso_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Double_Lasso_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2317"
+                }
+              ]
+            },
+            "2290": {
+              "pageid": 2290,
+              "ns": 6,
+              "title": "File:Edge Fault Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:25Z",
+                  "comment": "Uploaded pattern for Edge Fault upgrade (v1.8)\n\n'''Edge Fault'''\n\nHex pattern for the Edge Fault upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/72/Edge_Fault_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Edge_Fault_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2290"
+                }
+              ]
+            },
+            "2434": {
+              "pageid": 2434,
+              "ns": 6,
+              "title": "File:Efficient Storage Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:08Z",
+                  "comment": "Uploaded pattern for Efficient Storage upgrade (v1.8)\n\n'''Efficient Storage'''\n\nHex pattern for the Efficient Storage upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/87/Efficient_Storage_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Efficient_Storage_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2434"
+                }
+              ]
+            },
+            "2644": {
+              "pageid": 2644,
+              "ns": 6,
+              "title": "File:Electrified Pellets Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:15Z",
+                  "comment": "Uploaded pattern for Electrified Pellets upgrade (v1.8)\n\n'''Electrified Pellets'''\n\nHex pattern for the Electrified Pellets upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/0/06/Electrified_Pellets_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Electrified_Pellets_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2644"
+                }
+              ]
+            },
+            "2435": {
+              "pageid": 2435,
+              "ns": 6,
+              "title": "File:Elemental Tips Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:39Z",
+                  "comment": "Uploaded pattern for Elemental Tips upgrade (v1.8)\n\n'''Elemental Tips'''\n\nHex pattern for the Elemental Tips upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/ad/Elemental_Tips_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Elemental_Tips_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2435"
+                }
+              ]
+            },
+            "2825": {
+              "pageid": 2825,
+              "ns": 6,
+              "title": "File:Energy Condenser Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:50Z",
+                  "comment": "Uploaded pattern for Energy Condenser upgrade (v1.8)\n\n'''Energy Condenser'''\n\nHex pattern for the Energy Condenser upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c9/Energy_Condenser_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Energy_Condenser_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2825"
+                }
+              ]
+            },
+            "2436": {
+              "pageid": 2436,
+              "ns": 6,
+              "title": "File:Energy Injection Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:06:23Z",
+                  "comment": "Uploaded pattern for Energy Injection upgrade (v1.8)\n\n'''Energy Injection'''\n\nHex pattern for the Energy Injection upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/ce/Energy_Injection_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Energy_Injection_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2436"
+                }
+              ]
+            },
+            "2579": {
+              "pageid": 2579,
+              "ns": 6,
+              "title": "File:Equipment Siphon Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:43Z",
+                  "comment": "Uploaded pattern for Equipment Siphon upgrade (v1.8)\n\n'''Equipment Siphon'''\n\nHex pattern for the Equipment Siphon upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/de/Equipment_Siphon_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Equipment_Siphon_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2579"
+                }
+              ]
+            },
+            "2645": {
+              "pageid": 2645,
+              "ns": 6,
+              "title": "File:Explosive Pellets Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:06Z",
+                  "comment": "Uploaded pattern for Explosive Pellets upgrade (v1.8)\n\n'''Explosive Pellets'''\n\nHex pattern for the Explosive Pellets upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/42/Explosive_Pellets_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Explosive_Pellets_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2645"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "requestedTitles": [
+        "File:Extra Capacitors Pattern.svg",
+        "File:Extralight Frame Pattern.svg",
+        "File:Fan Fire Pattern.svg",
+        "File:Feedback Relay Pattern.svg",
+        "File:Feeling Lucky Pattern.svg",
+        "File:Flash Flood Pattern.svg",
+        "File:Flash Storm Pattern.svg",
+        "File:Focused Lenses Pattern.svg",
+        "File:Forceful Expulsion Pattern.svg",
+        "File:Frantic Fingers Pattern.svg",
+        "File:Frantic Greed Pattern.svg",
+        "File:Frantic Mechanism Pattern.svg",
+        "File:Friction Compensators Pattern.svg",
+        "File:Fuel Rations Pattern.svg",
+        "File:Fueling Station Pattern.svg",
+        "File:Fulmination Core Pattern.svg",
+        "File:Greased Mixture Pattern.svg",
+        "File:Green Prism Pattern.svg",
+        "File:Gunpowder Packing Pattern.svg",
+        "File:Hard Ricochet Pattern.svg",
+        "File:Hazard Recycling Pattern.svg",
+        "File:Heat Sink Pattern.svg",
+        "File:Heated Charge Pattern.svg",
+        "File:Heavy Globs Pattern.svg",
+        "File:Heavy Hitting Pattern.svg",
+        "File:Heavy Munitions Pattern.svg",
+        "File:Heavy Support Pattern.svg",
+        "File:Higher Voltage Pattern.svg",
+        "File:Hold Onto Your Hats Pattern.svg",
+        "File:Hometown Hero Pattern.svg",
+        "File:Hornet Interference Pattern.svg",
+        "File:Hot Boxing Pattern.svg",
+        "File:Hot Potato Pattern.svg",
+        "File:Hot Swap Pattern.svg",
+        "File:Hover Precision Pattern.svg",
+        "File:Ignition Recharge Pattern.svg",
+        "File:Impact Funnel Pattern.svg",
+        "File:Improve Replication Pattern.svg",
+        "File:Improved Refueling Pattern.svg",
+        "File:Inertia Accelerant Pattern.svg",
+        "File:Instant Detonation Pattern.svg",
+        "File:Insulated Gloves Pattern.svg",
+        "File:Interim Manager Pattern.svg",
+        "File:Just Add More Gunpowder Pattern.svg",
+        "File:Kernel Rerouter Pattern.svg",
+        "File:Killing Field Pattern.svg",
+        "File:Kinetic Effect Pattern.svg",
+        "File:Kinetic Optimization Pattern.svg",
+        "File:Knee Slide Pattern.svg",
+        "File:Knee-Dive Pattern.svg"
+      ],
+      "response": {
+        "batchcomplete": "",
+        "query": {
+          "pages": {
+            "-1": {
+              "ns": 6,
+              "title": "File:Green Prism Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "-2": {
+              "ns": 6,
+              "title": "File:Improve Replication Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "2914": {
+              "pageid": 2914,
+              "ns": 6,
+              "title": "File:Extra Capacitors Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:20:32Z",
+                  "comment": "Uploaded pattern for Extra Capacitors upgrade (v1.8)\n\n'''Extra Capacitors'''\n\nHex pattern for the Extra Capacitors upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/6a/Extra_Capacitors_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Extra_Capacitors_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2914"
+                }
+              ]
+            },
+            "2580": {
+              "pageid": 2580,
+              "ns": 6,
+              "title": "File:Extralight Frame Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:11:56Z",
+                  "comment": "Uploaded pattern for Extralight Frame (ID: 40986) (v2.0)\n\n'''Extralight Frame'''\n\nHex pattern for the Extralight Frame upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/0/0c/Extralight_Frame_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Extralight_Frame_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2580"
+                }
+              ]
+            },
+            "2721": {
+              "pageid": 2721,
+              "ns": 6,
+              "title": "File:Fan Fire Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:31Z",
+                  "comment": "Uploaded pattern for Fan Fire upgrade (v1.8)\n\n'''Fan Fire'''\n\nHex pattern for the Fan Fire upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/48/Fan_Fire_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Fan_Fire_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2721"
+                }
+              ]
+            },
+            "2401": {
+              "pageid": 2401,
+              "ns": 6,
+              "title": "File:Feedback Relay Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:47Z",
+                  "comment": "Uploaded pattern for Feedback Relay upgrade (v1.8)\n\n'''Feedback Relay'''\n\nHex pattern for the Feedback Relay upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c6/Feedback_Relay_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Feedback_Relay_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2401"
+                }
+              ]
+            },
+            "2722": {
+              "pageid": 2722,
+              "ns": 6,
+              "title": "File:Feeling Lucky Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:10:04Z",
+                  "comment": "Uploaded pattern for Feeling Lucky upgrade (v1.8)\n\n'''Feeling Lucky'''\n\nHex pattern for the Feeling Lucky upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/37/Feeling_Lucky_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Feeling_Lucky_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2722"
+                }
+              ]
+            },
+            "2848": {
+              "pageid": 2848,
+              "ns": 6,
+              "title": "File:Flash Flood Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:48Z",
+                  "comment": "Uploaded pattern for Flash Flood upgrade (v1.8)\n\n'''Flash Flood'''\n\nHex pattern for the Flash Flood upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/bc/Flash_Flood_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Flash_Flood_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2848"
+                }
+              ]
+            },
+            "2502": {
+              "pageid": 2502,
+              "ns": 6,
+              "title": "File:Flash Storm Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:07:55Z",
+                  "comment": "Uploaded pattern for Flash Storm upgrade (v1.8)\n\n'''Flash Storm'''\n\nHex pattern for the Flash Storm upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/d4/Flash_Storm_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Flash_Storm_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2502"
+                }
+              ]
+            },
+            "2582": {
+              "pageid": 2582,
+              "ns": 6,
+              "title": "File:Focused Lenses Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:01:08Z",
+                  "comment": "Uploaded pattern for Focused Lenses upgrade (v1.8)\n\n'''Focused Lenses'''\n\nHex pattern for the Focused Lenses upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/97/Focused_Lenses_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Focused_Lenses_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2582"
+                }
+              ]
+            },
+            "2850": {
+              "pageid": 2850,
+              "ns": 6,
+              "title": "File:Forceful Expulsion Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:46Z",
+                  "comment": "Uploaded pattern for Forceful Expulsion upgrade (v1.8)\n\n'''Forceful Expulsion'''\n\nHex pattern for the Forceful Expulsion upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/d3/Forceful_Expulsion_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Forceful_Expulsion_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2850"
+                }
+              ]
+            },
+            "2787": {
+              "pageid": 2787,
+              "ns": 6,
+              "title": "File:Frantic Fingers Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:16Z",
+                  "comment": "Uploaded pattern for Frantic Fingers upgrade (v1.8)\n\n'''Frantic Fingers'''\n\nHex pattern for the Frantic Fingers upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/df/Frantic_Fingers_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Frantic_Fingers_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2787"
+                }
+              ]
+            },
+            "2305": {
+              "pageid": 2305,
+              "ns": 6,
+              "title": "File:Frantic Greed Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:17:48Z",
+                  "comment": "Uploaded pattern for ShootToHeal (ID: 3235536) (v2.0)\n\n'''Frantic Greed'''\n\nHex pattern for the Frantic Greed upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e1/Frantic_Greed_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Frantic_Greed_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2305"
+                }
+              ]
+            },
+            "2402": {
+              "pageid": 2402,
+              "ns": 6,
+              "title": "File:Frantic Mechanism Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:02Z",
+                  "comment": "Uploaded pattern for Frantic Mechanism upgrade (v1.8)\n\n'''Frantic Mechanism'''\n\nHex pattern for the Frantic Mechanism upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/19/Frantic_Mechanism_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Frantic_Mechanism_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2402"
+                }
+              ]
+            },
+            "2611": {
+              "pageid": 2611,
+              "ns": 6,
+              "title": "File:Friction Compensators Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:11:02Z",
+                  "comment": "Uploaded pattern for Friction Compensators upgrade (v1.8)\n\n'''Friction Compensators'''\n\nHex pattern for the Friction Compensators upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/15/Friction_Compensators_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Friction_Compensators_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2611"
+                }
+              ]
+            },
+            "2403": {
+              "pageid": 2403,
+              "ns": 6,
+              "title": "File:Fuel Rations Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:11:10Z",
+                  "comment": "Uploaded pattern for Fuel Rations upgrade (v1.8)\n\n'''Fuel Rations'''\n\nHex pattern for the Fuel Rations upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/ce/Fuel_Rations_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Fuel_Rations_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2403"
+                }
+              ]
+            },
+            "2404": {
+              "pageid": 2404,
+              "ns": 6,
+              "title": "File:Fueling Station Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:14:48Z",
+                  "comment": "Uploaded pattern for Fueling Station upgrade (v1.8)\n\n'''Fueling Station'''\n\nHex pattern for the Fueling Station upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/a6/Fueling_Station_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Fueling_Station_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2404"
+                }
+              ]
+            },
+            "2405": {
+              "pageid": 2405,
+              "ns": 6,
+              "title": "File:Fulmination Core Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:42Z",
+                  "comment": "Uploaded pattern for Fulmination Core upgrade (v1.8)\n\n'''Fulmination Core'''\n\nHex pattern for the Fulmination Core upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/62/Fulmination_Core_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Fulmination_Core_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2405"
+                }
+              ]
+            },
+            "2525": {
+              "pageid": 2525,
+              "ns": 6,
+              "title": "File:Greased Mixture Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:47Z",
+                  "comment": "Uploaded pattern for Greased Mixture upgrade (v1.8)\n\n'''Greased Mixture'''\n\nHex pattern for the Greased Mixture upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/7e/Greased_Mixture_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Greased_Mixture_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2525"
+                }
+              ]
+            },
+            "2857": {
+              "pageid": 2857,
+              "ns": 6,
+              "title": "File:Gunpowder Packing Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:13:03Z",
+                  "comment": "Uploaded pattern for GlobForce (ID: 1048084) (v2.0)\n\n'''Gunpowder Packing'''\n\nHex pattern for the Gunpowder Packing upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c4/Gunpowder_Packing_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Gunpowder_Packing_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2857"
+                }
+              ]
+            },
+            "2791": {
+              "pageid": 2791,
+              "ns": 6,
+              "title": "File:Hard Ricochet Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:07:33Z",
+                  "comment": "Uploaded pattern for Hard Ricochet upgrade (v1.8)\n\n'''Hard Ricochet'''\n\nHex pattern for the Hard Ricochet upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5d/Hard_Ricochet_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hard_Ricochet_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2791"
+                }
+              ]
+            },
+            "2689": {
+              "pageid": 2689,
+              "ns": 6,
+              "title": "File:Hazard Recycling Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:11:34Z",
+                  "comment": "Uploaded pattern for Elemental Recycling (ID: 5495844) (v2.0)\n\n'''Hazard Recycling'''\n\nHex pattern for the Hazard Recycling upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/ea/Hazard_Recycling_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hazard_Recycling_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2689"
+                }
+              ]
+            },
+            "2479": {
+              "pageid": 2479,
+              "ns": 6,
+              "title": "File:Heat Sink Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:07Z",
+                  "comment": "Uploaded pattern for Heat Sink upgrade (v1.8)\n\n'''Heat Sink'''\n\nHex pattern for the Heat Sink upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/ea/Heat_Sink_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Heat_Sink_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2479"
+                }
+              ]
+            },
+            "2480": {
+              "pageid": 2480,
+              "ns": 6,
+              "title": "File:Heated Charge Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:38Z",
+                  "comment": "Uploaded pattern for Heated Charge upgrade (v1.8)\n\n'''Heated Charge'''\n\nHex pattern for the Heated Charge upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/70/Heated_Charge_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Heated_Charge_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2480"
+                }
+              ]
+            },
+            "2858": {
+              "pageid": 2858,
+              "ns": 6,
+              "title": "File:Heavy Globs Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:18Z",
+                  "comment": "Uploaded pattern for Heavy Globs upgrade (v1.8)\n\n'''Heavy Globs'''\n\nHex pattern for the Heavy Globs upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8f/Heavy_Globs_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Globs_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2858"
+                }
+              ]
+            },
+            "2690": {
+              "pageid": 2690,
+              "ns": 6,
+              "title": "File:Heavy Hitting Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:45Z",
+                  "comment": "Uploaded pattern for Heavy Hitting upgrade (v1.8)\n\n'''Heavy Hitting'''\n\nHex pattern for the Heavy Hitting upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/2c/Heavy_Hitting_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Hitting_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2690"
+                }
+              ]
+            },
+            "2792": {
+              "pageid": 2792,
+              "ns": 6,
+              "title": "File:Heavy Munitions Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:13:47Z",
+                  "comment": "Uploaded pattern for Heavy Munitions (ID: 41754) (v2.0)\n\n'''Heavy Munitions'''\n\nHex pattern for the Heavy Munitions upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/80/Heavy_Munitions_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Munitions_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2792"
+                }
+              ]
+            },
+            "2526": {
+              "pageid": 2526,
+              "ns": 6,
+              "title": "File:Heavy Support Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:16Z",
+                  "comment": "Uploaded pattern for Heavy Support upgrade (v1.8)\n\n'''Heavy Support'''\n\nHex pattern for the Heavy Support upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/99/Heavy_Support_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Heavy_Support_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2526"
+                }
+              ]
+            },
+            "2503": {
+              "pageid": 2503,
+              "ns": 6,
+              "title": "File:Higher Voltage Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:51Z",
+                  "comment": "Uploaded pattern for Higher Voltage upgrade (v1.8)\n\n'''Higher Voltage'''\n\nHex pattern for the Higher Voltage upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/da/Higher_Voltage_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Higher_Voltage_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2503"
+                }
+              ]
+            },
+            "2326": {
+              "pageid": 2326,
+              "ns": 6,
+              "title": "File:Hold Onto Your Hats Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:06:13Z",
+                  "comment": "Uploaded pattern for Hold Onto Your Hats upgrade (v1.8)\n\n'''Hold Onto Your Hats'''\n\nHex pattern for the Hold Onto Your Hats upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/17/Hold_Onto_Your_Hats_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hold_Onto_Your_Hats_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2326"
+                }
+              ]
+            },
+            "2327": {
+              "pageid": 2327,
+              "ns": 6,
+              "title": "File:Hometown Hero Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:21Z",
+                  "comment": "Uploaded pattern for Hometown Hero upgrade (v1.8)\n\n'''Hometown Hero'''\n\nHex pattern for the Hometown Hero upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/ca/Hometown_Hero_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hometown_Hero_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2327"
+                }
+              ]
+            },
+            "2328": {
+              "pageid": 2328,
+              "ns": 6,
+              "title": "File:Hornet Interference Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:29Z",
+                  "comment": "Uploaded pattern for Hornet Interference upgrade (v1.8)\n\n'''Hornet Interference'''\n\nHex pattern for the Hornet Interference upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/78/Hornet_Interference_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hornet_Interference_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2328"
+                }
+              ]
+            },
+            "2482": {
+              "pageid": 2482,
+              "ns": 6,
+              "title": "File:Hot Boxing Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:10:28Z",
+                  "comment": "Uploaded pattern for Hot Boxing upgrade (v1.8)\n\n'''Hot Boxing'''\n\nHex pattern for the Hot Boxing upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/f8/Hot_Boxing_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hot_Boxing_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2482"
+                }
+              ]
+            },
+            "2614": {
+              "pageid": 2614,
+              "ns": 6,
+              "title": "File:Hot Potato Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:36Z",
+                  "comment": "Uploaded pattern for Hot Potato upgrade (v1.8)\n\n'''Hot Potato'''\n\nHex pattern for the Hot Potato upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/b9/Hot_Potato_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hot_Potato_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2614"
+                }
+              ]
+            },
+            "2691": {
+              "pageid": 2691,
+              "ns": 6,
+              "title": "File:Hot Swap Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:38Z",
+                  "comment": "Uploaded pattern for Hot Swap upgrade (v1.8)\n\n'''Hot Swap'''\n\nHex pattern for the Hot Swap upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/38/Hot_Swap_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hot_Swap_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2691"
+                }
+              ]
+            },
+            "2445": {
+              "pageid": 2445,
+              "ns": 6,
+              "title": "File:Hover Precision Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:37Z",
+                  "comment": "Uploaded pattern for Hover Precision upgrade (v1.8)\n\n'''Hover Precision'''\n\nHex pattern for the Hover Precision upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/a3/Hover_Precision_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Hover_Precision_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2445"
+                }
+              ]
+            },
+            "2890": {
+              "pageid": 2890,
+              "ns": 6,
+              "title": "File:Ignition Recharge Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:04:27Z",
+                  "comment": "Uploaded pattern for Ignition Recharge upgrade (v1.8)\n\n'''Ignition Recharge'''\n\nHex pattern for the Ignition Recharge upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/96/Ignition_Recharge_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Ignition_Recharge_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2890"
+                }
+              ]
+            },
+            "2859": {
+              "pageid": 2859,
+              "ns": 6,
+              "title": "File:Impact Funnel Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:06:09Z",
+                  "comment": "Uploaded pattern for Impact Funnel upgrade (v1.8)\n\n'''Impact Funnel'''\n\nHex pattern for the Impact Funnel upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/13/Impact_Funnel_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Impact_Funnel_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2859"
+                }
+              ]
+            },
+            "2370": {
+              "pageid": 2370,
+              "ns": 6,
+              "title": "File:Improved Refueling Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:14:02Z",
+                  "comment": "Uploaded pattern for Improved Refueling upgrade (v1.8)\n\n'''Improved Refueling'''\n\nHex pattern for the Improved Refueling upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/57/Improved_Refueling_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Improved_Refueling_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2370"
+                }
+              ]
+            },
+            "2946": {
+              "pageid": 2946,
+              "ns": 6,
+              "title": "File:Inertia Accelerant Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:06Z",
+                  "comment": "Uploaded pattern for Inertia Accelerant upgrade (v1.8)\n\n'''Inertia Accelerant'''\n\nHex pattern for the Inertia Accelerant upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/1f/Inertia_Accelerant_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Inertia_Accelerant_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2946"
+                }
+              ]
+            },
+            "2862": {
+              "pageid": 2862,
+              "ns": 6,
+              "title": "File:Instant Detonation Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:25:13Z",
+                  "comment": "Uploaded pattern for Instant Detonation upgrade (v1.8)\n\n'''Instant Detonation'''\n\nHex pattern for the Instant Detonation upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/9e/Instant_Detonation_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Instant_Detonation_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2862"
+                }
+              ]
+            },
+            "2505": {
+              "pageid": 2505,
+              "ns": 6,
+              "title": "File:Insulated Gloves Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:21Z",
+                  "comment": "Uploaded pattern for Insulated Gloves upgrade (v1.8)\n\n'''Insulated Gloves'''\n\nHex pattern for the Insulated Gloves upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/86/Insulated_Gloves_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Insulated_Gloves_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2505"
+                }
+              ]
+            },
+            "2280": {
+              "pageid": 2280,
+              "ns": 6,
+              "title": "File:Interim Manager Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:04:56Z",
+                  "comment": "Uploaded pattern for Interim Manager upgrade (v1.8)\n\n'''Interim Manager'''\n\nHex pattern for the Interim Manager upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c9/Interim_Manager_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Interim_Manager_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2280"
+                }
+              ]
+            },
+            "2730": {
+              "pageid": 2730,
+              "ns": 6,
+              "title": "File:Just Add More Gunpowder Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:38Z",
+                  "comment": "Uploaded pattern for Just Add More Gunpowder upgrade (v1.8)\n\n'''Just Add More Gunpowder'''\n\nHex pattern for the Just Add More Gunpowder upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e5/Just_Add_More_Gunpowder_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Just_Add_More_Gunpowder_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2730"
+                }
+              ]
+            },
+            "2446": {
+              "pageid": 2446,
+              "ns": 6,
+              "title": "File:Kernel Rerouter Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:13:03Z",
+                  "comment": "Uploaded pattern for Kernel Rerouter upgrade (v1.8)\n\n'''Kernel Rerouter'''\n\nHex pattern for the Kernel Rerouter upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e8/Kernel_Rerouter_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Kernel_Rerouter_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2446"
+                }
+              ]
+            },
+            "2923": {
+              "pageid": 2923,
+              "ns": 6,
+              "title": "File:Killing Field Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:30Z",
+                  "comment": "Uploaded pattern for Killing Field upgrade (v1.8)\n\n'''Killing Field'''\n\nHex pattern for the Killing Field upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8e/Killing_Field_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Killing_Field_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2923"
+                }
+              ]
+            },
+            "2294": {
+              "pageid": 2294,
+              "ns": 6,
+              "title": "File:Kinetic Effect Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:15:17Z",
+                  "comment": "Uploaded pattern for Kinetic Effect upgrade (v1.8)\n\n'''Kinetic Effect'''\n\nHex pattern for the Kinetic Effect upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e9/Kinetic_Effect_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Kinetic_Effect_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2294"
+                }
+              ]
+            },
+            "2947": {
+              "pageid": 2947,
+              "ns": 6,
+              "title": "File:Kinetic Optimization Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:15:19Z",
+                  "comment": "Uploaded pattern for Kinetic Optimization upgrade (v1.8)\n\n'''Kinetic Optimization'''\n\nHex pattern for the Kinetic Optimization upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5e/Kinetic_Optimization_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Kinetic_Optimization_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2947"
+                }
+              ]
+            },
+            "2372": {
+              "pageid": 2372,
+              "ns": 6,
+              "title": "File:Knee-Dive Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:24Z",
+                  "comment": "Uploaded pattern for Knee-Dive upgrade (v1.8)\n\n'''Knee-Dive'''\n\nHex pattern for the Knee-Dive upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/96/Knee-Dive_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Knee-Dive_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2372"
+                }
+              ]
+            },
+            "2447": {
+              "pageid": 2447,
+              "ns": 6,
+              "title": "File:Knee Slide Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:11:34Z",
+                  "comment": "Uploaded pattern for Knee Slide upgrade (v1.8)\n\n'''Knee Slide'''\n\nHex pattern for the Knee Slide upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/20/Knee_Slide_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Knee_Slide_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2447"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "requestedTitles": [
+        "File:Launch Charge Pattern.svg",
+        "File:Laying Cable Pattern.svg",
+        "File:Lead Poisoning Pattern.svg",
+        "File:Lucky Bastard Pattern.svg",
+        "File:Magnetic Loader Pattern.svg",
+        "File:Maniac Maneuver Pattern.svg",
+        "File:Micro Detonators Pattern.svg",
+        "File:Missile Bay Pattern.svg",
+        "File:Momentum Impact Pattern.svg",
+        "File:Multiversal Thievery Pattern.svg",
+        "File:Nice Catch Pattern.svg",
+        "File:Notched Breakpoint Pattern.svg",
+        "File:Nutrition Sampler Pattern.svg",
+        "File:Odd Cocktail Pattern.svg",
+        "File:Optical Attraction Pattern.svg",
+        "File:Overheat System Pattern.svg",
+        "File:Overload Contingency Pattern.svg",
+        "File:Point Demolition Pattern.svg",
+        "File:Point Detonators Pattern.svg",
+        "File:Pole Alignment Pattern.svg",
+        "File:Powder Player Pattern.svg",
+        "File:Power Core Pattern.svg",
+        "File:Power Recall Pattern.svg",
+        "File:Power Redistribution Pattern.svg",
+        "File:Power Ricochet Pattern.svg",
+        "File:Precision Fire Pattern.svg",
+        "File:Pressure Increase Pattern.svg",
+        "File:Pseudo Science Pattern.svg",
+        "File:Purple Prism Pattern.svg",
+        "File:Quick Knot Pattern.svg",
+        "File:Quickswap Cartridge Pattern.svg",
+        "File:Rail Tuning Pattern.svg",
+        "File:Rapid Charge Pattern.svg",
+        "File:Reactive Coating Pattern.svg",
+        "File:Rearm Mechanism Pattern.svg",
+        "File:Recycled Fuel Pattern.svg",
+        "File:Reinforced Coating Pattern.svg",
+        "File:Reinforced Plating Pattern.svg",
+        "File:Reorganized Reserves Pattern.svg",
+        "File:Repair Siphon Pattern.svg",
+        "File:Reserve Material Pattern.svg",
+        "File:Restoration Protocol Pattern.svg",
+        "File:Rocket Burst Pattern.svg",
+        "File:Rocket Jump Pattern.svg",
+        "File:Rot Advantage Pattern.svg",
+        "File:Ruptured Spleen Pattern.svg",
+        "File:Scrap Funnel Pattern.svg",
+        "File:Scrap Repurposing Pattern.svg",
+        "File:Shaved Projectiles Pattern.svg",
+        "File:Shock Affinity Pattern.svg"
+      ],
+      "response": {
+        "batchcomplete": "",
+        "query": {
+          "pages": {
+            "-1": {
+              "ns": 6,
+              "title": "File:Purple Prism Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "-2": {
+              "ns": 6,
+              "title": "File:Rail Tuning Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "2506": {
+              "pageid": 2506,
+              "ns": 6,
+              "title": "File:Launch Charge Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:12Z",
+                  "comment": "Uploaded pattern for Launch Charge upgrade (v1.8)\n\n'''Launch Charge'''\n\nHex pattern for the Launch Charge upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/f3/Launch_Charge_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Launch_Charge_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2506"
+                }
+              ]
+            },
+            "2924": {
+              "pageid": 2924,
+              "ns": 6,
+              "title": "File:Laying Cable Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:00Z",
+                  "comment": "Uploaded pattern for Laying Cable upgrade (v1.8)\n\n'''Laying Cable'''\n\nHex pattern for the Laying Cable upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8c/Laying_Cable_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Laying_Cable_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2924"
+                }
+              ]
+            },
+            "2731": {
+              "pageid": 2731,
+              "ns": 6,
+              "title": "File:Lead Poisoning Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:05Z",
+                  "comment": "Uploaded pattern for Lead Poisoning upgrade (v1.8)\n\n'''Lead Poisoning'''\n\nHex pattern for the Lead Poisoning upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/ff/Lead_Poisoning_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Lead_Poisoning_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2731"
+                }
+              ]
+            },
+            "2733": {
+              "pageid": 2733,
+              "ns": 6,
+              "title": "File:Lucky Bastard Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:16:56Z",
+                  "comment": "Uploaded pattern for Lucky Bastard upgrade (v1.8)\n\n'''Lucky Bastard'''\n\nHex pattern for the Lucky Bastard upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/9c/Lucky_Bastard_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Lucky_Bastard_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2733"
+                }
+              ]
+            },
+            "2799": {
+              "pageid": 2799,
+              "ns": 6,
+              "title": "File:Magnetic Loader Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:10Z",
+                  "comment": "Uploaded pattern for Magnetic Loader upgrade (v1.8)\n\n'''Magnetic Loader'''\n\nHex pattern for the Magnetic Loader upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/30/Magnetic_Loader_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Magnetic_Loader_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2799"
+                }
+              ]
+            },
+            "2489": {
+              "pageid": 2489,
+              "ns": 6,
+              "title": "File:Maniac Maneuver Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:27:00Z",
+                  "comment": "Uploaded pattern for Maniac Maneuver upgrade (v1.8)\n\n'''Maniac Maneuver'''\n\nHex pattern for the Maniac Maneuver upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/6e/Maniac_Maneuver_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Maniac_Maneuver_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2489"
+                }
+              ]
+            },
+            "2925": {
+              "pageid": 2925,
+              "ns": 6,
+              "title": "File:Micro Detonators Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:26Z",
+                  "comment": "Uploaded pattern for Micro Detonators upgrade (v1.8)\n\n'''Micro Detonators'''\n\nHex pattern for the Micro Detonators upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/b5/Micro_Detonators_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Micro_Detonators_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2925"
+                }
+              ]
+            },
+            "2800": {
+              "pageid": 2800,
+              "ns": 6,
+              "title": "File:Missile Bay Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:31Z",
+                  "comment": "Uploaded pattern for Missile Bay upgrade (v1.8)\n\n'''Missile Bay'''\n\nHex pattern for the Missile Bay upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/3a/Missile_Bay_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Missile_Bay_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2800"
+                }
+              ]
+            },
+            "2949": {
+              "pageid": 2949,
+              "ns": 6,
+              "title": "File:Momentum Impact Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:32Z",
+                  "comment": "Uploaded pattern for Momentum Impact upgrade (v1.8)\n\n'''Momentum Impact'''\n\nHex pattern for the Momentum Impact upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/0/00/Momentum_Impact_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Momentum_Impact_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2949"
+                }
+              ]
+            },
+            "2291": {
+              "pageid": 2291,
+              "ns": 6,
+              "title": "File:Multiversal Thievery Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:27Z",
+                  "comment": "Uploaded pattern for Multiversal Thievery upgrade (v1.8)\n\n'''Multiversal Thievery'''\n\nHex pattern for the Multiversal Thievery upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/a4/Multiversal_Thievery_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Multiversal_Thievery_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2291"
+                }
+              ]
+            },
+            "2763": {
+              "pageid": 2763,
+              "ns": 6,
+              "title": "File:Nice Catch Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:04:32Z",
+                  "comment": "Uploaded pattern for Nice Catch upgrade (v1.8)\n\n'''Nice Catch'''\n\nHex pattern for the Nice Catch upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/7d/Nice_Catch_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Nice_Catch_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2763"
+                }
+              ]
+            },
+            "2926": {
+              "pageid": 2926,
+              "ns": 6,
+              "title": "File:Notched Breakpoint Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:26Z",
+                  "comment": "Uploaded pattern for Notched Breakpoint upgrade (v1.8)\n\n'''Notched Breakpoint'''\n\nHex pattern for the Notched Breakpoint upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/b4/Notched_Breakpoint_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Notched_Breakpoint_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2926"
+                }
+              ]
+            },
+            "2891": {
+              "pageid": 2891,
+              "ns": 6,
+              "title": "File:Nutrition Sampler Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:18:10Z",
+                  "comment": "Uploaded pattern for Nutrition Sampler upgrade (v1.8)\n\n'''Nutrition Sampler'''\n\nHex pattern for the Nutrition Sampler upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/52/Nutrition_Sampler_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Nutrition_Sampler_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2891"
+                }
+              ]
+            },
+            "2528": {
+              "pageid": 2528,
+              "ns": 6,
+              "title": "File:Odd Cocktail Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:04Z",
+                  "comment": "Uploaded pattern for Odd Cocktail upgrade (v1.8)\n\n'''Odd Cocktail'''\n\nHex pattern for the Odd Cocktail upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/a8/Odd_Cocktail_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Odd_Cocktail_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2528"
+                }
+              ]
+            },
+            "2381": {
+              "pageid": 2381,
+              "ns": 6,
+              "title": "File:Optical Attraction Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:02:15Z",
+                  "comment": "Uploaded pattern for Optical Attraction upgrade (v1.8)\n\n'''Optical Attraction'''\n\nHex pattern for the Optical Attraction upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c5/Optical_Attraction_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Optical_Attraction_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2381"
+                }
+              ]
+            },
+            "2892": {
+              "pageid": 2892,
+              "ns": 6,
+              "title": "File:Overheat System Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:18:39Z",
+                  "comment": "Uploaded pattern for Overheat System upgrade (v1.8)\n\n'''Overheat System'''\n\nHex pattern for the Overheat System upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/4e/Overheat_System_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Overheat_System_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2892"
+                }
+              ]
+            },
+            "2655": {
+              "pageid": 2655,
+              "ns": 6,
+              "title": "File:Overload Contingency Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:25Z",
+                  "comment": "Uploaded pattern for Overload Contingency upgrade (v1.8)\n\n'''Overload Contingency'''\n\nHex pattern for the Overload Contingency upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5d/Overload_Contingency_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Overload_Contingency_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2655"
+                }
+              ]
+            },
+            "2803": {
+              "pageid": 2803,
+              "ns": 6,
+              "title": "File:Point Demolition Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:19Z",
+                  "comment": "Uploaded pattern for Point Demolition upgrade (v1.8)\n\n'''Point Demolition'''\n\nHex pattern for the Point Demolition upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/db/Point_Demolition_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Point_Demolition_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2803"
+                }
+              ]
+            },
+            "2455": {
+              "pageid": 2455,
+              "ns": 6,
+              "title": "File:Point Detonators Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:21Z",
+                  "comment": "Uploaded pattern for Point Detonators upgrade (v1.8)\n\n'''Point Detonators'''\n\nHex pattern for the Point Detonators upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/83/Point_Detonators_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Point_Detonators_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2455"
+                }
+              ]
+            },
+            "2765": {
+              "pageid": 2765,
+              "ns": 6,
+              "title": "File:Pole Alignment Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:20:38Z",
+                  "comment": "Uploaded pattern for Pole Alignment upgrade (v1.8)\n\n'''Pole Alignment'''\n\nHex pattern for the Pole Alignment upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/6a/Pole_Alignment_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Pole_Alignment_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2765"
+                }
+              ]
+            },
+            "2336": {
+              "pageid": 2336,
+              "ns": 6,
+              "title": "File:Powder Player Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:08Z",
+                  "comment": "Uploaded pattern for Powder Player upgrade (v1.8)\n\n'''Powder Player'''\n\nHex pattern for the Powder Player upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/df/Powder_Player_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Powder_Player_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2336"
+                }
+              ]
+            },
+            "2698": {
+              "pageid": 2698,
+              "ns": 6,
+              "title": "File:Power Core Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:36Z",
+                  "comment": "Uploaded pattern for Power Core upgrade (v1.8)\n\n'''Power Core'''\n\nHex pattern for the Power Core upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/f2/Power_Core_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Power_Core_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2698"
+                }
+              ]
+            },
+            "2766": {
+              "pageid": 2766,
+              "ns": 6,
+              "title": "File:Power Recall Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:40Z",
+                  "comment": "Uploaded pattern for Power Recall upgrade (v1.8)\n\n'''Power Recall'''\n\nHex pattern for the Power Recall upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/43/Power_Recall_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Power_Recall_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2766"
+                }
+              ]
+            },
+            "2658": {
+              "pageid": 2658,
+              "ns": 6,
+              "title": "File:Power Redistribution Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:15Z",
+                  "comment": "Uploaded pattern for Power Redistribution upgrade (v1.8)\n\n'''Power Redistribution'''\n\nHex pattern for the Power Redistribution upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/95/Power_Redistribution_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Power_Redistribution_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2658"
+                }
+              ]
+            },
+            "2622": {
+              "pageid": 2622,
+              "ns": 6,
+              "title": "File:Power Ricochet Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:34Z",
+                  "comment": "Uploaded pattern for Power Ricochet upgrade (v1.8)\n\n'''Power Ricochet'''\n\nHex pattern for the Power Ricochet upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/bf/Power_Ricochet_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Power_Ricochet_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2622"
+                }
+              ]
+            },
+            "2590": {
+              "pageid": 2590,
+              "ns": 6,
+              "title": "File:Precision Fire Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:51Z",
+                  "comment": "Uploaded pattern for Precision Fire upgrade (v1.8)\n\n'''Precision Fire'''\n\nHex pattern for the Precision Fire upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/2f/Precision_Fire_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Precision_Fire_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2590"
+                }
+              ]
+            },
+            "2412": {
+              "pageid": 2412,
+              "ns": 6,
+              "title": "File:Pressure Increase Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:14:22Z",
+                  "comment": "Uploaded pattern for JetForce (ID: 1354202) (v2.0)\n\n'''Pressure Increase'''\n\nHex pattern for the Pressure Increase upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/63/Pressure_Increase_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Pressure_Increase_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2412"
+                }
+              ]
+            },
+            "2337": {
+              "pageid": 2337,
+              "ns": 6,
+              "title": "File:Pseudo Science Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:15:47Z",
+                  "comment": "Uploaded pattern for Pseudo Science upgrade (v1.8)\n\n'''Pseudo Science'''\n\nHex pattern for the Pseudo Science upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/56/Pseudo_Science_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Pseudo_Science_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2337"
+                }
+              ]
+            },
+            "2338": {
+              "pageid": 2338,
+              "ns": 6,
+              "title": "File:Quick Knot Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:20:13Z",
+                  "comment": "Uploaded pattern for Quick Knot upgrade (v1.8)\n\n'''Quick Knot'''\n\nHex pattern for the Quick Knot upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/69/Quick_Knot_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Quick_Knot_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2338"
+                }
+              ]
+            },
+            "2700": {
+              "pageid": 2700,
+              "ns": 6,
+              "title": "File:Quickswap Cartridge Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:07:28Z",
+                  "comment": "Uploaded pattern for Quickswap Cartridge upgrade (v1.8)\n\n'''Quickswap Cartridge'''\n\nHex pattern for the Quickswap Cartridge upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/9a/Quickswap_Cartridge_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Quickswap_Cartridge_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2700"
+                }
+              ]
+            },
+            "2701": {
+              "pageid": 2701,
+              "ns": 6,
+              "title": "File:Rapid Charge Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:20:34Z",
+                  "comment": "Uploaded pattern for Rapid Charge upgrade (v1.8)\n\n'''Rapid Charge'''\n\nHex pattern for the Rapid Charge upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5d/Rapid_Charge_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Rapid_Charge_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2701"
+                }
+              ]
+            },
+            "2625": {
+              "pageid": 2625,
+              "ns": 6,
+              "title": "File:Reactive Coating Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:29Z",
+                  "comment": "Uploaded pattern for Reactive Coating upgrade (v1.8)\n\n'''Reactive Coating'''\n\nHex pattern for the Reactive Coating upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/7b/Reactive_Coating_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Reactive_Coating_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2625"
+                }
+              ]
+            },
+            "2458": {
+              "pageid": 2458,
+              "ns": 6,
+              "title": "File:Rearm Mechanism Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:57Z",
+                  "comment": "Uploaded pattern for Rearm Mechanism upgrade (v1.8)\n\n'''Rearm Mechanism'''\n\nHex pattern for the Rearm Mechanism upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/d9/Rearm_Mechanism_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Rearm_Mechanism_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2458"
+                }
+              ]
+            },
+            "2413": {
+              "pageid": 2413,
+              "ns": 6,
+              "title": "File:Recycled Fuel Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:02:28Z",
+                  "comment": "Uploaded pattern for Recycled Fuel upgrade (v1.8)\n\n'''Recycled Fuel'''\n\nHex pattern for the Recycled Fuel upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/a/a8/Recycled_Fuel_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Recycled_Fuel_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2413"
+                }
+              ]
+            },
+            "2626": {
+              "pageid": 2626,
+              "ns": 6,
+              "title": "File:Reinforced Coating Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:20:49Z",
+                  "comment": "Uploaded pattern for Reinforced Coating upgrade (v1.8)\n\n'''Reinforced Coating'''\n\nHex pattern for the Reinforced Coating upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/f4/Reinforced_Coating_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Reinforced_Coating_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2626"
+                }
+              ]
+            },
+            "2301": {
+              "pageid": 2301,
+              "ns": 6,
+              "title": "File:Reinforced Plating Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:20:47Z",
+                  "comment": "Uploaded pattern for Reinforced Plating upgrade (v1.8)\n\n'''Reinforced Plating'''\n\nHex pattern for the Reinforced Plating upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/33/Reinforced_Plating_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Reinforced_Plating_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2301"
+                }
+              ]
+            },
+            "2702": {
+              "pageid": 2702,
+              "ns": 6,
+              "title": "File:Reorganized Reserves Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:00Z",
+                  "comment": "Uploaded pattern for Reorganized Reserves upgrade (v1.8)\n\n'''Reorganized Reserves'''\n\nHex pattern for the Reorganized Reserves upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/70/Reorganized_Reserves_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Reorganized_Reserves_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2702"
+                }
+              ]
+            },
+            "2302": {
+              "pageid": 2302,
+              "ns": 6,
+              "title": "File:Repair Siphon Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:06Z",
+                  "comment": "Uploaded pattern for Repair Siphon upgrade (v1.8)\n\n'''Repair Siphon'''\n\nHex pattern for the Repair Siphon upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/9/98/Repair_Siphon_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Repair_Siphon_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2302"
+                }
+              ]
+            },
+            "2459": {
+              "pageid": 2459,
+              "ns": 6,
+              "title": "File:Reserve Material Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:01:39Z",
+                  "comment": "Uploaded pattern for Reserve Material upgrade (v1.8)\n\n'''Reserve Material'''\n\nHex pattern for the Reserve Material upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/0/02/Reserve_Material_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Reserve_Material_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2459"
+                }
+              ]
+            },
+            "2491": {
+              "pageid": 2491,
+              "ns": 6,
+              "title": "File:Restoration Protocol Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:52Z",
+                  "comment": "Uploaded pattern for Restoration Protocol upgrade (v1.8)\n\n'''Restoration Protocol'''\n\nHex pattern for the Restoration Protocol upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/d2/Restoration_Protocol_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Restoration_Protocol_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2491"
+                }
+              ]
+            },
+            "2593": {
+              "pageid": 2593,
+              "ns": 6,
+              "title": "File:Rocket Burst Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:17Z",
+                  "comment": "Uploaded pattern for Rocket Burst upgrade (v1.8)\n\n'''Rocket Burst'''\n\nHex pattern for the Rocket Burst upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/b2/Rocket_Burst_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Rocket_Burst_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2593"
+                }
+              ]
+            },
+            "2339": {
+              "pageid": 2339,
+              "ns": 6,
+              "title": "File:Rocket Jump Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:16:59Z",
+                  "comment": "Uploaded pattern for Rocket Jump (ID: 42308) (v2.0)\n\n'''Rocket Jump'''\n\nHex pattern for the Rocket Jump upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/69/Rocket_Jump_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Rocket_Jump_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2339"
+                }
+              ]
+            },
+            "2837": {
+              "pageid": 2837,
+              "ns": 6,
+              "title": "File:Rot Advantage Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:45Z",
+                  "comment": "Uploaded pattern for Rot Advantage upgrade (v1.8)\n\n'''Rot Advantage'''\n\nHex pattern for the Rot Advantage upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/61/Rot_Advantage_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Rot_Advantage_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2837"
+                }
+              ]
+            },
+            "2959": {
+              "pageid": 2959,
+              "ns": 6,
+              "title": "File:Ruptured Spleen Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:28Z",
+                  "comment": "Uploaded pattern for Ruptured Spleen upgrade (v1.8)\n\n'''Ruptured Spleen'''\n\nHex pattern for the Ruptured Spleen upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/80/Ruptured_Spleen_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Ruptured_Spleen_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2959"
+                }
+              ]
+            },
+            "2415": {
+              "pageid": 2415,
+              "ns": 6,
+              "title": "File:Scrap Funnel Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:21:57Z",
+                  "comment": "Uploaded pattern for Scrap Funnel upgrade (v1.8)\n\n'''Scrap Funnel'''\n\nHex pattern for the Scrap Funnel upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/10/Scrap_Funnel_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Scrap_Funnel_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2415"
+                }
+              ]
+            },
+            "2282": {
+              "pageid": 2282,
+              "ns": 6,
+              "title": "File:Scrap Repurposing Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:40Z",
+                  "comment": "Uploaded pattern for Scrap Repurposing upgrade (v1.8)\n\n'''Scrap Repurposing'''\n\nHex pattern for the Scrap Repurposing upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/27/Scrap_Repurposing_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Scrap_Repurposing_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2282"
+                }
+              ]
+            },
+            "2961": {
+              "pageid": 2961,
+              "ns": 6,
+              "title": "File:Shaved Projectiles Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:14Z",
+                  "comment": "Uploaded pattern for Shaved Projectiles upgrade (v1.8)\n\n'''Shaved Projectiles'''\n\nHex pattern for the Shaved Projectiles upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/11/Shaved_Projectiles_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Shaved_Projectiles_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2961"
+                }
+              ]
+            },
+            "2303": {
+              "pageid": 2303,
+              "ns": 6,
+              "title": "File:Shock Affinity Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:38Z",
+                  "comment": "Uploaded pattern for Shock Affinity upgrade (v1.8)\n\n'''Shock Affinity'''\n\nHex pattern for the Shock Affinity upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/8/8c/Shock_Affinity_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Shock_Affinity_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2303"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "requestedTitles": [
+        "File:Shock Resistance Pattern.svg",
+        "File:Shrapnel Loading Pattern.svg",
+        "File:Size Them Up Pattern.svg",
+        "File:Slipper Shoes Pattern.svg",
+        "File:Slippery Blood Pattern.svg",
+        "File:Static Reload Pattern.svg",
+        "File:Steadier Aim Pattern.svg",
+        "File:Steady Aim Pattern.svg",
+        "File:Storage Surplus Pattern.svg",
+        "File:Super Magnet Pattern.svg",
+        "File:Swarm Reserves Pattern.svg",
+        "File:Swinging Technique Pattern.svg",
+        "File:System Overload Pattern.svg",
+        "File:The Glob Pattern.svg",
+        "File:Thunder Pressure Pattern.svg",
+        "File:Triple A Pattern.svg",
+        "File:Tungsten Cube Pattern.svg",
+        "File:Unnatural Focus Pattern.svg",
+        "File:Upset Stomach Pattern.svg",
+        "File:Vending Machine Pattern.svg",
+        "File:Violent Ignition Pattern.svg",
+        "File:Violent Reaction Pattern.svg",
+        "File:Volatile Acid Pattern.svg",
+        "File:Volatile Explosives Pattern.svg",
+        "File:Volatile Munitions Pattern.svg",
+        "File:Voltaic Battery Pattern.svg",
+        "File:Weight Rebalanced Pattern.svg",
+        "File:Welding Heat Pattern.svg",
+        "File:Wild Fire Pattern.svg",
+        "File:Wireless Extenders Pattern.svg",
+        "File:Yellow Prism Pattern.svg"
+      ],
+      "response": {
+        "batchcomplete": "",
+        "query": {
+          "pages": {
+            "-1": {
+              "ns": 6,
+              "title": "File:Yellow Prism Pattern.svg",
+              "missing": "",
+              "imagerepository": ""
+            },
+            "2304": {
+              "pageid": 2304,
+              "ns": 6,
+              "title": "File:Shock Resistance Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:42Z",
+                  "comment": "Uploaded pattern for Shock Resistance upgrade (v1.8)\n\n'''Shock Resistance'''\n\nHex pattern for the Shock Resistance upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/79/Shock_Resistance_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Shock_Resistance_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2304"
+                }
+              ]
+            },
+            "2742": {
+              "pageid": 2742,
+              "ns": 6,
+              "title": "File:Shrapnel Loading Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:11Z",
+                  "comment": "Uploaded pattern for Shrapnel Loading upgrade (v1.8)\n\n'''Shrapnel Loading'''\n\nHex pattern for the Shrapnel Loading upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e6/Shrapnel_Loading_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Shrapnel_Loading_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2742"
+                }
+              ]
+            },
+            "2963": {
+              "pageid": 2963,
+              "ns": 6,
+              "title": "File:Size Them Up Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:35Z",
+                  "comment": "Uploaded pattern for Size Them Up upgrade (v1.8)\n\n'''Size Them Up'''\n\nHex pattern for the Size Them Up upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/3a/Size_Them_Up_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Size_Them_Up_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2963"
+                }
+              ]
+            },
+            "2869": {
+              "pageid": 2869,
+              "ns": 6,
+              "title": "File:Slipper Shoes Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:11:48Z",
+                  "comment": "Uploaded pattern for Slipper Shoes upgrade (v1.8)\n\n'''Slipper Shoes'''\n\nHex pattern for the Slipper Shoes upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/66/Slipper_Shoes_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Slipper_Shoes_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2869"
+                }
+              ]
+            },
+            "2901": {
+              "pageid": 2901,
+              "ns": 6,
+              "title": "File:Slippery Blood Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:11Z",
+                  "comment": "Uploaded pattern for Slippery Blood upgrade (v1.8)\n\n'''Slippery Blood'''\n\nHex pattern for the Slippery Blood upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/22/Slippery_Blood_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Slippery_Blood_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2901"
+                }
+              ]
+            },
+            "2666": {
+              "pageid": 2666,
+              "ns": 6,
+              "title": "File:Static Reload Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:57Z",
+                  "comment": "Uploaded pattern for Static Reload upgrade (v1.8)\n\n'''Static Reload'''\n\nHex pattern for the Static Reload upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/bd/Static_Reload_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Static_Reload_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2666"
+                }
+              ]
+            },
+            "2633": {
+              "pageid": 2633,
+              "ns": 6,
+              "title": "File:Steadier Aim Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:52Z",
+                  "comment": "Uploaded pattern for Steadier Aim upgrade (v1.8)\n\n'''Steadier Aim'''\n\nHex pattern for the Steadier Aim upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/fe/Steadier_Aim_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Steadier_Aim_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2633"
+                }
+              ]
+            },
+            "2634": {
+              "pageid": 2634,
+              "ns": 6,
+              "title": "File:Steady Aim Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:54Z",
+                  "comment": "Uploaded pattern for Steady Aim upgrade (v1.8)\n\n'''Steady Aim'''\n\nHex pattern for the Steady Aim upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/6b/Steady_Aim_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Steady_Aim_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2634"
+                }
+              ]
+            },
+            "2776": {
+              "pageid": 2776,
+              "ns": 6,
+              "title": "File:Storage Surplus Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:24:58Z",
+                  "comment": "Uploaded pattern for Storage Surplus upgrade (v1.8)\n\n'''Storage Surplus'''\n\nHex pattern for the Storage Surplus upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/45/Storage_Surplus_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Storage_Surplus_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2776"
+                }
+              ]
+            },
+            "2902": {
+              "pageid": 2902,
+              "ns": 6,
+              "title": "File:Super Magnet Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:19:58Z",
+                  "comment": "Uploaded pattern for Super Magnet upgrade (v1.8)\n\n'''Super Magnet'''\n\nHex pattern for the Super Magnet upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/14/Super_Magnet_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Super_Magnet_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2902"
+                }
+              ]
+            },
+            "2668": {
+              "pageid": 2668,
+              "ns": 6,
+              "title": "File:Swarm Reserves Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:08:55Z",
+                  "comment": "Uploaded pattern for Swarm Reserves upgrade (v1.8)\n\n'''Swarm Reserves'''\n\nHex pattern for the Swarm Reserves upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/ef/Swarm_Reserves_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Swarm_Reserves_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2668"
+                }
+              ]
+            },
+            "2903": {
+              "pageid": 2903,
+              "ns": 6,
+              "title": "File:Swinging Technique Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:15:37Z",
+                  "comment": "Uploaded pattern for Swinging Technique upgrade (v1.8)\n\n'''Swinging Technique'''\n\nHex pattern for the Swinging Technique upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c5/Swinging_Technique_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Swinging_Technique_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2903"
+                }
+              ]
+            },
+            "2514": {
+              "pageid": 2514,
+              "ns": 6,
+              "title": "File:System Overload Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:25:38Z",
+                  "comment": "Uploaded pattern for System Overload upgrade (v1.8)\n\n'''System Overload'''\n\nHex pattern for the System Overload upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/f5/System_Overload_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:System_Overload_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2514"
+                }
+              ]
+            },
+            "2871": {
+              "pageid": 2871,
+              "ns": 6,
+              "title": "File:The Glob Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:30Z",
+                  "comment": "Uploaded pattern for The Glob upgrade (v1.8)\n\n'''The Glob'''\n\nHex pattern for the The Glob upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/57/The_Glob_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:The_Glob_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2871"
+                }
+              ]
+            },
+            "2515": {
+              "pageid": 2515,
+              "ns": 6,
+              "title": "File:Thunder Pressure Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:22:55Z",
+                  "comment": "Uploaded pattern for Thunder Pressure upgrade (v1.8)\n\n'''Thunder Pressure'''\n\nHex pattern for the Thunder Pressure upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/28/Thunder_Pressure_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Thunder_Pressure_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2515"
+                }
+              ]
+            },
+            "2936": {
+              "pageid": 2936,
+              "ns": 6,
+              "title": "File:Triple A Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:15:26Z",
+                  "comment": "Uploaded pattern for Triple A upgrade (v1.8)\n\n'''Triple A'''\n\nHex pattern for the Triple A upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5b/Triple_A_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Triple_A_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2936"
+                }
+              ]
+            },
+            "2777": {
+              "pageid": 2777,
+              "ns": 6,
+              "title": "File:Tungsten Cube Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:42Z",
+                  "comment": "Uploaded pattern for Tungsten Cube upgrade (v1.8)\n\n'''Tungsten Cube'''\n\nHex pattern for the Tungsten Cube upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/4b/Tungsten_Cube_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Tungsten_Cube_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2777"
+                }
+              ]
+            },
+            "2743": {
+              "pageid": 2743,
+              "ns": 6,
+              "title": "File:Unnatural Focus Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:14Z",
+                  "comment": "Uploaded pattern for Unnatural Focus upgrade (v1.8)\n\n'''Unnatural Focus'''\n\nHex pattern for the Unnatural Focus upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/db/Unnatural_Focus_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Unnatural_Focus_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2743"
+                }
+              ]
+            },
+            "2423": {
+              "pageid": 2423,
+              "ns": 6,
+              "title": "File:Upset Stomach Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:03:26Z",
+                  "comment": "Uploaded pattern for Upset Stomach upgrade (v1.8)\n\n'''Upset Stomach'''\n\nHex pattern for the Upset Stomach upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/7/73/Upset_Stomach_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Upset_Stomach_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2423"
+                }
+              ]
+            },
+            "2425": {
+              "pageid": 2425,
+              "ns": 6,
+              "title": "File:Vending Machine Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:38Z",
+                  "comment": "Uploaded pattern for Vending Machine upgrade (v1.8)\n\n'''Vending Machine'''\n\nHex pattern for the Vending Machine upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/42/Vending_Machine_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Vending_Machine_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2425"
+                }
+              ]
+            },
+            "2602": {
+              "pageid": 2602,
+              "ns": 6,
+              "title": "File:Violent Ignition Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:40Z",
+                  "comment": "Uploaded pattern for Violent Ignition upgrade (v1.8)\n\n'''Violent Ignition'''\n\nHex pattern for the Violent Ignition upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/1/1c/Violent_Ignition_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Violent_Ignition_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2602"
+                }
+              ]
+            },
+            "2493": {
+              "pageid": 2493,
+              "ns": 6,
+              "title": "File:Violent Reaction Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-10-20T19:10:25Z",
+                  "comment": "Uploaded pattern for CorrodeSize (ID: 1803300) (v2.0)\n\n'''Violent Reaction'''\n\nHex pattern for the Violent Reaction upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e4/Violent_Reaction_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Violent_Reaction_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2493"
+                }
+              ]
+            },
+            "2873": {
+              "pageid": 2873,
+              "ns": 6,
+              "title": "File:Volatile Acid Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:23:17Z",
+                  "comment": "Uploaded pattern for Volatile Acid upgrade (v1.8)\n\n'''Volatile Acid'''\n\nHex pattern for the Volatile Acid upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/65/Volatile_Acid_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Volatile_Acid_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2873"
+                }
+              ]
+            },
+            "2494": {
+              "pageid": 2494,
+              "ns": 6,
+              "title": "File:Volatile Explosives Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:42Z",
+                  "comment": "Uploaded pattern for Volatile Explosives upgrade (v1.8)\n\n'''Volatile Explosives'''\n\nHex pattern for the Volatile Explosives upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/f/fd/Volatile_Explosives_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Volatile_Explosives_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2494"
+                }
+              ]
+            },
+            "2744": {
+              "pageid": 2744,
+              "ns": 6,
+              "title": "File:Volatile Munitions Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:05:38Z",
+                  "comment": "Uploaded pattern for Volatile Munitions upgrade (v1.8)\n\n'''Volatile Munitions'''\n\nHex pattern for the Volatile Munitions upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c5/Volatile_Munitions_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Volatile_Munitions_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2744"
+                }
+              ]
+            },
+            "2710": {
+              "pageid": 2710,
+              "ns": 6,
+              "title": "File:Voltaic Battery Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:25:59Z",
+                  "comment": "Uploaded pattern for Voltaic Battery upgrade (v1.8)\n\n'''Voltaic Battery'''\n\nHex pattern for the Voltaic Battery upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/e/e6/Voltaic_Battery_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Voltaic_Battery_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2710"
+                }
+              ]
+            },
+            "2778": {
+              "pageid": 2778,
+              "ns": 6,
+              "title": "File:Weight Rebalanced Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:17:29Z",
+                  "comment": "Uploaded pattern for Weight Rebalanced upgrade (v1.8)\n\n'''Weight Rebalanced'''\n\nHex pattern for the Weight Rebalanced upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/d/df/Weight_Rebalanced_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Weight_Rebalanced_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2778"
+                }
+              ]
+            },
+            "2495": {
+              "pageid": 2495,
+              "ns": 6,
+              "title": "File:Welding Heat Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:12:58Z",
+                  "comment": "Uploaded pattern for Welding Heat upgrade (v1.8)\n\n'''Welding Heat'''\n\nHex pattern for the Welding Heat upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/4/43/Welding_Heat_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Welding_Heat_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2495"
+                }
+              ]
+            },
+            "2635": {
+              "pageid": 2635,
+              "ns": 6,
+              "title": "File:Wild Fire Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:26:57Z",
+                  "comment": "Uploaded pattern for Wild Fire upgrade (v1.8)\n\n'''Wild Fire'''\n\nHex pattern for the Wild Fire upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/29/Wild_Fire_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Wild_Fire_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2635"
+                }
+              ]
+            },
+            "2426": {
+              "pageid": 2426,
+              "ns": 6,
+              "title": "File:Wireless Extenders Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:27:02Z",
+                  "comment": "Uploaded pattern for Wireless Extenders upgrade (v1.8)\n\n'''Wireless Extenders'''\n\nHex pattern for the Wireless Extenders upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/6/6a/Wireless_Extenders_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Wireless_Extenders_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2426"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "requestedTitles": [
+        "File:Font H Blue Prism font Pattern.svg",
+        "File:Font H Green Prism font Pattern.svg",
+        "File:Font H Purple Prism font Pattern.svg",
+        "File:Rail-Tuning Pattern.svg",
+        "File:Font H Yellow Prism font Pattern.svg"
+      ],
+      "response": {
+        "batchcomplete": "",
+        "query": {
+          "pages": {
+            "5101": {
+              "pageid": 5101,
+              "ns": 6,
+              "title": "File:Font H Blue Prism font Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-30T18:29:01Z",
+                  "comment": "Uploaded pattern for PrismR (ID: 1101988) (v1.8.1H1)\n\n'''<font=H>Blue Prism</font>'''\n\nHex pattern for the <font=H>Blue Prism</font> upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/c/c9/Font_H_Blue_Prism_font_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Blue_Prism_font_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=5101"
+                }
+              ]
+            },
+            "5103": {
+              "pageid": 5103,
+              "ns": 6,
+              "title": "File:Font H Green Prism font Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-30T18:29:04Z",
+                  "comment": "Uploaded pattern for PrismS (ID: 1101976) (v1.8.1H1)\n\n'''<font=H>Green Prism</font>'''\n\nHex pattern for the <font=H>Green Prism</font> upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/2/2c/Font_H_Green_Prism_font_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Green_Prism_font_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=5103"
+                }
+              ]
+            },
+            "5097": {
+              "pageid": 5097,
+              "ns": 6,
+              "title": "File:Font H Purple Prism font Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-30T18:28:57Z",
+                  "comment": "Uploaded pattern for PrismEp (ID: 1101992) (v1.8.1H1)\n\n'''<font=H>Purple Prism</font>'''\n\nHex pattern for the <font=H>Purple Prism</font> upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/3/36/Font_H_Purple_Prism_font_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Purple_Prism_font_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=5097"
+                }
+              ]
+            },
+            "5099": {
+              "pageid": 5099,
+              "ns": 6,
+              "title": "File:Font H Yellow Prism font Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-30T18:28:59Z",
+                  "comment": "Uploaded pattern for PrismEx (ID: 1101996) (v1.8.1H1)\n\n'''<font=H>Yellow Prism</font>'''\n\nHex pattern for the <font=H>Yellow Prism</font> upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/5/5c/Font_H_Yellow_Prism_font_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Font_H_Yellow_Prism_font_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=5099"
+                }
+              ]
+            },
+            "2767": {
+              "pageid": 2767,
+              "ns": 6,
+              "title": "File:Rail-Tuning Pattern.svg",
+              "imagerepository": "local",
+              "imageinfo": [
+                {
+                  "timestamp": "2026-04-29T21:09:53Z",
+                  "comment": "Uploaded pattern for Rail-Tuning upgrade (v1.8)\n\n'''Rail-Tuning'''\n\nHex pattern for the Rail-Tuning upgrade in Mycopunk.\n\n[[Category:Upgrade Patterns]]",
+                  "url": "https://static.wikitide.net/mycopunkwiki/b/b1/Rail-Tuning_Pattern.svg",
+                  "descriptionurl": "https://mycopunk.miraheze.org/wiki/File:Rail-Tuning_Pattern.svg",
+                  "descriptionshorturl": "https://mycopunk.miraheze.org/w/index.php?curid=2767"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
