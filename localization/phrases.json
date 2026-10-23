@@ -1,0 +1,7007 @@
+[
+  {
+    "id": "n001",
+    "kind": "n",
+    "en": "Edge Fault"
+  },
+  {
+    "id": "d001",
+    "kind": "d",
+    "en": "Increases the size of your upgrade grid."
+  },
+  {
+    "id": "t001",
+    "kind": "t",
+    "en": "n/a"
+  },
+  {
+    "id": "n002",
+    "kind": "n",
+    "en": "Multiversal Thievery"
+  },
+  {
+    "id": "d002",
+    "kind": "d",
+    "en": "Commandeers 1 column from each of your other upgrade grids."
+  },
+  {
+    "id": "n003",
+    "kind": "n",
+    "en": "Boundary Incursion"
+  },
+  {
+    "id": "s001",
+    "kind": "s",
+    "en": "Chance"
+  },
+  {
+    "id": "s002",
+    "kind": "s",
+    "en": "Ammo Refunded"
+  },
+  {
+    "id": "n004",
+    "kind": "n",
+    "en": "Corrode Siphon"
+  },
+  {
+    "id": "d003",
+    "kind": "d",
+    "en": "Enemies you corrode with any weapon have a chance to return ammo to the magazine over time."
+  },
+  {
+    "id": "s003",
+    "kind": "s",
+    "en": "Damage Threshold"
+  },
+  {
+    "id": "s004",
+    "kind": "s",
+    "en": "Damage"
+  },
+  {
+    "id": "s005",
+    "kind": "s",
+    "en": "Element"
+  },
+  {
+    "id": "n005",
+    "kind": "n",
+    "en": "Infinity Burn"
+  },
+  {
+    "id": "d004",
+    "kind": "d",
+    "en": "Gain infinite ammo. Sustained fire damages you according to this gun's element."
+  },
+  {
+    "id": "s006",
+    "kind": "s",
+    "en": "Size"
+  },
+  {
+    "id": "n006",
+    "kind": "n",
+    "en": "Scorching Detonation"
+  },
+  {
+    "id": "d005",
+    "kind": "d",
+    "en": "Killing an ignited target causes it to explode."
+  },
+  {
+    "id": "n007",
+    "kind": "n",
+    "en": "Shock Recursion"
+  },
+  {
+    "id": "d006",
+    "kind": "d",
+    "en": "Electrocuting a target returns ammo to the magazine."
+  },
+  {
+    "id": "s007",
+    "kind": "s",
+    "en": "Fire Radius"
+  },
+  {
+    "id": "s008",
+    "kind": "s",
+    "en": "Fire Amount"
+  },
+  {
+    "id": "n008",
+    "kind": "n",
+    "en": "Violent Ignition"
+  },
+  {
+    "id": "d007",
+    "kind": "d",
+    "en": "Igniting a target applies a +5 fire to nearby targets."
+  },
+  {
+    "id": "s009",
+    "kind": "s",
+    "en": "Health"
+  },
+  {
+    "id": "n009",
+    "kind": "n",
+    "en": "Cycling Repairs"
+  },
+  {
+    "id": "d008",
+    "kind": "d",
+    "en": "While constantly shooting, every 15th bullet fired will heal you."
+  },
+  {
+    "id": "s010",
+    "kind": "s",
+    "en": "Fire Rate"
+  },
+  {
+    "id": "s011",
+    "kind": "s",
+    "en": "Charge Time"
+  },
+  {
+    "id": "s012",
+    "kind": "s",
+    "en": "Horizontal Recoil"
+  },
+  {
+    "id": "s013",
+    "kind": "s",
+    "en": "Vertical Recoil"
+  },
+  {
+    "id": "n010",
+    "kind": "n",
+    "en": "Dump Charge"
+  },
+  {
+    "id": "d009",
+    "kind": "d",
+    "en": "Hold the trigger to build charge. Upon release, all prepared ammo is fired very quickly."
+  },
+  {
+    "id": "s014",
+    "kind": "s",
+    "en": "Ammo Efficiency"
+  },
+  {
+    "id": "s015",
+    "kind": "s",
+    "en": "Reload Speed"
+  },
+  {
+    "id": "n011",
+    "kind": "n",
+    "en": "Equipment Siphon"
+  },
+  {
+    "id": "d010",
+    "kind": "d",
+    "en": "Dealing damage with other gear returns ammo to the magazine. Reload speed is slightly decreased."
+  },
+  {
+    "id": "n012",
+    "kind": "n",
+    "en": "Extralight Frame"
+  },
+  {
+    "id": "d011",
+    "kind": "d",
+    "en": "Fire while sprinting."
+  },
+  {
+    "id": "s016",
+    "kind": "s",
+    "en": "Horizontal Spread"
+  },
+  {
+    "id": "n013",
+    "kind": "n",
+    "en": "Intense Reaction"
+  },
+  {
+    "id": "d012",
+    "kind": "d",
+    "en": "Increases potency of the applied element. Horizontal spread is greatly increased."
+  },
+  {
+    "id": "s017",
+    "kind": "s",
+    "en": "Efficiency"
+  },
+  {
+    "id": "n014",
+    "kind": "n",
+    "en": "Mass Acceleration"
+  },
+  {
+    "id": "d013",
+    "kind": "d",
+    "en": "Fire rate is increased for each bullet that's loaded into the magazine. Base fire rate is decreased."
+  },
+  {
+    "id": "s018",
+    "kind": "s",
+    "en": "Speed"
+  },
+  {
+    "id": "s019",
+    "kind": "s",
+    "en": "Duration"
+  },
+  {
+    "id": "n015",
+    "kind": "n",
+    "en": "Momentum Overload"
+  },
+  {
+    "id": "d014",
+    "kind": "d",
+    "en": "Electrocuting a target increases move speed for a short time."
+  },
+  {
+    "id": "s020",
+    "kind": "s",
+    "en": "Increased Fire"
+  },
+  {
+    "id": "n016",
+    "kind": "n",
+    "en": "Superheat Reaction"
+  },
+  {
+    "id": "d015",
+    "kind": "d",
+    "en": "Rapidly igniting multiple targets increases the amount of fire per shot."
+  },
+  {
+    "id": "s021",
+    "kind": "s",
+    "en": "Acid per Second"
+  },
+  {
+    "id": "s022",
+    "kind": "s",
+    "en": "Recoil per Second"
+  },
+  {
+    "id": "s023",
+    "kind": "s",
+    "en": "Max Damage"
+  },
+  {
+    "id": "n017",
+    "kind": "n",
+    "en": "Toxin Recycling"
+  },
+  {
+    "id": "d016",
+    "kind": "d",
+    "en": "Sustained damage increases amount of applied acid and damage as well as recoil."
+  },
+  {
+    "id": "s024",
+    "kind": "s",
+    "en": "Damage Resistance"
+  },
+  {
+    "id": "n018",
+    "kind": "n",
+    "en": "Charge Shield"
+  },
+  {
+    "id": "d017",
+    "kind": "d",
+    "en": "Take reduced damage while charging. Charge time is increased."
+  },
+  {
+    "id": "n019",
+    "kind": "n",
+    "en": "Charged Cartridges"
+  },
+  {
+    "id": "d018",
+    "kind": "d",
+    "en": "Bullets apply shock."
+  },
+  {
+    "id": "s025",
+    "kind": "s",
+    "en": "Bullet Speed"
+  },
+  {
+    "id": "s026",
+    "kind": "s",
+    "en": "Bullet Size"
+  },
+  {
+    "id": "s027",
+    "kind": "s",
+    "en": "Falloff Start"
+  },
+  {
+    "id": "s028",
+    "kind": "s",
+    "en": "Falloff End"
+  },
+  {
+    "id": "s029",
+    "kind": "s",
+    "en": "Range"
+  },
+  {
+    "id": "s030",
+    "kind": "s",
+    "en": "Vertical Spread"
+  },
+  {
+    "id": "n020",
+    "kind": "n",
+    "en": "Condensed Ejection"
+  },
+  {
+    "id": "d019",
+    "kind": "d",
+    "en": "Fires slow-moving plasma that deals increased damage."
+  },
+  {
+    "id": "n021",
+    "kind": "n",
+    "en": "Corrosive Plasma"
+  },
+  {
+    "id": "d020",
+    "kind": "d",
+    "en": "Bullets apply acid."
+  },
+  {
+    "id": "n022",
+    "kind": "n",
+    "en": "Decay Energy"
+  },
+  {
+    "id": "d021",
+    "kind": "d",
+    "en": "Bullets apply decay."
+  },
+  {
+    "id": "s031",
+    "kind": "s",
+    "en": "Bullets per Shot"
+  },
+  {
+    "id": "s032",
+    "kind": "s",
+    "en": "Magazine Size"
+  },
+  {
+    "id": "n023",
+    "kind": "n",
+    "en": "Double Shot"
+  },
+  {
+    "id": "d022",
+    "kind": "d",
+    "en": "Fires two bullets at once. Magazine size and fire rate are decreased."
+  },
+  {
+    "id": "n024",
+    "kind": "n",
+    "en": "Elemental Discharge"
+  },
+  {
+    "id": "d023",
+    "kind": "d",
+    "en": "Charges up to release an elemental discharge that damages any nearby targets."
+  },
+  {
+    "id": "s033",
+    "kind": "s",
+    "en": "Ammo per Stack"
+  },
+  {
+    "id": "n025",
+    "kind": "n",
+    "en": "Energy Convergence"
+  },
+  {
+    "id": "d024",
+    "kind": "d",
+    "en": "Targets taking damage over time from your ignition, electrocution, or corrosion give you stacks of Power. Hold RELOAD to convert all Power stacks into overflow ammo."
+  },
+  {
+    "id": "s034",
+    "kind": "s",
+    "en": "Range per Rarity"
+  },
+  {
+    "id": "n026",
+    "kind": "n",
+    "en": "Full Range"
+  },
+  {
+    "id": "d025",
+    "kind": "d",
+    "en": "Increases range for each upgrade of a different rarity that's touching this one."
+  },
+  {
+    "id": "n027",
+    "kind": "n",
+    "en": "Heated Battery"
+  },
+  {
+    "id": "d026",
+    "kind": "d",
+    "en": "Bullets apply fire."
+  },
+  {
+    "id": "n028",
+    "kind": "n",
+    "en": "Overclocked Firing Mechanism"
+  },
+  {
+    "id": "d027",
+    "kind": "d",
+    "en": "Fire faster in a larger spread."
+  },
+  {
+    "id": "s035",
+    "kind": "s",
+    "en": "Burst Size"
+  },
+  {
+    "id": "s036",
+    "kind": "s",
+    "en": "Burst Interval"
+  },
+  {
+    "id": "s037",
+    "kind": "s",
+    "en": "Explosion Size"
+  },
+  {
+    "id": "n029",
+    "kind": "n",
+    "en": "Rocket Burst"
+  },
+  {
+    "id": "d028",
+    "kind": "d",
+    "en": "Fire a four-round burst. The last bullet in each burst is replaced with a tracking missile."
+  },
+  {
+    "id": "s038",
+    "kind": "s",
+    "en": "Tracking Radius"
+  },
+  {
+    "id": "n030",
+    "kind": "n",
+    "en": "Smart Slide"
+  },
+  {
+    "id": "d029",
+    "kind": "d",
+    "en": "Bullets auto-track to targets while sliding."
+  },
+  {
+    "id": "n031",
+    "kind": "n",
+    "en": "Adrenaline Reload"
+  },
+  {
+    "id": "d030",
+    "kind": "d",
+    "en": "Reload speed is briefly increased after killing a target."
+  },
+  {
+    "id": "n032",
+    "kind": "n",
+    "en": "Bigazine"
+  },
+  {
+    "id": "d031",
+    "kind": "d",
+    "en": "Magazine size is greatly increased."
+  },
+  {
+    "id": "n033",
+    "kind": "n",
+    "en": "Bulging Cartridge"
+  },
+  {
+    "id": "d032",
+    "kind": "d",
+    "en": "Magazine size is increased."
+  },
+  {
+    "id": "n034",
+    "kind": "n",
+    "en": "Compact Cartridge"
+  },
+  {
+    "id": "d033",
+    "kind": "d",
+    "en": "Reload speed is increased but magazine size is decreased."
+  },
+  {
+    "id": "n035",
+    "kind": "n",
+    "en": "Doublestack Cartridge"
+  },
+  {
+    "id": "d034",
+    "kind": "d",
+    "en": "Magazine size is increased, but damage is slightly decreased."
+  },
+  {
+    "id": "n036",
+    "kind": "n",
+    "en": "Focused Lenses"
+  },
+  {
+    "id": "d035",
+    "kind": "d",
+    "en": "Range is increased."
+  },
+  {
+    "id": "n037",
+    "kind": "n",
+    "en": "Precision Fire"
+  },
+  {
+    "id": "d036",
+    "kind": "d",
+    "en": "Fire slower with more accuracy."
+  },
+  {
+    "id": "s039",
+    "kind": "s",
+    "en": "Bounces"
+  },
+  {
+    "id": "n038",
+    "kind": "n",
+    "en": "Ricochet"
+  },
+  {
+    "id": "d037",
+    "kind": "d",
+    "en": "Bullets ricochet."
+  },
+  {
+    "id": "s040",
+    "kind": "s",
+    "en": "Aim Recoil"
+  },
+  {
+    "id": "n039",
+    "kind": "n",
+    "en": "Stability Module"
+  },
+  {
+    "id": "d038",
+    "kind": "d",
+    "en": "Recoil is reduced while aiming."
+  },
+  {
+    "id": "s041",
+    "kind": "s",
+    "en": "Force"
+  },
+  {
+    "id": "n040",
+    "kind": "n",
+    "en": "All Powdered Up"
+  },
+  {
+    "id": "d039",
+    "kind": "d",
+    "en": "While airborne, firing a shot pushes you backwards. Force increases as mag size decreases."
+  },
+  {
+    "id": "t002",
+    "kind": "t",
+    "en": "[Redacted]"
+  },
+  {
+    "id": "s042",
+    "kind": "s",
+    "en": "Self Fire"
+  },
+  {
+    "id": "n041",
+    "kind": "n",
+    "en": "Immolator"
+  },
+  {
+    "id": "d040",
+    "kind": "d",
+    "en": "Applying fire to a target also applies it to you. When you ignite yourself, you gain immolation for 6.5 seconds."
+  },
+  {
+    "id": "s043",
+    "kind": "s",
+    "en": "Fire"
+  },
+  {
+    "id": "s044",
+    "kind": "s",
+    "en": "Radius"
+  },
+  {
+    "id": "n042",
+    "kind": "n",
+    "en": "Pesticide"
+  },
+  {
+    "id": "d041",
+    "kind": "d",
+    "en": "Hold AIM to fire a flamethrower."
+  },
+  {
+    "id": "s045",
+    "kind": "s",
+    "en": "Charge Speed"
+  },
+  {
+    "id": "n043",
+    "kind": "n",
+    "en": "Pummeler"
+  },
+  {
+    "id": "d042",
+    "kind": "d",
+    "en": "Hold RELOAD to charge up bullets. Release to fire all charged bullets in a rapid burst."
+  },
+  {
+    "id": "n044",
+    "kind": "n",
+    "en": "Delicious Cores"
+  },
+  {
+    "id": "d043",
+    "kind": "d",
+    "en": "Killing a core returns ammo to the magazine."
+  },
+  {
+    "id": "n045",
+    "kind": "n",
+    "en": "Fire In My Heart"
+  },
+  {
+    "id": "d044",
+    "kind": "d",
+    "en": "Move faster while ignited and holding this weapon."
+  },
+  {
+    "id": "n046",
+    "kind": "n",
+    "en": "Friction Compensators"
+  },
+  {
+    "id": "d045",
+    "kind": "d",
+    "en": "Damage falloff is reset when a bullet bounces."
+  },
+  {
+    "id": "n047",
+    "kind": "n",
+    "en": "Ghosting"
+  },
+  {
+    "id": "d046",
+    "kind": "d",
+    "en": "Bullets pierce through targets instead of bouncing."
+  },
+  {
+    "id": "n048",
+    "kind": "n",
+    "en": "Molotov"
+  },
+  {
+    "id": "d047",
+    "kind": "d",
+    "en": "Hold RELOAD to charge up an igniting grenade shot."
+  },
+  {
+    "id": "n049",
+    "kind": "n",
+    "en": "Opening Charge"
+  },
+  {
+    "id": "d048",
+    "kind": "d",
+    "en": "Bullets apply shock before bouncing."
+  },
+  {
+    "id": "s046",
+    "kind": "s",
+    "en": "Damage per Bounce"
+  },
+  {
+    "id": "n050",
+    "kind": "n",
+    "en": "Power Ricochet"
+  },
+  {
+    "id": "d049",
+    "kind": "d",
+    "en": "Bullets gain an extra bounce. Damage increases with each bounce."
+  },
+  {
+    "id": "n051",
+    "kind": "n",
+    "en": "Reactive Coating"
+  },
+  {
+    "id": "d050",
+    "kind": "d",
+    "en": "Bullets always apply fire to enemy cores."
+  },
+  {
+    "id": "n052",
+    "kind": "n",
+    "en": "Shell Packer"
+  },
+  {
+    "id": "d051",
+    "kind": "d",
+    "en": "Adds an extra pellet to each shot. This upgrade can stack."
+  },
+  {
+    "id": "n053",
+    "kind": "n",
+    "en": "Stand the Heat"
+  },
+  {
+    "id": "d052",
+    "kind": "d",
+    "en": "Extra ammo is added to the magazine when you gain immolation."
+  },
+  {
+    "id": "n054",
+    "kind": "n",
+    "en": "Double Barrel"
+  },
+  {
+    "id": "d053",
+    "kind": "d",
+    "en": "Fires 2 shots before reloading. Damage and reload speed are increased. Spread is decreased."
+  },
+  {
+    "id": "n055",
+    "kind": "n",
+    "en": "Double Time"
+  },
+  {
+    "id": "d054",
+    "kind": "d",
+    "en": "Fire a 2-shot burst."
+  },
+  {
+    "id": "n056",
+    "kind": "n",
+    "en": "Focus Spread"
+  },
+  {
+    "id": "d055",
+    "kind": "d",
+    "en": "Bullets fire in a tighter spread but deal less damage."
+  },
+  {
+    "id": "n057",
+    "kind": "n",
+    "en": "Heavy"
+  },
+  {
+    "id": "d056",
+    "kind": "d",
+    "en": "Fire slower, deal more damage, and apply more fire."
+  },
+  {
+    "id": "s047",
+    "kind": "s",
+    "en": "Ignited Fire Rate"
+  },
+  {
+    "id": "n058",
+    "kind": "n",
+    "en": "Hot Potato"
+  },
+  {
+    "id": "d057",
+    "kind": "d",
+    "en": "Fire faster while you are ignited."
+  },
+  {
+    "id": "s048",
+    "kind": "s",
+    "en": "Ignited Reload Speed"
+  },
+  {
+    "id": "n059",
+    "kind": "n",
+    "en": "Hot Reload"
+  },
+  {
+    "id": "d058",
+    "kind": "d",
+    "en": "Reload faster while ignited."
+  },
+  {
+    "id": "n060",
+    "kind": "n",
+    "en": "Simplest Solution"
+  },
+  {
+    "id": "d059",
+    "kind": "d",
+    "en": "Reload speed is increased, but magazine size is decreased."
+  },
+  {
+    "id": "n061",
+    "kind": "n",
+    "en": "Slam Fire"
+  },
+  {
+    "id": "d060",
+    "kind": "d",
+    "en": "Fire faster in a larger spread. Magazine size is greatly increased."
+  },
+  {
+    "id": "s049",
+    "kind": "s",
+    "en": "Slide Damage"
+  },
+  {
+    "id": "n062",
+    "kind": "n",
+    "en": "Slideshot"
+  },
+  {
+    "id": "d061",
+    "kind": "d",
+    "en": "After sliding, your next shot deals increased damage."
+  },
+  {
+    "id": "n063",
+    "kind": "n",
+    "en": "Wild Fire"
+  },
+  {
+    "id": "d062",
+    "kind": "d",
+    "en": "Bullets apply more fire but shoot in a much wider spread."
+  },
+  {
+    "id": "n064",
+    "kind": "n",
+    "en": "Mag Extender"
+  },
+  {
+    "id": "n065",
+    "kind": "n",
+    "en": "Melting Point"
+  },
+  {
+    "id": "d063",
+    "kind": "d",
+    "en": "Bullets apply more fire."
+  },
+  {
+    "id": "n066",
+    "kind": "n",
+    "en": "Reinforced Coating"
+  },
+  {
+    "id": "d064",
+    "kind": "d",
+    "en": "Bullets ricochet an extra time."
+  },
+  {
+    "id": "n067",
+    "kind": "n",
+    "en": "Stable Grip"
+  },
+  {
+    "id": "d065",
+    "kind": "d",
+    "en": "Recoil is decreased."
+  },
+  {
+    "id": "s050",
+    "kind": "s",
+    "en": "Spread"
+  },
+  {
+    "id": "n068",
+    "kind": "n",
+    "en": "Steadier Aim"
+  },
+  {
+    "id": "d066",
+    "kind": "d",
+    "en": "Spread is decreased while aiming."
+  },
+  {
+    "id": "n069",
+    "kind": "n",
+    "en": "Steady Aim"
+  },
+  {
+    "id": "d067",
+    "kind": "d",
+    "en": "Range is increased while aiming."
+  },
+  {
+    "id": "n070",
+    "kind": "n",
+    "en": "Breeding Season"
+  },
+  {
+    "id": "d068",
+    "kind": "d",
+    "en": "While firing, extra pellets are created from nearby players who have a Swarm Launcher equipped."
+  },
+  {
+    "id": "n071",
+    "kind": "n",
+    "en": "Explosive Pellets"
+  },
+  {
+    "id": "d069",
+    "kind": "d",
+    "en": "Pellets explode but deal less damage."
+  },
+  {
+    "id": "s051",
+    "kind": "s",
+    "en": "Chance per Pellet"
+  },
+  {
+    "id": "s052",
+    "kind": "s",
+    "en": "Ammo Cost"
+  },
+  {
+    "id": "s053",
+    "kind": "s",
+    "en": "Mitosis Damage"
+  },
+  {
+    "id": "n072",
+    "kind": "n",
+    "en": "Mitosis"
+  },
+  {
+    "id": "d070",
+    "kind": "d",
+    "en": "Hovering pellets consume your ammo reserves to release a rain of diving pellets that deal reduced damage."
+  },
+  {
+    "id": "s054",
+    "kind": "s",
+    "en": "Ammo per Second"
+  },
+  {
+    "id": "s055",
+    "kind": "s",
+    "en": "Charge per Second"
+  },
+  {
+    "id": "n073",
+    "kind": "n",
+    "en": "Munition Siphon"
+  },
+  {
+    "id": "d071",
+    "kind": "d",
+    "en": "Hold RELOAD to consume reserve ammo and gain charge for your equipped grenade."
+  },
+  {
+    "id": "s056",
+    "kind": "s",
+    "en": "Spin Up Speed"
+  },
+  {
+    "id": "s057",
+    "kind": "s",
+    "en": "Max Fire Rate"
+  },
+  {
+    "id": "n074",
+    "kind": "n",
+    "en": "Crop Duster"
+  },
+  {
+    "id": "d072",
+    "kind": "d",
+    "en": "While airborne, you automatically spawn swarm pellets in front of you. Their fire rate increases the longer you're in the air. This can trigger when the Swarm Launcher is not equipped."
+  },
+  {
+    "id": "s058",
+    "kind": "s",
+    "en": "Healing"
+  },
+  {
+    "id": "n075",
+    "kind": "n",
+    "en": "Cross Pollination"
+  },
+  {
+    "id": "d073",
+    "kind": "d",
+    "en": "Pellets can track to players and heal them."
+  },
+  {
+    "id": "n076",
+    "kind": "n",
+    "en": "Migration"
+  },
+  {
+    "id": "d074",
+    "kind": "d",
+    "en": "You can fire while sprinting and sliding."
+  },
+  {
+    "id": "s059",
+    "kind": "s",
+    "en": "Size per Second"
+  },
+  {
+    "id": "s060",
+    "kind": "s",
+    "en": "Max Size"
+  },
+  {
+    "id": "n077",
+    "kind": "n",
+    "en": "Overload Contingency"
+  },
+  {
+    "id": "d075",
+    "kind": "d",
+    "en": "Hold RELOAD charge up a high powered melee attack. Each consumed pellet increases the size of the hit."
+  },
+  {
+    "id": "n078",
+    "kind": "n",
+    "en": "Portable Solar Array"
+  },
+  {
+    "id": "d076",
+    "kind": "d",
+    "en": "Hold RELOAD to consume reserve ammo and regenerate health."
+  },
+  {
+    "id": "n079",
+    "kind": "n",
+    "en": "Power Redistribution"
+  },
+  {
+    "id": "d077",
+    "kind": "d",
+    "en": "Reload speed is decreased, but you move much faster while reloading."
+  },
+  {
+    "id": "n080",
+    "kind": "n",
+    "en": "Remote Control"
+  },
+  {
+    "id": "d078",
+    "kind": "d",
+    "en": "Hovering pellets follow your crosshair but travel slower."
+  },
+  {
+    "id": "n081",
+    "kind": "n",
+    "en": "Scatterburst"
+  },
+  {
+    "id": "d079",
+    "kind": "d",
+    "en": "Fire all pellets at once. Magazine size is decreased."
+  },
+  {
+    "id": "s061",
+    "kind": "s",
+    "en": "Ammo per Upgrade"
+  },
+  {
+    "id": "n082",
+    "kind": "n",
+    "en": "The Hive Must Grow"
+  },
+  {
+    "id": "d080",
+    "kind": "d",
+    "en": "Magazine size is increased for each unique upgrade that touches this one."
+  },
+  {
+    "id": "n083",
+    "kind": "n",
+    "en": "Wait Charging"
+  },
+  {
+    "id": "d081",
+    "kind": "d",
+    "en": "Pellet damage increases the longer they hover."
+  },
+  {
+    "id": "n084",
+    "kind": "n",
+    "en": "Atmospheric Energizers"
+  },
+  {
+    "id": "d082",
+    "kind": "d",
+    "en": "Ammo is automatically regenerated over time while the swarm is hovering."
+  },
+  {
+    "id": "n085",
+    "kind": "n",
+    "en": "Autoswarm"
+  },
+  {
+    "id": "d083",
+    "kind": "d",
+    "en": "Pellets are more accurate and automatically dive toward targets."
+  },
+  {
+    "id": "n086",
+    "kind": "n",
+    "en": "Blitz Planting"
+  },
+  {
+    "id": "d084",
+    "kind": "d",
+    "en": "Firing briefly increases your move speed."
+  },
+  {
+    "id": "n087",
+    "kind": "n",
+    "en": "Electrified Pellets"
+  },
+  {
+    "id": "d085",
+    "kind": "d",
+    "en": "Pellets apply shock."
+  },
+  {
+    "id": "n088",
+    "kind": "n",
+    "en": "High Caliber Pellets"
+  },
+  {
+    "id": "d086",
+    "kind": "d",
+    "en": "Fire slower, high-damage pellets that automatically dive toward targets."
+  },
+  {
+    "id": "n089",
+    "kind": "n",
+    "en": "Over Extended"
+  },
+  {
+    "id": "d087",
+    "kind": "d",
+    "en": "Range and accuracy are increased, but magazine size is decreased."
+  },
+  {
+    "id": "s062",
+    "kind": "s",
+    "en": "Ammo Capacity"
+  },
+  {
+    "id": "n090",
+    "kind": "n",
+    "en": "Quick Grouping"
+  },
+  {
+    "id": "d088",
+    "kind": "d",
+    "en": "Fire a shot of 6 pellets. Magazine size and ammo capacity are increased."
+  },
+  {
+    "id": "n091",
+    "kind": "n",
+    "en": "Quick Release"
+  },
+  {
+    "id": "d089",
+    "kind": "d",
+    "en": "Releasing the swarm before your magazine is empty gives you a burst of speed."
+  },
+  {
+    "id": "n092",
+    "kind": "n",
+    "en": "Sprinkler"
+  },
+  {
+    "id": "d090",
+    "kind": "d",
+    "en": "Range and spread are both increased."
+  },
+  {
+    "id": "n093",
+    "kind": "n",
+    "en": "Static Reload"
+  },
+  {
+    "id": "d091",
+    "kind": "d",
+    "en": "Electrocuting a target with any weapon increases the Swarm Launcher's reload speed."
+  },
+  {
+    "id": "n094",
+    "kind": "n",
+    "en": "Tool for the Job"
+  },
+  {
+    "id": "d092",
+    "kind": "d",
+    "en": "Regenerate more Swarm Launcher ammo from dealing damage with your other weapon. Ammo capacity is increased."
+  },
+  {
+    "id": "n095",
+    "kind": "n",
+    "en": "Large Energy Storage"
+  },
+  {
+    "id": "n096",
+    "kind": "n",
+    "en": "Precise Targeting"
+  },
+  {
+    "id": "n097",
+    "kind": "n",
+    "en": "Rapid Pollination"
+  },
+  {
+    "id": "d093",
+    "kind": "d",
+    "en": "Fire faster with lower accuracy."
+  },
+  {
+    "id": "n098",
+    "kind": "n",
+    "en": "Swarm Reserves"
+  },
+  {
+    "id": "d094",
+    "kind": "d",
+    "en": "Ammo reserves are increased."
+  },
+  {
+    "id": "n099",
+    "kind": "n",
+    "en": "Tight Planting"
+  },
+  {
+    "id": "d095",
+    "kind": "d",
+    "en": "Spread is reduced."
+  },
+  {
+    "id": "n100",
+    "kind": "n",
+    "en": "Arc Lightning"
+  },
+  {
+    "id": "d096",
+    "kind": "d",
+    "en": "Damaging a target with the laser has a chance to arc a shocking bolt of lightning to nearby enemies."
+  },
+  {
+    "id": "s063",
+    "kind": "s",
+    "en": "Switch Interval"
+  },
+  {
+    "id": "s064",
+    "kind": "s",
+    "en": "Damage per Stack"
+  },
+  {
+    "id": "n101",
+    "kind": "n",
+    "en": "Autocycler"
+  },
+  {
+    "id": "d097",
+    "kind": "d",
+    "en": "The DMLR automatically switches between DMR and laser modes at the given interval, and the laser has infinite charge. Dealing damage with the DMR increases laser damage and dealing damage with the laser increases DMR damage."
+  },
+  {
+    "id": "s065",
+    "kind": "s",
+    "en": "Laser Damage"
+  },
+  {
+    "id": "s066",
+    "kind": "s",
+    "en": "Laser Charge On Hit"
+  },
+  {
+    "id": "s067",
+    "kind": "s",
+    "en": "Laser Charge Consumption"
+  },
+  {
+    "id": "s068",
+    "kind": "s",
+    "en": "Ammo Generated by Laser"
+  },
+  {
+    "id": "n102",
+    "kind": "n",
+    "en": "Hot Swap"
+  },
+  {
+    "id": "d098",
+    "kind": "d",
+    "en": "The laser becomes the default mode. Dealing damage with the laser generates ammo for a more powerful DMR mode"
+  },
+  {
+    "id": "s069",
+    "kind": "s",
+    "en": "Secondary Explosion Size"
+  },
+  {
+    "id": "n103",
+    "kind": "n",
+    "en": "Voltaic Battery"
+  },
+  {
+    "id": "d099",
+    "kind": "d",
+    "en": "Throw used magazines on reload to deal a shock explosion. Shoot the discarded mag to cause a second, larger explosion. Explosion power increases when less ammo is tossed."
+  },
+  {
+    "id": "s070",
+    "kind": "s",
+    "en": "Efficacy per Thorn"
+  },
+  {
+    "id": "n104",
+    "kind": "n",
+    "en": "Demonstrator's Trick"
+  },
+  {
+    "id": "d100",
+    "kind": "d",
+    "en": "When Voltaic Battery is equipped, you may cancel a reload by switching weapons when your magazine is empty to throw the battery again. Consecutive throws decrease the explosion's size and damage."
+  },
+  {
+    "id": "n105",
+    "kind": "n",
+    "en": "Engineering Nanites"
+  },
+  {
+    "id": "d101",
+    "kind": "d",
+    "en": "The laser heals allies."
+  },
+  {
+    "id": "s071",
+    "kind": "s",
+    "en": "Charge"
+  },
+  {
+    "id": "n106",
+    "kind": "n",
+    "en": "Hazard Recycling"
+  },
+  {
+    "id": "d102",
+    "kind": "d",
+    "en": "Gain laser charge when the given element is fully applied to you."
+  },
+  {
+    "id": "n107",
+    "kind": "n",
+    "en": "Overcharge Cycling"
+  },
+  {
+    "id": "d103",
+    "kind": "d",
+    "en": "Killing a target has a chance to refund DMR ammo."
+  },
+  {
+    "id": "n108",
+    "kind": "n",
+    "en": "Photon Surge"
+  },
+  {
+    "id": "d104",
+    "kind": "d",
+    "en": "Move faster while firing the laser."
+  },
+  {
+    "id": "n109",
+    "kind": "n",
+    "en": "Two Way Charging"
+  },
+  {
+    "id": "d105",
+    "kind": "d",
+    "en": "Dealing damage with the laser regenerates bullets in your magazine."
+  },
+  {
+    "id": "s072",
+    "kind": "s",
+    "en": "Charge on Heal"
+  },
+  {
+    "id": "n110",
+    "kind": "n",
+    "en": "Assist Charge"
+  },
+  {
+    "id": "d106",
+    "kind": "d",
+    "en": "Healing an ally with the laser provides some charge."
+  },
+  {
+    "id": "s073",
+    "kind": "s",
+    "en": "Min Laser Charge"
+  },
+  {
+    "id": "n111",
+    "kind": "n",
+    "en": "Coronal Ejection"
+  },
+  {
+    "id": "d107",
+    "kind": "d",
+    "en": "Laser damage is greatly increased, but it uses charge faster. The laser must be fully charged to fire."
+  },
+  {
+    "id": "s074",
+    "kind": "s",
+    "en": "Laser Element"
+  },
+  {
+    "id": "n112",
+    "kind": "n",
+    "en": "Corrosive Laser"
+  },
+  {
+    "id": "d108",
+    "kind": "d",
+    "en": "Laser deals acid damage."
+  },
+  {
+    "id": "n113",
+    "kind": "n",
+    "en": "Hard-Light Bypass"
+  },
+  {
+    "id": "d109",
+    "kind": "d",
+    "en": "The laser pierces shields."
+  },
+  {
+    "id": "n114",
+    "kind": "n",
+    "en": "Heavy Hitting"
+  },
+  {
+    "id": "d110",
+    "kind": "d",
+    "en": "DMR mode deals increased damage but fires slower."
+  },
+  {
+    "id": "n115",
+    "kind": "n",
+    "en": "Incendiary Laser"
+  },
+  {
+    "id": "d111",
+    "kind": "d",
+    "en": "Laser deals fire damage."
+  },
+  {
+    "id": "n116",
+    "kind": "n",
+    "en": "Kinetic Amplifier"
+  },
+  {
+    "id": "d112",
+    "kind": "d",
+    "en": "Damage is increased."
+  },
+  {
+    "id": "n117",
+    "kind": "n",
+    "en": "Kinetic Impossibility"
+  },
+  {
+    "id": "d113",
+    "kind": "d",
+    "en": "You hover while firing the laser."
+  },
+  {
+    "id": "n118",
+    "kind": "n",
+    "en": "Power Core"
+  },
+  {
+    "id": "d114",
+    "kind": "d",
+    "en": "Killing a core with the laser refunds some charge."
+  },
+  {
+    "id": "s075",
+    "kind": "s",
+    "en": "Limb Damage"
+  },
+  {
+    "id": "s076",
+    "kind": "s",
+    "en": "Shell Damage"
+  },
+  {
+    "id": "n119",
+    "kind": "n",
+    "en": "Pulverizer"
+  },
+  {
+    "id": "d115",
+    "kind": "d",
+    "en": "Deal more damage to shells but less damage to limbs."
+  },
+  {
+    "id": "s077",
+    "kind": "s",
+    "en": "Laser Charge Capacity"
+  },
+  {
+    "id": "n120",
+    "kind": "n",
+    "en": "Rapid Charge"
+  },
+  {
+    "id": "d116",
+    "kind": "d",
+    "en": "Dealing damage generates more laser charge, but capacity is reduced."
+  },
+  {
+    "id": "n121",
+    "kind": "n",
+    "en": "Shocking Laser"
+  },
+  {
+    "id": "d117",
+    "kind": "d",
+    "en": "Laser deals shock damage."
+  },
+  {
+    "id": "n122",
+    "kind": "n",
+    "en": "Shredder"
+  },
+  {
+    "id": "d118",
+    "kind": "d",
+    "en": "Deal more damage to limbs but less damage to shells."
+  },
+  {
+    "id": "n123",
+    "kind": "n",
+    "en": "Sturdy"
+  },
+  {
+    "id": "d119",
+    "kind": "d",
+    "en": "While firing the laser, you can't move and you gain damage resistance. Laser damage is increased."
+  },
+  {
+    "id": "s078",
+    "kind": "s",
+    "en": "Applies"
+  },
+  {
+    "id": "n124",
+    "kind": "n",
+    "en": "Tainted Exhaust"
+  },
+  {
+    "id": "d120",
+    "kind": "d",
+    "en": "Depleting the battery releases an elemental burst."
+  },
+  {
+    "id": "n125",
+    "kind": "n",
+    "en": "Trifecta"
+  },
+  {
+    "id": "d121",
+    "kind": "d",
+    "en": "Fire a 3-round burst."
+  },
+  {
+    "id": "s079",
+    "kind": "s",
+    "en": "Amount"
+  },
+  {
+    "id": "n126",
+    "kind": "n",
+    "en": "Triple"
+  },
+  {
+    "id": "d122",
+    "kind": "d",
+    "en": "Every 3rd bullet applies the given element."
+  },
+  {
+    "id": "n127",
+    "kind": "n",
+    "en": "Aux Reserves"
+  },
+  {
+    "id": "d123",
+    "kind": "d",
+    "en": "Ammo capacity is increased."
+  },
+  {
+    "id": "n128",
+    "kind": "n",
+    "en": "Beam Amplifier"
+  },
+  {
+    "id": "d124",
+    "kind": "d",
+    "en": "Laser damage is increased."
+  },
+  {
+    "id": "n129",
+    "kind": "n",
+    "en": "Feedback Amplifier"
+  },
+  {
+    "id": "d125",
+    "kind": "d",
+    "en": "Gain more laser charge for dealing damage."
+  },
+  {
+    "id": "n130",
+    "kind": "n",
+    "en": "Long Scope"
+  },
+  {
+    "id": "d126",
+    "kind": "d",
+    "en": "Range and aim zoom are increased."
+  },
+  {
+    "id": "n131",
+    "kind": "n",
+    "en": "Quickswap Cartridge"
+  },
+  {
+    "id": "n132",
+    "kind": "n",
+    "en": "Reorganized Reserves"
+  },
+  {
+    "id": "d127",
+    "kind": "d",
+    "en": "Laser charge capacity is increased, but DMR ammo capacity is decreased."
+  },
+  {
+    "id": "n133",
+    "kind": "n",
+    "en": "Big Fat Doobie"
+  },
+  {
+    "id": "d128",
+    "kind": "d",
+    "en": "Only one bullet is loaded into the chamber. It is much larger and deals more damage."
+  },
+  {
+    "id": "t003",
+    "kind": "t",
+    "en": "Reload Speed: [+26.58% - +20.48%]"
+  },
+  {
+    "id": "n134",
+    "kind": "n",
+    "en": "Blood-Rush"
+  },
+  {
+    "id": "d129",
+    "kind": "d",
+    "en": "Killing a core loads a bunch of bullets into the magazine. Press AIM to fire all bullets in a large burst."
+  },
+  {
+    "id": "t004",
+    "kind": "t",
+    "en": "Blood Rush bullets deal increased damage.\nBonus Damage: [+13 - +15]"
+  },
+  {
+    "id": "n135",
+    "kind": "n",
+    "en": "Lucky Bastard"
+  },
+  {
+    "id": "d130",
+    "kind": "d",
+    "en": "Firing your last shot has a chance to refund ammo."
+  },
+  {
+    "id": "t005",
+    "kind": "t",
+    "en": "Chance: [+3.5% - +5%]"
+  },
+  {
+    "id": "n136",
+    "kind": "n",
+    "en": "Volatile Munitions"
+  },
+  {
+    "id": "d131",
+    "kind": "d",
+    "en": "Killing a core causes an elemental explosion."
+  },
+  {
+    "id": "t006",
+    "kind": "t",
+    "en": "Explosions have a chance to trigger when killing any target.\nChance: [7% - 9%]"
+  },
+  {
+    "id": "n137",
+    "kind": "n",
+    "en": "Double Action"
+  },
+  {
+    "id": "d132",
+    "kind": "d",
+    "en": "Needs a longer trigger pull to fire. Damage is greatly increased."
+  },
+  {
+    "id": "s080",
+    "kind": "s",
+    "en": "Min Damage"
+  },
+  {
+    "id": "n138",
+    "kind": "n",
+    "en": "Feeling Lucky"
+  },
+  {
+    "id": "d133",
+    "kind": "d",
+    "en": "Increased magazine size. Bullets randomly deal between 1% and 200% damage."
+  },
+  {
+    "id": "s081",
+    "kind": "s",
+    "en": "Max Reload Interval"
+  },
+  {
+    "id": "n139",
+    "kind": "n",
+    "en": "Juiced Up"
+  },
+  {
+    "id": "d134",
+    "kind": "d",
+    "en": "Unloading your entire mag within the given time frame supercharges your next mag, increasing the damage of its bullets."
+  },
+  {
+    "id": "n140",
+    "kind": "n",
+    "en": "Modded Auto"
+  },
+  {
+    "id": "d135",
+    "kind": "d",
+    "en": "Fire full-auto at a reduced fire rate."
+  },
+  {
+    "id": "n141",
+    "kind": "n",
+    "en": "Outlaw"
+  },
+  {
+    "id": "d136",
+    "kind": "d",
+    "en": "Killing a core refunds ammo to your magazine."
+  },
+  {
+    "id": "n142",
+    "kind": "n",
+    "en": "Ralph's Conundrum"
+  },
+  {
+    "id": "d137",
+    "kind": "d",
+    "en": "Reloading toggles the element between fire and acid."
+  },
+  {
+    "id": "s082",
+    "kind": "s",
+    "en": "Stacks on Kill"
+  },
+  {
+    "id": "n143",
+    "kind": "n",
+    "en": "Residue"
+  },
+  {
+    "id": "d138",
+    "kind": "d",
+    "en": "Killing a target grants a stack of Junk. Hold RELOAD to consume all your Junk and fire a large explosive bullet with combustion size proportional to the amount of Junk consumed."
+  },
+  {
+    "id": "n144",
+    "kind": "n",
+    "en": "Ride the High"
+  },
+  {
+    "id": "d139",
+    "kind": "d",
+    "en": "Killing a target while airborne causes you to hover for a moment."
+  },
+  {
+    "id": "s083",
+    "kind": "s",
+    "en": "Ammo per Cell"
+  },
+  {
+    "id": "n145",
+    "kind": "n",
+    "en": "Self Storage"
+  },
+  {
+    "id": "d140",
+    "kind": "d",
+    "en": "Magazine size is increased for each occupied cell that touches this upgrade and decreased for each empty cell that touches this."
+  },
+  {
+    "id": "n146",
+    "kind": "n",
+    "en": "Adrenaline Rush"
+  },
+  {
+    "id": "n147",
+    "kind": "n",
+    "en": "Burning Tips"
+  },
+  {
+    "id": "n148",
+    "kind": "n",
+    "en": "Chemical Symbiosis"
+  },
+  {
+    "id": "d141",
+    "kind": "d",
+    "en": "While fully affected an element, its damage type is channeled to your bullets."
+  },
+  {
+    "id": "n149",
+    "kind": "n",
+    "en": "Controlled Substance"
+  },
+  {
+    "id": "d142",
+    "kind": "d",
+    "en": "Recoil and damage are reduced."
+  },
+  {
+    "id": "n150",
+    "kind": "n",
+    "en": "Delirium"
+  },
+  {
+    "id": "d143",
+    "kind": "d",
+    "en": "Killing a target briefly increases your damage."
+  },
+  {
+    "id": "s084",
+    "kind": "s",
+    "en": "Hipfire Damage"
+  },
+  {
+    "id": "n151",
+    "kind": "n",
+    "en": "Fan Fire"
+  },
+  {
+    "id": "d144",
+    "kind": "d",
+    "en": "Damage is increased when hip-firing."
+  },
+  {
+    "id": "n152",
+    "kind": "n",
+    "en": "Fresh Bullet Frenzy"
+  },
+  {
+    "id": "d145",
+    "kind": "d",
+    "en": "Reloading briefly increases your damage."
+  },
+  {
+    "id": "n153",
+    "kind": "n",
+    "en": "High Caliber"
+  },
+  {
+    "id": "d146",
+    "kind": "d",
+    "en": "Damage is increased, but max fire rate is decreased."
+  },
+  {
+    "id": "s085",
+    "kind": "s",
+    "en": "Increase Damage Chance"
+  },
+  {
+    "id": "s086",
+    "kind": "s",
+    "en": "Damage Self Chance"
+  },
+  {
+    "id": "s087",
+    "kind": "s",
+    "en": "Damage Taken"
+  },
+  {
+    "id": "n154",
+    "kind": "n",
+    "en": "Home Cooking"
+  },
+  {
+    "id": "d147",
+    "kind": "d",
+    "en": "Each bullet has a chance to deal extra damage, but also has a chance to damage you."
+  },
+  {
+    "id": "n155",
+    "kind": "n",
+    "en": "Just Add More Gunpowder"
+  },
+  {
+    "id": "d148",
+    "kind": "d",
+    "en": "Damage is increased, but so is recoil."
+  },
+  {
+    "id": "n156",
+    "kind": "n",
+    "en": "Lucky Last"
+  },
+  {
+    "id": "d149",
+    "kind": "d",
+    "en": "The last bullet in the chamber explodes."
+  },
+  {
+    "id": "n157",
+    "kind": "n",
+    "en": "Practice Makes Perfect"
+  },
+  {
+    "id": "d150",
+    "kind": "d",
+    "en": "Press FIRE during a random point in your reload to greatly increase its speed."
+  },
+  {
+    "id": "n158",
+    "kind": "n",
+    "en": "Shrapnel Loading"
+  },
+  {
+    "id": "d151",
+    "kind": "d",
+    "en": "Each shot fires 3 bullets with reduced damage."
+  },
+  {
+    "id": "s088",
+    "kind": "s",
+    "en": "Aim Range"
+  },
+  {
+    "id": "n159",
+    "kind": "n",
+    "en": "Unnatural Focus"
+  },
+  {
+    "id": "d152",
+    "kind": "d",
+    "en": "Aim zoom is increased. Range is greatly increase while aiming."
+  },
+  {
+    "id": "n160",
+    "kind": "n",
+    "en": "Bandolier"
+  },
+  {
+    "id": "n161",
+    "kind": "n",
+    "en": "Breathe Deep"
+  },
+  {
+    "id": "n162",
+    "kind": "n",
+    "en": "Hallucinated Space"
+  },
+  {
+    "id": "n163",
+    "kind": "n",
+    "en": "Lead Poisoning"
+  },
+  {
+    "id": "n164",
+    "kind": "n",
+    "en": "Return to Receiver"
+  },
+  {
+    "id": "d153",
+    "kind": "d",
+    "en": "Magnetism goes both ways."
+  },
+  {
+    "id": "n165",
+    "kind": "n",
+    "en": "Clearing Plasma"
+  },
+  {
+    "id": "d154",
+    "kind": "d",
+    "en": "Plates spin, slicing things around them with light blades."
+  },
+  {
+    "id": "t007",
+    "kind": "t",
+    "en": "Plates can pierce shields."
+  },
+  {
+    "id": "n166",
+    "kind": "n",
+    "en": "Compressed Plate Storage"
+  },
+  {
+    "id": "d155",
+    "kind": "d",
+    "en": "Fire up to 4 plates at once."
+  },
+  {
+    "id": "t008",
+    "kind": "t",
+    "en": "Magazine Size: [+1]"
+  },
+  {
+    "id": "s089",
+    "kind": "s",
+    "en": "Explosion Damage"
+  },
+  {
+    "id": "s090",
+    "kind": "s",
+    "en": "Cooldown"
+  },
+  {
+    "id": "n167",
+    "kind": "n",
+    "en": "Damage Arc"
+  },
+  {
+    "id": "d156",
+    "kind": "d",
+    "en": "Shoot a plate with an element to create an elemental explosion."
+  },
+  {
+    "id": "t009",
+    "kind": "t",
+    "en": "Damage arc also triggers on normal damage."
+  },
+  {
+    "id": "s091",
+    "kind": "s",
+    "en": "Interval"
+  },
+  {
+    "id": "n168",
+    "kind": "n",
+    "en": "Fencing Construction"
+  },
+  {
+    "id": "d157",
+    "kind": "d",
+    "en": "Fired plates arc lightning to each other, dealing shock damage to targets between them. Magazine size is increased."
+  },
+  {
+    "id": "t010",
+    "kind": "t",
+    "en": "Interval: [-0.02 - -0.03]"
+  },
+  {
+    "id": "n169",
+    "kind": "n",
+    "en": "Becall"
+  },
+  {
+    "id": "d158",
+    "kind": "d",
+    "en": "Plates create a bee explosion when recalled."
+  },
+  {
+    "id": "n170",
+    "kind": "n",
+    "en": "Charge Recycling"
+  },
+  {
+    "id": "d159",
+    "kind": "d",
+    "en": "Your movement ability is partially recharged when you electrocute a target with the Plate Launcher."
+  },
+  {
+    "id": "n171",
+    "kind": "n",
+    "en": "High Ground"
+  },
+  {
+    "id": "d160",
+    "kind": "d",
+    "en": "While standing on one of your plates, gain damage resistance and all of your outgoing damage is increased."
+  },
+  {
+    "id": "n172",
+    "kind": "n",
+    "en": "Improvised Explosives"
+  },
+  {
+    "id": "d161",
+    "kind": "d",
+    "en": "Plates consume a grenade charge to detonate on impact."
+  },
+  {
+    "id": "n173",
+    "kind": "n",
+    "en": "Impulse Redirection"
+  },
+  {
+    "id": "d162",
+    "kind": "d",
+    "en": "Catching a plate while mid-air boosts you upward."
+  },
+  {
+    "id": "n174",
+    "kind": "n",
+    "en": "Painter's Attachment"
+  },
+  {
+    "id": "d163",
+    "kind": "d",
+    "en": "Firing a plate while you are corroded causes it to create an acid puddle on impact."
+  },
+  {
+    "id": "s092",
+    "kind": "s",
+    "en": "Catch Recoil"
+  },
+  {
+    "id": "n175",
+    "kind": "n",
+    "en": "Salad Plates"
+  },
+  {
+    "id": "d164",
+    "kind": "d",
+    "en": "Fire more plates at a faster rate. Plate size is reduced."
+  },
+  {
+    "id": "n176",
+    "kind": "n",
+    "en": "Shockwave"
+  },
+  {
+    "id": "d165",
+    "kind": "d",
+    "en": "Plates create a shockwave on impact that pushes back enemies."
+  },
+  {
+    "id": "s093",
+    "kind": "s",
+    "en": "Size per Empty Cell"
+  },
+  {
+    "id": "n177",
+    "kind": "n",
+    "en": "Storage Surplus"
+  },
+  {
+    "id": "d166",
+    "kind": "d",
+    "en": "Plate size is increased for each empty cell surrounding this one."
+  },
+  {
+    "id": "n178",
+    "kind": "n",
+    "en": "Aerodynamic Plates"
+  },
+  {
+    "id": "d167",
+    "kind": "d",
+    "en": "Plates travel faster and can be fired more often."
+  },
+  {
+    "id": "n179",
+    "kind": "n",
+    "en": "Auto-Demolition"
+  },
+  {
+    "id": "d168",
+    "kind": "d",
+    "en": "Plates automatically recall on impact."
+  },
+  {
+    "id": "n180",
+    "kind": "n",
+    "en": "Bouncy Plates"
+  },
+  {
+    "id": "d169",
+    "kind": "d",
+    "en": "Plates bounce. Damage increases with each bounce."
+  },
+  {
+    "id": "n181",
+    "kind": "n",
+    "en": "Decay Plates"
+  },
+  {
+    "id": "d170",
+    "kind": "d",
+    "en": "Plates apply decay."
+  },
+  {
+    "id": "n182",
+    "kind": "n",
+    "en": "Electrified Plates"
+  },
+  {
+    "id": "d171",
+    "kind": "d",
+    "en": "Plates apply shock."
+  },
+  {
+    "id": "s094",
+    "kind": "s",
+    "en": "Damage on Catch"
+  },
+  {
+    "id": "n183",
+    "kind": "n",
+    "en": "Nice Catch"
+  },
+  {
+    "id": "d172",
+    "kind": "d",
+    "en": "Damage is increased and you move faster while holding the Plate Launcher, but you take damage when catching a plate."
+  },
+  {
+    "id": "s095",
+    "kind": "s",
+    "en": "Recall Speed"
+  },
+  {
+    "id": "n184",
+    "kind": "n",
+    "en": "Pole Alignment"
+  },
+  {
+    "id": "d173",
+    "kind": "d",
+    "en": "Plates recall faster."
+  },
+  {
+    "id": "n185",
+    "kind": "n",
+    "en": "Power Recall"
+  },
+  {
+    "id": "d174",
+    "kind": "d",
+    "en": "Plate damage is greatly increased while returning to the gun and after bouncing."
+  },
+  {
+    "id": "n186",
+    "kind": "n",
+    "en": "Rail Tuning"
+  },
+  {
+    "id": "d175",
+    "kind": "d",
+    "en": "Plates are fired at higher speeds."
+  },
+  {
+    "id": "s096",
+    "kind": "s",
+    "en": "Max Hits"
+  },
+  {
+    "id": "s097",
+    "kind": "s",
+    "en": "Speed On Hit"
+  },
+  {
+    "id": "s098",
+    "kind": "s",
+    "en": "Bullet Gravity"
+  },
+  {
+    "id": "n187",
+    "kind": "n",
+    "en": "Shish Kebab"
+  },
+  {
+    "id": "d176",
+    "kind": "d",
+    "en": "Plates pierce through targets."
+  },
+  {
+    "id": "s099",
+    "kind": "s",
+    "en": "Falloff Damage"
+  },
+  {
+    "id": "n188",
+    "kind": "n",
+    "en": "Simple Inertia"
+  },
+  {
+    "id": "d177",
+    "kind": "d",
+    "en": "Plate damage is increased the further they travel."
+  },
+  {
+    "id": "n189",
+    "kind": "n",
+    "en": "Slap Job"
+  },
+  {
+    "id": "d178",
+    "kind": "d",
+    "en": "Damage is increased, but so is spread."
+  },
+  {
+    "id": "n190",
+    "kind": "n",
+    "en": "Tungsten Cube"
+  },
+  {
+    "id": "d179",
+    "kind": "d",
+    "en": "Plates travel slower and fall much faster, but their size is greatly increased."
+  },
+  {
+    "id": "n191",
+    "kind": "n",
+    "en": "Weight Rebalanced"
+  },
+  {
+    "id": "d180",
+    "kind": "d",
+    "en": "Plates travel slower and deal more damage."
+  },
+  {
+    "id": "s100",
+    "kind": "s",
+    "en": "Battery Capacity"
+  },
+  {
+    "id": "n192",
+    "kind": "n",
+    "en": "Double A"
+  },
+  {
+    "id": "d181",
+    "kind": "d",
+    "en": "Plate Launcher battery capacity is increased."
+  },
+  {
+    "id": "n193",
+    "kind": "n",
+    "en": "Sharper Edges"
+  },
+  {
+    "id": "n194",
+    "kind": "n",
+    "en": "Yellow Prism"
+  },
+  {
+    "id": "d182",
+    "kind": "d",
+    "en": "Prism output is increased recursively for each bordering prism."
+  },
+  {
+    "id": "s101",
+    "kind": "s",
+    "en": "Knockback"
+  },
+  {
+    "id": "n195",
+    "kind": "n",
+    "en": "Heavy Munitions"
+  },
+  {
+    "id": "d183",
+    "kind": "d",
+    "en": "Firing pushes you backward. Magazine size is increased, but so is recoil."
+  },
+  {
+    "id": "s102",
+    "kind": "s",
+    "en": "Orbit Radius"
+  },
+  {
+    "id": "n196",
+    "kind": "n",
+    "en": "Lagrange Halo"
+  },
+  {
+    "id": "d184",
+    "kind": "d",
+    "en": "Bullets orbit around you. You can fire while sprinting."
+  },
+  {
+    "id": "s103",
+    "kind": "s",
+    "en": "Tracking Force"
+  },
+  {
+    "id": "n197",
+    "kind": "n",
+    "en": "Missile Bay"
+  },
+  {
+    "id": "d185",
+    "kind": "d",
+    "en": "Fire tracking missiles."
+  },
+  {
+    "id": "s104",
+    "kind": "s",
+    "en": "Combust Chance"
+  },
+  {
+    "id": "n198",
+    "kind": "n",
+    "en": "Tinderbox"
+  },
+  {
+    "id": "d186",
+    "kind": "d",
+    "en": "Mash RELOAD to overheat the gun and infuse shells with fire and increase damage. The Gunship Cannon can only reload when its magazine is empty. While overheated you have a chance to spontaneously combust."
+  },
+  {
+    "id": "n199",
+    "kind": "n",
+    "en": "Purple Prism"
+  },
+  {
+    "id": "s105",
+    "kind": "s",
+    "en": "Charge Efficiency"
+  },
+  {
+    "id": "n200",
+    "kind": "n",
+    "en": "Ballistic Charger"
+  },
+  {
+    "id": "d187",
+    "kind": "d",
+    "en": "Dealing damage fills a charge meter. Press AIM to fire a tracking missile with an explosive payload proportional to the current charge."
+  },
+  {
+    "id": "n201",
+    "kind": "n",
+    "en": "Elemental Munitions"
+  },
+  {
+    "id": "d188",
+    "kind": "d",
+    "en": "Bullets have a chance to be infused with fire, shock, or acid."
+  },
+  {
+    "id": "n202",
+    "kind": "n",
+    "en": "Firmly Planted"
+  },
+  {
+    "id": "d189",
+    "kind": "d",
+    "en": "You move much slower while shooting, but barrels spin up to a higher fire rate. Magazine size, bullet size, and explosion size are increased."
+  },
+  {
+    "id": "n203",
+    "kind": "n",
+    "en": "Frantic Fingers"
+  },
+  {
+    "id": "d190",
+    "kind": "d",
+    "en": "Reload is disabled. Mash RELOAD to load ammo into the magazine."
+  },
+  {
+    "id": "s106",
+    "kind": "s",
+    "en": "Airborne Damage"
+  },
+  {
+    "id": "s107",
+    "kind": "s",
+    "en": "Grounded Damage"
+  },
+  {
+    "id": "n204",
+    "kind": "n",
+    "en": "Gunship"
+  },
+  {
+    "id": "d191",
+    "kind": "d",
+    "en": "Bullets deal more damage while airborne, but less damage when touching the ground."
+  },
+  {
+    "id": "n205",
+    "kind": "n",
+    "en": "Hull Piercer"
+  },
+  {
+    "id": "d192",
+    "kind": "d",
+    "en": "Magazine size is reduced to 1. Damage, explosion size, and bullet size are greatly increased. Fire rate and ammo capacity are reduced."
+  },
+  {
+    "id": "n206",
+    "kind": "n",
+    "en": "Point Demolition"
+  },
+  {
+    "id": "d193",
+    "kind": "d",
+    "en": "Bullets no longer explode, but deal massive damage to the target they hit."
+  },
+  {
+    "id": "n207",
+    "kind": "n",
+    "en": "Safety \"Regulations\""
+  },
+  {
+    "id": "d194",
+    "kind": "d",
+    "en": "Each shot fires multiple bullets. Fire rate and damage are decreased."
+  },
+  {
+    "id": "n208",
+    "kind": "n",
+    "en": "Unarmored"
+  },
+  {
+    "id": "d195",
+    "kind": "d",
+    "en": "Damage is increased, but you take more damage while holding the Gunship Cannon."
+  },
+  {
+    "id": "n209",
+    "kind": "n",
+    "en": "Blue Prism"
+  },
+  {
+    "id": "s108",
+    "kind": "s",
+    "en": "Min Spread"
+  },
+  {
+    "id": "n210",
+    "kind": "n",
+    "en": "Adaptive Stabilizers"
+  },
+  {
+    "id": "d196",
+    "kind": "d",
+    "en": "Spread decreases over time while firing."
+  },
+  {
+    "id": "n211",
+    "kind": "n",
+    "en": "Hard Ricochet"
+  },
+  {
+    "id": "d197",
+    "kind": "d",
+    "en": "Bullets ricochet twice."
+  },
+  {
+    "id": "n212",
+    "kind": "n",
+    "en": "Higher Caliber"
+  },
+  {
+    "id": "d198",
+    "kind": "d",
+    "en": "Explosion size is increased, but fire rate is decreased."
+  },
+  {
+    "id": "n213",
+    "kind": "n",
+    "en": "Hold-Plating"
+  },
+  {
+    "id": "d199",
+    "kind": "d",
+    "en": "Gain damage resistance while firing."
+  },
+  {
+    "id": "n214",
+    "kind": "n",
+    "en": "Industrial Feed Mechanism"
+  },
+  {
+    "id": "d200",
+    "kind": "d",
+    "en": "Magazine size is much larger. Max fire rate is increased, but barrels take longer to spin up."
+  },
+  {
+    "id": "n215",
+    "kind": "n",
+    "en": "Overclocked Firing Chamber"
+  },
+  {
+    "id": "d201",
+    "kind": "d",
+    "en": "Fire rate is greatly increased but damage is decreased."
+  },
+  {
+    "id": "n216",
+    "kind": "n",
+    "en": "Sawed Off"
+  },
+  {
+    "id": "n217",
+    "kind": "n",
+    "en": "Thumper"
+  },
+  {
+    "id": "d202",
+    "kind": "d",
+    "en": "Fire a quick 5-shot burst. Explosion size is decreased and ammo reserves are increased."
+  },
+  {
+    "id": "n218",
+    "kind": "n",
+    "en": "Green Prism"
+  },
+  {
+    "id": "n219",
+    "kind": "n",
+    "en": "Blowback Redirect"
+  },
+  {
+    "id": "n220",
+    "kind": "n",
+    "en": "Cargo Storage"
+  },
+  {
+    "id": "n221",
+    "kind": "n",
+    "en": "Drag Caps"
+  },
+  {
+    "id": "d203",
+    "kind": "d",
+    "en": "Damage is increased, but range is decreased."
+  },
+  {
+    "id": "n222",
+    "kind": "n",
+    "en": "Magnetic Loader"
+  },
+  {
+    "id": "d204",
+    "kind": "d",
+    "en": "Reload speed is increased."
+  },
+  {
+    "id": "n223",
+    "kind": "n",
+    "en": "Stabilizers"
+  },
+  {
+    "id": "n224",
+    "kind": "n",
+    "en": "Bailing Water"
+  },
+  {
+    "id": "d205",
+    "kind": "d",
+    "en": "Toss a ball of water when you reload. Reload speed is increased."
+  },
+  {
+    "id": "t011",
+    "kind": "t",
+    "en": "Reload Speed is increased when your magazine is empty.\nReload Speed: [+38% - +42%]"
+  },
+  {
+    "id": "s109",
+    "kind": "s",
+    "en": "Smite Radius"
+  },
+  {
+    "id": "s110",
+    "kind": "s",
+    "en": "Smite Count"
+  },
+  {
+    "id": "n225",
+    "kind": "n",
+    "en": "Heaven's Fury"
+  },
+  {
+    "id": "d206",
+    "kind": "d",
+    "en": "Dealing damage has a chance to smite the area in shocking lightning strikes."
+  },
+  {
+    "id": "t012",
+    "kind": "t",
+    "en": "Strikes have a chance to also Soak targets.\nChance: [8.5% - 10%]"
+  },
+  {
+    "id": "n226",
+    "kind": "n",
+    "en": "Shredify"
+  },
+  {
+    "id": "d207",
+    "kind": "d",
+    "en": "Continuous firing spins up to a much faster fire rate."
+  },
+  {
+    "id": "t013",
+    "kind": "t",
+    "en": "Ammo Capacity: {+36 - +44]"
+  },
+  {
+    "id": "n227",
+    "kind": "n",
+    "en": "Thrill of the Fight"
+  },
+  {
+    "id": "d208",
+    "kind": "d",
+    "en": "Killing a core grants additional charge to your ability that's closest to full charge."
+  },
+  {
+    "id": "t014",
+    "kind": "t",
+    "en": "Also recharges your least charged ability.\nCharge: [+0.49 - +0.53]"
+  },
+  {
+    "id": "n228",
+    "kind": "n",
+    "en": "Acid Shot"
+  },
+  {
+    "id": "n229",
+    "kind": "n",
+    "en": "Corrosive Reaction"
+  },
+  {
+    "id": "d209",
+    "kind": "d",
+    "en": "Damage is increased for a short time after you are corroded."
+  },
+  {
+    "id": "s111",
+    "kind": "s",
+    "en": "Slide Speed"
+  },
+  {
+    "id": "n230",
+    "kind": "n",
+    "en": "Cross-Deck"
+  },
+  {
+    "id": "d210",
+    "kind": "d",
+    "en": "Slide speed is briefly increased after killing a target."
+  },
+  {
+    "id": "n231",
+    "kind": "n",
+    "en": "Fire in the Hold"
+  },
+  {
+    "id": "d211",
+    "kind": "d",
+    "en": "Fire rate is increased after igniting a target."
+  },
+  {
+    "id": "n232",
+    "kind": "n",
+    "en": "Fire Shot"
+  },
+  {
+    "id": "n233",
+    "kind": "n",
+    "en": "Hornet Hunting"
+  },
+  {
+    "id": "d212",
+    "kind": "d",
+    "en": "Move extremely fast after killing a hornet."
+  },
+  {
+    "id": "n234",
+    "kind": "n",
+    "en": "Plunder"
+  },
+  {
+    "id": "d213",
+    "kind": "d",
+    "en": "Killing a core has a chance to refund a larget amount of ammo."
+  },
+  {
+    "id": "n235",
+    "kind": "n",
+    "en": "Rot Advantage"
+  },
+  {
+    "id": "d214",
+    "kind": "d",
+    "en": "You deal extra damage to corroded targets."
+  },
+  {
+    "id": "n236",
+    "kind": "n",
+    "en": "Tailwind"
+  },
+  {
+    "id": "d215",
+    "kind": "d",
+    "en": "Electrocuting a target with another weapon grants you stacks of Tailwind. Consume stacks by firing the Trident to move faster."
+  },
+  {
+    "id": "s112",
+    "kind": "s",
+    "en": "Damage per Cell"
+  },
+  {
+    "id": "s113",
+    "kind": "s",
+    "en": "Recoil per Cell"
+  },
+  {
+    "id": "n237",
+    "kind": "n",
+    "en": "Tread the Line"
+  },
+  {
+    "id": "d216",
+    "kind": "d",
+    "en": "Damage is increased for each rare cell surrounding this upgrade. Recoil is increased for each other cell."
+  },
+  {
+    "id": "n238",
+    "kind": "n",
+    "en": "Bottom Heavy"
+  },
+  {
+    "id": "d217",
+    "kind": "d",
+    "en": "Ammo reserves are increased but recoil is more intense."
+  },
+  {
+    "id": "n239",
+    "kind": "n",
+    "en": "Broadside"
+  },
+  {
+    "id": "d218",
+    "kind": "d",
+    "en": "Fire double bullets in vertical mode. Damage is reduced."
+  },
+  {
+    "id": "n240",
+    "kind": "n",
+    "en": "Compatible Ammunition"
+  },
+  {
+    "id": "d219",
+    "kind": "d",
+    "en": "Killing a target refunds some ammo."
+  },
+  {
+    "id": "n241",
+    "kind": "n",
+    "en": "Energy Condenser"
+  },
+  {
+    "id": "d220",
+    "kind": "d",
+    "en": "Fire rate is increased, but you must charge up before shooting."
+  },
+  {
+    "id": "n242",
+    "kind": "n",
+    "en": "Gunner's Precision"
+  },
+  {
+    "id": "d221",
+    "kind": "d",
+    "en": "Damage increased but fire rate is decreased. Firing is no longer automatic."
+  },
+  {
+    "id": "n243",
+    "kind": "n",
+    "en": "Gunpowder Finale"
+  },
+  {
+    "id": "d222",
+    "kind": "d",
+    "en": "Your last shot deals more damage."
+  },
+  {
+    "id": "n244",
+    "kind": "n",
+    "en": "Increased Load"
+  },
+  {
+    "id": "n245",
+    "kind": "n",
+    "en": "Lone Cannoneer"
+  },
+  {
+    "id": "d223",
+    "kind": "d",
+    "en": "Fire a single high-damage shot while aiming."
+  },
+  {
+    "id": "n246",
+    "kind": "n",
+    "en": "Spyglass"
+  },
+  {
+    "id": "d224",
+    "kind": "d",
+    "en": "Aim zoom increased. While aiming, fire rate and spread are reduced and range increased."
+  },
+  {
+    "id": "n247",
+    "kind": "n",
+    "en": "Squadron"
+  },
+  {
+    "id": "d225",
+    "kind": "d",
+    "en": "Fire a 4-round burst. Magazine size is slightly increased."
+  },
+  {
+    "id": "n248",
+    "kind": "n",
+    "en": "Top Deck Storage"
+  },
+  {
+    "id": "d226",
+    "kind": "d",
+    "en": "Magazine size and ammo capacity are increased."
+  },
+  {
+    "id": "n249",
+    "kind": "n",
+    "en": "Ungovernable"
+  },
+  {
+    "id": "d227",
+    "kind": "d",
+    "en": "Fire rate, recoil and spread are increased."
+  },
+  {
+    "id": "n250",
+    "kind": "n",
+    "en": "Cargo Hold"
+  },
+  {
+    "id": "n251",
+    "kind": "n",
+    "en": "Compressed Ammunition"
+  },
+  {
+    "id": "n252",
+    "kind": "n",
+    "en": "Discount Marksman"
+  },
+  {
+    "id": "d228",
+    "kind": "d",
+    "en": "Aim zoom increased."
+  },
+  {
+    "id": "n253",
+    "kind": "n",
+    "en": "Line'er Up"
+  },
+  {
+    "id": "d229",
+    "kind": "d",
+    "en": "Damage is increased while aiming."
+  },
+  {
+    "id": "s114",
+    "kind": "s",
+    "en": "Distance"
+  },
+  {
+    "id": "n254",
+    "kind": "n",
+    "en": "Flood"
+  },
+  {
+    "id": "d230",
+    "kind": "d",
+    "en": "Globs create a running wave of acid when they impact a surface."
+  },
+  {
+    "id": "n255",
+    "kind": "n",
+    "en": "Globulous Siphon"
+  },
+  {
+    "id": "d231",
+    "kind": "d",
+    "en": "Hold RELOAD to consume grenade charge. Greatly increases the explosion size of your next glob. This size is increased with your globblometer."
+  },
+  {
+    "id": "n256",
+    "kind": "n",
+    "en": "Impact Funnel"
+  },
+  {
+    "id": "d232",
+    "kind": "d",
+    "en": "Taken damage builds up a meter that increases the damage of your globs. Firing a glob consumes less of the meter when your globblometer is higher."
+  },
+  {
+    "id": "s115",
+    "kind": "s",
+    "en": "Size per Bullet"
+  },
+  {
+    "id": "s116",
+    "kind": "s",
+    "en": "Damage per Bullet"
+  },
+  {
+    "id": "n257",
+    "kind": "n",
+    "en": "Pressure Cooker"
+  },
+  {
+    "id": "d233",
+    "kind": "d",
+    "en": "Hold the trigger to charge up your glob, increasing its explosion size. Globbing up all ammo causes it to explode on you."
+  },
+  {
+    "id": "n258",
+    "kind": "n",
+    "en": "Full Spectrum"
+  },
+  {
+    "id": "d234",
+    "kind": "d",
+    "en": "Gain a different stat boost for each upgrade of a different rarity that touches this one."
+  },
+  {
+    "id": "n259",
+    "kind": "n",
+    "en": "Glob Balloons"
+  },
+  {
+    "id": "d235",
+    "kind": "d",
+    "en": "Globs are less powerful but leave behind acid puddles."
+  },
+  {
+    "id": "n260",
+    "kind": "n",
+    "en": "Pocket Replication"
+  },
+  {
+    "id": "d236",
+    "kind": "d",
+    "en": "The Globbler reloads over time while unequipped. The globblometer increases your pocket reload speed."
+  },
+  {
+    "id": "s117",
+    "kind": "s",
+    "en": "Globblometer"
+  },
+  {
+    "id": "n261",
+    "kind": "n",
+    "en": "Slipper Shoes"
+  },
+  {
+    "id": "d237",
+    "kind": "d",
+    "en": "While holding the Globbler, the globblometer increases your move speed."
+  },
+  {
+    "id": "s118",
+    "kind": "s",
+    "en": "Spread Shape"
+  },
+  {
+    "id": "n262",
+    "kind": "n",
+    "en": "Triagon"
+  },
+  {
+    "id": "d238",
+    "kind": "d",
+    "en": "Fire three globs in a triangle. Fire rate and explosion size are decreased."
+  },
+  {
+    "id": "n263",
+    "kind": "n",
+    "en": "Volatile Element"
+  },
+  {
+    "id": "d239",
+    "kind": "d",
+    "en": "Globs have a chance to be infused with a different element. Infused globs fully apply their element to targets."
+  },
+  {
+    "id": "n264",
+    "kind": "n",
+    "en": "Auto-Replicator"
+  },
+  {
+    "id": "d240",
+    "kind": "d",
+    "en": "Globblometer is increased, but fire rate is decreased."
+  },
+  {
+    "id": "n265",
+    "kind": "n",
+    "en": "Flash Flood"
+  },
+  {
+    "id": "d241",
+    "kind": "d",
+    "en": "Glob waves created by Flood have an increased length."
+  },
+  {
+    "id": "n266",
+    "kind": "n",
+    "en": "Forceful Expulsion"
+  },
+  {
+    "id": "d242",
+    "kind": "d",
+    "en": "Fire globs faster and with more force. Damage and explosion size are decreased."
+  },
+  {
+    "id": "n267",
+    "kind": "n",
+    "en": "Globulous Excitement"
+  },
+  {
+    "id": "d243",
+    "kind": "d",
+    "en": "Your first shot after switching to the Globbler deals increased damage."
+  },
+  {
+    "id": "n268",
+    "kind": "n",
+    "en": "Glorb"
+  },
+  {
+    "id": "d244",
+    "kind": "d",
+    "en": "Reload speed is decreased. But Globblometer is increased."
+  },
+  {
+    "id": "n269",
+    "kind": "n",
+    "en": "Gunpowder Packing"
+  },
+  {
+    "id": "d245",
+    "kind": "d",
+    "en": "Fire globs with more force. Recoil is increased."
+  },
+  {
+    "id": "n270",
+    "kind": "n",
+    "en": "Heavy Globs"
+  },
+  {
+    "id": "d246",
+    "kind": "d",
+    "en": "Globs deal more damage but fall faster."
+  },
+  {
+    "id": "n271",
+    "kind": "n",
+    "en": "Improve Replication"
+  },
+  {
+    "id": "d247",
+    "kind": "d",
+    "en": "Magazine size is increased by your Globblometer."
+  },
+  {
+    "id": "n272",
+    "kind": "n",
+    "en": "Instant Detonation"
+  },
+  {
+    "id": "d248",
+    "kind": "d",
+    "en": "Globs detonate when hitting a surface."
+  },
+  {
+    "id": "n273",
+    "kind": "n",
+    "en": "Replicator Resistance"
+  },
+  {
+    "id": "d249",
+    "kind": "d",
+    "en": "Damaging yourself with a glob provides damage resistance for a short time. The globblometer lengthens this effect."
+  },
+  {
+    "id": "n274",
+    "kind": "n",
+    "en": "The Glob"
+  },
+  {
+    "id": "d250",
+    "kind": "d",
+    "en": "Fire only one glob with an increased explosion radius. Reload speed is decreased."
+  },
+  {
+    "id": "n275",
+    "kind": "n",
+    "en": "Volatile Acid"
+  },
+  {
+    "id": "d251",
+    "kind": "d",
+    "en": "Globs are fired with a random size. Max size is increased with the Globblometer."
+  },
+  {
+    "id": "n276",
+    "kind": "n",
+    "en": "Globblin"
+  },
+  {
+    "id": "d252",
+    "kind": "d",
+    "en": "Globblin"
+  },
+  {
+    "id": "n277",
+    "kind": "n",
+    "en": "Pack Eater"
+  },
+  {
+    "id": "d253",
+    "kind": "d",
+    "en": "Ammo reserves are decreased."
+  },
+  {
+    "id": "n278",
+    "kind": "n",
+    "en": "Shrunken Container"
+  },
+  {
+    "id": "d254",
+    "kind": "d",
+    "en": "Magazine size is reduced."
+  },
+  {
+    "id": "n279",
+    "kind": "n",
+    "en": "Deflector"
+  },
+  {
+    "id": "d255",
+    "kind": "d",
+    "en": "You deflect incoming projectiles and gain damage resistance while sawing."
+  },
+  {
+    "id": "n280",
+    "kind": "n",
+    "en": "Nutrition Sampler"
+  },
+  {
+    "id": "d256",
+    "kind": "d",
+    "en": "Killing a target has a chance to drop a chunk of health."
+  },
+  {
+    "id": "s119",
+    "kind": "s",
+    "en": "Speed per Stack"
+  },
+  {
+    "id": "n281",
+    "kind": "n",
+    "en": "Rage"
+  },
+  {
+    "id": "d257",
+    "kind": "d",
+    "en": "Gain stacks of rage by killing targets. Rage increases your move speed and damage as long as you keep sawing."
+  },
+  {
+    "id": "n282",
+    "kind": "n",
+    "en": "Super Magnet"
+  },
+  {
+    "id": "d258",
+    "kind": "d",
+    "en": "Pull nearby grunts toward you while sawing."
+  },
+  {
+    "id": "n283",
+    "kind": "n",
+    "en": "Big Deflector"
+  },
+  {
+    "id": "d259",
+    "kind": "d",
+    "en": "Deflector size and damage resistance are increased, but you move slower while sawing."
+  },
+  {
+    "id": "s120",
+    "kind": "s",
+    "en": "Chance per Stack"
+  },
+  {
+    "id": "n284",
+    "kind": "n",
+    "en": "Blood Lightning"
+  },
+  {
+    "id": "d260",
+    "kind": "d",
+    "en": "When you kill a target, you have an increased chance to fire a shocking lightning bolt for each stack of blood."
+  },
+  {
+    "id": "n285",
+    "kind": "n",
+    "en": "Bloody Jumping"
+  },
+  {
+    "id": "d261",
+    "kind": "d",
+    "en": "Your jump height is increased for each stack of blood."
+  },
+  {
+    "id": "n286",
+    "kind": "n",
+    "en": "Heavy Pockets"
+  },
+  {
+    "id": "d262",
+    "kind": "d",
+    "en": "Killing a core generates a small amount of reserve ammo for your equipped heavy weapon. This upgrade can stack"
+  },
+  {
+    "id": "s121",
+    "kind": "s",
+    "en": "Overheat Speed"
+  },
+  {
+    "id": "n287",
+    "kind": "n",
+    "en": "Overheat System"
+  },
+  {
+    "id": "d263",
+    "kind": "d",
+    "en": "Applies fire. Potency increases the longer the saw is active."
+  },
+  {
+    "id": "n288",
+    "kind": "n",
+    "en": "Repairing Exhaust"
+  },
+  {
+    "id": "d264",
+    "kind": "d",
+    "en": "While firing, you periodically emit a burst that heals other nearby players."
+  },
+  {
+    "id": "n289",
+    "kind": "n",
+    "en": "Sharing Lunch"
+  },
+  {
+    "id": "d265",
+    "kind": "d",
+    "en": "Nutritious cores also creates health chunk for allies."
+  },
+  {
+    "id": "n290",
+    "kind": "n",
+    "en": "Shocking Adrenaline"
+  },
+  {
+    "id": "d266",
+    "kind": "d",
+    "en": "Sawing speed is increased for a short time after you are electrocuted."
+  },
+  {
+    "id": "s122",
+    "kind": "s",
+    "en": "Threshold"
+  },
+  {
+    "id": "n291",
+    "kind": "n",
+    "en": "Slippery Blood"
+  },
+  {
+    "id": "d267",
+    "kind": "d",
+    "en": "Upon reaching the given threshold, all stacks of blood are consumed and your movement ability is partially recharged."
+  },
+  {
+    "id": "n292",
+    "kind": "n",
+    "en": "Aim For The Liver"
+  },
+  {
+    "id": "d268",
+    "kind": "d",
+    "en": "Saw in a much smaller area. Damage is increased."
+  },
+  {
+    "id": "n293",
+    "kind": "n",
+    "en": "Blood Coating"
+  },
+  {
+    "id": "d269",
+    "kind": "d",
+    "en": "Damage resistance is increased for each stack of blood."
+  },
+  {
+    "id": "n294",
+    "kind": "n",
+    "en": "Blood Rampage"
+  },
+  {
+    "id": "d270",
+    "kind": "d",
+    "en": "Damage is increased for each stack of blood."
+  },
+  {
+    "id": "n295",
+    "kind": "n",
+    "en": "Corrosive Coating"
+  },
+  {
+    "id": "d271",
+    "kind": "d",
+    "en": "Range is increased for a short time after you are corroded."
+  },
+  {
+    "id": "n296",
+    "kind": "n",
+    "en": "Greedy Fuck"
+  },
+  {
+    "id": "d272",
+    "kind": "d",
+    "en": "Magazine size and ammo capacity are increased but you regenerate less ammo from dealing damage with your other weapon."
+  },
+  {
+    "id": "n297",
+    "kind": "n",
+    "en": "Ignition Recharge"
+  },
+  {
+    "id": "d273",
+    "kind": "d",
+    "en": "Ammo is refunded to your magazine when you are ignited."
+  },
+  {
+    "id": "n298",
+    "kind": "n",
+    "en": "Rush"
+  },
+  {
+    "id": "d274",
+    "kind": "d",
+    "en": "While firing, you move faster but take more damage."
+  },
+  {
+    "id": "n299",
+    "kind": "n",
+    "en": "Safety Warning"
+  },
+  {
+    "id": "d275",
+    "kind": "d",
+    "en": "Damage is increased, but you take more damage while sawing."
+  },
+  {
+    "id": "n300",
+    "kind": "n",
+    "en": "Swinging Technique"
+  },
+  {
+    "id": "d276",
+    "kind": "d",
+    "en": "Damage area is increased."
+  },
+  {
+    "id": "n301",
+    "kind": "n",
+    "en": "Additional Ram Stick"
+  },
+  {
+    "id": "n302",
+    "kind": "n",
+    "en": "Blade Extenders"
+  },
+  {
+    "id": "s123",
+    "kind": "s",
+    "en": "Max Blood"
+  },
+  {
+    "id": "n303",
+    "kind": "n",
+    "en": "Blood Bucket"
+  },
+  {
+    "id": "d277",
+    "kind": "d",
+    "en": "You can hold more stacks of blood."
+  },
+  {
+    "id": "s124",
+    "kind": "s",
+    "en": "Blood on Kill"
+  },
+  {
+    "id": "n304",
+    "kind": "n",
+    "en": "Blood Efficiency"
+  },
+  {
+    "id": "d278",
+    "kind": "d",
+    "en": "Killing targets provides more blood."
+  },
+  {
+    "id": "n305",
+    "kind": "n",
+    "en": "Ram Storage"
+  },
+  {
+    "id": "n306",
+    "kind": "n",
+    "en": "Auger Subroutine"
+  },
+  {
+    "id": "d279",
+    "kind": "d",
+    "en": "Hold RELOAD to charge up the Shocklance and release to launch yourself forward. Any targets in your way are drilled for continuous damage. Multiple Auger Subroutines increase damage and launch duration."
+  },
+  {
+    "id": "n307",
+    "kind": "n",
+    "en": "Battery Recursion"
+  },
+  {
+    "id": "d280",
+    "kind": "d",
+    "en": "Consecutive shots are fired full-auto without needing to charge up."
+  },
+  {
+    "id": "s125",
+    "kind": "s",
+    "en": "Recharge Speed"
+  },
+  {
+    "id": "n308",
+    "kind": "n",
+    "en": "Laying Cable"
+  },
+  {
+    "id": "d281",
+    "kind": "d",
+    "en": "Press INTERACT to tether yourself to another employee. While tethered, you gain damage resistance and deal increased damage. The other employee's movement ability recharges faster."
+  },
+  {
+    "id": "n309",
+    "kind": "n",
+    "en": "Micro Detonators"
+  },
+  {
+    "id": "d282",
+    "kind": "d",
+    "en": "Killing a target has a chance to create an elemental explosion. Targets killed by the explosion have a chance to create another explosion."
+  },
+  {
+    "id": "n310",
+    "kind": "n",
+    "en": "Black Market Battery"
+  },
+  {
+    "id": "d283",
+    "kind": "d",
+    "en": "Damage and charge-up time are greatly increased."
+  },
+  {
+    "id": "n311",
+    "kind": "n",
+    "en": "Crescendo"
+  },
+  {
+    "id": "d284",
+    "kind": "d",
+    "en": "Damage increases with each shot fired before reloading. Multiple copies of this upgrade can stack, but with diminishing returns."
+  },
+  {
+    "id": "n312",
+    "kind": "n",
+    "en": "Extra Capacitors"
+  },
+  {
+    "id": "d285",
+    "kind": "d",
+    "en": "Range is greatly increased, but so is recoil."
+  },
+  {
+    "id": "n313",
+    "kind": "n",
+    "en": "Fester"
+  },
+  {
+    "id": "d286",
+    "kind": "d",
+    "en": "Applies decay."
+  },
+  {
+    "id": "n314",
+    "kind": "n",
+    "en": "Gearshift"
+  },
+  {
+    "id": "d287",
+    "kind": "d",
+    "en": "While Auger Subroutine is active and for a short time after, the Shocklance charges faster and you gain damage resistance."
+  },
+  {
+    "id": "s126",
+    "kind": "s",
+    "en": "Linger Size"
+  },
+  {
+    "id": "n315",
+    "kind": "n",
+    "en": "Killing Field"
+  },
+  {
+    "id": "d288",
+    "kind": "d",
+    "en": "Coils linger and increase your outgoing damage when inside."
+  },
+  {
+    "id": "n316",
+    "kind": "n",
+    "en": "Ready and Waiting"
+  },
+  {
+    "id": "d289",
+    "kind": "d",
+    "en": "The Shocklance passively charges over time. Passive charges is slowed when unequipped."
+  },
+  {
+    "id": "n317",
+    "kind": "n",
+    "en": "Storm's Eye"
+  },
+  {
+    "id": "d290",
+    "kind": "d",
+    "en": "After firing your last shot, an additional coil is fired upward with increased size and damage."
+  },
+  {
+    "id": "n318",
+    "kind": "n",
+    "en": "Subway"
+  },
+  {
+    "id": "d291",
+    "kind": "d",
+    "en": "Coils linger and increase the move speed of any player inside."
+  },
+  {
+    "id": "n319",
+    "kind": "n",
+    "en": "Centripetal Cornering"
+  },
+  {
+    "id": "d292",
+    "kind": "d",
+    "en": "You gain increased turning speed while Auger Subroutine is active."
+  },
+  {
+    "id": "n320",
+    "kind": "n",
+    "en": "Compressor"
+  },
+  {
+    "id": "d293",
+    "kind": "d",
+    "en": "Size is increased but range is decreased."
+  },
+  {
+    "id": "n321",
+    "kind": "n",
+    "en": "Fisticuffs"
+  },
+  {
+    "id": "d294",
+    "kind": "d",
+    "en": "Dealing melee damage briefly increases the Shocklance's damage and refunds some reserve ammo."
+  },
+  {
+    "id": "n322",
+    "kind": "n",
+    "en": "Flurrying Configuration"
+  },
+  {
+    "id": "d295",
+    "kind": "d",
+    "en": "Charge speed is increased, but magazine size is decreased."
+  },
+  {
+    "id": "n323",
+    "kind": "n",
+    "en": "Forward Charge"
+  },
+  {
+    "id": "d296",
+    "kind": "d",
+    "en": "Move faster while charging the Shocklance."
+  },
+  {
+    "id": "n324",
+    "kind": "n",
+    "en": "Fwoosh"
+  },
+  {
+    "id": "d297",
+    "kind": "d",
+    "en": "Applies fire."
+  },
+  {
+    "id": "s127",
+    "kind": "s",
+    "en": "Max Range"
+  },
+  {
+    "id": "n325",
+    "kind": "n",
+    "en": "Half Cocked"
+  },
+  {
+    "id": "d298",
+    "kind": "d",
+    "en": "Charge duration is increased but you can fire at any time while charging. Damage, size, and range are increased the longer you charge."
+  },
+  {
+    "id": "n326",
+    "kind": "n",
+    "en": "Notched Breakpoint"
+  },
+  {
+    "id": "d299",
+    "kind": "d",
+    "en": "Greatly reduces vertical recoil when Splintered Lance is equipped."
+  },
+  {
+    "id": "n327",
+    "kind": "n",
+    "en": "Railshot"
+  },
+  {
+    "id": "d300",
+    "kind": "d",
+    "en": "Fire in a tight line. Range and damage are increased."
+  },
+  {
+    "id": "s128",
+    "kind": "s",
+    "en": "Pierce Damage"
+  },
+  {
+    "id": "n328",
+    "kind": "n",
+    "en": "Skewer"
+  },
+  {
+    "id": "d301",
+    "kind": "d",
+    "en": "Base damage is decreased but the damage of your shots increases for each target they pierce."
+  },
+  {
+    "id": "n329",
+    "kind": "n",
+    "en": "Splintered Lance"
+  },
+  {
+    "id": "d302",
+    "kind": "d",
+    "en": "Fire multiple shots with little accuracy."
+  },
+  {
+    "id": "n330",
+    "kind": "n",
+    "en": "Swing Through"
+  },
+  {
+    "id": "d303",
+    "kind": "d",
+    "en": "Piercing multiple targets builds up extra damage for your next shot."
+  },
+  {
+    "id": "n331",
+    "kind": "n",
+    "en": "Auxiliary Chargers"
+  },
+  {
+    "id": "d304",
+    "kind": "d",
+    "en": "Damage is increased, but so is charge-up time."
+  },
+  {
+    "id": "n332",
+    "kind": "n",
+    "en": "Coated Coils"
+  },
+  {
+    "id": "d305",
+    "kind": "d",
+    "en": "Coils apply more of their element to targets."
+  },
+  {
+    "id": "n333",
+    "kind": "n",
+    "en": "Coil Extension"
+  },
+  {
+    "id": "n334",
+    "kind": "n",
+    "en": "Gladiator's Pockets"
+  },
+  {
+    "id": "n335",
+    "kind": "n",
+    "en": "Squire Supplier"
+  },
+  {
+    "id": "n336",
+    "kind": "n",
+    "en": "Triple A"
+  },
+  {
+    "id": "n337",
+    "kind": "n",
+    "en": "Explosive Bullets"
+  },
+  {
+    "id": "d306",
+    "kind": "d",
+    "en": "Hold R to consume your grenade and convert the rest of your magazine into explosive bullets of that grenade's element."
+  },
+  {
+    "id": "n338",
+    "kind": "n",
+    "en": "Miniaturized Warp Core"
+  },
+  {
+    "id": "d307",
+    "kind": "d",
+    "en": "On reload, you warp back in time to a previous position, then gain a small speed boost and create an explosion."
+  },
+  {
+    "id": "n339",
+    "kind": "n",
+    "en": "Payback"
+  },
+  {
+    "id": "d308",
+    "kind": "d",
+    "en": "Upon taking damage, you have a chance to fire out a tracking missile."
+  },
+  {
+    "id": "n340",
+    "kind": "n",
+    "en": "Slipspace Bullet Transfer"
+  },
+  {
+    "id": "d309",
+    "kind": "d",
+    "en": "Each stack of the Accelerator's element you apply to targets to before reloading increases the chance to refund your last burst. Some stacks are consumed upon refund."
+  },
+  {
+    "id": "s129",
+    "kind": "s",
+    "en": "Damage Scaling"
+  },
+  {
+    "id": "s130",
+    "kind": "s",
+    "en": "Max Speed"
+  },
+  {
+    "id": "n341",
+    "kind": "n",
+    "en": "Inertia Accelerant"
+  },
+  {
+    "id": "d310",
+    "kind": "d",
+    "en": "Damage increases based on how fast you're moving. Base damage is decreased."
+  },
+  {
+    "id": "n342",
+    "kind": "n",
+    "en": "Oxythane's Promise"
+  },
+  {
+    "id": "d311",
+    "kind": "d",
+    "en": "Fire a tracking missile at the end of each burst. The missile's damage and explosion size increase with burst size."
+  },
+  {
+    "id": "n343",
+    "kind": "n",
+    "en": "Remote Charging"
+  },
+  {
+    "id": "d312",
+    "kind": "d",
+    "en": "Your magazine is refilled when you are electrocuted."
+  },
+  {
+    "id": "s131",
+    "kind": "s",
+    "en": "Gravity"
+  },
+  {
+    "id": "n344",
+    "kind": "n",
+    "en": "Requeening"
+  },
+  {
+    "id": "d313",
+    "kind": "d",
+    "en": "While you are swarmed by bees, the Accelerator deals increased damage. you move faster, and you fall slower."
+  },
+  {
+    "id": "n345",
+    "kind": "n",
+    "en": "Ruptured Spleen"
+  },
+  {
+    "id": "d314",
+    "kind": "d",
+    "en": "Fire one massive burst."
+  },
+  {
+    "id": "n346",
+    "kind": "n",
+    "en": "Sweet Heavens"
+  },
+  {
+    "id": "d315",
+    "kind": "d",
+    "en": "Create a healing swarm of bees when you reload. After a short duration, the bees begin to damage you."
+  },
+  {
+    "id": "s132",
+    "kind": "s",
+    "en": "Max Health Regen"
+  },
+  {
+    "id": "s133",
+    "kind": "s",
+    "en": "Elemental Increase"
+  },
+  {
+    "id": "n347",
+    "kind": "n",
+    "en": "The Royal Jelly of Hazaran"
+  },
+  {
+    "id": "d316",
+    "kind": "d",
+    "en": "While holding the Accelerator, you regenerate health more quickly the faster you're moving. Regen speed is further increased when the Accelerator's element is fully applied to you."
+  },
+  {
+    "id": "n348",
+    "kind": "n",
+    "en": "Three-In-One"
+  },
+  {
+    "id": "d317",
+    "kind": "d",
+    "en": "Fire 3 pellets per shot with less accuracy."
+  },
+  {
+    "id": "s134",
+    "kind": "s",
+    "en": "Damage per Burst"
+  },
+  {
+    "id": "s135",
+    "kind": "s",
+    "en": "Spread per Burst"
+  },
+  {
+    "id": "n349",
+    "kind": "n",
+    "en": "Unstable Recursion"
+  },
+  {
+    "id": "d318",
+    "kind": "d",
+    "en": "Unstable recursion leading to unstable recursion leading to unstable recursion leading to"
+  },
+  {
+    "id": "n350",
+    "kind": "n",
+    "en": "Wasp Gun"
+  },
+  {
+    "id": "d319",
+    "kind": "d",
+    "en": "Appleid bees."
+  },
+  {
+    "id": "n351",
+    "kind": "n",
+    "en": "Awaken The Hive"
+  },
+  {
+    "id": "d320",
+    "kind": "d",
+    "en": "Create a bee explosion when you reload that damages you and nearby enemies. Explosion size and amount of bees increase for each burst fired before reloading."
+  },
+  {
+    "id": "n352",
+    "kind": "n",
+    "en": "Feedback Loop"
+  },
+  {
+    "id": "d321",
+    "kind": "d",
+    "en": "After firing a burst, gain a burst of speed for each bullet fired."
+  },
+  {
+    "id": "n353",
+    "kind": "n",
+    "en": "Full-Auto Trigger"
+  },
+  {
+    "id": "d322",
+    "kind": "d",
+    "en": "Enables full-auto firing. Burst interval is slightly increased."
+  },
+  {
+    "id": "s136",
+    "kind": "s",
+    "en": "Max Stacks"
+  },
+  {
+    "id": "n354",
+    "kind": "n",
+    "en": "Hair Trigger"
+  },
+  {
+    "id": "d323",
+    "kind": "d",
+    "en": "Killing a target grants a stacking bonus to fire rate and reload speed."
+  },
+  {
+    "id": "n355",
+    "kind": "n",
+    "en": "Honey Sweet"
+  },
+  {
+    "id": "d324",
+    "kind": "d",
+    "en": "Shoot allies with bee bullets to heal them."
+  },
+  {
+    "id": "n356",
+    "kind": "n",
+    "en": "Momentum Impact"
+  },
+  {
+    "id": "d325",
+    "kind": "d",
+    "en": "Direct hits deal increased damage while sprinting."
+  },
+  {
+    "id": "s137",
+    "kind": "s",
+    "en": "Burst Size Increase"
+  },
+  {
+    "id": "n357",
+    "kind": "n",
+    "en": "Number 5, To Go"
+  },
+  {
+    "id": "d326",
+    "kind": "d",
+    "en": "Every burst fires 5 bullets."
+  },
+  {
+    "id": "n358",
+    "kind": "n",
+    "en": "Queen's Cannons"
+  },
+  {
+    "id": "d327",
+    "kind": "d",
+    "en": "Bullets have a small chance to explode on impact."
+  },
+  {
+    "id": "n359",
+    "kind": "n",
+    "en": "Quick Reset"
+  },
+  {
+    "id": "d328",
+    "kind": "d",
+    "en": "Gain a burst of speed when reloading with an empty magazine."
+  },
+  {
+    "id": "n360",
+    "kind": "n",
+    "en": "Shake The Nest"
+  },
+  {
+    "id": "d329",
+    "kind": "d",
+    "en": "Generate ammo over time while sprinting. If bees are applied to your bullets, your ammo regenerates faster while airborne."
+  },
+  {
+    "id": "n361",
+    "kind": "n",
+    "en": "Shocker"
+  },
+  {
+    "id": "d330",
+    "kind": "d",
+    "en": "Killing a target grants a stacking move speed bonus."
+  },
+  {
+    "id": "n362",
+    "kind": "n",
+    "en": "Size Them Up"
+  },
+  {
+    "id": "d331",
+    "kind": "d",
+    "en": "Bullet size is increased while sprinting."
+  },
+  {
+    "id": "n363",
+    "kind": "n",
+    "en": "Energy Cohesion"
+  },
+  {
+    "id": "n364",
+    "kind": "n",
+    "en": "Flash Charge"
+  },
+  {
+    "id": "n365",
+    "kind": "n",
+    "en": "Kinetic Optimization"
+  },
+  {
+    "id": "d332",
+    "kind": "d",
+    "en": "Deal more damage but apply less shock."
+  },
+  {
+    "id": "n366",
+    "kind": "n",
+    "en": "Payload Amplifier"
+  },
+  {
+    "id": "d333",
+    "kind": "d",
+    "en": "Bullets apply more of the elemental effect."
+  },
+  {
+    "id": "n367",
+    "kind": "n",
+    "en": "Shaved Projectiles"
+  },
+  {
+    "id": "n368",
+    "kind": "n",
+    "en": "Switcheroo"
+  },
+  {
+    "id": "d334",
+    "kind": "d",
+    "en": "Let's trade."
+  },
+  {
+    "id": "n369",
+    "kind": "n",
+    "en": "Blood, Sweat, Tears"
+  },
+  {
+    "id": "d335",
+    "kind": "d",
+    "en": "Attempting to use your Rocket Lasso while it's recharging damages you and grants some charge."
+  },
+  {
+    "id": "t015",
+    "kind": "t",
+    "en": "The same is true for your air dash.\nCharge: [+0.84 - +0.86]"
+  },
+  {
+    "id": "n370",
+    "kind": "n",
+    "en": "Dead or Alive"
+  },
+  {
+    "id": "d336",
+    "kind": "d",
+    "en": "You periodically mark a nearby medium or large enemy for death, gaining increased damage against it. Killing a marked enemy moves the mark to another nearby enemy."
+  },
+  {
+    "id": "s138",
+    "kind": "s",
+    "en": "Charges"
+  },
+  {
+    "id": "n371",
+    "kind": "n",
+    "en": "Double Dash"
+  },
+  {
+    "id": "d337",
+    "kind": "d",
+    "en": "Gain a second Air Dash charge."
+  },
+  {
+    "id": "t016",
+    "kind": "t",
+    "en": "Run Speed: [+4% - +5%]"
+  },
+  {
+    "id": "n372",
+    "kind": "n",
+    "en": "Eyes Up Here"
+  },
+  {
+    "id": "d338",
+    "kind": "d",
+    "en": "Eyes have a chance to sprout from enemies you kill. Destroy an eye to gain health and a stacking bonus to damage and move speed."
+  },
+  {
+    "id": "t017",
+    "kind": "t",
+    "en": "Health: [+0.7 - +0.9]"
+  },
+  {
+    "id": "n373",
+    "kind": "n",
+    "en": "Handspring"
+  },
+  {
+    "id": "d339",
+    "kind": "d",
+    "en": "Melee a surface below you to launch yourself upward."
+  },
+  {
+    "id": "t018",
+    "kind": "t",
+    "en": "Handspring creates a small explosion.\nExplosion Size: [2.8 - 3.02]"
+  },
+  {
+    "id": "n374",
+    "kind": "n",
+    "en": "Through Hell"
+  },
+  {
+    "id": "d340",
+    "kind": "d",
+    "en": "Air Dash ignites targets in your wake."
+  },
+  {
+    "id": "t019",
+    "kind": "t",
+    "en": "Changes Element to [Shock - Acid].\nRecharge Speed: [-24.81% - -35.48%]"
+  },
+  {
+    "id": "n375",
+    "kind": "n",
+    "en": "Dash Immunity"
+  },
+  {
+    "id": "d341",
+    "kind": "d",
+    "en": "Briefly gain immunity after using your air dash."
+  },
+  {
+    "id": "n376",
+    "kind": "n",
+    "en": "Double Lasso"
+  },
+  {
+    "id": "d342",
+    "kind": "d",
+    "en": "Gain a second Rocket Lasso charge."
+  },
+  {
+    "id": "n377",
+    "kind": "n",
+    "en": "Dynamite on a String"
+  },
+  {
+    "id": "d343",
+    "kind": "d",
+    "en": "Your lasso explodes."
+  },
+  {
+    "id": "n378",
+    "kind": "n",
+    "en": "Gust"
+  },
+  {
+    "id": "d344",
+    "kind": "d",
+    "en": "Push nearby targets in the direction of your air dash."
+  },
+  {
+    "id": "n379",
+    "kind": "n",
+    "en": "Hold Onto Your Hats"
+  },
+  {
+    "id": "d345",
+    "kind": "d",
+    "en": "Slide speed is briefly increased after using your Air Dash."
+  },
+  {
+    "id": "n380",
+    "kind": "n",
+    "en": "Momentum Transfer"
+  },
+  {
+    "id": "d346",
+    "kind": "d",
+    "en": "When landing with enough force. some of your vertical momentum is converted to horizontal speed."
+  },
+  {
+    "id": "n381",
+    "kind": "n",
+    "en": "One-Liner"
+  },
+  {
+    "id": "d347",
+    "kind": "d",
+    "en": "Using a quip gives you a burst of speed."
+  },
+  {
+    "id": "n382",
+    "kind": "n",
+    "en": "Powder Player"
+  },
+  {
+    "id": "d348",
+    "kind": "d",
+    "en": "Creates an explosion at your current position when you use your Rocket Lasso."
+  },
+  {
+    "id": "n383",
+    "kind": "n",
+    "en": "Pseudo Science"
+  },
+  {
+    "id": "d349",
+    "kind": "d",
+    "en": "Your Rocket Lasso has a chance to partially recharge when you fully apply the given element to a target."
+  },
+  {
+    "id": "n384",
+    "kind": "n",
+    "en": "Second WInd"
+  },
+  {
+    "id": "d350",
+    "kind": "d",
+    "en": "Recharges your Air Dash when the given element is fully applied to you."
+  },
+  {
+    "id": "n385",
+    "kind": "n",
+    "en": "Synthetic Adrenaline"
+  },
+  {
+    "id": "d351",
+    "kind": "d",
+    "en": "Gain increased fire rate and reload speed when under full health."
+  },
+  {
+    "id": "n386",
+    "kind": "n",
+    "en": "Ammo Continuity"
+  },
+  {
+    "id": "d352",
+    "kind": "d",
+    "en": "Your equipped weapon is partially reloaded when you throw your lasso."
+  },
+  {
+    "id": "n387",
+    "kind": "n",
+    "en": "Charge Thief"
+  },
+  {
+    "id": "d353",
+    "kind": "d",
+    "en": "Lassoing a broken player part refunds some Rocket Lasso charge."
+  },
+  {
+    "id": "s139",
+    "kind": "s",
+    "en": "Upward Speed"
+  },
+  {
+    "id": "n388",
+    "kind": "n",
+    "en": "Dust Kick"
+  },
+  {
+    "id": "d354",
+    "kind": "d",
+    "en": "Jump out of a slide to gain a burst of upward speed."
+  },
+  {
+    "id": "s140",
+    "kind": "s",
+    "en": "Range per Cell"
+  },
+  {
+    "id": "n389",
+    "kind": "n",
+    "en": "Extra Rope"
+  },
+  {
+    "id": "d355",
+    "kind": "d",
+    "en": "Rocket Lasso range is increased for each cell that touches this upgrade."
+  },
+  {
+    "id": "n390",
+    "kind": "n",
+    "en": "Hometown Hero"
+  },
+  {
+    "id": "d356",
+    "kind": "d",
+    "en": "Pulling a health chunk with your lasso equips it. Throw the chunk to create a healing explosion."
+  },
+  {
+    "id": "n391",
+    "kind": "n",
+    "en": "Hornet Interference"
+  },
+  {
+    "id": "d357",
+    "kind": "d",
+    "en": "Lasso a Hornet to push it away."
+  },
+  {
+    "id": "n392",
+    "kind": "n",
+    "en": "Quick Knot"
+  },
+  {
+    "id": "d358",
+    "kind": "d",
+    "en": "Rocket Lasso cooldown is reduced."
+  },
+  {
+    "id": "n393",
+    "kind": "n",
+    "en": "Rocket Jump"
+  },
+  {
+    "id": "d359",
+    "kind": "d",
+    "en": "Lasso a surface directly in front of you to launch yourself away from it."
+  },
+  {
+    "id": "n394",
+    "kind": "n",
+    "en": "Slingshot"
+  },
+  {
+    "id": "d360",
+    "kind": "d",
+    "en": "Slide speed is briefly increased after using your Rocket Lasso."
+  },
+  {
+    "id": "n395",
+    "kind": "n",
+    "en": "The Ole One-Two"
+  },
+  {
+    "id": "d361",
+    "kind": "d",
+    "en": "Your melee damage and size is increased for a short time after using your Rocket Lasso."
+  },
+  {
+    "id": "s141",
+    "kind": "s",
+    "en": "Forward Speed"
+  },
+  {
+    "id": "n396",
+    "kind": "n",
+    "en": "Tuck 'n' Roll"
+  },
+  {
+    "id": "d362",
+    "kind": "d",
+    "en": "Jump out of a slide to gain a burst of forward speed."
+  },
+  {
+    "id": "n397",
+    "kind": "n",
+    "en": "Unchained"
+  },
+  {
+    "id": "d363",
+    "kind": "d",
+    "en": "Air Dash now sends you in whatever direction you are facing, without restrictions."
+  },
+  {
+    "id": "n398",
+    "kind": "n",
+    "en": "Deadeye"
+  },
+  {
+    "id": "d364",
+    "kind": "d",
+    "en": "You can aim while sliding."
+  },
+  {
+    "id": "n399",
+    "kind": "n",
+    "en": "Landing Roll"
+  },
+  {
+    "id": "d365",
+    "kind": "d",
+    "en": "Slide when landing to roll and gain a burst of speed."
+  },
+  {
+    "id": "n400",
+    "kind": "n",
+    "en": "Leap the Gap"
+  },
+  {
+    "id": "d366",
+    "kind": "d",
+    "en": "Air Dash duration is increased."
+  },
+  {
+    "id": "s142",
+    "kind": "s",
+    "en": "Rocket Force"
+  },
+  {
+    "id": "n401",
+    "kind": "n",
+    "en": "Loose Rope"
+  },
+  {
+    "id": "d367",
+    "kind": "d",
+    "en": "Rocket Lasso range and force are increased."
+  },
+  {
+    "id": "n402",
+    "kind": "n",
+    "en": "Tumbleweed"
+  },
+  {
+    "id": "d368",
+    "kind": "d",
+    "en": "Dealing damage extends your slide and increases reload speed."
+  },
+  {
+    "id": "n403",
+    "kind": "n",
+    "en": "Yank Em!"
+  },
+  {
+    "id": "d369",
+    "kind": "d",
+    "en": "Rocket Lasso force is increased."
+  },
+  {
+    "id": "n404",
+    "kind": "n",
+    "en": "Modular Construction"
+  },
+  {
+    "id": "d370",
+    "kind": "d",
+    "en": "Made of harder hard-light."
+  },
+  {
+    "id": "n405",
+    "kind": "n",
+    "en": "Cannonball"
+  },
+  {
+    "id": "d371",
+    "kind": "d",
+    "en": "Slide in the air to cannonball downwards at great speeds. Hitting the ground with enough force triggers a special Nose Dive impact that deals increased damage but has less potent effects."
+  },
+  {
+    "id": "n406",
+    "kind": "n",
+    "en": "For Good Measure"
+  },
+  {
+    "id": "d372",
+    "kind": "d",
+    "en": "Gain a second Nose Dive charge."
+  },
+  {
+    "id": "t020",
+    "kind": "t",
+    "en": "Recharge Speed: [+9.89% - +7.53%]"
+  },
+  {
+    "id": "s143",
+    "kind": "s",
+    "en": "Horizontal Size"
+  },
+  {
+    "id": "n407",
+    "kind": "n",
+    "en": "Hard-Light Prison"
+  },
+  {
+    "id": "d373",
+    "kind": "d",
+    "en": "Your Shield Projector creates a large cube that traps enemies inside. Players inside the cute heal over time. Shield duration is increased."
+  },
+  {
+    "id": "t021",
+    "kind": "t",
+    "en": "Players inside your prison deal increased damage.\nDamage: [+23% - +26%]"
+  },
+  {
+    "id": "n408",
+    "kind": "n",
+    "en": "Hold the Line"
+  },
+  {
+    "id": "d374",
+    "kind": "d",
+    "en": "Your Nose Dive impact creates a temporary bubble shield."
+  },
+  {
+    "id": "t022",
+    "kind": "t",
+    "en": "Duration: [+2 - +2.2]\nSize: [+3 - +3.3]"
+  },
+  {
+    "id": "n409",
+    "kind": "n",
+    "en": "Lightning Dive"
+  },
+  {
+    "id": "d375",
+    "kind": "d",
+    "en": "Nose Dive releases a bolt of lightning that arcs between up to 12 targets."
+  },
+  {
+    "id": "t023",
+    "kind": "t",
+    "en": "Damage: [57 - 62]"
+  },
+  {
+    "id": "n410",
+    "kind": "n",
+    "en": "Optical Attraction"
+  },
+  {
+    "id": "d376",
+    "kind": "d",
+    "en": "Hold F to gain damage resistance and draw the attention of all enemies for a short time."
+  },
+  {
+    "id": "t024",
+    "kind": "t",
+    "en": "Optical Attraction heals you and nearby employees.\nHealing: [+7 - +8]"
+  },
+  {
+    "id": "s144",
+    "kind": "s",
+    "en": "Size per Meter"
+  },
+  {
+    "id": "n411",
+    "kind": "n",
+    "en": "Comet Splash"
+  },
+  {
+    "id": "d377",
+    "kind": "d",
+    "en": "Nose Dive's blast radius increases based on how far you dove."
+  },
+  {
+    "id": "n412",
+    "kind": "n",
+    "en": "Domed"
+  },
+  {
+    "id": "d378",
+    "kind": "d",
+    "en": "Your Shield Projector is now a dome."
+  },
+  {
+    "id": "n413",
+    "kind": "n",
+    "en": "Hard-Light Coating"
+  },
+  {
+    "id": "d379",
+    "kind": "d",
+    "en": "Your Shield Projector applies the given element to targets within its impact zone. Cooldown is increased."
+  },
+  {
+    "id": "s145",
+    "kind": "s",
+    "en": "Dive Bounces"
+  },
+  {
+    "id": "n414",
+    "kind": "n",
+    "en": "Nose Bounce"
+  },
+  {
+    "id": "d380",
+    "kind": "d",
+    "en": "Bounce from Nose Dive into another dive."
+  },
+  {
+    "id": "n415",
+    "kind": "n",
+    "en": "One-Two Punch"
+  },
+  {
+    "id": "d381",
+    "kind": "d",
+    "en": "Landing a Nose Dive briefly empowers your next shield, increasing its damage and reducing its duration. This shield refunds some charge when it runs out."
+  },
+  {
+    "id": "n416",
+    "kind": "n",
+    "en": "Splash Zone"
+  },
+  {
+    "id": "d382",
+    "kind": "d",
+    "en": "Nose Dive applies whatever element you're currently affected by."
+  },
+  {
+    "id": "n417",
+    "kind": "n",
+    "en": "To Dust"
+  },
+  {
+    "id": "d383",
+    "kind": "d",
+    "en": "Nose Dive applies decay."
+  },
+  {
+    "id": "s146",
+    "kind": "s",
+    "en": "Overshield Radius"
+  },
+  {
+    "id": "n418",
+    "kind": "n",
+    "en": "Unconditional Protector"
+  },
+  {
+    "id": "d384",
+    "kind": "d",
+    "en": "Your Shield Projector grants all nearby players an overshield when placed."
+  },
+  {
+    "id": "n419",
+    "kind": "n",
+    "en": "Backboost"
+  },
+  {
+    "id": "d385",
+    "kind": "d",
+    "en": "Activating your Shield Projector launches you backward."
+  },
+  {
+    "id": "n420",
+    "kind": "n",
+    "en": "Blast Chamber"
+  },
+  {
+    "id": "d386",
+    "kind": "d",
+    "en": "Hit allies with your Nose Dive to reload their weapons."
+  },
+  {
+    "id": "s147",
+    "kind": "s",
+    "en": "Run Speed"
+  },
+  {
+    "id": "n421",
+    "kind": "n",
+    "en": "Bruise Protection"
+  },
+  {
+    "id": "d387",
+    "kind": "d",
+    "en": "Health is increased, but run speed is slightly decreased."
+  },
+  {
+    "id": "n422",
+    "kind": "n",
+    "en": "Improved Refueling"
+  },
+  {
+    "id": "d388",
+    "kind": "d",
+    "en": "Nose Dive cooldown is reduced."
+  },
+  {
+    "id": "n423",
+    "kind": "n",
+    "en": "Killcode"
+  },
+  {
+    "id": "d389",
+    "kind": "d",
+    "en": "Press P 3 times to detonate yourself."
+  },
+  {
+    "id": "n424",
+    "kind": "n",
+    "en": "Knee-Dive"
+  },
+  {
+    "id": "d390",
+    "kind": "d",
+    "en": "Nose Dive deals much more damage in a much smaller radius."
+  },
+  {
+    "id": "s148",
+    "kind": "s",
+    "en": "Charge Refunded"
+  },
+  {
+    "id": "n425",
+    "kind": "n",
+    "en": "Launch Reserves"
+  },
+  {
+    "id": "d391",
+    "kind": "d",
+    "en": "More Nose Dive charge is refunded when you leap without diving."
+  },
+  {
+    "id": "n426",
+    "kind": "n",
+    "en": "Liquid Cooling"
+  },
+  {
+    "id": "d392",
+    "kind": "d",
+    "en": "Shield Projector cooldown is reduced."
+  },
+  {
+    "id": "n427",
+    "kind": "n",
+    "en": "One for All"
+  },
+  {
+    "id": "d393",
+    "kind": "d",
+    "en": "All other players are healed when you die."
+  },
+  {
+    "id": "s149",
+    "kind": "s",
+    "en": "Upward Leap"
+  },
+  {
+    "id": "n428",
+    "kind": "n",
+    "en": "Springboard"
+  },
+  {
+    "id": "d394",
+    "kind": "d",
+    "en": "Your leap travels much further."
+  },
+  {
+    "id": "s150",
+    "kind": "s",
+    "en": "Up Force"
+  },
+  {
+    "id": "s151",
+    "kind": "s",
+    "en": "Outward Force"
+  },
+  {
+    "id": "n429",
+    "kind": "n",
+    "en": "Striking Distance"
+  },
+  {
+    "id": "d395",
+    "kind": "d",
+    "en": "Nose Dive pulls targets toward you."
+  },
+  {
+    "id": "n430",
+    "kind": "n",
+    "en": "With Me"
+  },
+  {
+    "id": "d396",
+    "kind": "d",
+    "en": "Allies hit by your Nose Dive become briefly immune."
+  },
+  {
+    "id": "n431",
+    "kind": "n",
+    "en": "With You"
+  },
+  {
+    "id": "d397",
+    "kind": "d",
+    "en": "Making an ally immune with With Me makes you briefly immune."
+  },
+  {
+    "id": "n432",
+    "kind": "n",
+    "en": "Dive Interrupt"
+  },
+  {
+    "id": "d398",
+    "kind": "d",
+    "en": "Jump during a Nose Dive to cancel it and keep your momentum."
+  },
+  {
+    "id": "s152",
+    "kind": "s",
+    "en": "Shield Push Force"
+  },
+  {
+    "id": "s153",
+    "kind": "s",
+    "en": "Blast Force"
+  },
+  {
+    "id": "n433",
+    "kind": "n",
+    "en": "Force Projection"
+  },
+  {
+    "id": "d399",
+    "kind": "d",
+    "en": "Your Shield Projector pushes enemies away with more force."
+  },
+  {
+    "id": "n434",
+    "kind": "n",
+    "en": "Force Redistribution"
+  },
+  {
+    "id": "d400",
+    "kind": "d",
+    "en": "Nose Dive blast radius is increased, but damage is decreased."
+  },
+  {
+    "id": "s154",
+    "kind": "s",
+    "en": "Leap Force"
+  },
+  {
+    "id": "n435",
+    "kind": "n",
+    "en": "Frog Legs"
+  },
+  {
+    "id": "d401",
+    "kind": "d",
+    "en": "Leap with more force when activating Nose Dive."
+  },
+  {
+    "id": "n436",
+    "kind": "n",
+    "en": "Get Off Me"
+  },
+  {
+    "id": "d402",
+    "kind": "d",
+    "en": "Nose Dive pushes targets away from you."
+  },
+  {
+    "id": "n437",
+    "kind": "n",
+    "en": "Sophisticated Task Manager"
+  },
+  {
+    "id": "n438",
+    "kind": "n",
+    "en": "Thermal Paste"
+  },
+  {
+    "id": "s155",
+    "kind": "s",
+    "en": "Initial Force"
+  },
+  {
+    "id": "s156",
+    "kind": "s",
+    "en": "Jetpack Duration"
+  },
+  {
+    "id": "n439",
+    "kind": "n",
+    "en": "Upside Down"
+  },
+  {
+    "id": "d403",
+    "kind": "d",
+    "en": "Feeling a little lightheaded?"
+  },
+  {
+    "id": "n440",
+    "kind": "n",
+    "en": "Beehive!"
+  },
+  {
+    "id": "d404",
+    "kind": "d",
+    "en": "The first time you melee while attached to your Grapple Pole, you throw out a beehive that causes a bee explosion on impact."
+  },
+  {
+    "id": "t025",
+    "kind": "t",
+    "en": "Additional melee attacks throw out smaller beehives."
+  },
+  {
+    "id": "n441",
+    "kind": "n",
+    "en": "Explosive Personality"
+  },
+  {
+    "id": "d405",
+    "kind": "d",
+    "en": "Create an elemental explosion when you collect a large health chunk. Collecting smaller health chunks provides a stacking damage boost. Enemy cores always drop at least 1 health chunk."
+  },
+  {
+    "id": "s157",
+    "kind": "s",
+    "en": "Grapple Time"
+  },
+  {
+    "id": "n442",
+    "kind": "n",
+    "en": "Eye in the Sky"
+  },
+  {
+    "id": "d406",
+    "kind": "d",
+    "en": "Converts your Grapple Pole into a hovering eyeball. Press PING to redirect the eyeball to a new position."
+  },
+  {
+    "id": "t026",
+    "kind": "t",
+    "en": "Grapple Range: [+7 - +8.6]\nGrapple Time: [+14% - +23%]\nRecharge Speed: [-16.67% - -18.7%]"
+  },
+  {
+    "id": "s158",
+    "kind": "s",
+    "en": "Max Poles"
+  },
+  {
+    "id": "n443",
+    "kind": "n",
+    "en": "Jungle Jim"
+  },
+  {
+    "id": "d407",
+    "kind": "d",
+    "en": "You can place up to two Grapple Poles at once."
+  },
+  {
+    "id": "t027",
+    "kind": "t",
+    "en": "Grappling recharges your other placed poles over time.\nRecharge Speed: [+0.4]"
+  },
+  {
+    "id": "n444",
+    "kind": "n",
+    "en": "On the Go"
+  },
+  {
+    "id": "d408",
+    "kind": "d",
+    "en": "Attach your Grapple Pole to a player to turn them into a grapple node."
+  },
+  {
+    "id": "t028",
+    "kind": "t",
+    "en": "Player nodes can be grappled from further away.\nGrapple Range: [+19 - +24]"
+  },
+  {
+    "id": "n445",
+    "kind": "n",
+    "en": "Stream Jets"
+  },
+  {
+    "id": "d409",
+    "kind": "d",
+    "en": "Your Jetpack creates a large plume of fire that ignites any targets below you."
+  },
+  {
+    "id": "t029",
+    "kind": "t",
+    "en": "Igniting a target with your jetpack refunds some fuel.\nFuel Refunded: [+0.1 - +0.12]"
+  },
+  {
+    "id": "n446",
+    "kind": "n",
+    "en": "Dynamite Deployment"
+  },
+  {
+    "id": "d410",
+    "kind": "d",
+    "en": "Create an elemental explosion at your position the first time you use your Grapple Pole."
+  },
+  {
+    "id": "s159",
+    "kind": "s",
+    "en": "Energy Used"
+  },
+  {
+    "id": "n447",
+    "kind": "n",
+    "en": "Elemental Overheat"
+  },
+  {
+    "id": "d411",
+    "kind": "d",
+    "en": "Use less grapple pole energy while the chosen element is fully applied to you."
+  },
+  {
+    "id": "s160",
+    "kind": "s",
+    "en": "Decay Interval"
+  },
+  {
+    "id": "n448",
+    "kind": "n",
+    "en": "Frantic Mechanism"
+  },
+  {
+    "id": "d412",
+    "kind": "d",
+    "en": "You move faster for each stack of scrap you have. Scrap decays faster."
+  },
+  {
+    "id": "n449",
+    "kind": "n",
+    "en": "Fueling Station"
+  },
+  {
+    "id": "d413",
+    "kind": "d",
+    "en": "While using your Grapple Pole, your Jetpack recharges faster."
+  },
+  {
+    "id": "s161",
+    "kind": "s",
+    "en": "Added Duration"
+  },
+  {
+    "id": "n450",
+    "kind": "n",
+    "en": "Fulmination Core"
+  },
+  {
+    "id": "d414",
+    "kind": "d",
+    "en": "The first time your Grapple Pole runs out of energy, its energy is partially recharged and the given element is fully applied to you."
+  },
+  {
+    "id": "s162",
+    "kind": "s",
+    "en": "Duration per Upgrade"
+  },
+  {
+    "id": "n451",
+    "kind": "n",
+    "en": "Parallel Wiring"
+  },
+  {
+    "id": "d415",
+    "kind": "d",
+    "en": "Grapple duration is increased for each unique upgrade that touches this one."
+  },
+  {
+    "id": "n452",
+    "kind": "n",
+    "en": "Saxonite Power Cell"
+  },
+  {
+    "id": "d416",
+    "kind": "d",
+    "en": "Your Grapple Pole emits an antigravity field."
+  },
+  {
+    "id": "s163",
+    "kind": "s",
+    "en": "Scrap per Second"
+  },
+  {
+    "id": "n453",
+    "kind": "n",
+    "en": "Scrap Funnel"
+  },
+  {
+    "id": "d417",
+    "kind": "d",
+    "en": "Consume scrap to continue using your jetpack after its fuel has been depleted."
+  },
+  {
+    "id": "s164",
+    "kind": "s",
+    "en": "Barf Duration"
+  },
+  {
+    "id": "n454",
+    "kind": "n",
+    "en": "Upset Stomach"
+  },
+  {
+    "id": "d418",
+    "kind": "d",
+    "en": "Hold your grenade key to barf up a damaging stream of spare parts."
+  },
+  {
+    "id": "n455",
+    "kind": "n",
+    "en": "Vending Machine"
+  },
+  {
+    "id": "d419",
+    "kind": "d",
+    "en": "Your Grapple Pole creates a health chunk when placed, and creates more small chunks while grappling. Depleting a pole's enemy creates a bunch of health chunks."
+  },
+  {
+    "id": "n456",
+    "kind": "n",
+    "en": "Wrecking Ball"
+  },
+  {
+    "id": "d420",
+    "kind": "d",
+    "en": "Swing into enemies to damage them."
+  },
+  {
+    "id": "n457",
+    "kind": "n",
+    "en": "Aft Thrusters"
+  },
+  {
+    "id": "d421",
+    "kind": "d",
+    "en": "Your Jetpack pushes you forward."
+  },
+  {
+    "id": "n458",
+    "kind": "n",
+    "en": "Burst Release"
+  },
+  {
+    "id": "d422",
+    "kind": "d",
+    "en": "Release your fuel much faster in a stronger burst of speed."
+  },
+  {
+    "id": "n459",
+    "kind": "n",
+    "en": "Coil Springs"
+  },
+  {
+    "id": "d423",
+    "kind": "d",
+    "en": "Jump force is greatly increased when crouching."
+  },
+  {
+    "id": "n460",
+    "kind": "n",
+    "en": "Deliberate Mistake"
+  },
+  {
+    "id": "d424",
+    "kind": "d",
+    "en": "Melee an explosive part to instantly start its fuse and increase its explosion size."
+  },
+  {
+    "id": "n461",
+    "kind": "n",
+    "en": "Feedback Relay"
+  },
+  {
+    "id": "d425",
+    "kind": "d",
+    "en": "Your Grapple Pole is partially recharged when the given element is fully applied to you."
+  },
+  {
+    "id": "n462",
+    "kind": "n",
+    "en": "Ideal Conditions"
+  },
+  {
+    "id": "d426",
+    "kind": "d",
+    "en": "Grapple duration is greatly increased when out of combat. This applies to any player who uses your grapple pole."
+  },
+  {
+    "id": "n463",
+    "kind": "n",
+    "en": "Impulse Vault"
+  },
+  {
+    "id": "d427",
+    "kind": "d",
+    "en": "Players gain a burst of speed when detaching from your Grapple Pole."
+  },
+  {
+    "id": "n464",
+    "kind": "n",
+    "en": "Multithread"
+  },
+  {
+    "id": "d428",
+    "kind": "d",
+    "en": "Use less grapple pole energy while using your grapple pole at the same time as another player."
+  },
+  {
+    "id": "s165",
+    "kind": "s",
+    "en": "Burp Force"
+  },
+  {
+    "id": "n465",
+    "kind": "n",
+    "en": "Recycled Fuel"
+  },
+  {
+    "id": "d429",
+    "kind": "d",
+    "en": "Your Jetpack lasts longer but is less stable."
+  },
+  {
+    "id": "n466",
+    "kind": "n",
+    "en": "Solar Panel"
+  },
+  {
+    "id": "d430",
+    "kind": "d",
+    "en": "Grapple Pole cooldown is reduced."
+  },
+  {
+    "id": "n467",
+    "kind": "n",
+    "en": "Spare Cable"
+  },
+  {
+    "id": "d431",
+    "kind": "d",
+    "en": "Grapple duration is increased."
+  },
+  {
+    "id": "s166",
+    "kind": "s",
+    "en": "Healing per Second"
+  },
+  {
+    "id": "n468",
+    "kind": "n",
+    "en": "Stolen Nanites"
+  },
+  {
+    "id": "d432",
+    "kind": "d",
+    "en": "Players heal over time while attached to your Grapple Pole."
+  },
+  {
+    "id": "n469",
+    "kind": "n",
+    "en": "Cooling Vents"
+  },
+  {
+    "id": "d433",
+    "kind": "d",
+    "en": "Your Jetpack recharges faster."
+  },
+  {
+    "id": "n470",
+    "kind": "n",
+    "en": "Fuel Rations"
+  },
+  {
+    "id": "d434",
+    "kind": "d",
+    "en": "Jetpack duration is increased."
+  },
+  {
+    "id": "n471",
+    "kind": "n",
+    "en": "Pressure Increase"
+  },
+  {
+    "id": "d435",
+    "kind": "d",
+    "en": "Jetpack force is increased."
+  },
+  {
+    "id": "n472",
+    "kind": "n",
+    "en": "Tether Battery"
+  },
+  {
+    "id": "s167",
+    "kind": "s",
+    "en": "Grapple Range"
+  },
+  {
+    "id": "n473",
+    "kind": "n",
+    "en": "Wireless Extenders"
+  },
+  {
+    "id": "d436",
+    "kind": "d",
+    "en": "Grapple range is increased."
+  },
+  {
+    "id": "n474",
+    "kind": "n",
+    "en": "Attrition Supply"
+  },
+  {
+    "id": "d437",
+    "kind": "d",
+    "en": "Your wingsuit no longer recharges over time. Dealing damage provides some charge."
+  },
+  {
+    "id": "t030",
+    "kind": "t",
+    "en": "Run Speed: [+3% - +4.5%]"
+  },
+  {
+    "id": "n475",
+    "kind": "n",
+    "en": "Biofuel"
+  },
+  {
+    "id": "d438",
+    "kind": "d",
+    "en": "Killing a target while mid-air grants some wingsuit charge."
+  },
+  {
+    "id": "t031",
+    "kind": "t",
+    "en": "You fall slower for a moment after flying."
+  },
+  {
+    "id": "n476",
+    "kind": "n",
+    "en": "Clearing Charge"
+  },
+  {
+    "id": "d439",
+    "kind": "d",
+    "en": "While airborne, your Rocket Salvo is replaced with a decay bomb."
+  },
+  {
+    "id": "t032",
+    "kind": "t",
+    "en": "Fly Speed: [+3 - +4]"
+  },
+  {
+    "id": "s168",
+    "kind": "s",
+    "en": "Bounce Radius"
+  },
+  {
+    "id": "n477",
+    "kind": "n",
+    "en": "Eye On You"
+  },
+  {
+    "id": "d440",
+    "kind": "d",
+    "en": "Rockets ricochet to nearby targets multiple times. Rocket damage decreases with each bounce."
+  },
+  {
+    "id": "t033",
+    "kind": "t",
+    "en": "Bullet Speed: [+9 - +11]"
+  },
+  {
+    "id": "s169",
+    "kind": "s",
+    "en": "Salvo Target Locks"
+  },
+  {
+    "id": "s170",
+    "kind": "s",
+    "en": "Lock-On Speed"
+  },
+  {
+    "id": "s171",
+    "kind": "s",
+    "en": "Recoil"
+  },
+  {
+    "id": "n478",
+    "kind": "n",
+    "en": "M.I.R.V."
+  },
+  {
+    "id": "d441",
+    "kind": "d",
+    "en": "Rocket Salvo fires a massive barrage of rockets. Cooldown is increased."
+  },
+  {
+    "id": "t034",
+    "kind": "t",
+    "en": "Modifies upgrade pattern."
+  },
+  {
+    "id": "n479",
+    "kind": "n",
+    "en": "Saxonite Shackles"
+  },
+  {
+    "id": "d442",
+    "kind": "d",
+    "en": "Hold Q to create a cloud of Saxonite where you're looking that immobilizes enemies and makes grunts float."
+  },
+  {
+    "id": "n480",
+    "kind": "n",
+    "en": "Course Correction"
+  },
+  {
+    "id": "d443",
+    "kind": "d",
+    "en": "Double tap LEFT or RIGHT while flying to dodge in either direction."
+  },
+  {
+    "id": "n481",
+    "kind": "n",
+    "en": "From Down Town"
+  },
+  {
+    "id": "d444",
+    "kind": "d",
+    "en": "Melee size and damage are greatly increased for a short time after flying for at least 0.5 seconds."
+  },
+  {
+    "id": "n482",
+    "kind": "n",
+    "en": "Fuel Injection"
+  },
+  {
+    "id": "d445",
+    "kind": "d",
+    "en": "Your wingsuit is partially recharged the first time you pick up a broken player."
+  },
+  {
+    "id": "n483",
+    "kind": "n",
+    "en": "Gravity Well"
+  },
+  {
+    "id": "d446",
+    "kind": "d",
+    "en": "Small health chunks orbit you and wait to popup until you've taken enough damage."
+  },
+  {
+    "id": "s172",
+    "kind": "s",
+    "en": "Fuel Refunded"
+  },
+  {
+    "id": "n484",
+    "kind": "n",
+    "en": "Heat Exchange"
+  },
+  {
+    "id": "d447",
+    "kind": "d",
+    "en": "Firing your Rocket Salvo while flying refunds some wingsuit charge."
+  },
+  {
+    "id": "n485",
+    "kind": "n",
+    "en": "Kernel Rerouter"
+  },
+  {
+    "id": "d448",
+    "kind": "d",
+    "en": "Rocket Salvo recharges much faster, but costs health to fire."
+  },
+  {
+    "id": "n486",
+    "kind": "n",
+    "en": "Knee Slide"
+  },
+  {
+    "id": "d449",
+    "kind": "d",
+    "en": "Slide out of a glide to gain a large burst of speed."
+  },
+  {
+    "id": "n487",
+    "kind": "n",
+    "en": "Nanite Return"
+  },
+  {
+    "id": "d450",
+    "kind": "d",
+    "en": "Your Rocket Salvo is partially recharged when you heal a target with it."
+  },
+  {
+    "id": "n488",
+    "kind": "n",
+    "en": "Quickfire"
+  },
+  {
+    "id": "d451",
+    "kind": "d",
+    "en": "Rocket Salvo fires only one rocket at a time and recharges faster. Gain an extra salvo charge for each rocket."
+  },
+  {
+    "id": "n489",
+    "kind": "n",
+    "en": "Reserve Material"
+  },
+  {
+    "id": "d452",
+    "kind": "d",
+    "en": "Use ammo reserves from your equipped weapon to lock onto extra targets with your Rocket Salvo."
+  },
+  {
+    "id": "s173",
+    "kind": "s",
+    "en": "Fly Duration"
+  },
+  {
+    "id": "n490",
+    "kind": "n",
+    "en": "Star Fuel"
+  },
+  {
+    "id": "d453",
+    "kind": "d",
+    "en": "Wingsuit fly duration is increased."
+  },
+  {
+    "id": "n491",
+    "kind": "n",
+    "en": "Thermal Vent Override"
+  },
+  {
+    "id": "d454",
+    "kind": "d",
+    "en": "When you run out of fuel, your wingsuit is partially recharged and you are ignited. This won't trigger again until your wingsuit has charged a little on its own."
+  },
+  {
+    "id": "n492",
+    "kind": "n",
+    "en": "Battery Siphon"
+  },
+  {
+    "id": "d455",
+    "kind": "d",
+    "en": "Move faster while holding a broken player."
+  },
+  {
+    "id": "n493",
+    "kind": "n",
+    "en": "Charge Rerouting"
+  },
+  {
+    "id": "d456",
+    "kind": "d",
+    "en": "Heal yourself when you fire a salvo rocket at an ally."
+  },
+  {
+    "id": "n494",
+    "kind": "n",
+    "en": "Elemental Tips"
+  },
+  {
+    "id": "d457",
+    "kind": "d",
+    "en": "Salvo rockets apply the given element."
+  },
+  {
+    "id": "n495",
+    "kind": "n",
+    "en": "Energy Injection"
+  },
+  {
+    "id": "d458",
+    "kind": "d",
+    "en": "Gain health when you pick up a broken player."
+  },
+  {
+    "id": "n496",
+    "kind": "n",
+    "en": "High-Velocity Targeting"
+  },
+  {
+    "id": "d459",
+    "kind": "d",
+    "en": "You deal more damage while airborne."
+  },
+  {
+    "id": "n497",
+    "kind": "n",
+    "en": "Hover Precision"
+  },
+  {
+    "id": "d460",
+    "kind": "d",
+    "en": "You fall slower while aiming your Rocket Salvo."
+  },
+  {
+    "id": "n498",
+    "kind": "n",
+    "en": "Lateral Thrusters"
+  },
+  {
+    "id": "d461",
+    "kind": "d",
+    "en": "You can change direction while flying."
+  },
+  {
+    "id": "n499",
+    "kind": "n",
+    "en": "Panic Systems"
+  },
+  {
+    "id": "d462",
+    "kind": "d",
+    "en": "Speed is increased when flying backward."
+  },
+  {
+    "id": "n500",
+    "kind": "n",
+    "en": "Pocket Rocket"
+  },
+  {
+    "id": "d463",
+    "kind": "d",
+    "en": "Rocket Salvo fires an extra healing rocket that tracks to a nearby player."
+  },
+  {
+    "id": "n501",
+    "kind": "n",
+    "en": "Point Detonators"
+  },
+  {
+    "id": "d464",
+    "kind": "d",
+    "en": "Salvo rockets deal increased damage but no longer explode."
+  },
+  {
+    "id": "n502",
+    "kind": "n",
+    "en": "Proprietary Packing Algorithm"
+  },
+  {
+    "id": "d465",
+    "kind": "d",
+    "en": "Fire more rockets that deal reduced damage."
+  },
+  {
+    "id": "s174",
+    "kind": "s",
+    "en": "Fly Speed"
+  },
+  {
+    "id": "n503",
+    "kind": "n",
+    "en": "Weight Reduction"
+  },
+  {
+    "id": "d466",
+    "kind": "d",
+    "en": "Fly speed is increased, but so is your Rocket Salvo's cooldown."
+  },
+  {
+    "id": "n504",
+    "kind": "n",
+    "en": "Efficient Storage"
+  },
+  {
+    "id": "d467",
+    "kind": "d",
+    "en": "Fire an extra rocket. Rocket Salvo damage is decreased."
+  },
+  {
+    "id": "n505",
+    "kind": "n",
+    "en": "Fuel Reserves"
+  },
+  {
+    "id": "n506",
+    "kind": "n",
+    "en": "Nanite Breeding"
+  },
+  {
+    "id": "d468",
+    "kind": "d",
+    "en": "Rocket Salvo healing is increased."
+  },
+  {
+    "id": "n507",
+    "kind": "n",
+    "en": "Rearm Mechanism"
+  },
+  {
+    "id": "d469",
+    "kind": "d",
+    "en": "Rocket Salvo cooldown is reduced."
+  },
+  {
+    "id": "n508",
+    "kind": "n",
+    "en": "Streamlined"
+  },
+  {
+    "id": "d470",
+    "kind": "d",
+    "en": "Fly speed is increased."
+  },
+  {
+    "id": "n509",
+    "kind": "n",
+    "en": "In for a Pound"
+  },
+  {
+    "id": "d471",
+    "kind": "d",
+    "en": "Grenades cost health to fire and no longer have a cooldown"
+  },
+  {
+    "id": "s175",
+    "kind": "s",
+    "en": "Cluster Count"
+  },
+  {
+    "id": "n510",
+    "kind": "n",
+    "en": "Cluster Bomb"
+  },
+  {
+    "id": "d472",
+    "kind": "d",
+    "en": "Your grenade explodes into clusters of more grenades."
+  },
+  {
+    "id": "n511",
+    "kind": "n",
+    "en": "Grenade Belt"
+  },
+  {
+    "id": "d473",
+    "kind": "d",
+    "en": "Sliding will periodically throw out your grenade without consuming a charge. Stacking this upgrade throws additional grenades."
+  },
+  {
+    "id": "s176",
+    "kind": "s",
+    "en": "Charge Radius"
+  },
+  {
+    "id": "n512",
+    "kind": "n",
+    "en": "Hearth & Home"
+  },
+  {
+    "id": "d474",
+    "kind": "d",
+    "en": "Your grenade recharges faster when standing near your last grenade's explosion."
+  },
+  {
+    "id": "n513",
+    "kind": "n",
+    "en": "In for a Penny, In for a Pound"
+  },
+  {
+    "id": "d475",
+    "kind": "d",
+    "en": "Taking damage from any source other than your grenade has a small chance to toss out a grenade. This chance is proportional to the amount of damage taken."
+  },
+  {
+    "id": "n514",
+    "kind": "n",
+    "en": "Internal Combustion"
+  },
+  {
+    "id": "d476",
+    "kind": "d",
+    "en": "Taking fire damage grants stacks of combustion. At 100 stacks you create a fiery explosion, igniting nearby enemies and healing yourself."
+  },
+  {
+    "id": "s177",
+    "kind": "s",
+    "en": "Recharge Chance"
+  },
+  {
+    "id": "s178",
+    "kind": "s",
+    "en": "Chance Increase"
+  },
+  {
+    "id": "n515",
+    "kind": "n",
+    "en": "Gambler's Bargain"
+  },
+  {
+    "id": "d477",
+    "kind": "d",
+    "en": "Throwing your grenade has a chance to instantly recharge it, but also has a chance to instantly kill you. Both chances increase on each successful recharge and reset when the grenade kills you."
+  },
+  {
+    "id": "s179",
+    "kind": "s",
+    "en": "Outgoing Fire Damage"
+  },
+  {
+    "id": "s180",
+    "kind": "s",
+    "en": "Incoming Fire Damage"
+  },
+  {
+    "id": "n516",
+    "kind": "n",
+    "en": "Give and Take"
+  },
+  {
+    "id": "d478",
+    "kind": "d",
+    "en": "While ignited, you take more damage over time but also deal more damage."
+  },
+  {
+    "id": "n517",
+    "kind": "n",
+    "en": "Heat Sink"
+  },
+  {
+    "id": "d479",
+    "kind": "d",
+    "en": "Gain grenade charge when you are ignited."
+  },
+  {
+    "id": "n518",
+    "kind": "n",
+    "en": "Impact Cascade"
+  },
+  {
+    "id": "d480",
+    "kind": "d",
+    "en": "Hitting an ignited target with your melee generates grenade charge."
+  },
+  {
+    "id": "n519",
+    "kind": "n",
+    "en": "In for a Penny"
+  },
+  {
+    "id": "d481",
+    "kind": "d",
+    "en": "Taking damage from any source other than your grenade provides some grenade charge."
+  },
+  {
+    "id": "n520",
+    "kind": "n",
+    "en": "Maniac Maneuver"
+  },
+  {
+    "id": "d482",
+    "kind": "d",
+    "en": "Damaging yourself with a grenade grants wildfire. While wildfire is active, any normal damage you deal is converted to fire damage."
+  },
+  {
+    "id": "n521",
+    "kind": "n",
+    "en": "Two's Company"
+  },
+  {
+    "id": "d483",
+    "kind": "d",
+    "en": "Gain a second grenade charge. Cooldown is slightly increased."
+  },
+  {
+    "id": "n522",
+    "kind": "n",
+    "en": "Violent Reaction"
+  },
+  {
+    "id": "d484",
+    "kind": "d",
+    "en": "Hitting a corroded target with your grenade increases the explosion size of your next grenade."
+  },
+  {
+    "id": "n523",
+    "kind": "n",
+    "en": "Cheap Material"
+  },
+  {
+    "id": "d485",
+    "kind": "d",
+    "en": "Grenade cooldown is reduced, but you take more fire damage."
+  },
+  {
+    "id": "n524",
+    "kind": "n",
+    "en": "Home Brew Combustion"
+  },
+  {
+    "id": "d486",
+    "kind": "d",
+    "en": "Your grenades deal more impact damage but deal extra damage to you."
+  },
+  {
+    "id": "n525",
+    "kind": "n",
+    "en": "Hot Boxing"
+  },
+  {
+    "id": "d487",
+    "kind": "d",
+    "en": "Your melee applies fire."
+  },
+  {
+    "id": "n526",
+    "kind": "n",
+    "en": "Napalm"
+  },
+  {
+    "id": "d488",
+    "kind": "d",
+    "en": "Any outgoing damage matching this grenade's element is increased."
+  },
+  {
+    "id": "n527",
+    "kind": "n",
+    "en": "Restoration Protocol"
+  },
+  {
+    "id": "d489",
+    "kind": "d",
+    "en": "Gain health when you throw a grenade."
+  },
+  {
+    "id": "n528",
+    "kind": "n",
+    "en": "Volatile Explosives"
+  },
+  {
+    "id": "d490",
+    "kind": "d",
+    "en": "Grenades bounce and explode on each bounce."
+  },
+  {
+    "id": "n529",
+    "kind": "n",
+    "en": "Welding Heat"
+  },
+  {
+    "id": "d491",
+    "kind": "d",
+    "en": "Your grenade explosions heal players."
+  },
+  {
+    "id": "s181",
+    "kind": "s",
+    "en": "Self Damage"
+  },
+  {
+    "id": "n530",
+    "kind": "n",
+    "en": "Fire Gel"
+  },
+  {
+    "id": "d492",
+    "kind": "d",
+    "en": "Your grenade applies less of its element to you."
+  },
+  {
+    "id": "n531",
+    "kind": "n",
+    "en": "Heated Charge"
+  },
+  {
+    "id": "d493",
+    "kind": "d",
+    "en": "Grenade cooldown is reduced."
+  },
+  {
+    "id": "n532",
+    "kind": "n",
+    "en": "Large Ignition"
+  },
+  {
+    "id": "d494",
+    "kind": "d",
+    "en": "Explosion size is increased but impact damage is decreased."
+  },
+  {
+    "id": "n533",
+    "kind": "n",
+    "en": "Flash Storm"
+  },
+  {
+    "id": "d495",
+    "kind": "d",
+    "en": "Grenades fire lightning strikes downward as they fly."
+  },
+  {
+    "id": "n534",
+    "kind": "n",
+    "en": "Illegal Pocket Grenade"
+  },
+  {
+    "id": "d496",
+    "kind": "d",
+    "en": "Grenades deal way less damage in a very small radius, but recharge much faster."
+  },
+  {
+    "id": "s182",
+    "kind": "s",
+    "en": "Explosion Interval"
+  },
+  {
+    "id": "n535",
+    "kind": "n",
+    "en": "Live Wire"
+  },
+  {
+    "id": "d497",
+    "kind": "d",
+    "en": "You become the grenade, exploding multiple times and gaining increased move speed."
+  },
+  {
+    "id": "n536",
+    "kind": "n",
+    "en": "Cloud Skip"
+  },
+  {
+    "id": "d498",
+    "kind": "d",
+    "en": "Gain a small double jump."
+  },
+  {
+    "id": "n537",
+    "kind": "n",
+    "en": "Electromagnet"
+  },
+  {
+    "id": "d499",
+    "kind": "d",
+    "en": "Grenades magnetize toward enemies."
+  },
+  {
+    "id": "n538",
+    "kind": "n",
+    "en": "Emergency Evac"
+  },
+  {
+    "id": "d500",
+    "kind": "d",
+    "en": "When you're at critical health, throwing your grenade partially recharges your movement ability."
+  },
+  {
+    "id": "n539",
+    "kind": "n",
+    "en": "Excited Plasma"
+  },
+  {
+    "id": "d501",
+    "kind": "d",
+    "en": "If your grenade explosion hits an ignited target, it creates a second damaging explosion."
+  },
+  {
+    "id": "n540",
+    "kind": "n",
+    "en": "Launch Charge"
+  },
+  {
+    "id": "d502",
+    "kind": "d",
+    "en": "Your grenades launch you straight up when hitting you."
+  },
+  {
+    "id": "n541",
+    "kind": "n",
+    "en": "Livelier"
+  },
+  {
+    "id": "d503",
+    "kind": "d",
+    "en": "When Livewire is active, you move even faster and can't stop sprinting."
+  },
+  {
+    "id": "s183",
+    "kind": "s",
+    "en": "Electrocute Charge"
+  },
+  {
+    "id": "n542",
+    "kind": "n",
+    "en": "Shock Funnel"
+  },
+  {
+    "id": "d504",
+    "kind": "d",
+    "en": "Gain grenade energy when you electrocute a target with another weapon."
+  },
+  {
+    "id": "n543",
+    "kind": "n",
+    "en": "Thunder Pressure"
+  },
+  {
+    "id": "d505",
+    "kind": "d",
+    "en": "Grenades launch you away from the explosion."
+  },
+  {
+    "id": "n544",
+    "kind": "n",
+    "en": "Higher Voltage"
+  },
+  {
+    "id": "n545",
+    "kind": "n",
+    "en": "Marathon"
+  },
+  {
+    "id": "d506",
+    "kind": "d",
+    "en": "Move faster while your grenade is recharging."
+  },
+  {
+    "id": "n546",
+    "kind": "n",
+    "en": "Phase Housing"
+  },
+  {
+    "id": "d507",
+    "kind": "d",
+    "en": "Your grenades phase through shields."
+  },
+  {
+    "id": "n547",
+    "kind": "n",
+    "en": "Static Charge"
+  },
+  {
+    "id": "d508",
+    "kind": "d",
+    "en": "Your grenade recharges faster while sliding."
+  },
+  {
+    "id": "n548",
+    "kind": "n",
+    "en": "Stun"
+  },
+  {
+    "id": "d509",
+    "kind": "d",
+    "en": "Grenades stun enemies."
+  },
+  {
+    "id": "n549",
+    "kind": "n",
+    "en": "System Overload"
+  },
+  {
+    "id": "d510",
+    "kind": "d",
+    "en": "Players hit by the grenade's explosion gain increased move speed for a short time."
+  },
+  {
+    "id": "n550",
+    "kind": "n",
+    "en": "Engorge"
+  },
+  {
+    "id": "d511",
+    "kind": "d",
+    "en": "Explosion size is increased."
+  },
+  {
+    "id": "n551",
+    "kind": "n",
+    "en": "Fastball"
+  },
+  {
+    "id": "d512",
+    "kind": "d",
+    "en": "Throw grenades with more force."
+  },
+  {
+    "id": "n552",
+    "kind": "n",
+    "en": "Insulated Gloves"
+  },
+  {
+    "id": "n553",
+    "kind": "n",
+    "en": "Connected Systems"
+  },
+  {
+    "id": "d513",
+    "kind": "d",
+    "en": "Grenades activate your employee's secondary ability on impact."
+  },
+  {
+    "id": "n554",
+    "kind": "n",
+    "en": "Heavy Support"
+  },
+  {
+    "id": "d514",
+    "kind": "d",
+    "en": "Grenades call in a heavy weapon drop on impact. Cooldown is increased."
+  },
+  {
+    "id": "s184",
+    "kind": "s",
+    "en": "Death Protection Cooldown"
+  },
+  {
+    "id": "n555",
+    "kind": "n",
+    "en": "Overclock"
+  },
+  {
+    "id": "d515",
+    "kind": "d",
+    "en": "Your grenade is partially recharged when you get hit by an enemy's overclocked explosion. You gain more charge the closer you are to the explosion's epicenter. Overclocked explosions that would kill you instead reduce your health to 1."
+  },
+  {
+    "id": "n556",
+    "kind": "n",
+    "en": "Defensive Spurt"
+  },
+  {
+    "id": "d516",
+    "kind": "d",
+    "en": "You have a chance to create an acid explosion when you take damage."
+  },
+  {
+    "id": "n557",
+    "kind": "n",
+    "en": "Deteriorate"
+  },
+  {
+    "id": "d517",
+    "kind": "d",
+    "en": "Grenades apply rot to metallic targets."
+  },
+  {
+    "id": "n558",
+    "kind": "n",
+    "en": "Exothermic Reaction"
+  },
+  {
+    "id": "d518",
+    "kind": "d",
+    "en": "Hitting an electrocuted target with your grenade ignites it."
+  },
+  {
+    "id": "n559",
+    "kind": "n",
+    "en": "Gas Puddle"
+  },
+  {
+    "id": "d519",
+    "kind": "d",
+    "en": "Grenades explode into lingering acid puddles."
+  },
+  {
+    "id": "n560",
+    "kind": "n",
+    "en": "Lightspeed Material Transfer"
+  },
+  {
+    "id": "d520",
+    "kind": "d",
+    "en": "Teleport to your grenade when it lands."
+  },
+  {
+    "id": "n561",
+    "kind": "n",
+    "en": "Sloth's Day Out"
+  },
+  {
+    "id": "d521",
+    "kind": "d",
+    "en": "Your grenade recharges faster while you are standing still."
+  },
+  {
+    "id": "s185",
+    "kind": "s",
+    "en": "Fuse"
+  },
+  {
+    "id": "n562",
+    "kind": "n",
+    "en": "Vacuum Tube"
+  },
+  {
+    "id": "d522",
+    "kind": "d",
+    "en": "Grenades pull targets in before exploding."
+  },
+  {
+    "id": "s186",
+    "kind": "s",
+    "en": "Puddle Recharge Speed"
+  },
+  {
+    "id": "n563",
+    "kind": "n",
+    "en": "Gas Valves"
+  },
+  {
+    "id": "d523",
+    "kind": "d",
+    "en": "Your grenade recharges faster while standing in an acid puddle."
+  },
+  {
+    "id": "n564",
+    "kind": "n",
+    "en": "Glub Glub"
+  },
+  {
+    "id": "d524",
+    "kind": "d",
+    "en": "Throw 2 grenades at once in a larger spread. Explosion size is decreased."
+  },
+  {
+    "id": "n565",
+    "kind": "n",
+    "en": "Greased Mixture"
+  },
+  {
+    "id": "d525",
+    "kind": "d",
+    "en": "Players hit by your grenade's explosion gain movement ability charge. Cooldown is slightly reduced."
+  },
+  {
+    "id": "n566",
+    "kind": "n",
+    "en": "Odd Cocktail"
+  },
+  {
+    "id": "d526",
+    "kind": "d",
+    "en": "Grenades have a chance to create a second explosion of a random element."
+  },
+  {
+    "id": "n567",
+    "kind": "n",
+    "en": "Polymer Coating"
+  },
+  {
+    "id": "d527",
+    "kind": "d",
+    "en": "Grenades give nearby players an overshield on impact."
+  },
+  {
+    "id": "n568",
+    "kind": "n",
+    "en": "Saxonite Coating"
+  },
+  {
+    "id": "d528",
+    "kind": "d",
+    "en": "Grenades are thrown with more force and aren't affected by gravity."
+  },
+  {
+    "id": "n569",
+    "kind": "n",
+    "en": "Universal Solvent"
+  },
+  {
+    "id": "n570",
+    "kind": "n",
+    "en": "Base Coating"
+  },
+  {
+    "id": "n571",
+    "kind": "n",
+    "en": "Cooling System"
+  },
+  {
+    "id": "d529",
+    "kind": "d",
+    "en": "Cooldown is reduced."
+  },
+  {
+    "id": "n572",
+    "kind": "n",
+    "en": "Overcharge"
+  },
+  {
+    "id": "d530",
+    "kind": "d",
+    "en": "Explosion size is increased, but so is cooldown."
+  },
+  {
+    "id": "n573",
+    "kind": "n",
+    "en": "Cosmic Microwave"
+  },
+  {
+    "id": "d531",
+    "kind": "d",
+    "en": "Converts all outgoing damage to the given element."
+  },
+  {
+    "id": "n574",
+    "kind": "n",
+    "en": "Fake ID (Biologicals Only)"
+  },
+  {
+    "id": "d532",
+    "kind": "d",
+    "en": "Gain 50% extra max health. Collecting this upgrade rerolls all existing upgrades but doesn't change their patterns."
+  },
+  {
+    "id": "n575",
+    "kind": "n",
+    "en": "Handheld Pocket Universe"
+  },
+  {
+    "id": "d533",
+    "kind": "d",
+    "en": "Standard upgrades are 1 cell.\nRare upgrades are 2 cells.\nEpic upgrades are 3 cells.\nExotic upgrades are 4 cells."
+  },
+  {
+    "id": "n576",
+    "kind": "n",
+    "en": "Interim Manager"
+  },
+  {
+    "id": "d534",
+    "kind": "d",
+    "en": "Collecting this upgrade randomizes your employee rerolls all existing employee upgrades but doesn't change their patterns."
+  },
+  {
+    "id": "n577",
+    "kind": "n",
+    "en": "Magboots"
+  },
+  {
+    "id": "d535",
+    "kind": "d",
+    "en": "Enables wallrun."
+  },
+  {
+    "id": "t035",
+    "kind": "t",
+    "en": "Speed: [+3.4 - +4.14]"
+  },
+  {
+    "id": "n578",
+    "kind": "n",
+    "en": "Ammo Processor"
+  },
+  {
+    "id": "d536",
+    "kind": "d",
+    "en": "Health chunks provide less healing, but refund ammo to your equipped weapon."
+  },
+  {
+    "id": "n579",
+    "kind": "n",
+    "en": "Blink"
+  },
+  {
+    "id": "d537",
+    "kind": "d",
+    "en": "Blink forward when you slide."
+  },
+  {
+    "id": "n580",
+    "kind": "n",
+    "en": "Core Repurposing"
+  },
+  {
+    "id": "d538",
+    "kind": "d",
+    "en": "Killing an enemy with a melee attack partially reloads your equipped weapon."
+  },
+  {
+    "id": "s187",
+    "kind": "s",
+    "en": "Primary Element"
+  },
+  {
+    "id": "s188",
+    "kind": "s",
+    "en": "Secondary Element"
+  },
+  {
+    "id": "n581",
+    "kind": "n",
+    "en": "Elemental Cocktail"
+  },
+  {
+    "id": "d539",
+    "kind": "d",
+    "en": "Fully applying the primary element to a target has a chance to apply 10 stacks of the secondary element."
+  },
+  {
+    "id": "n582",
+    "kind": "n",
+    "en": "Elemental Regeneration"
+  },
+  {
+    "id": "d540",
+    "kind": "d",
+    "en": "Health regeneration starts immediately when the given elemental effect wares off."
+  },
+  {
+    "id": "s189",
+    "kind": "s",
+    "en": "Bonus Damage"
+  },
+  {
+    "id": "n583",
+    "kind": "n",
+    "en": "Focus Prism"
+  },
+  {
+    "id": "d541",
+    "kind": "d",
+    "en": "When affected by an element, any outgoing damage matching that effect is increased."
+  },
+  {
+    "id": "s190",
+    "kind": "s",
+    "en": "Healing Efficiency"
+  },
+  {
+    "id": "n584",
+    "kind": "n",
+    "en": "Frantic Greed"
+  },
+  {
+    "id": "d542",
+    "kind": "d",
+    "en": "Instantly consume health chunks you shoot off of enemies. Chunks consumed this way provide less healing."
+  },
+  {
+    "id": "n585",
+    "kind": "n",
+    "en": "Grenade Recycling"
+  },
+  {
+    "id": "d543",
+    "kind": "d",
+    "en": "Small health chunks recharge your grenade, but no longer heal."
+  },
+  {
+    "id": "s191",
+    "kind": "s",
+    "en": "Health Regeneration"
+  },
+  {
+    "id": "n586",
+    "kind": "n",
+    "en": "Inertial Conductors"
+  },
+  {
+    "id": "d544",
+    "kind": "d",
+    "en": "Your health regenerates faster while sprinting."
+  },
+  {
+    "id": "n587",
+    "kind": "n",
+    "en": "Kinetic Effect"
+  },
+  {
+    "id": "d545",
+    "kind": "d",
+    "en": "Move faster after the given element is fully applied to you."
+  },
+  {
+    "id": "n588",
+    "kind": "n",
+    "en": "Scrap Repurposing"
+  },
+  {
+    "id": "d546",
+    "kind": "d",
+    "en": "Killing any target with a melee attack partially reloads your equipped weapon."
+  },
+  {
+    "id": "n589",
+    "kind": "n",
+    "en": "Slide Deflector"
+  },
+  {
+    "id": "d547",
+    "kind": "d",
+    "en": "Take less damage while sliding."
+  },
+  {
+    "id": "n590",
+    "kind": "n",
+    "en": "Software Assisted Slide"
+  },
+  {
+    "id": "d548",
+    "kind": "d",
+    "en": "Slide duration is increased."
+  },
+  {
+    "id": "n591",
+    "kind": "n",
+    "en": "Structural Survey"
+  },
+  {
+    "id": "d549",
+    "kind": "d",
+    "en": "Highlights low-health enemy parts."
+  },
+  {
+    "id": "n592",
+    "kind": "n",
+    "en": "Third Arm"
+  },
+  {
+    "id": "d550",
+    "kind": "d",
+    "en": "Your stowed weapons are automatically reloaded after a short time."
+  },
+  {
+    "id": "n593",
+    "kind": "n",
+    "en": "Acid Affinity"
+  },
+  {
+    "id": "d551",
+    "kind": "d",
+    "en": "Apply more acid to all targets."
+  },
+  {
+    "id": "n594",
+    "kind": "n",
+    "en": "Boost Buffer"
+  },
+  {
+    "id": "d552",
+    "kind": "d",
+    "en": "Gain a small burst of speed when you pick up a health chunk."
+  },
+  {
+    "id": "s192",
+    "kind": "s",
+    "en": "Collected Health"
+  },
+  {
+    "id": "n595",
+    "kind": "n",
+    "en": "Brittle Battery"
+  },
+  {
+    "id": "d553",
+    "kind": "d",
+    "en": "You take more damage but also receive more healing from health chunks."
+  },
+  {
+    "id": "n596",
+    "kind": "n",
+    "en": "Elemental Health"
+  },
+  {
+    "id": "d554",
+    "kind": "d",
+    "en": "Gain health when you stop taking damage from the given elemental effect."
+  },
+  {
+    "id": "n597",
+    "kind": "n",
+    "en": "Fire Affinity"
+  },
+  {
+    "id": "d555",
+    "kind": "d",
+    "en": "Apply more fire to all targets."
+  },
+  {
+    "id": "n598",
+    "kind": "n",
+    "en": "Polished Chassis"
+  },
+  {
+    "id": "d556",
+    "kind": "d",
+    "en": "Slide speed is increased."
+  },
+  {
+    "id": "s193",
+    "kind": "s",
+    "en": "Chunks"
+  },
+  {
+    "id": "n599",
+    "kind": "n",
+    "en": "Punch Punch"
+  },
+  {
+    "id": "d557",
+    "kind": "d",
+    "en": "Killing an enemy with a melee attack drops additional small health chunks."
+  },
+  {
+    "id": "n600",
+    "kind": "n",
+    "en": "Reinforced Plating"
+  },
+  {
+    "id": "d558",
+    "kind": "d",
+    "en": "Health is increased."
+  },
+  {
+    "id": "n601",
+    "kind": "n",
+    "en": "Repair Siphon"
+  },
+  {
+    "id": "d559",
+    "kind": "d",
+    "en": "Gain health when you repair another player."
+  },
+  {
+    "id": "n602",
+    "kind": "n",
+    "en": "Shock Affinity"
+  },
+  {
+    "id": "d560",
+    "kind": "d",
+    "en": "Apply more shock to all targets."
+  },
+  {
+    "id": "s194",
+    "kind": "s",
+    "en": "Duration per Cell"
+  },
+  {
+    "id": "n603",
+    "kind": "n",
+    "en": "Slide Buffer"
+  },
+  {
+    "id": "d561",
+    "kind": "d",
+    "en": "Slider duration is increased for each cell that touches another upgrade."
+  },
+  {
+    "id": "n604",
+    "kind": "n",
+    "en": "Surge Protector"
+  },
+  {
+    "id": "d562",
+    "kind": "d",
+    "en": "Move faster while electrocuted."
+  },
+  {
+    "id": "n605",
+    "kind": "n",
+    "en": "Acid Resistance"
+  },
+  {
+    "id": "d563",
+    "kind": "d",
+    "en": "Take less acid damage from being corroded."
+  },
+  {
+    "id": "n606",
+    "kind": "n",
+    "en": "Fire Resistance"
+  },
+  {
+    "id": "d564",
+    "kind": "d",
+    "en": "Take less fire damage from being ignited."
+  },
+  {
+    "id": "n607",
+    "kind": "n",
+    "en": "Shock Resistance"
+  },
+  {
+    "id": "d565",
+    "kind": "d",
+    "en": "Take less shock damage from being electrocuted."
+  }
+]

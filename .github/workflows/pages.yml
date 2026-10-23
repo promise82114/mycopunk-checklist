@@ -1,0 +1,56 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Validate JavaScript and catalogue
+        run: |
+          node --check prototype/app.js
+          node --check prototype/model.js
+          node --check scripts/serve.mjs
+          node scripts/validate_site.mjs
+      - name: Verify reproducible Excel import
+        run: |
+          python3 scripts/import_excel.py --strict
+          if [ -n "$(git status --porcelain -- prototype/data prototype/assets/icons localization/phrases.json)" ]; then
+            echo "Generated catalogue differs from committed files. Run the Excel importer and commit its output."
+            exit 1
+          fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: prototype
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4

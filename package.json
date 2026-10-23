@@ -1,0 +1,11 @@
+{
+  "name": "mycopunk-checklist",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check prototype/app.js && node --check prototype/model.js && node --check scripts/serve.mjs && node scripts/validate_site.mjs",
+    "import:excel": "python scripts/import_excel.py --strict"
+  }
+}

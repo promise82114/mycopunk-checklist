@@ -1,0 +1,40 @@
+import assert from 'node:assert/strict';
+import { readFile, access } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { buildSearchIndex, filterUpgrades, tagLabels, rarities } from '../prototype/model.js';
+
+const repoRoot = fileURLToPath(new URL('../', import.meta.url));
+const siteRoot = path.join(repoRoot, 'prototype');
+const catalogue = JSON.parse(await readFile(path.join(siteRoot, 'data/upgrades.json'), 'utf8'));
+const sourceHash = createHash('sha256').update(await readFile(path.join(repoRoot, catalogue.source.filename))).digest('hex');
+assert.equal(sourceHash, catalogue.source.sha256, '原始 Excel 與圖鑑來源雜湊不符');
+assert.equal(catalogue.schemaVersion, 1, '圖鑑版本不支援');
+assert(catalogue.upgrades.length > 0, '圖鑑不可為空');
+assert.equal(catalogue.upgrades.length, catalogue.counts.records, '收錄總數不符');
+assert.equal(new Set(catalogue.upgrades.map(upgrade => upgrade.id)).size, catalogue.upgrades.length, '配件 ID 重複');
+assert.equal(new Set(catalogue.upgrades.map(upgrade => upgrade.nameEn)).size, catalogue.counts.distinctNames, '名稱統計不符');
+assert.equal(Object.keys(catalogue.counts.missingTranslations).length, 0, '仍有缺少的譯文');
+const owners = new Map(catalogue.owners.map(owner => [owner.id, owner]));
+const searchIndex = new Map();
+for (const upgrade of catalogue.upgrades) {
+  const owner = owners.get(upgrade.ownerId);
+  assert(owner && owner.category === upgrade.category, '配件歸屬不符');
+  assert(upgrade.id.startsWith(owner.id + ':'), '配件 ID 與裝備不符');
+  assert(upgrade.nameEn && upgrade.nameZh && upgrade.descriptionEn && upgrade.descriptionZh, '缺少雙語配件內容');
+  assert(rarities.includes(upgrade.rarity), '未知稀有度');
+  assert(Number.isInteger(upgrade.size) && upgrade.size > 0, '占格數無效');
+  assert(upgrade.tags.every(tag => Object.hasOwn(tagLabels, tag)), '未知效果標籤');
+  assert(!upgrade.turbochargeEn || upgrade.turbochargeZh, '缺少 Turbocharge 譯文');
+  assert(upgrade.stats.every(stat => stat.nameEn && stat.nameZh), '缺少屬性譯文');
+  assert(/^assets\/icons\/[a-f0-9]{20}\.png$/.test(upgrade.icon), '圖示路徑無效');
+  await access(path.join(siteRoot, upgrade.icon));
+  searchIndex.set(upgrade.id, buildSearchIndex(upgrade, owner));
+}
+const filters = { category: 'all', owner: '', query: '', rarity: '', tag: '', status: 'all' };
+const sample = catalogue.upgrades.find(upgrade => upgrade.nameEn === 'Infinity Burn');
+assert(sample, '缺少搜尋驗證資料');
+assert(filterUpgrades(catalogue.upgrades, { ...filters, query: sample.nameZh }, {}, searchIndex).some(upgrade => upgrade.id === sample.id), '中文搜尋無法找到配件');
+for (const asset of ['index.html', 'app.js', 'model.js', 'styles.css']) await access(path.join(siteRoot, asset));
+console.log(`Validated ${catalogue.upgrades.length} upgrades, ${owners.size} equipment groups, translations and local assets.`);
