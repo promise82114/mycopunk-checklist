@@ -9,7 +9,7 @@ import { validateFieldGuide, renderShape, renderUpgrade, escapeHtml } from '../p
 import { normalizeHexCells, rotateHexCells, hexCellsOverlap, renderHexPattern } from '../prototype/patterns.js';
 import { validateHiddenPaths, renderPathDiagram, renderHiddenPaths } from '../prototype/hidden-paths.js';
 import { createBoard, enumeratePlacements, solvePacking } from '../prototype/build-solver.js';
-import { validateBuildRules, availableBuildUpgrades, buildBoardStage, buildUpgradeId, buildCopyLimit, setBuildQuantity, buildPackingPieces, renderBuildBoard, renderBuildShape } from '../prototype/build-planner.js';
+import { validateBuildRules, availableBuildUpgrades, buildBoardStage, buildUpgradeId, buildCopyLimit, setBuildQuantity, buildPackingPieces, renderBuildBoard, renderBuildShape, reorderBuildSelection } from '../prototype/build-planner.js';
 
 const repoRoot = fileURLToPath(new URL('../', import.meta.url));
 const siteRoot = path.join(repoRoot, 'prototype');
@@ -367,3 +367,43 @@ for (const context of ['loadout','mission']) for (const stacking of ['always','m
   assert.equal(markup.includes('is-stackable'),buildCopyLimit({stacking},context)>1,'圖形必須和目前模式的份數限制一致');
 }
 console.log('Validated per-copy expansion rolls, installation order, real board cells, exclusions, removal, search limits and stacked shape previews.');
+
+assert.deepEqual(buildBoardStage(buildRules,'mycologist',{boardLevel:0,playerLevel:30,stage:10}),{Level:0,Width:5,Height:5},'基礎面板和旋轉選項必須獨立');
+const orderDraft={selected:['same@1','other@2','same@3'],expansionAxes:{'same@1':'column','same@3':'row'}};
+assert(reorderBuildSelection(orderDraft,'same@3',0));
+assert.deepEqual(orderDraft.selected,['same@3','same@1','other@2']);
+assert.deepEqual(orderDraft.expansionAxes,{'same@1':'column','same@3':'row'},'排序不可改變各副本的擴格屬性');
+assert(!reorderBuildSelection(orderDraft,'missing',0));assert(!reorderBuildSelection(orderDraft,'same@1',99));
+const priorityPieces=[{id:'large',cells:[[0,0],[0,1]]},{id:'small-a',cells:[[0,0]]},{id:'small-b',cells:[[0,0]]}];
+const priorityFit=solvePacking({board:createBoard(1,2),pieces:priorityPieces,objective:'priority'});
+assert.deepEqual(priorityFit.placements.map(item=>item.id),['large'],'前面的配件應優先於後方多件的總數');
+assert(priorityFit.unplaced.every(item=>item.reason==='priority-conflict'));
+assert.deepEqual(solvePacking({board:createBoard(1,2),pieces:[...priorityPieces.slice(1),priorityPieces[0]],objective:'priority'}).placements.map(item=>item.id),['small-a','small-b']);
+for (const board of [createBoard(2,2),createBoard(3,2,['1,0']),createBoard(1,1),[]]) {
+  let expectedScore=-1;
+  function oracle(index,occupied,score) {
+    if (index===pieces.length) {expectedScore=Math.max(expectedScore,score);return;}
+    oracle(index+1,occupied,score);
+    for (const placement of enumeratePlacements(board,pieces[index].cells,pieces[index].allowRotation===true)) {
+      const keys=placement.cells.map(cell=>cell.join(','));
+      if (!keys.some(key=>occupied.has(key))) oracle(index+1,new Set([...occupied,...keys]),score+2**(pieces.length-index-1));
+    }
+  }
+  oracle(0,new Set(),0);
+  const result=solvePacking({board,pieces,objective:'priority',maxNodes:100000,timeLimitMs:10000});
+  const chosen=new Set(result.placements.map(item=>item.id));
+  assert(result.optimal);assert.equal(pieces.reduce((score,item,index)=>score+(chosen.has(item.id)?2**(pieces.length-index-1):0),0),expectedScore);
+  validateLayout(result,board,pieces);assert.doesNotThrow(()=>JSON.stringify(result));
+}
+const priorityExpansionPieces=[{id:'full',cells:createBoard(2,2),allowRotation:false},grow('column','column'),{id:'late',cells:[[0,0]]}];
+const priorityExpansion=solvePacking({board:createBoard(2,2),baseBoard:expansionBase,pieces:priorityExpansionPieces,objective:'priority'});
+assert(priorityExpansion.optimal);assert.deepEqual(priorityExpansion.placements.map(item=>item.id),['full'],'擴格副本不可凌駕前面的配件優先順序');
+assert.equal(priorityExpansion.boardCells,4);assert.equal(priorityExpansion.expansionSteps.length,0);
+const dependent=solvePacking({board:createBoard(2,2),baseBoard:expansionBase,pieces:[expansionPieces[2],expansionPieces[1]],objective:'priority'});
+assert(dependent.allFit,'較低優先的擴格配件仍可先裝入，以容納較高優先的配件');replayExpansion(dependent,expansionBase);validateLayout(dependent,dependent.board.cells,[expansionPieces[2],expansionPieces[1]]);
+const qualityDrawing=renderBuildBoard({width:1,height:2,blocked:[],selected:['a','b'],qualities:{a:'Exotic',b:'Exotic'},result:{placements:[{id:'a',cells:[[0,0]]},{id:'b',cells:[[0,1]]}]}});
+assert.equal((qualityDrawing.match(/build-filled grade-exotic/g)||[]).length,2);assert(!qualityDrawing.includes('piece-color-'));
+const sortedOptions=availableBuildUpgrades(catalogue,buildRules,'shocklance');
+const descending=['Contraband','Oddity','Exotic','Epic','Rare','Standard'];
+assert(sortedOptions.every((item,index)=>!index||descending.indexOf(sortedOptions[index-1].rarity)<=descending.indexOf(item.rarity)),'來源欄應依品質高到低排列');
+console.log('Validated priority against exhaustive small-board packing, reordered copies, expander dependencies, independent settings and quality colors.');

@@ -42,10 +42,13 @@ export function enumeratePlacements(board, cells, allowRotation = true) {
   return result;
 }
 
-export function solvePacking({ board, pieces, baseBoard, maxNodes = 250000, timeLimitMs = 2500 }) {
+export function solvePacking({ board, pieces, baseBoard, objective = 'count', maxNodes = 250000, timeLimitMs = 2500 }) {
   if (!Array.isArray(board) || board.length > 2704 || new Set(board.map(cell => cell.join(','))).size !== board.length || board.some(cell => cell.length !== 2 || !cell.every(Number.isInteger))) throw new Error('Invalid board.');
   if (!Array.isArray(pieces) || pieces.length > 40 || new Set(pieces.map(piece => piece.id)).size !== pieces.length) throw new Error('Select at most 40 copies with unique instance IDs.');
-  if (pieces.some(piece => piece.growAxis && !piece.exclusion && !piece.unsupported)) return solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs});
+  if (!['count','priority'].includes(objective)) throw new Error('Unknown packing objective.');
+  if (pieces.some(piece => piece.growAxis && !piece.exclusion && !piece.unsupported)) return solveExpandingPacking({board, pieces, baseBoard, objective, maxNodes, timeLimitMs});
+  const weights = new Map(pieces.map((piece,index) => [piece.id,1n << BigInt(pieces.length-index-1)]));
+  const scoreOf = placed => placed.reduce((score,item) => score + weights.get(item.id),0n);
   const started = performance.now();
   const invalid = [], items = [];
   for (const piece of pieces) {
@@ -57,11 +60,12 @@ export function solvePacking({ board, pieces, baseBoard, maxNodes = 250000, time
     if (!placements.length) { invalid.push({ id: piece.id, reason: 'no-placement' }); continue; }
     items.push({ ...piece, placements, size: piece.cells.length });
   }
-  items.sort((a, b) => a.placements.length - b.placements.length || b.size - a.size || a.id.localeCompare(b.id));
-  let best = [], bestArea = 0, nodes = 0, limited = false, complete = false;
+  if (objective === 'count') items.sort((a, b) => a.placements.length - b.placements.length || b.size - a.size || a.id.localeCompare(b.id));
+  let best = [], bestArea = 0, bestScore = 0n, nodes = 0, limited = false, complete = false;
   const update = placed => {
     const area = placed.reduce((sum, item) => sum + item.cells.length, 0);
-    if (placed.length > best.length || (placed.length === best.length && area > bestArea)) { best = placed.slice(); bestArea = area; }
+    const score = scoreOf(placed);
+    if (objective === 'priority' ? score > bestScore : placed.length > best.length || (placed.length === best.length && area > bestArea)) { best = placed.slice(); bestArea = area; bestScore = score; }
     if (best.length === items.length) complete = true;
   };
   // Seed several legal layouts so interruption always leaves a useful valid arrangement.
@@ -84,12 +88,18 @@ export function solvePacking({ board, pieces, baseBoard, maxNodes = 250000, time
     const sizes = items.slice(index).map(item => item.size).sort((a, b) => a - b);
     let capacity = 0, remaining = free;
     for (const size of sizes) { if (size > remaining) break; remaining -= size; capacity++; }
-    if (placed.length + capacity < best.length) return;
-    if (placed.length + capacity === best.length && used + Math.min(free, sizes.reduce((a, b) => a + b, 0)) <= bestArea) return;
+    if (objective === 'priority') {
+      const upperScore = scoreOf(placed) + items.slice(index,index+capacity).reduce((score,item) => score+weights.get(item.id),0n);
+      if (upperScore <= bestScore) return;
+    } else {
+      if (placed.length + capacity < best.length) return;
+      if (placed.length + capacity === best.length && used + Math.min(free, sizes.reduce((a, b) => a + b, 0)) <= bestArea) return;
+    }
     const key = index + '/' + occupied.toString(36);
     // Identical occupied cells imply identical area; only the number already placed can differ.
-    if ((memo.get(key) ?? -1) >= placed.length) return;
-    if (memo.size < 100000) memo.set(key, placed.length);
+    const value = objective === 'priority' ? scoreOf(placed) : placed.length;
+    if ((memo.get(key) ?? -1) >= value) return;
+    if (memo.size < 100000) memo.set(key, value);
     const item = items[index];
     for (const candidate of item.placements) {
       if (!(candidate.mask & occupied)) {
@@ -103,13 +113,13 @@ export function solvePacking({ board, pieces, baseBoard, maxNodes = 250000, time
   }
   search(0, 0n, 0, []);
   const placedIds = new Set(best.map(item => item.id));
-  const unplaced = [...invalid, ...items.filter(item => !placedIds.has(item.id)).map(item => ({ id: item.id, reason: limited ? 'search-limit' : 'capacity-conflict' }))];
-  return { placements: best.map(({ mask, ...placement }) => placement), unplaced, usedCells: bestArea, boardCells: board.length, selectedCount: pieces.length, validCount: items.length, optimal: !limited, limited, nodes, elapsedMs: Math.round(performance.now() - started), allFit: unplaced.length === 0 };
+  const unplaced = [...invalid, ...items.filter(item => !placedIds.has(item.id)).map(item => ({ id: item.id, reason: limited ? 'search-limit' : objective === 'priority' ? 'priority-conflict' : 'capacity-conflict' }))];
+  return { objective, placements: best.map(({ mask, ...placement }) => placement), unplaced, usedCells: bestArea, boardCells: board.length, selectedCount: pieces.length, validCount: items.length, optimal: !limited, limited, nodes, elapsedMs: Math.round(performance.now() - started), allFit: unplaced.length === 0 };
 }
 
 // Search installation sequences as well as final layouts. An expander must occupy
 // an already available cell before it can unlock new cells; it cannot fund itself.
-function solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs}) {
+function solveExpandingPacking({board, pieces, baseBoard, objective, maxNodes, timeLimitMs}) {
   if (!baseBoard || !Number.isInteger(baseBoard.width) || !Number.isInteger(baseBoard.height) || baseBoard.width > 12 || baseBoard.height > 12 || !Array.isArray(baseBoard.blocked)) throw new Error('Expansion needs a valid base board.');
   const original = createBoard(baseBoard.width, baseBoard.height, baseBoard.blocked);
   if (JSON.stringify(board) !== JSON.stringify(original)) throw new Error('Base board coordinates do not match.');
@@ -118,13 +128,17 @@ function solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs}
   const expanderIds = new Set(expanders.map(piece => piece.id));
   const normal = pieces.filter(piece => !expanderIds.has(piece.id));
   const targetCount = pieces.filter(piece => !piece.exclusion && !piece.unsupported && piece.cells?.length).length;
+  const weights = new Map(pieces.map((piece,index) => [piece.id,1n << BigInt(pieces.length-index-1)]));
+  const scoreOf = placed => placed.reduce((score,item) => score+weights.get(item.id),0n);
   const started = performance.now();
-  let nodes = 0, limited = false, complete = false, bestArea = -1;
+  let nodes = 0, limited = false, complete = false, bestArea = -1, bestScore = -1n;
   let best = {placements: [], unplaced: pieces.map(piece => ({id:piece.id, reason:'search-limit'})), usedCells:0, boardCells:board.length, board:{...baseBoard, cells:board}, expansionSteps:[]};
   function search(remainingExpanders, width, height, occupied, placed, steps, skipped) {
     if (complete || limited) return;
     if (++nodes > maxNodes || performance.now() - started >= timeLimitMs) { limited = true; return; }
-    if (placed.length + remainingExpanders.length + normal.length < best.placements.length) return;
+    if (objective === 'priority') {
+      if (scoreOf([...placed,...remainingExpanders,...normal]) <= bestScore) return;
+    } else if (placed.length + remainingExpanders.length + normal.length < best.placements.length) return;
     const currentBoard = createBoard(width, height, baseBoard.blocked);
     if (remainingExpanders.length) {
       const triedAxes = new Set();
@@ -144,12 +158,13 @@ function solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs}
       return;
     }
     const available = currentBoard.filter(cell => !occupied.has(cell.join(',')));
-    const remaining = solvePacking({board:available, pieces:normal, maxNodes:Math.max(0,maxNodes-nodes), timeLimitMs:Math.max(0,timeLimitMs-(performance.now()-started))});
+    const remaining = solvePacking({board:available, pieces:normal, objective, maxNodes:Math.max(0,maxNodes-nodes), timeLimitMs:Math.max(0,timeLimitMs-(performance.now()-started))});
     nodes += remaining.nodes;
     const placements = [...placed, ...remaining.placements], area = placed.length + remaining.usedCells;
-    if (placements.length > best.placements.length || (placements.length === best.placements.length && area > bestArea)) {
-      bestArea = area;
-      best = {placements, unplaced:[...remaining.unplaced, ...skipped.map(id => ({id,reason:'capacity-conflict'}))], usedCells:area, boardCells:currentBoard.length, board:{width,height,blocked:[...baseBoard.blocked],cells:currentBoard}, expansionSteps:steps};
+    const score = scoreOf(placements);
+    if (objective === 'priority' ? score > bestScore : placements.length > best.placements.length || (placements.length === best.placements.length && area > bestArea)) {
+      bestArea = area; bestScore = score;
+      best = {placements, unplaced:[...remaining.unplaced, ...skipped.map(id => ({id,reason:objective === 'priority' ? 'priority-conflict' : 'capacity-conflict'}))], usedCells:area, boardCells:currentBoard.length, board:{width,height,blocked:[...baseBoard.blocked],cells:currentBoard}, expansionSteps:steps};
     }
     complete = best.placements.length === targetCount;
     if (remaining.limited && !complete) limited = true;
@@ -157,5 +172,5 @@ function solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs}
   search(expanders, baseBoard.width, baseBoard.height, new Set(), [], [], []);
   const fixedFailures = new Map(pieces.filter(piece => piece.exclusion || piece.unsupported || !piece.cells?.length).map(piece => [piece.id, piece.exclusion || (piece.unsupported ? 'geometry-modifier' : 'missing-shape')]));
   best.unplaced = best.unplaced.map(entry => ({id:entry.id, reason:fixedFailures.get(entry.id) || (limited ? 'search-limit' : entry.reason)}));
-  return {...best, selectedCount:pieces.length, validCount:targetCount, optimal:!limited, limited, nodes, elapsedMs:Math.round(performance.now()-started), allFit:best.unplaced.length===0};
+  return {...best, objective, selectedCount:pieces.length, validCount:targetCount, optimal:!limited, limited, nodes, elapsedMs:Math.round(performance.now()-started), allFit:best.unplaced.length===0};
 }
