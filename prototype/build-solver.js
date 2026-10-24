@@ -1,7 +1,7 @@
 import { normalizeHexCells, rotateHexCells } from './patterns.js';
 
 export function createBoard(width, height, blocked = []) {
-  if (!Number.isInteger(width) || !Number.isInteger(height) || width < 1 || height < 1 || width > 12 || height > 12) throw new Error('Board dimensions must be 1–12.');
+  if (!Number.isInteger(width) || !Number.isInteger(height) || width < 1 || height < 1 || width > 52 || height > 52) throw new Error('Board dimensions must be 1–52.');
   const disabled = new Set(blocked);
   return Array.from({ length: width * height }, (_, i) => {
     const q = i % width, row = Math.floor(i / width);
@@ -42,13 +42,14 @@ export function enumeratePlacements(board, cells, allowRotation = true) {
   return result;
 }
 
-export function solvePacking({ board, pieces, maxNodes = 250000, timeLimitMs = 2500 }) {
-  if (!Array.isArray(board) || board.length > 144 || new Set(board.map(cell => cell.join(','))).size !== board.length || board.some(cell => cell.length !== 2 || !cell.every(Number.isInteger))) throw new Error('Invalid board.');
+export function solvePacking({ board, pieces, baseBoard, maxNodes = 250000, timeLimitMs = 2500 }) {
+  if (!Array.isArray(board) || board.length > 2704 || new Set(board.map(cell => cell.join(','))).size !== board.length || board.some(cell => cell.length !== 2 || !cell.every(Number.isInteger))) throw new Error('Invalid board.');
   if (!Array.isArray(pieces) || pieces.length > 40 || new Set(pieces.map(piece => piece.id)).size !== pieces.length) throw new Error('Select at most 40 copies with unique instance IDs.');
+  if (pieces.some(piece => piece.growAxis && !piece.exclusion && !piece.unsupported)) return solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs});
   const started = performance.now();
   const invalid = [], items = [];
   for (const piece of pieces) {
-    if (piece.exclusion === 'stacking-restricted') { invalid.push({ id: piece.id, reason: piece.exclusion }); continue; }
+    if (['stacking-restricted', 'expansion-unset'].includes(piece.exclusion)) { invalid.push({ id: piece.id, reason: piece.exclusion }); continue; }
     if (piece.exclusion) throw new Error('Unknown placement restriction.');
     if (piece.unsupported) { invalid.push({ id: piece.id, reason: 'geometry-modifier' }); continue; }
     if (!piece.cells?.length) { invalid.push({ id: piece.id, reason: 'missing-shape' }); continue; }
@@ -104,4 +105,57 @@ export function solvePacking({ board, pieces, maxNodes = 250000, timeLimitMs = 2
   const placedIds = new Set(best.map(item => item.id));
   const unplaced = [...invalid, ...items.filter(item => !placedIds.has(item.id)).map(item => ({ id: item.id, reason: limited ? 'search-limit' : 'capacity-conflict' }))];
   return { placements: best.map(({ mask, ...placement }) => placement), unplaced, usedCells: bestArea, boardCells: board.length, selectedCount: pieces.length, validCount: items.length, optimal: !limited, limited, nodes, elapsedMs: Math.round(performance.now() - started), allFit: unplaced.length === 0 };
+}
+
+// Search installation sequences as well as final layouts. An expander must occupy
+// an already available cell before it can unlock new cells; it cannot fund itself.
+function solveExpandingPacking({board, pieces, baseBoard, maxNodes, timeLimitMs}) {
+  if (!baseBoard || !Number.isInteger(baseBoard.width) || !Number.isInteger(baseBoard.height) || baseBoard.width > 12 || baseBoard.height > 12 || !Array.isArray(baseBoard.blocked)) throw new Error('Expansion needs a valid base board.');
+  const original = createBoard(baseBoard.width, baseBoard.height, baseBoard.blocked);
+  if (JSON.stringify(board) !== JSON.stringify(original)) throw new Error('Base board coordinates do not match.');
+  const expanders = pieces.filter(piece => piece.growAxis && !piece.exclusion && !piece.unsupported);
+  for (const piece of expanders) if (!['column', 'row'].includes(piece.growAxis) || piece.cells?.length !== 1 || !orientations(piece.cells, false).length) throw new Error('Invalid board expansion.');
+  const expanderIds = new Set(expanders.map(piece => piece.id));
+  const normal = pieces.filter(piece => !expanderIds.has(piece.id));
+  const targetCount = pieces.filter(piece => !piece.exclusion && !piece.unsupported && piece.cells?.length).length;
+  const started = performance.now();
+  let nodes = 0, limited = false, complete = false, bestArea = -1;
+  let best = {placements: [], unplaced: pieces.map(piece => ({id:piece.id, reason:'search-limit'})), usedCells:0, boardCells:board.length, board:{...baseBoard, cells:board}, expansionSteps:[]};
+  function search(remainingExpanders, width, height, occupied, placed, steps, skipped) {
+    if (complete || limited) return;
+    if (++nodes > maxNodes || performance.now() - started >= timeLimitMs) { limited = true; return; }
+    if (placed.length + remainingExpanders.length + normal.length < best.placements.length) return;
+    const currentBoard = createBoard(width, height, baseBoard.blocked);
+    if (remainingExpanders.length) {
+      const triedAxes = new Set();
+      for (const piece of remainingExpanders) {
+        if (triedAxes.has(piece.growAxis)) continue;
+        triedAxes.add(piece.growAxis);
+        const rest = remainingExpanders.filter(item => item.id !== piece.id);
+        for (const cell of currentBoard) {
+          const key = cell.join(',');
+          if (occupied.has(key)) continue;
+          const nextWidth = width + Number(piece.growAxis === 'column'), nextHeight = height + Number(piece.growAxis === 'row');
+          search(rest, nextWidth, nextHeight, new Set([...occupied, key]), [...placed, {id:piece.id, cells:[cell], turns:0, offset:cell}], [...steps, {id:piece.id, axis:piece.growAxis, before:{width,height}, after:{width:nextWidth,height:nextHeight}}], skipped);
+          if (complete || limited) return;
+        }
+      }
+      search(remainingExpanders.slice(1), width, height, occupied, placed, steps, [...skipped, remainingExpanders[0].id]);
+      return;
+    }
+    const available = currentBoard.filter(cell => !occupied.has(cell.join(',')));
+    const remaining = solvePacking({board:available, pieces:normal, maxNodes:Math.max(0,maxNodes-nodes), timeLimitMs:Math.max(0,timeLimitMs-(performance.now()-started))});
+    nodes += remaining.nodes;
+    const placements = [...placed, ...remaining.placements], area = placed.length + remaining.usedCells;
+    if (placements.length > best.placements.length || (placements.length === best.placements.length && area > bestArea)) {
+      bestArea = area;
+      best = {placements, unplaced:[...remaining.unplaced, ...skipped.map(id => ({id,reason:'capacity-conflict'}))], usedCells:area, boardCells:currentBoard.length, board:{width,height,blocked:[...baseBoard.blocked],cells:currentBoard}, expansionSteps:steps};
+    }
+    complete = best.placements.length === targetCount;
+    if (remaining.limited && !complete) limited = true;
+  }
+  search(expanders, baseBoard.width, baseBoard.height, new Set(), [], [], []);
+  const fixedFailures = new Map(pieces.filter(piece => piece.exclusion || piece.unsupported || !piece.cells?.length).map(piece => [piece.id, piece.exclusion || (piece.unsupported ? 'geometry-modifier' : 'missing-shape')]));
+  best.unplaced = best.unplaced.map(entry => ({id:entry.id, reason:fixedFailures.get(entry.id) || (limited ? 'search-limit' : entry.reason)}));
+  return {...best, selectedCount:pieces.length, validCount:targetCount, optimal:!limited, limited, nodes, elapsedMs:Math.round(performance.now()-started), allFit:best.unplaced.length===0};
 }

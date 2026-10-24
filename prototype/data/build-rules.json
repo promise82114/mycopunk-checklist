@@ -723,7 +723,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "accelerator:combustive-rounds": {
       "geometryModifier": false,
@@ -741,7 +748,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "accelerator:energy-cohesion": {
       "geometryModifier": false,
@@ -939,7 +953,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "acid-grenade:connected-systems": {
       "geometryModifier": false,
@@ -969,7 +990,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "acid-grenade:exothermic-reaction": {
       "geometryModifier": false,
@@ -1371,7 +1399,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "carver:corrosive-coating": {
       "geometryModifier": false,
@@ -1389,7 +1424,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "carver:greedy-fuck": {
       "geometryModifier": false,
@@ -1515,7 +1557,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "cycler:bulging-cartridge": {
       "geometryModifier": false,
@@ -1599,7 +1648,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "cycler:elemental-discharge": {
       "geometryModifier": false,
@@ -1761,7 +1817,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "diffraction-driver:capacity-waiver-section-b": {
       "geometryModifier": false,
@@ -1791,7 +1854,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "diffraction-driver:elemental-infusion": {
       "geometryModifier": false,
@@ -1965,7 +2035,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "dmlr:concussive-wave": {
       "geometryModifier": false,
@@ -1995,7 +2072,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "dmlr:engineering-nanites": {
       "geometryModifier": false,
@@ -2307,7 +2391,14 @@
         "photon-disc",
         "snowball-grenade"
       ],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "general:brittle-battery": {
       "geometryModifier": false,
@@ -2373,7 +2464,14 @@
         "photon-disc",
         "snowball-grenade"
       ],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "general:elemental-cocktail": {
       "geometryModifier": false,
@@ -2954,13 +3052,27 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "globbler:edge-fault": {
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "globbler:flash-flood": {
       "geometryModifier": false,
@@ -3152,7 +3264,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "gunship-cannon:cargo-storage": {
       "geometryModifier": false,
@@ -3170,7 +3289,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "gunship-cannon:elemental-munitions": {
       "geometryModifier": false,
@@ -3326,7 +3452,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "incendiary-grenade:cheap-material": {
       "geometryModifier": false,
@@ -3344,7 +3477,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "incendiary-grenade:fire-gel": {
       "geometryModifier": false,
@@ -3494,7 +3634,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "jackrabbit:delicious-cores": {
       "geometryModifier": false,
@@ -3518,7 +3665,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "jackrabbit:fire-in-my-heart": {
       "geometryModifier": false,
@@ -3830,7 +3984,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "lead-flinger:breathe-deep": {
       "geometryModifier": false,
@@ -3872,7 +4033,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "lead-flinger:fan-fire": {
       "geometryModifier": false,
@@ -4232,7 +4400,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "photon-disc:bullet-time": {
       "geometryModifier": false,
@@ -4256,7 +4431,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "photon-disc:elemental-obsession": {
       "geometryModifier": false,
@@ -4436,7 +4618,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "plate-launcher:charge-recycling": {
       "geometryModifier": false,
@@ -4484,7 +4673,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "plate-launcher:electrified-plates": {
       "geometryModifier": false,
@@ -4838,7 +5034,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "shock-grenade:cloud-skip": {
       "geometryModifier": false,
@@ -4850,7 +5053,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "shock-grenade:electromagnet": {
       "geometryModifier": false,
@@ -5024,7 +5234,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "shocklance:centripetal-cornering": {
       "geometryModifier": false,
@@ -5060,7 +5277,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "shocklance:extra-capacitors": {
       "geometryModifier": false,
@@ -5210,7 +5434,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "snowball-grenade:cold-call": {
       "geometryModifier": false,
@@ -5240,7 +5471,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "snowball-grenade:flash-freeze": {
       "geometryModifier": false,
@@ -5378,7 +5616,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "swarm-launcher:breeding-season": {
       "geometryModifier": false,
@@ -5402,7 +5647,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "swarm-launcher:electrified-pellets": {
       "geometryModifier": false,
@@ -5582,7 +5834,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "trident:broadside": {
       "geometryModifier": false,
@@ -5630,7 +5889,14 @@
       "geometryModifier": true,
       "ouroborosOnly": false,
       "genericOwners": [],
-      "stacking": "mission"
+      "stacking": "mission",
+      "boardExpansion": {
+        "axes": [
+          "column",
+          "row"
+        ],
+        "amount": 1
+      }
     },
     "trident:energy-condenser": {
       "geometryModifier": false,
@@ -5987,12 +6253,18 @@
       "stacking": "mission"
     }
   },
-  "notesZh": "角色面板隨玩家等級，武器及手榴彈隨裝備等級；重武器固定使用 HeavyGridProfile 5×5。旋轉門檻為玩家等級。Oddity／Contraband 無已知旋轉門檻，保留來源方向。擴格、跨面板徵用與整體改形效果尚未模擬。",
+  "notesZh": "角色面板隨玩家等級，武器及手榴彈隨裝備等級；重武器固定使用 HeavyGridProfile 5×5。旋轉門檻為玩家等級。Oddity／Contraband 無已知旋轉門檻，保留來源方向。Edge Fault／Boundary Incursion 依逐份指定的 Column／Row 擴格；跨面板徵用與整體改形效果尚未模擬。",
   "stackingSource": {
     "kind": "wiki",
     "url": "https://mycopunk.miraheze.org/wiki/Main_Page",
     "checkedOn": "2026-10-24",
     "license": "CC BY-SA 4.0",
     "interpretationZh": "依各配件 Wiki 修訂的 CanStack／CanStackInMission 技術旗標區分情境，適用模式與效果疊加數值未實機核對。"
+  },
+  "expansionSource": {
+    "url": "https://github.com/Vilsol/mycopunk-data/blob/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+    "gameVersion": "v2.0.2",
+    "checkedOn": "2026-10-24",
+    "interpretationZh": "兩種配件皆為 UpgradeProperty_GrowGrid，Adds 為 Column 或 Row 的個別隨機屬性；介面要求逐份對照遊戲選擇 +1 欄或 +1 列，不由求解器替玩家改變屬性。追加於右側或下側，未進入遊戲核對。只計算可依序裝入的擴格配件，之後再裝一般配件；不模擬跨面板徵用或改形。"
   }
 }

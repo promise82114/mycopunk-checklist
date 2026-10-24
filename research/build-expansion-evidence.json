@@ -1,0 +1,259 @@
+{
+  "checkedAt": "2026-10-24",
+  "gameVersion": {
+    "Version": "v2.0.2",
+    "BuildID": "26120128",
+    "DumpedAt": "2026-10-22T21:03:57Z"
+  },
+  "sourceUrl": "https://github.com/Vilsol/mycopunk-data/blob/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+  "sha256": "70eda67bddb8313f68cbe45702e0e6ff9d3fc84cefb6845351ad6a69a6a9b4c0",
+  "upgrades": [
+    {
+      "ID": "1042560",
+      "APIName": "GridGrow",
+      "Name": "Boundary Incursion",
+      "Flags": "CanStackInMission, IsSpatial",
+      "propertyType": "UpgradeProperty_GrowGrid",
+      "rolledValuesByUpgradable": {
+        "accelerator": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "acidgrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "bounceshotgun": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "carver": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "cryogrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "cycler": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "dmlr": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "firegrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "globbler": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "gunshipcannon": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "leadflinger": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "photondisc": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "platelauncher": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "player": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "scattergun": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "shockgrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "shocklance": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "swarmgun": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "trident": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        }
+      }
+    },
+    {
+      "ID": "1346750",
+      "APIName": "GridGrowC",
+      "Name": "Edge Fault",
+      "Flags": "CanStackInMission, IsSpatial",
+      "propertyType": "UpgradeProperty_GrowGrid",
+      "rolledValuesByUpgradable": {
+        "accelerator": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "acidgrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "bounceshotgun": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "carver": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "cryogrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "cycler": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "dmlr": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "firegrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "globbler": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "gunshipcannon": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "leadflinger": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "photondisc": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "platelauncher": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "player": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "scattergun": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "shockgrenade": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "shocklance": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "swarmgun": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        },
+        "trident": {
+          "Adds": [
+            "Column",
+            "Row"
+          ]
+        }
+      }
+    }
+  ],
+  "interpretationZh": "兩種配件皆為 UpgradeProperty_GrowGrid，Adds 為 Column 或 Row 的個別隨機屬性；介面要求逐份對照遊戲選擇 +1 欄或 +1 列，不由求解器替玩家改變屬性。追加於右側或下側，未進入遊戲核對。只計算可依序裝入的擴格配件，之後再裝一般配件；不模擬跨面板徵用或改形。"
+}

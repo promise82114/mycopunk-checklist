@@ -19,6 +19,8 @@ for milestone in evidence['levelMilestones']:
         if match:
             rotationUnlocks[match[1]] = milestone['Level']
 modifiers = ['Edge Fault', 'Boundary Incursion', 'Multiversal Thievery', 'Handheld Pocket Universe']
+expansion = json.loads((root / 'research/build-expansion-evidence.json').read_text(encoding='utf-8'))
+expanders = {item['Name'] for item in expansion['upgrades'] if item['propertyType'] == 'UpgradeProperty_GrowGrid'}
 rules = {}
 for upgrade in catalogue['upgrades']:
     source = evidence['upgradeRules'].get(upgrade['nameEn'], {})
@@ -27,8 +29,12 @@ for upgrade in catalogue['upgrades']:
     flags = {flag.strip() for flag in upgrade.get('flags', '').split(',')}
     stacking = 'unknown' if 'flags' not in upgrade else 'always' if 'CanStack' in flags else 'mission' if 'CanStackInMission' in flags else 'single'
     rules[upgrade['id']] = {'geometryModifier': upgrade['nameEn'] in modifiers, 'ouroborosOnly': 'OnlyInOuroboros' in source.get('flags', ''), 'genericOwners': genericOwners, 'stacking': stacking}
+    if upgrade['nameEn'] in expanders:
+        rules[upgrade['id']]['boardExpansion'] = {'axes': ['column', 'row'], 'amount': 1}
 output = {'schemaVersion': 1, 'source': {'url': evidence['source']['fileUrl'], 'gameVersion': evidence['gameVersion']['Version'], 'buildId': evidence['gameVersion']['BuildID'], 'sha256': evidence['sha256'], 'checkedOn': evidence['checkedOn']}, 'boardProfile': evidence['gridProfiles']['DefaultGridProfile']['GridSizes'], 'boardProfiles': boardProfiles, 'rotationUnlocks': rotationUnlocks, 'rules': rules, 'notesZh': '角色面板隨玩家等級，武器及手榴彈隨裝備等級；重武器固定使用 HeavyGridProfile 5×5。旋轉門檻為玩家等級。Oddity／Contraband 無已知旋轉門檻，保留來源方向。擴格、跨面板徵用與整體改形效果尚未模擬。'}
 target = root / 'prototype/data/build-rules.json'
 output['stackingSource'] = catalogue['primarySource'] | {'interpretationZh': '依各配件 Wiki 修訂的 CanStack／CanStackInMission 技術旗標區分情境，適用模式與效果疊加數值未實機核對。'}
+output['expansionSource'] = {'url': expansion['sourceUrl'], 'gameVersion': expansion['gameVersion']['Version'], 'checkedOn': expansion['checkedAt'], 'interpretationZh': expansion['interpretationZh']}
+output['notesZh'] = output['notesZh'].replace('擴格、跨面板徵用與整體改形效果尚未模擬。', 'Edge Fault／Boundary Incursion 依逐份指定的 Column／Row 擴格；跨面板徵用與整體改形效果尚未模擬。')
 target.write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
 print(json.dumps({'upgradeRules': len(rules), 'boardStages': len(output['boardProfile']), 'rotationUnlocks': rotationUnlocks}))

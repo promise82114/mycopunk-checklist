@@ -9,7 +9,7 @@ import { validateFieldGuide, renderShape, renderUpgrade, escapeHtml } from '../p
 import { normalizeHexCells, rotateHexCells, hexCellsOverlap, renderHexPattern } from '../prototype/patterns.js';
 import { validateHiddenPaths, renderPathDiagram, renderHiddenPaths } from '../prototype/hidden-paths.js';
 import { createBoard, enumeratePlacements, solvePacking } from '../prototype/build-solver.js';
-import { validateBuildRules, availableBuildUpgrades, buildBoardStage, buildUpgradeId, buildCopyLimit, setBuildQuantity, buildPackingPieces, renderBuildBoard } from '../prototype/build-planner.js';
+import { validateBuildRules, availableBuildUpgrades, buildBoardStage, buildUpgradeId, buildCopyLimit, setBuildQuantity, buildPackingPieces, renderBuildBoard, renderBuildShape } from '../prototype/build-planner.js';
 
 const repoRoot = fileURLToPath(new URL('../', import.meta.url));
 const siteRoot = path.join(repoRoot, 'prototype');
@@ -301,3 +301,69 @@ assert(renderUpgrade(copyUpgradeIndex.get(multiId),owners.get('shocklance'),{}).
 assert(renderUpgrade(copyUpgradeIndex.get(missionId),owners.get('cycler'),{}).includes('任務內可疊加'));
 assert(buildSearchIndex(copyUpgradeIndex.get(multiId),owners.get('shocklance')).includes('可重複安裝'), '疊加標籤應可搜尋');
 console.log('Validated stacking flags, separate copy IDs, quantity limits, context changes, repeated-shape packing and catalogue labels.');
+
+const expansionEvidence = JSON.parse(await readFile(path.join(repoRoot,'research/build-expansion-evidence.json'),'utf8'));
+assert.equal(expansionEvidence.sha256,buildRules.source.sha256);
+assert.equal(buildRules.expansionSource.url,expansionEvidence.sourceUrl);
+for (const item of catalogue.upgrades.filter(item => ['Edge Fault','Boundary Incursion'].includes(item.nameEn))) {
+  assert.deepEqual(buildRules.rules[item.id].boardExpansion,{axes:['column','row'],amount:1});
+  const source = expansionEvidence.upgrades.find(entry => entry.Name === item.nameEn);
+  assert.equal(source.propertyType,'UpgradeProperty_GrowGrid');
+  for (const roll of Object.values(source.rolledValuesByUpgradable)) assert.deepEqual(roll.Adds,['Column','Row']);
+}
+const grow = (id,axis) => ({id,cells:[[0,0]],growAxis:axis});
+const expansionBase = {width:2,height:2,blocked:[]};
+const expansionPieces = [grow('column','column'),grow('row','row'),{id:'tall',cells:[[0,0],[0,1],[0,2]],allowRotation:false}];
+const expanded = solvePacking({board:createBoard(2,2),baseBoard:expansionBase,pieces:expansionPieces});
+assert(expanded.allFit && expanded.optimal);
+assert.deepEqual([expanded.board.width,expanded.board.height,expanded.boardCells,expanded.usedCells],[3,3,9,5]);
+validateLayout(expanded,expanded.board.cells,expansionPieces);
+// Replay the emitted installation order without granting a modifier its own cells.
+const replayExpansion = (result,base) => {
+  let width=base.width,height=base.height; const occupied=new Set();
+  for (const step of result.expansionSteps) {
+    assert.deepEqual(step.before,{width,height});
+    const boardKeys=new Set(createBoard(width,height,base.blocked).map(cell=>cell.join(',')));
+    const placement=result.placements.find(entry=>entry.id===step.id);
+    for (const cell of placement.cells) {const key=cell.join(','); assert(boardKeys.has(key)); assert(!occupied.has(key));occupied.add(key);}
+    width+=Number(step.axis==='column'); height+=Number(step.axis==='row');
+    assert.deepEqual(step.after,{width,height});
+  }
+  assert.deepEqual([result.board.width,result.board.height],[width,height]);
+};
+replayExpansion(expanded,expansionBase);
+const orderMatters = solvePacking({board:createBoard(1,1),baseBoard:{width:1,height:1,blocked:[]},pieces:[grow('column','column'),grow('row','row'),{id:'vertical',cells:[[0,0],[0,1]],allowRotation:false}]});
+assert(orderMatters.allFit && orderMatters.expansionSteps[0].axis==='row','需搜尋擴格安裝順序，不能鎖死為挑選順序');
+replayExpansion(orderMatters,{width:1,height:1,blocked:[]});
+const allBlocked = {width:1,height:1,blocked:['0,0']};
+const noSelfFunding = solvePacking({board:[],baseBoard:allBlocked,pieces:[grow('grow','column')]});
+assert(!noSelfFunding.allFit && noSelfFunding.placements.length===0 && noSelfFunding.boardCells===0 && noSelfFunding.board.width===1, '未裝入的配件不可解鎖自己的格位');
+const chained = solvePacking({board:createBoard(1,1),baseBoard:{width:1,height:1,blocked:[]},pieces:[grow('a','column'),grow('b','column'),grow('c','row')]});
+assert(chained.allFit); replayExpansion(chained,{width:1,height:1,blocked:[]});
+assert.deepEqual([chained.board.width,chained.board.height,chained.usedCells],[3,2,3]);
+const excludedGrow = solvePacking({board:createBoard(2,2),baseBoard:expansionBase,pieces:[{...grow('blocked','column'),exclusion:'stacking-restricted'},grow('yes','row')]});
+assert.equal(excludedGrow.board.width,2); assert.equal(excludedGrow.board.height,3);assert.equal(excludedGrow.unplaced[0].reason,'stacking-restricted');
+const budgetGrow = solvePacking({board:createBoard(2,2),baseBoard:expansionBase,pieces:expansionPieces,maxNodes:0});
+assert(budgetGrow.limited && !budgetGrow.optimal && budgetGrow.boardCells===4 && budgetGrow.placements.length===0);
+assert.throws(()=>solvePacking({board:createBoard(2,2),baseBoard:{width:3,height:2,blocked:[]},pieces:[grow('bad','row')]}));
+const growDraft={selected:['cycler:edge-fault@1','cycler:edge-fault@2'],context:'mission',playerLevel:30,expansionAxes:{'cycler:edge-fault@1':'column','cycler:edge-fault@2':'row'}};
+const growCopies=buildPackingPieces(growDraft,copyUpgradeIndex,copyShapeIndex,buildRules);
+assert.deepEqual(growCopies.map(piece=>piece.growAxis),['column','row']); assert(growCopies.every(piece=>!piece.unsupported));
+delete growDraft.expansionAxes['cycler:edge-fault@2'];
+assert.equal(buildPackingPieces(growDraft,copyUpgradeIndex,copyShapeIndex,buildRules)[1].exclusion,'expansion-unset');
+const beforeGrow=solvePacking({board:createBoard(2,2),baseBoard:expansionBase,pieces:expansionPieces.slice(2)});
+assert.equal(beforeGrow.placements.length,0,'移除擴格應回到基礎面板');
+const enlargedDrawing=renderBuildBoard({width:2,height:2,blocked:[],selected:expansionPieces.map(piece=>piece.id),result:expanded});
+assert.equal((enlargedDrawing.match(/data-build-cell=/g)||[]).length,9);
+assert.equal((enlargedDrawing.match(/class="build-added-cell"/g)||[]).length,5);
+assert.equal((renderBuildShape({cells:[[0,0]]},'always').match(/class="hex-pattern"/g)||[]).length,3,'未選取的疊加預覽應有三層格形');
+assert.equal((renderBuildShape({cells:[[0,0]]},'single').match(/class="hex-pattern"/g)||[]).length,1);
+assert.equal((renderBuildShape({cells:[[0,0]]},'mission').match(/class="hex-pattern"/g)||[]).length,1,'一般配裝不可把任務限定配件畫成可疊加');
+assert.equal((renderBuildShape({cells:[[0,0]]},'mission','mission').match(/class="hex-pattern"/g)||[]).length,3,'任務內配裝才顯示任務限定配件的重疊格形');
+assert.equal((renderBuildShape({cells:[[0,0]]},'always','mission').match(/class="hex-pattern"/g)||[]).length,3);
+assert(!renderBuildShape({cells:[[0,0]]},'mission','mission').includes('任務疊加'),'卡片不再要求分辨兩種疊加圖示');
+for (const context of ['loadout','mission']) for (const stacking of ['always','mission','single','unknown']) {
+  const markup=renderBuildShape({cells:[[0,0]]},stacking,context);
+  assert.equal(markup.includes('is-stackable'),buildCopyLimit({stacking},context)>1,'圖形必須和目前模式的份數限制一致');
+}
+console.log('Validated per-copy expansion rolls, installation order, real board cells, exclusions, removal, search limits and stacked shape previews.');
