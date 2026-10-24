@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check prototype/app.js && node --check prototype/model.js && node --check prototype/recommendations.js && node --check prototype/wiki.js && node --check prototype/hidden-paths.js && node --check prototype/patterns.js && node --check scripts/serve.mjs && node scripts/validate_site.mjs",
+    "check": "node --check prototype/app.js && node --check prototype/model.js && node --check prototype/recommendations.js && node --check prototype/wiki.js && node --check prototype/hidden-paths.js && node --check prototype/patterns.js && node --check prototype/build-planner.js && node --check prototype/build-solver.js && node --check prototype/build-worker.js && node --check scripts/serve.mjs && node scripts/validate_site.mjs",
     "import:excel": "python scripts/import_excel.py --strict",
     "import:recommendations": "python scripts/import_recommendations.py",
-    "import:wiki": "python scripts/import_wiki.py"
+    "import:wiki": "python scripts/import_wiki_catalogue.py && python scripts/import_wiki.py",
+    "import:build": "python scripts/import_build_rules.py"
   }
 }

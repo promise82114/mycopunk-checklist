@@ -7,11 +7,17 @@ export const categories = [
   ['weapons', 'Weapons', '武器'],
   ['characters', 'Characters', '角色'],
   ['grenades', 'Grenades', '手榴彈'],
+  ['heavy', 'Heavy weapons', '重武器'],
   ['general', 'General', '通用'],
 ];
 export const rarities = ['Contraband', 'Oddity', 'Exotic', 'Epic', 'Rare', 'Standard'];
 export const rarityLabels = { Contraband: '違禁品', Oddity: '奇物', Exotic: '異域', Epic: '史詩', Rare: '稀有', Standard: '標準' };
-export const tagLabels = { damage: '傷害', ammo: '彈藥', reload: '裝填', fire: '火焰', shock: '電擊', acid: '酸液', decay: '衰敗', explosion: '爆炸', mobility: '移動', survival: '生存', team: '隊伍支援', grid: '棋盤／相鄰', projectile: '彈道', ability: '技能' };
+export function upgradeStacking(upgrade) {
+  if (typeof upgrade.flags !== 'string') return 'unknown';
+  const flags = new Set(upgrade.flags.split(',').map(flag => flag.trim()));
+  return flags.has('CanStack') ? 'always' : flags.has('CanStackInMission') ? 'mission' : 'single';
+}
+export const tagLabels = { damage: '傷害', ammo: '彈藥', reload: '裝填', fire: '火焰', shock: '電擊', acid: '酸液', cryo: '冰凍', decay: '衰敗', explosion: '爆炸', mobility: '移動', survival: '生存', team: '隊伍支援', grid: '棋盤／相鄰', projectile: '彈道', ability: '技能' };
 
 export function emptyCollection() {
   return { appId, schemaVersion: 1, records: Object.create(null) };
@@ -66,7 +72,8 @@ export function normalizeSearch(text) {
 }
 
 export function buildSearchIndex(upgrade, owner) {
-  return normalizeSearch([upgrade.nameEn, upgrade.nameZh, upgrade.descriptionEn, upgrade.descriptionZh, upgrade.turbochargeEn, upgrade.turbochargeZh, owner.nameEn, owner.nameZh, upgrade.rarity, rarityLabels[upgrade.rarity], upgrade.size, ...upgrade.tags.flatMap(tag => [tag, tagLabels[tag]]), ...upgrade.stats.flatMap(stat => [stat.nameEn, stat.nameZh, stat.display, stat.minRaw, stat.maxRaw])].join(' '));
+  const stackingTerms = {always:'stackable 可疊加 可重複安裝',mission:'in-mission stacking 任務內可疊加',single:'single copy 單件安裝',unknown:'疊加規則未記載'}[upgradeStacking(upgrade)];
+  return normalizeSearch([upgrade.nameEn, upgrade.nameZh, upgrade.descriptionEn, upgrade.descriptionZh, upgrade.turbochargeEn, upgrade.turbochargeZh, owner.nameEn, owner.nameZh, upgrade.rarity, rarityLabels[upgrade.rarity], upgrade.size, stackingTerms, ...upgrade.tags.flatMap(tag => [tag, tagLabels[tag]]), ...upgrade.stats.flatMap(stat => [stat.nameEn, stat.nameZh, stat.display, stat.minRaw, stat.maxRaw])].join(' '));
 }
 
 export function filterUpgrades(upgrades, filters, records, searchIndex) {

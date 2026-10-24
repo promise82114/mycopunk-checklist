@@ -3,15 +3,18 @@ import { readFile, access } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { buildSearchIndex, filterUpgrades, tagLabels, rarities, emptyCollection, makeBackup, parseCollection } from '../prototype/model.js';
+import { buildSearchIndex, filterUpgrades, tagLabels, rarities, emptyCollection, makeBackup, parseCollection, upgradeStacking } from '../prototype/model.js';
 import { validateRecommendations, selectRankedUpgrades, routeCollection } from '../prototype/recommendations.js';
 import { validateFieldGuide, renderShape, renderUpgrade, escapeHtml } from '../prototype/wiki.js';
 import { normalizeHexCells, rotateHexCells, hexCellsOverlap, renderHexPattern } from '../prototype/patterns.js';
 import { validateHiddenPaths, renderPathDiagram, renderHiddenPaths } from '../prototype/hidden-paths.js';
+import { createBoard, enumeratePlacements, solvePacking } from '../prototype/build-solver.js';
+import { validateBuildRules, availableBuildUpgrades, buildBoardStage, buildUpgradeId, buildCopyLimit, setBuildQuantity, buildPackingPieces, renderBuildBoard } from '../prototype/build-planner.js';
 
 const repoRoot = fileURLToPath(new URL('../', import.meta.url));
 const siteRoot = path.join(repoRoot, 'prototype');
-const catalogue = JSON.parse(await readFile(path.join(siteRoot, 'data/upgrades.json'), 'utf8'));
+const workbook = JSON.parse(await readFile(path.join(siteRoot, 'data/upgrades.json'), 'utf8'));
+let catalogue = workbook;
 const sourceHash = createHash('sha256').update(await readFile(path.join(repoRoot, catalogue.source.filename))).digest('hex');
 assert.equal(sourceHash, catalogue.source.sha256, '原始 Excel 與圖鑑來源雜湊不符');
 assert.equal(catalogue.schemaVersion, 1, '圖鑑版本不支援');
@@ -83,6 +86,21 @@ invalidOwner.guides[0].routes[0].coreIds[0] = catalogue.upgrades.find(upgrade =>
 assert.throws(() => validateRecommendations(invalidOwner, catalogue), /其他武器/);
 console.log(`Validated ${recommendations.sources.length} sources, ${recommendations.weaponRatings.length} weapon ratings, ${recommendations.upgradeRatings.length} upgrade ratings and ${recommendations.guides.reduce((sum, guide) => sum + guide.routes.length, 0)} editorial routes against source snapshots.`);
 
+catalogue = JSON.parse(await readFile(path.join(siteRoot, 'data/catalogue.json'), 'utf8'));
+assert.equal(catalogue.upgrades.length, 842);
+assert.equal(catalogue.counts.wikiRecords, 840);
+assert.equal(catalogue.primarySource.kind, 'wiki');
+assert.equal(new Set(catalogue.upgrades.map(item=>item.id)).size, catalogue.upgrades.length);
+for (const old of workbook.upgrades) assert(catalogue.upgrades.some(item=>item.id === old.id), 'Old collection ID lost');
+for (const item of catalogue.upgrades) {
+  assert(item.nameEn && item.nameZh && item.descriptionEn && item.descriptionZh, 'Missing bilingual Wiki content');
+  assert(rarities.includes(item.rarity));
+  assert(item.stats.every(stat=>stat.nameEn && stat.nameZh));
+  if (item.source.kind === 'wiki') assert(item.source.revision && item.wikiUrl.includes('oldid='));
+}
+assert.equal(catalogue.upgrades.filter(item=>item.ownerId==='mycologist').length,36);
+assert.equal(catalogue.upgrades.find(item=>item.id==='carver:nutrition-sampler').nameEn,'Nutritious Cores', 'Wiki redirect must retain collection ID');
+validateRecommendations(recommendations, catalogue);
 const fieldGuide = JSON.parse(await readFile(path.join(siteRoot, 'data/field-guide.json'), 'utf8'));
 validateFieldGuide(fieldGuide, catalogue);
 const wikiSource = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-equipment.json'), 'utf8'));
@@ -93,10 +111,14 @@ for (const profile of fieldGuide.equipment.items) {
 }
 const shapeSource = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-shapes.json'), 'utf8'));
 const shapeCoordinates = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-shape-coordinates.json'), 'utf8'));
-const geometryBySource = new Map(shapeCoordinates.coordinates.filter(item => item.cells).map(item => [item.sourceUrl, item]));
+const newCoordinates = JSON.parse(await readFile(path.join(repoRoot, 'research/wiki-catalogue-coordinates.json'), 'utf8'));
+const geometryBySource = new Map([...shapeCoordinates.coordinates.filter(item => item.cells), ...newCoordinates.patterns].map(item => [item.sourceUrl, item]));
 const coveredShapeIds = new Set(fieldGuide.shapes.patterns.flatMap(item => item.upgradeIds));
 assert.equal(coveredShapeIds.size, fieldGuide.shapes.coverage.coveredUpgradeRecords, '格形覆蓋統計不符');
-assert.deepEqual(catalogue.upgrades.filter(item => !coveredShapeIds.has(item.id)).map(item => item.id), shapeSource.unmatchedUpgradeIds, '缺圖清單不符');
+assert.equal(coveredShapeIds.size,837);
+assert.deepEqual(catalogue.upgrades.filter(item=>!coveredShapeIds.has(item.id) && !item.emptyPattern).map(item=>item.id).sort(), [...shapeSource.unmatchedUpgradeIds].sort(), '缺圖清單不符');
+assert.equal(catalogue.upgrades.filter(item=>item.emptyPattern).length,3);
+for (const owner of catalogue.owners.filter(item=>item.category!=='general')) assert(catalogue.upgrades.some(item=>item.ownerId===owner.id && coveredShapeIds.has(item.id)), 'Missing owner shapes');
 for (const id of ['cycler:corrode-siphon', 'cycler:violent-ignition', 'cycler:edge-fault', 'gunship-cannon:yellow-prism', 'gunship-cannon:blue-prism', 'gunship-cannon:green-prism', 'gunship-cannon:purple-prism', 'plate-launcher:rail-tuning']) {
   assert(coveredShapeIds.has(id), '索引漏項或名稱差異再次造成缺圖：' + id);
 }
@@ -106,7 +128,7 @@ for (const pattern of shapeSource.patterns.filter(item => item.nameMatchEvidence
   assert(page?.images?.some(image => image.title === pattern.fileTitle), '名稱對應缺少條目引用證據');
 }
 for (const pattern of fieldGuide.shapes.patterns) {
-  const original = shapeSource.patterns.find(item => item.sourceUrl === pattern.sourceUrl);
+  const original = newCoordinates.patterns.find(item=>item.sourceUrl === pattern.sourceUrl) || shapeSource.patterns.find(item => item.sourceUrl === pattern.sourceUrl);
   assert(original, '格形缺少來源');
   assert.deepEqual(pattern.cells, original.cells, '格形座標與解析來源不符');
   assert.deepEqual(pattern.cells, geometryBySource.get(pattern.sourceUrl)?.cells, '格形與記憶體解析快照不符');
@@ -165,3 +187,117 @@ for (const mutate of [d => d.paths.pop(), d => d.paths[0].cells[0][1]++, d => d.
 assert(renderHiddenPaths(hiddenPaths).includes('v2.0.2') && renderHiddenPaths(hiddenPaths).includes('1.0.3'), '新舊版本未區分');
 await access(path.join(siteRoot, 'hidden-paths.js'));
 console.log('Validated seven Hidden Paths against original cells, rarity rules, rewards, source versions and generated diagrams.');
+
+const buildRules = validateBuildRules(JSON.parse(await readFile(path.join(siteRoot, 'data/build-rules.json'), 'utf8')), catalogue);
+const buildEvidence = JSON.parse(await readFile(path.join(repoRoot, 'research/build-board-evidence.json'), 'utf8'));
+assert.equal(buildRules.source.sha256, buildEvidence.sha256, '配裝資料匯出雜湊不符');
+assert.equal(buildRules.source.url, buildEvidence.source.fileUrl, '配裝固定修訂來源不符');
+assert.equal(buildRules.source.gameVersion, buildEvidence.gameVersion.Version, '配裝適用版本不符');
+assert.deepEqual(buildRules.boardProfile, buildEvidence.gridProfiles.DefaultGridProfile.GridSizes, '面板預設與來源不符');
+assert.deepEqual(buildBoardStage(buildRules,'mycologist',{playerLevel:2,stage:10}), {Level:0,Width:5,Height:5});
+assert.deepEqual(buildBoardStage(buildRules,'mycologist',{playerLevel:6,stage:0}), {Level:6,Width:6,Height:6});
+assert.deepEqual(buildBoardStage(buildRules,'g6-street-sweeper',{playerLevel:30,stage:10}), {Level:0,Width:5,Height:5});
+for (const id of ['photon-disc','snowball-grenade','laser-cannon','mycologist']) assert(availableBuildUpgrades(catalogue,buildRules,id).length>=10);
+assert(!availableBuildUpgrades(catalogue,buildRules,'accelerator').some(item=>item.archived));
+assert.deepEqual(buildRules.rotationUnlocks, { Standard: 3, Rare: 8, Epic: 16, Exotic: 30 });
+assert.deepEqual(buildRules.boardProfile.map(stage => [stage.Level, stage.Width, stage.Height]), [[0, 5, 5], [3, 6, 5], [6, 6, 6], [10, 7, 6]]);
+assert(availableBuildUpgrades(catalogue, buildRules, 'wrangler').some(item => item.id === 'general:reinforced-plating'), '角色缺少通用配件');
+assert(availableBuildUpgrades(catalogue, buildRules, 'mycologist').some(item => item.id === 'general:reinforced-plating'), '新版角色缺少通用配件');
+assert(!availableBuildUpgrades(catalogue, buildRules, 'cycler').some(item => item.id === 'general:reinforced-plating'), '角色通用配件不應混入武器');
+const cyclerOptions = availableBuildUpgrades(catalogue, buildRules, 'cycler');
+assert.equal(new Set(cyclerOptions.map(item => item.nameEn)).size, cyclerOptions.length, '專屬與通用分頁不應造成同名配件重複選取');
+assert(buildRules.rules['cycler:edge-fault'].geometryModifier, '擴格效果未另列');
+const validateLayout = (result, board, pieces) => {
+  const boardKeys = new Set(board.map(cell => cell.join(','))), occupied = new Set();
+  assert.equal(result.placements.length + result.unplaced.length, pieces.length);
+  for (const placement of result.placements) {
+    assert(pieces.some(piece => piece.id === placement.id));
+    for (const cell of placement.cells) { const key = cell.join(','); assert(boardKeys.has(key), '配件超出面板'); assert(!occupied.has(key), '配件重疊'); occupied.add(key); }
+    assert.equal(placement.cells.length, pieces.find(piece => piece.id === placement.id).cells.length);
+  }
+  assert.equal(occupied.size, result.usedCells);
+};
+const narrow = createBoard(1, 2), diagonal = [{ id: 'diagonal', cells: [[0, 0], [1, 0]], allowRotation: false }];
+assert.equal(solvePacking({ board: narrow, pieces: diagonal }).unplaced[0].reason, 'no-placement');
+const rotated = solvePacking({ board: narrow, pieces: [{ ...diagonal[0], allowRotation: true }] });
+assert(rotated.allFit && rotated.placements[0].turns > 0, '需要旋轉的配件未能裝入');
+assert.doesNotThrow(() => JSON.stringify(rotated), 'Worker 結果不可含 BigInt 等無法匯出的資料');
+assert(enumeratePlacements([[2, -1], [3, -2]], [[0, 1], [1, 0]], false).length > 0, '沒有原點格的格形對位失敗');
+const pieces = [{ id: 'a', cells: [[0, 0], [0, 1]], allowRotation: true }, { id: 'b', cells: [[0, 0], [1, 0]], allowRotation: true }, { id: 'c', cells: [[0, 0]] }, { id: 'd', cells: [[0, 0]] }];
+for (const board of [createBoard(2, 2), createBoard(3, 2, ['1,0']), createBoard(1, 1), []]) {
+  // Small independent exhaustive subset search is the oracle for the branch-and-bound objective.
+  let expected = [0, 0];
+  function brute(index, occupied, count, area) {
+    if (index === pieces.length) { if (count > expected[0] || (count === expected[0] && area > expected[1])) expected = [count, area]; return; }
+    brute(index + 1, occupied, count, area);
+    for (const placement of enumeratePlacements(board, pieces[index].cells, pieces[index].allowRotation === true)) {
+      const keys = placement.cells.map(cell => cell.join(','));
+      if (!keys.some(key => occupied.has(key))) brute(index + 1, new Set([...occupied, ...keys]), count + 1, area + keys.length);
+    }
+  }
+  brute(0, new Set(), 0, 0);
+  const result = solvePacking({ board, pieces, maxNodes: 100000, timeLimitMs: 10000 });
+  assert(result.optimal); assert.deepEqual([result.placements.length, result.usedCells], expected); validateLayout(result, board, pieces);
+}
+const timed = solvePacking({ board: createBoard(1, 3), pieces: pieces.slice(0, 2), maxNodes: 0 });
+assert(timed.limited && !timed.optimal && timed.unplaced.some(item => item.reason === 'search-limit'), '搜尋中止不可宣稱無解');
+const unavailable = solvePacking({ board: narrow, pieces: [{ id: 'unknown' }, { id: 'grow', cells: [[0, 0]], unsupported: true }] });
+assert.deepEqual(unavailable.unplaced.map(item => item.reason), ['missing-shape', 'geometry-modifier']);
+assert(!unavailable.allFit);
+assert.throws(() => createBoard(0, 3));
+assert.throws(() => solvePacking({ board: narrow, pieces: [pieces[0], pieces[0]] }));
+for (const asset of ['build-planner.js', 'build-solver.js', 'build-worker.js', 'build-planner.css']) await access(path.join(siteRoot, asset));
+console.log('Validated build board presets, rotation levels, equipment eligibility, optimal small-board packing, overlaps, missing shapes and search limits.');
+
+for (const item of catalogue.upgrades) assert.equal(buildRules.rules[item.id].stacking, upgradeStacking(item), 'Wiki 疊加旗標與模擬器不一致');
+assert.equal(upgradeStacking({flags:'CanStackInMission'}), 'mission', '不可把 CanStackInMission 子字串誤判為一般疊加');
+assert.equal(upgradeStacking({flags:'CanStack, CanStackInMission'}), 'always');
+assert.equal(upgradeStacking({}), 'unknown');
+const multiId = 'shocklance:auger-subroutine', missionId = 'cycler:bigazine', singleId = 'cycler:extralight-frame';
+assert.equal(buildRules.rules[multiId].stacking, 'always');
+assert.equal(buildRules.rules[missionId].stacking, 'mission');
+assert.equal(buildRules.rules[singleId].stacking, 'single');
+assert.equal(buildCopyLimit(buildRules.rules[missionId], 'loadout'), 1);
+const copiesDraft = {selected:[],nextInstance:1,context:'loadout',playerLevel:30};
+setBuildQuantity(copiesDraft,multiId,3,buildRules.rules[multiId]);
+setBuildQuantity(copiesDraft,singleId,1,buildRules.rules[singleId]);
+const stableCopies = [...copiesDraft.selected];
+assert.equal(new Set(stableCopies).size,4);
+assert.equal(stableCopies.filter(id=>buildUpgradeId(id)===multiId).length,3);
+setBuildQuantity(copiesDraft,multiId,2,buildRules.rules[multiId]);
+assert.deepEqual(copiesDraft.selected,[stableCopies[0],stableCopies[1],stableCopies[3]], '減少份數應保留其他副本的識別碼');
+setBuildQuantity(copiesDraft,multiId,3,buildRules.rules[multiId]);
+assert(!copiesDraft.selected.includes(stableCopies[2]), '刪除的副本不可與新副本共用識別碼');
+assert.throws(()=>setBuildQuantity(copiesDraft,singleId,2,buildRules.rules[singleId]), /one copy/);
+assert.throws(()=>setBuildQuantity(copiesDraft,missionId,2,buildRules.rules[missionId]), /one copy/);
+const beforeInvalid = structuredClone(copiesDraft);
+assert.throws(()=>setBuildQuantity(copiesDraft,multiId,41,buildRules.rules[multiId]), /0–40/);
+assert.throws(()=>setBuildQuantity(copiesDraft,multiId,40,buildRules.rules[multiId]), /at most 40/);
+assert.deepEqual(copiesDraft,beforeInvalid,'無效份數不可修改原選擇');
+const copyUpgradeIndex = new Map(catalogue.upgrades.map(item=>[item.id,item]));
+const copyShapeIndex = new Map(fieldGuide.shapes.patterns.flatMap(shape=>shape.upgradeIds.map(id=>[id,shape])));
+const copyPieces = buildPackingPieces(copiesDraft,copyUpgradeIndex,copyShapeIndex,buildRules);
+const copyBoard = createBoard(12,12), copyResult = solvePacking({board:copyBoard,pieces:copyPieces});
+assert(copyResult.allFit && copyResult.placements.length===4, '同款多份配件必須獨立排放');
+validateLayout(copyResult,copyBoard,copyPieces);
+const onlySameCopies = copyPieces.filter(item=>buildUpgradeId(item.id)===multiId);
+const oneCopyBoard = copyShapeIndex.get(multiId).cells;
+const oneCopyFit = solvePacking({board:oneCopyBoard,pieces:onlySameCopies});
+assert.equal(oneCopyFit.placements.length,1);
+assert.deepEqual(oneCopyFit.unplaced.map(item=>item.reason),['capacity-conflict','capacity-conflict']);
+validateLayout(oneCopyFit,oneCopyBoard,onlySameCopies);
+const copyMarkup = renderBuildBoard({...copiesDraft,width:12,height:12,blocked:[],result:copyResult});
+for (let i=1;i<=4;i++) assert(copyMarkup.includes('· #'+i), '每份需有獨立面板編號');
+const missionDraft = {selected:[],nextInstance:1,context:'mission',playerLevel:30};
+setBuildQuantity(missionDraft,missionId,3,buildRules.rules[missionId]);
+missionDraft.context='loadout';
+const restricted = solvePacking({board:copyBoard,pieces:buildPackingPieces(missionDraft,copyUpgradeIndex,copyShapeIndex,buildRules)});
+assert.equal(missionDraft.selected.length,3,'切換情境不可默默刪除副本');
+assert.equal(restricted.placements.length,1);
+assert.deepEqual(restricted.unplaced.map(item=>item.reason),['stacking-restricted','stacking-restricted']);
+missionDraft.context='mission';
+assert(solvePacking({board:copyBoard,pieces:buildPackingPieces(missionDraft,copyUpgradeIndex,copyShapeIndex,buildRules)}).allFit);
+assert(renderUpgrade(copyUpgradeIndex.get(multiId),owners.get('shocklance'),{}).includes('可重複安裝'));
+assert(renderUpgrade(copyUpgradeIndex.get(missionId),owners.get('cycler'),{}).includes('任務內可疊加'));
+assert(buildSearchIndex(copyUpgradeIndex.get(multiId),owners.get('shocklance')).includes('可重複安裝'), '疊加標籤應可搜尋');
+console.log('Validated stacking flags, separate copy IDs, quantity limits, context changes, repeated-shape packing and catalogue labels.');

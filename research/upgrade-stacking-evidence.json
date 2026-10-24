@@ -1,0 +1,36 @@
+{
+  "checkedOn": "2026-10-24",
+  "sources": [
+    {
+      "title": "Auger Subroutine Upgrade/source",
+      "revision": 22706,
+      "url": "https://mycopunk.miraheze.org/wiki/Auger_Subroutine_Upgrade/source?oldid=22706",
+      "infobox": "{{Upgrade Infobox\n|Name=Auger Subroutine\n|icon=Auger_Subroutine_Icon.png\n|Rarity=Exotic\n|pattern=Auger_Subroutine_Pattern.svg\n|APIName=DrillBoost\n|Flags=CanStack\n|ApplicableTo=[[Shocklance]]\n}}",
+      "description": "Hold <span style=\"color: #FFE4B4\">R</span> to charge up the Shocklance and release to launch yourself forward. Any targets in your way are drilled for continuous damage. Multiple <span style=\"color: #FFE4B4\">Auger Subroutines</span> increase damage and launch duration."
+    },
+    {
+      "title": "Bigazine Upgrade/source",
+      "revision": 21136,
+      "url": "https://mycopunk.miraheze.org/wiki/Bigazine_Upgrade/source?oldid=21136",
+      "infobox": "{{Upgrade Infobox\n|Name=Bigazine\n|icon=Bigazine_Icon.png\n|Rarity=Standard\n|pattern=Bigazine_Pattern.svg\n|APIName=Bigazine\n|Flags=CanStackInMission\n|ApplicableTo=[[The Cycler]]\n}}",
+      "description": "Magazine size is greatly increased."
+    },
+    {
+      "title": "Organic Pressure Upgrade/source",
+      "revision": 22502,
+      "url": "https://mycopunk.miraheze.org/wiki/Organic_Pressure_Upgrade/source?oldid=22502",
+      "infobox": "{{Upgrade Infobox\n|Name=Organic Pressure\n|icon=Organic_Pressure_Icon.png\n|Rarity=Standard\n|pattern=Organic_Pressure_Pattern.svg\n|APIName=StalkForce\n|Title=Forceful / Force\n|Flags=ApplyStatUpgrades, CanStackInMission\n|ApplicableTo=[[Mycologist]]\n}}",
+      "description": "Sporelift launches you with more force."
+    },
+    {
+      "title": "Extralight Frame Upgrade/source",
+      "revision": 22360,
+      "url": "https://mycopunk.miraheze.org/wiki/Extralight_Frame_Upgrade/source?oldid=22360",
+      "infobox": "{{Upgrade Infobox\n|Name=Extralight Frame\n|icon=Extralight_Frame_Icon.png\n|Rarity=Epic\n|pattern=Extralight_Frame_Pattern.svg\n|APIName=Extralight Frame\n|Flags=NoRandom\n|ApplicableTo=[[The Cycler]]\n}}",
+      "description": "Fire while sprinting."
+    }
+  ],
+  "interpretationZh": "依 Wiki 技術旗標解讀：CanStack 開放一般配裝重複，CanStackInMission 僅於任務內疊加情境開放。不是以效果描述出現 stack 一字推定多份安裝。此情境區分為資料旗標的解讀，適用任務模式及實際疊加數值未經遊戲實測。",
+  "implementationLimit": 40,
+  "limitNoteZh": "40 份是模擬器運算上限，不是宣稱遊戲疊加上限。每份使用同一收錄格形，不計算效果數值疊加或各副本的個別變形。"
+}

@@ -1,0 +1,990 @@
+{
+  "Arise": {
+    "nameZh": "升騰",
+    "descriptionZh": "為 Beam Ripper 蓄力時向上浮起。"
+  },
+  "Battery Extension": {
+    "nameZh": "電池擴充",
+    "descriptionZh": "增加備用彈藥量。"
+  },
+  "Energy Inversion": {
+    "nameZh": "能量反轉",
+    "descriptionZh": "反轉傷害衰減曲線，並提高最大傷害。"
+  },
+  "Inertial Overload": {
+    "nameZh": "慣性過載",
+    "descriptionZh": "滯空時提高傷害。"
+  },
+  "Inverted Spear of Hell": {
+    "nameZh": "倒轉地獄之矛",
+    "descriptionZh": "發射衝擊傷害更高的標槍，短暫延遲後產生電擊爆炸。"
+  },
+  "Quick Charge": {
+    "nameZh": "快速充能",
+    "descriptionZh": "提高蓄力速度。"
+  },
+  "Running Hot": {
+    "nameZh": "灼熱奔襲",
+    "descriptionZh": "衝刺時，直接命中造成更高傷害。"
+  },
+  "Safety Override": {
+    "nameZh": "安全限制解除",
+    "descriptionZh": "改為全自動射擊，提高射速與彈匣容量。"
+  },
+  "Straggler's Revenge": {
+    "nameZh": "落後者的復仇",
+    "descriptionZh": "短暫延遲後，沿投射物的飛行路徑接連爆炸。"
+  },
+  "Third Law": {
+    "nameZh": "第三定律",
+    "descriptionZh": "射擊會把自己向後推；未擊中任何目標的彈藥會退回備彈。"
+  },
+  "Combustive Rounds": {
+    "nameZh": "燃爆彈",
+    "descriptionZh": "按住 R 消耗手榴彈，將彈匣內剩餘子彈轉成同元素的爆炸彈；無元素手榴彈會轉成蜜蜂。"
+  },
+  "Confident Queen": {
+    "nameZh": "自信蜂后",
+    "descriptionZh": "另一把武器造成傷害時，不再補充 Accelerator 彈匣；提高備彈容量。"
+  },
+  "Payload Amplifier": {
+    "nameZh": "酬載增幅器",
+    "descriptionZh": "子彈施加更多元素效果。"
+  },
+  "Requeening": {
+    "nameZh": "蜂后更替",
+    "descriptionZh": "被蜜蜂群纏上後，提高 Accelerator 傷害與移動速度，並減慢下落速度。"
+  },
+  "Slipspace Bullet Transfer": {
+    "nameZh": "滑躍空間彈藥傳送",
+    "descriptionZh": "換彈前施加的 Accelerator 元素層數越多，退還上一輪連發彈藥的機率越高；退還時會消耗部分層數。"
+  },
+  "Wasp Gun": {
+    "nameZh": "黃蜂槍",
+    "descriptionZh": "施加蜜蜂效果。"
+  },
+  "Sloth's Day Out": {
+    "nameZh": "懶人的休假日",
+    "descriptionZh": "站立不動時，手榴彈充能更快，並獲得傷害抗性。"
+  },
+  "Hard-Light Prison": {
+    "nameZh": "硬光牢籠",
+    "descriptionZh": "護盾投射器改為大型立方體，將敵人困在其中；內部玩家持續回血，護盾持續時間也更長。"
+  },
+  "Nose Dive": {
+    "nameZh": "俯衝",
+    "descriptionZh": "滯空時再跳躍可向地面重擊，產生衝擊波，傷害並擊飛附近目標。"
+  },
+  "Splash Zone": {
+    "nameZh": "衝擊區域",
+    "descriptionZh": "Nose Dive 施加最近影響自己的元素。"
+  },
+  "Blood Lightning": {
+    "nameZh": "血色閃電",
+    "descriptionZh": "每層血液都會提高擊殺目標後射出電擊閃電的機率。"
+  },
+  "Heavy Pockets": {
+    "nameZh": "沉重口袋",
+    "descriptionZh": "擊殺核心時，為目前裝備的重武器生成少量備彈。"
+  },
+  "Lockdown": {
+    "nameZh": "封鎖",
+    "descriptionZh": "按下技能鍵束縛附近敵人，快速移動可重新充能。（來源未標示按鍵。）"
+  },
+  "Nutritious Cores": {
+    "nameZh": "營養核心",
+    "descriptionZh": "擊殺目標時有機率掉落生命碎塊。"
+  },
+  "Rush": {
+    "nameZh": "猛衝",
+    "descriptionZh": "使用電鋸時移動更快，但受到更多傷害。"
+  },
+  "Sharing Lunch": {
+    "nameZh": "分享午餐",
+    "descriptionZh": "Nutritious Cores 也會為隊友生成生命碎塊。"
+  },
+  "Turkey's Bloodlust": {
+    "nameZh": "火雞的嗜血",
+    "descriptionZh": "按住 R 消耗全部血液，依消耗層數暫時提高傷害；效果期間無法獲得血液。"
+  },
+  "Cyclotron": {
+    "nameZh": "迴旋加速器",
+    "descriptionZh": "Hamhock Saxon 曾被認為發明了圓；可惜研究者找到大量證據，證明圓在他出生前就已存在。（來源為背景敘述。）"
+  },
+  "Double Shot": {
+    "nameZh": "雙重射擊",
+    "descriptionZh": "同時發射兩發子彈，降低彈匣容量與射速。"
+  },
+  "Elemental Discharge": {
+    "nameZh": "元素釋放",
+    "descriptionZh": "蓄力後釋放元素衝擊，傷害附近目標。"
+  },
+  "Energy Convergence": {
+    "nameZh": "能量匯聚",
+    "descriptionZh": "目標受到你的點燃、電擊或腐蝕持續傷害時，獲得 Power 層數；按住 R 將全部層數轉成溢出彈藥。"
+  },
+  "Equipment Siphon": {
+    "nameZh": "裝備虹吸",
+    "descriptionZh": "其他裝備造成傷害時，為彈匣退還更多彈藥；換彈速度略微降低。"
+  },
+  "Subzero Energy": {
+    "nameZh": "零下能量",
+    "descriptionZh": "子彈施加冰凍效果。"
+  },
+  "Toxin Recycling": {
+    "nameZh": "毒素回收",
+    "descriptionZh": "持續造成傷害會提高酸液施加量、傷害與後座力。"
+  },
+  "Violent Ignition": {
+    "nameZh": "猛烈點燃",
+    "descriptionZh": "點燃目標時，向附近目標施加火焰。"
+  },
+  "Aerial Refueling": {
+    "nameZh": "空中補給",
+    "descriptionZh": "滯空時生成彈藥。"
+  },
+  "A Safe Place": {
+    "nameZh": "安全之所",
+    "descriptionZh": "換彈時短暫免疫傷害，此效果有短暫冷卻。"
+  },
+  "Capacity Waiver, Section B": {
+    "nameZh": "容量豁免：B 條款",
+    "descriptionZh": "每個接觸此配件的空格都會增加彈匣容量。"
+  },
+  "Centrifugal Contraption": {
+    "nameZh": "離心裝置",
+    "descriptionZh": "旋轉光環時提高移動速度。"
+  },
+  "Cryogenic Firing Chamber": {
+    "nameZh": "低溫槍膛",
+    "descriptionZh": "施加冰凍效果，但射速大幅降低。"
+  },
+  "Disarmament": {
+    "nameZh": "繳械",
+    "descriptionZh": "對敵人的槍械部位造成額外傷害。"
+  },
+  "Elemental Infusion": {
+    "nameZh": "元素灌注",
+    "descriptionZh": "旋轉光環時，射擊附帶指定元素，但消耗雙倍彈藥。"
+  },
+  "Firecracker": {
+    "nameZh": "爆竹",
+    "descriptionZh": "摧毀外殼會產生一連串爆炸；爆炸再摧毀外殼時，可繼續觸發。"
+  },
+  "Frostbiter": {
+    "nameZh": "霜咬",
+    "descriptionZh": "Diffraction Driver 不再粉碎目標，但對凍結目標造成額外傷害。"
+  },
+  "Full Potential": {
+    "nameZh": "潛能全開",
+    "descriptionZh": "旋轉光環時提高傷害，同時降低自己的移動速度。"
+  },
+  "Generative Ions": {
+    "nameZh": "生成離子",
+    "descriptionZh": "另一把武器造成傷害時，生成更多彈藥。"
+  },
+  "Gyrocopter": {
+    "nameZh": "旋翼機",
+    "descriptionZh": "旋轉光環時減慢下落速度。"
+  },
+  "Ice Pick": {
+    "nameZh": "冰鎬",
+    "descriptionZh": "傷害凍結目標時，更快將其粉碎。"
+  },
+  "Illegal Sprinting Technique": {
+    "nameZh": "違規衝刺技術",
+    "descriptionZh": "可在衝刺中射擊，但射擊時會對自己施加指定元素。"
+  },
+  "Ionic Overfill": {
+    "nameZh": "離子溢充",
+    "descriptionZh": "增加備用彈藥量。"
+  },
+  "Kinetic Boosters": {
+    "nameZh": "動能增幅器",
+    "descriptionZh": "提高此武器的無元素傷害。"
+  },
+  "Patient Gambler": {
+    "nameZh": "耐心賭徒",
+    "descriptionZh": "光環會隨旋轉改變顏色，每種顏色提供不同傷害加成。"
+  },
+  "Pocket Sniper": {
+    "nameZh": "口袋狙擊槍",
+    "descriptionZh": "旋轉光環時變成狙擊槍，大幅提高傷害與射程；完全蓄力的射擊造成完整貫穿傷害，並消耗整個彈匣。"
+  },
+  "Quadrabarrel": {
+    "nameZh": "四連槍管",
+    "descriptionZh": "每次四連發，並略微增加彈匣容量。"
+  },
+  "Quite the Tussle": {
+    "nameZh": "近身衝突",
+    "descriptionZh": "對指定距離內的目標造成更高傷害。"
+  },
+  "Radiant Prism": {
+    "nameZh": "輻射稜鏡",
+    "descriptionZh": "持續扣住扳機時，後續射擊有機率施加隨機元素。"
+  },
+  "Resonance Catapult": {
+    "nameZh": "共振彈射器",
+    "descriptionZh": "按住 R 將自己向上彈射，並對自己與附近目標施加指定元素。"
+  },
+  "Saxonite Dampeners": {
+    "nameZh": "Saxonite 緩衝器",
+    "descriptionZh": "消除後座力。"
+  },
+  "Skull Cracker": {
+    "nameZh": "碎顱者",
+    "descriptionZh": "射擊後短暫提高近戰傷害與範圍。"
+  },
+  "Spliced Coilgun": {
+    "nameZh": "拼接線圈槍",
+    "descriptionZh": "大幅提高射速與彈藥量，但大幅降低傷害。"
+  },
+  "Terminal Velocity": {
+    "nameZh": "終端速度",
+    "descriptionZh": "旋轉光環時提高射速、降低射程；光環不再調整散布或傷害。"
+  },
+  "To Pieces": {
+    "nameZh": "化為碎片",
+    "descriptionZh": "粉碎目標時生成彈藥。"
+  },
+  "Virtual Muscle Memory": {
+    "nameZh": "虛擬肌肉記憶",
+    "descriptionZh": "可切換光環持續旋轉。（來源未標示按鍵。）"
+  },
+  "Volatile Packaging": {
+    "nameZh": "易爆包裝",
+    "descriptionZh": "換彈時射出定時爆炸物。"
+  },
+  "Assist Charge": {
+    "nameZh": "輔助充能",
+    "descriptionZh": "用雷射治療隊友時，也會治療自己。"
+  },
+  "Concussive Wave": {
+    "nameZh": "震盪波",
+    "descriptionZh": "雷射定期釋放造成傷害的元素衝擊；持續射擊越久，衝擊越強。"
+  },
+  "Engineering Nanites": {
+    "nameZh": "工程奈米機器",
+    "descriptionZh": "雷射可治療隊友，並在治療隊友時補充部分充能。"
+  },
+  "Feedback Amplifier": {
+    "nameZh": "回授增幅器",
+    "descriptionZh": "造成傷害時獲得更多雷射充能。"
+  },
+  "Stormcloud Accumulator": {
+    "nameZh": "雷雲蓄積器",
+    "descriptionZh": "發射 DMR 或雷射時生成冰晶碎片。"
+  },
+  "Voltaic Battery": {
+    "nameZh": "伏打電池",
+    "descriptionZh": "換彈時拋出彈匣造成電擊爆炸；射擊丟出的彈匣可引發更大爆炸，丟棄的彈藥越少，爆炸威力越高。"
+  },
+  "Acerbic Flush": {
+    "nameZh": "酸性沖洗",
+    "descriptionZh": "換彈時產生酸液爆炸。"
+  },
+  "Corn All Around The Cob": {
+    "nameZh": "滿穗玉米",
+    "descriptionZh": "消除垂直散布，但略微擴大水平散布。"
+  },
+  "Crowd Control": {
+    "nameZh": "群眾控制",
+    "descriptionZh": "提高備彈量與射速，但降低傷害。"
+  },
+  "Double Loading": {
+    "nameZh": "雙倍裝填",
+    "descriptionZh": "增加彈匣容量。"
+  },
+  "Driver Update": {
+    "nameZh": "驅動更新",
+    "descriptionZh": "提高射速與換彈速度。"
+  },
+  "G6 Choke": {
+    "nameZh": "G6 縮口器",
+    "descriptionZh": "大幅收緊散布並提高射程。"
+  },
+  "Kinetic Absorbers": {
+    "nameZh": "動能吸收器",
+    "descriptionZh": "手持 Street Sweeper 時，移動更慢，但受到的傷害降低。"
+  },
+  "License to Kill": {
+    "nameZh": "殺人執照",
+    "descriptionZh": "Street Sweeper 換彈後，其他武器短暫提高傷害。"
+  },
+  "Melodramatic Hero": {
+    "nameZh": "戲劇英雄",
+    "descriptionZh": "生命降至危急後，下一發射擊收緊散布、提高傷害與射程，並治療自己；回滿生命後才能再次觸發。"
+  },
+  "Secret Pocket": {
+    "nameZh": "秘密口袋",
+    "descriptionZh": "彈匣與備彈首次同時耗盡時，按住 R 從秘密口袋直接裝填彈匣。"
+  },
+  "Elemental Regeneration": {
+    "nameZh": "元素再生",
+    "descriptionZh": "指定元素效果消退時，立即開始生命再生。"
+  },
+  "Frantic Greed": {
+    "nameZh": "狂亂貪婪",
+    "descriptionZh": "擊殺生命碎塊或電池小兵時，立即消耗它、獲得較少治療，並產生元素爆炸。"
+  },
+  "Interim Manager": {
+    "nameZh": "代理經理",
+    "descriptionZh": "拾取後隨機更換員工並重抽現有員工配件，但保留配件格形。"
+  },
+  "Slide Buffer": {
+    "nameZh": "滑行緩衝器",
+    "descriptionZh": "每個接觸其他配件的格子都會延長滑行時間。"
+  },
+  "Structural Survey": {
+    "nameZh": "結構勘測",
+    "descriptionZh": "對敵人的肢體造成額外傷害。"
+  },
+  "Third Arm": {
+    "nameZh": "第三隻手",
+    "descriptionZh": "武器造成傷害時，為另一把武器生成更多彈藥。"
+  },
+  "Saxonite Shackles": {
+    "nameZh": "Saxonite 枷鎖",
+    "descriptionZh": "按住 Q 在視線位置產生 Saxonite 雲，束縛敵人。"
+  },
+  "Wingsuit": {
+    "nameZh": "翼裝",
+    "descriptionZh": "按住跳躍啟動翼裝噴射器，向前飛行。"
+  },
+  "Globulous Siphon": {
+    "nameZh": "黏團虹吸",
+    "descriptionZh": "按住換彈鍵消耗手榴彈充能，大幅擴大下一顆酸球的爆炸範圍；範圍也隨 Globblometer 提高。"
+  },
+  "Improved Replication": {
+    "nameZh": "強化複製",
+    "descriptionZh": "依 Globblometer 數值增加彈匣容量。"
+  },
+  "Pocket Replication": {
+    "nameZh": "口袋複製",
+    "descriptionZh": "另一把武器造成傷害而退還的 Globbler 彈藥，可溢出彈匣容量。"
+  },
+  "Pressure Cooker": {
+    "nameZh": "壓力鍋",
+    "descriptionZh": "按住扳機為酸球蓄力，提高傷害與爆炸範圍；把全部彈藥蓄成一球會炸到自己。"
+  },
+  "Solidified Acid": {
+    "nameZh": "凝固酸液",
+    "descriptionZh": "提高衝擊傷害。"
+  },
+  "The Glob": {
+    "nameZh": "唯一黏團",
+    "descriptionZh": "只發射一顆爆炸半徑更大的酸球，並加快換彈。"
+  },
+  "Ballistic Charger": {
+    "nameZh": "彈道充能器",
+    "descriptionZh": "造成傷害累積充能；按下發射鍵射出追蹤飛彈，爆炸威力依充能量而定。（來源未標示按鍵。）"
+  },
+  "Frantic Fingers": {
+    "nameZh": "狂亂手指",
+    "descriptionZh": "無法正常換彈；連按 R 將彈藥裝入彈匣。"
+  },
+  "Tinderbox": {
+    "nameZh": "火絨盒",
+    "descriptionZh": "連按 R 使槍過熱，為炮彈附加火焰並提高傷害；Gunship Cannon 只能在空彈匣時換彈，過熱時自己有機率自燃。"
+  },
+  "All Powdered Up": {
+    "nameZh": "火藥滿載",
+    "descriptionZh": "滯空射擊會向後推動自己；彈匣容量越小，推力越大。"
+  },
+  "Immolator": {
+    "nameZh": "焚燒者",
+    "descriptionZh": "對目標施加火焰時，也會對自己施加火焰；點燃自己後獲得 6.5 秒獻祭效果。"
+  },
+  "Molotov": {
+    "nameZh": "莫洛托夫",
+    "descriptionZh": "按住 R 蓄力發射可點燃目標的榴彈。"
+  },
+  "Pesticide": {
+    "nameZh": "殺蟲劑",
+    "descriptionZh": "按住發射鍵使用火焰噴射器。（來源未標示按鍵。）"
+  },
+  "Pummeler": {
+    "nameZh": "猛擊者",
+    "descriptionZh": "按住 R 累積子彈，放開時快速連發全部已蓄子彈。"
+  },
+  "Shell Packer": {
+    "nameZh": "彈殼壓裝器",
+    "descriptionZh": "每發多一顆彈丸。"
+  },
+  "Core Dump": {
+    "nameZh": "核心傾印",
+    "descriptionZh": "近戰傷害敵人核心時，退還彈藥至彈匣。"
+  },
+  "Formicidae Magnifier": {
+    "nameZh": "蟻科放大鏡",
+    "descriptionZh": "對已點燃目標造成更高傷害，但 Laser Cannon 施加火焰的速度降低。"
+  },
+  "Heat Pump": {
+    "nameZh": "熱泵",
+    "descriptionZh": "提高傷害。"
+  },
+  "Motion Compensators": {
+    "nameZh": "動態補償器",
+    "descriptionZh": "降低後座力。"
+  },
+  "Prismatic Sharpeners": {
+    "nameZh": "稜鏡銳化器",
+    "descriptionZh": "擊殺目標會獲得可疊加的傷害加成。"
+  },
+  "Scorched Earth": {
+    "nameZh": "焦土",
+    "descriptionZh": "持續射擊使 Laser Cannon 過熱，提高輸出傷害、減少彈藥消耗，但會傷害自己。"
+  },
+  "Shared Processing Array": {
+    "nameZh": "共享處理陣列",
+    "descriptionZh": "持續射擊累積層數；停止射擊時，將全部層數轉成次要技能充能。"
+  },
+  "Solar Flare": {
+    "nameZh": "日耀",
+    "descriptionZh": "點燃目標會獲得可疊加的傷害加成。"
+  },
+  "Supernova": {
+    "nameZh": "超新星",
+    "descriptionZh": "雷射射擊時定期產生元素爆炸，爆炸會額外消耗彈藥。"
+  },
+  "Unruly Crowd": {
+    "nameZh": "失控群眾",
+    "descriptionZh": "提高傷害與後座力。"
+  },
+  "All the Time in the World": {
+    "nameZh": "時間充裕",
+    "descriptionZh": "大幅提高傷害，但蓄力更慢。"
+  },
+  "Crafting Table": {
+    "nameZh": "工作台",
+    "descriptionZh": "備彈未滿時，長按 R 可製作一枚額外火箭。"
+  },
+  "Crow's Nest": {
+    "nameZh": "烏鴉巢",
+    "descriptionZh": "為 Last Argument 蓄力時，跳躍高度隨充能量提高。"
+  },
+  "Decaying Warhead": {
+    "nameZh": "衰變彈頭",
+    "descriptionZh": "火箭施加衰變效果，但尺寸與傷害降低。"
+  },
+  "Fusillade": {
+    "nameZh": "齊射",
+    "descriptionZh": "發射一輪火箭齊射。"
+  },
+  "Gluttonous Vulture": {
+    "nameZh": "貪婪禿鷹",
+    "descriptionZh": "用任何武器擊殺敵人都有機率恢復備彈，大型敵人的機率更高；如此恢復的備彈可額外溢出最多一個彈匣容量。"
+  },
+  "Packed Payload": {
+    "nameZh": "滿載酬載",
+    "descriptionZh": "提高傷害。"
+  },
+  "Soul Reaper": {
+    "nameZh": "靈魂收割者",
+    "descriptionZh": "其他武器造成的傷害轉成 Soul Reaper 層數；下一次射擊消耗層數，提高傷害與爆炸範圍。"
+  },
+  "Walk Cycle": {
+    "nameZh": "步行循環",
+    "descriptionZh": "提高蓄力速度。"
+  },
+  "Where Did This Come From": {
+    "nameZh": "這是哪來的",
+    "descriptionZh": "同時發射兩枚較低傷害的火箭，並增加散布。"
+  },
+  "Blood-Rush": {
+    "nameZh": "熱血奔湧",
+    "descriptionZh": "擊殺核心會向彈匣裝入一組子彈；按下發射鍵將全部子彈大量連發。（來源未標示按鍵。）"
+  },
+  "Chemical Symbiosis": {
+    "nameZh": "化學共生",
+    "descriptionZh": "自己完全受到某元素影響時，將該傷害類型注入子彈。"
+  },
+  "Juiced Up": {
+    "nameZh": "能量滿載",
+    "descriptionZh": "在指定時間內打空彈匣，會強化下一個彈匣；子彈傷害依彈匣容量提高。"
+  },
+  "Phantom Limb": {
+    "nameZh": "幻肢",
+    "descriptionZh": "換彈時生成幻影 Lead Flinger，重現換彈前發射的每一顆子彈。"
+  },
+  "Practice Makes Perfect": {
+    "nameZh": "熟能生巧",
+    "descriptionZh": "在換彈期間隨機出現的時機按 R，可大幅加快換彈。"
+  },
+  "Ralph's Conundrum": {
+    "nameZh": "Ralph 的難題",
+    "descriptionZh": "射擊時在火焰與酸液元素間切換。"
+  },
+  "Residue": {
+    "nameZh": "殘留物",
+    "descriptionZh": "擊殺目標獲得 Junk 層數；按住 R 消耗全部層數發射大型爆炸彈，燃爆範圍依消耗量增加。"
+  },
+  "Adrenaline Cultivation": {
+    "nameZh": "腎上腺素培養",
+    "descriptionZh": "揮拳時獲得傷害抗性。"
+  },
+  "Angry Outburst": {
+    "nameZh": "憤怒爆發",
+    "descriptionZh": "出拳更快，並提高近戰傷害與範圍。"
+  },
+  "Backblast": {
+    "nameZh": "後向爆風",
+    "descriptionZh": "Sporelift 產生爆炸，蓄力越久，爆炸範圍越大。"
+  },
+  "Bioelectrical Connections": {
+    "nameZh": "生物電連結",
+    "descriptionZh": "感染值會自動累積至指定門檻。"
+  },
+  "Boresight": {
+    "nameZh": "視軸瞄準",
+    "descriptionZh": "完全蓄力的 Sporelift 會朝視線方向發射自己。"
+  },
+  "Branches": {
+    "nameZh": "分枝",
+    "descriptionZh": "擴大 Fungal Skewer 的傷害半徑。"
+  },
+  "Brisk Hypochondriac": {
+    "nameZh": "敏捷疑病者",
+    "descriptionZh": "只有站在 Fungal Skewer 範圍內才清除感染；達到最大感染後，被感染消耗的生命越多，移動越快。"
+  },
+  "Catapult": {
+    "nameZh": "投石機",
+    "descriptionZh": "放開菌莖時，也會將自己向前彈射。"
+  },
+  "Chemical Reaction": {
+    "nameZh": "化學反應",
+    "descriptionZh": "感染達到上限時產生爆炸。"
+  },
+  "Cryogenic Skewer": {
+    "nameZh": "低溫菌刺",
+    "descriptionZh": "Fungal Skewer 施加冰凍效果。"
+  },
+  "Decay Infusion": {
+    "nameZh": "衰變灌注",
+    "descriptionZh": "近戰施加衰變效果。"
+  },
+  "Engineered Infection": {
+    "nameZh": "工程化感染",
+    "descriptionZh": "受到任何來源的傷害都會累積感染。"
+  },
+  "Exotic Flora": {
+    "nameZh": "異域菌群",
+    "descriptionZh": "Fungal Skewer 施加指定元素。"
+  },
+  "Eye of the Storm": {
+    "nameZh": "暴風眼",
+    "descriptionZh": "按住 F 發射造成傷害的眼球光束，依感染值施加衰變。"
+  },
+  "Fungal Skewer": {
+    "nameZh": "真菌穿刺",
+    "descriptionZh": "從地面拉出菌刺，使敵人無法移動，並消耗感染值造成額外傷害。"
+  },
+  "Growth Hormones": {
+    "nameZh": "生長激素",
+    "descriptionZh": "Fungal Skewer 的半徑隨感染值增加。"
+  },
+  "Growth Spurt": {
+    "nameZh": "急速生長",
+    "descriptionZh": "使 Fungal Skewer 更高。"
+  },
+  "Hypersprint": {
+    "nameZh": "超速衝刺",
+    "descriptionZh": "連按兩次衝刺進入超速衝刺，累積感染並推開小型敵人。"
+  },
+  "I'll Take That": {
+    "nameZh": "收下了",
+    "descriptionZh": "把他們的粉絲據為己有，這是你應得的。（來源為背景敘述。）"
+  },
+  "Kaleidoscopic Retort": {
+    "nameZh": "萬花筒反擊",
+    "descriptionZh": "自己被完整施加某元素時，短暫延遲後向附近目標釋放同元素衝擊。"
+  },
+  "Lucky Harvest": {
+    "nameZh": "幸運收成",
+    "descriptionZh": "增加一次 Sporelift 使用次數。"
+  },
+  "Mushroom Cap": {
+    "nameZh": "菌蓋平台",
+    "descriptionZh": "滯空時按住 Q 在腳下生成平台；站在自己的平台上時持續回血。"
+  },
+  "Mutualistic Locomotion": {
+    "nameZh": "共生移動",
+    "descriptionZh": "完全感染時提高移動速度。"
+  },
+  "Mycelial Battery": {
+    "nameZh": "菌絲電池",
+    "descriptionZh": "使用 Fungal Skewer 時治療自己。"
+  },
+  "Mycelial Network": {
+    "nameZh": "菌絲網絡",
+    "descriptionZh": "Fungal Skewer 為 Sporelift 恢復部分充能。"
+  },
+  "Mycorrhizal Rush": {
+    "nameZh": "菌根湧動",
+    "descriptionZh": "感染達到上限後，短時間內大幅提高射速。"
+  },
+  "Organic Motility": {
+    "nameZh": "有機運動",
+    "descriptionZh": "釋放 Sporelift 時獲得短暫移速爆發，加成隨握住菌莖的時間提高。"
+  },
+  "Organic Pressure": {
+    "nameZh": "有機壓力",
+    "descriptionZh": "提高 Sporelift 的發射推力。"
+  },
+  "Peaceful Resolution": {
+    "nameZh": "和平解決",
+    "descriptionZh": "非戰鬥狀態使用 Sporelift 不會累積感染。"
+  },
+  "Rapid Cultivation": {
+    "nameZh": "快速培養",
+    "descriptionZh": "加快 Sporelift 充能。"
+  },
+  "Soybean Hull Paste": {
+    "nameZh": "豆殼糊",
+    "descriptionZh": "擴大 Mushroom Cap 平台。"
+  },
+  "Space Elevator": {
+    "nameZh": "太空電梯",
+    "descriptionZh": "Fungal Skewer 產生高聳的反重力力場。"
+  },
+  "Sporadic Sprouting": {
+    "nameZh": "零星萌芽",
+    "descriptionZh": "使用 Fungal Skewer 後，周圍會再長出額外菌刺。"
+  },
+  "Spore Release": {
+    "nameZh": "孢子釋放",
+    "descriptionZh": "Sporelift 充能中，在空中按住空白鍵可飄浮；飄浮會累積感染。"
+  },
+  "Structural Support": {
+    "nameZh": "結構支撐",
+    "descriptionZh": "感染值提高近戰傷害。"
+  },
+  "Thorny": {
+    "nameZh": "荊棘",
+    "descriptionZh": "提高 Fungal Skewer 的傷害。"
+  },
+  "Bullet Time": {
+    "nameZh": "子彈時間",
+    "descriptionZh": "飛盤不再有冷卻，改為消耗主武器備彈；備彈隨時間逐漸恢復。"
+  },
+  "Disc Array": {
+    "nameZh": "飛盤陣列",
+    "descriptionZh": "增加最大使用次數。"
+  },
+  "DiscWorld": {
+    "nameZh": "飛盤世界",
+    "descriptionZh": "約在 4069 年，一場造成 233 名遊客死亡的重大事故後，Saxon 關閉了 DiscWorld。（來源為背景敘述。）"
+  },
+  "Elemental Obsession": {
+    "nameZh": "元素執念",
+    "descriptionZh": "提高與調諧元素相同的輸出傷害，但降低其他傷害。"
+  },
+  "Enhanced Spooling": {
+    "nameZh": "強化收線",
+    "descriptionZh": "飛盤碰到表面後可行進更遠。"
+  },
+  "Erratic Systems": {
+    "nameZh": "紊亂系統",
+    "descriptionZh": "飛盤改為隨機元素，不受調諧影響。"
+  },
+  "Explosive Packing": {
+    "nameZh": "爆裂封裝",
+    "descriptionZh": "提高爆炸範圍與翻滾距離，但減少使用次數。"
+  },
+  "Flurry": {
+    "nameZh": "連環投擲",
+    "descriptionZh": "投出飛盤後，短暫提高飛盤傷害。"
+  },
+  "Harmonizer": {
+    "nameZh": "諧調器",
+    "descriptionZh": "輸出傷害有機率轉成調諧元素。"
+  },
+  "Linked List": {
+    "nameZh": "鏈結串列",
+    "descriptionZh": "飛盤翻滾後改變方向，再次翻滾。"
+  },
+  "Magnetic Shard": {
+    "nameZh": "磁性碎片",
+    "descriptionZh": "直接命中目標時，飛盤會彈向另一名敵人。"
+  },
+  "Molecular Inversion": {
+    "nameZh": "分子反轉",
+    "descriptionZh": "飛盤行進越遠，傷害越高；降低基礎傷害。"
+  },
+  "Perfectly Attuned": {
+    "nameZh": "完美調諧",
+    "descriptionZh": "提高與調諧元素相同的輸出傷害。"
+  },
+  "Photon Lattice": {
+    "nameZh": "光子晶格",
+    "descriptionZh": "額外投出一枚飛盤。"
+  },
+  "Pocket Grenade (Wait Why is This One Legal?)": {
+    "nameZh": "口袋手榴彈（這顆為何合法？）",
+    "descriptionZh": "降低飛盤威力，但大幅加快充能。"
+  },
+  "Propulsion Drive": {
+    "nameZh": "推進驅動",
+    "descriptionZh": "衝刺時投出的飛盤，爆炸範圍更大。"
+  },
+  "Reactive Overload": {
+    "nameZh": "反應過載",
+    "descriptionZh": "自己被完整施加調諧元素時，加快 Photon Discs 充能。"
+  },
+  "Reflex Override": {
+    "nameZh": "反射覆寫",
+    "descriptionZh": "投出飛盤後短暫提高移動速度。"
+  },
+  "Splinter": {
+    "nameZh": "碎裂",
+    "descriptionZh": "飛盤直接命中目標時，造成更高傷害，但不再翻滾。"
+  },
+  "Steel Frame": {
+    "nameZh": "鋼製框架",
+    "descriptionZh": "飛盤會輕微吸向目標。"
+  },
+  "Stimulus Package": {
+    "nameZh": "刺激方案",
+    "descriptionZh": "飛盤翻滾後生成生命碎塊。"
+  },
+  "Syzygy": {
+    "nameZh": "朔望",
+    "descriptionZh": "手持武器的元素若為火焰、電擊或酸液，調諧元素便會切換成該元素。"
+  },
+  "USB C": {
+    "nameZh": "USB-C",
+    "descriptionZh": "縮短冷卻時間。"
+  },
+  "Charging Port": {
+    "nameZh": "充電埠",
+    "descriptionZh": "站在自己的盤子上時，間歇性治療自己。"
+  },
+  "Compressed Plate Storage": {
+    "nameZh": "壓縮飛盤儲存",
+    "descriptionZh": "召回前可額外發射 3 個盤子。"
+  },
+  "High Ground": {
+    "nameZh": "制高點",
+    "descriptionZh": "站在自己的盤子上時，獲得傷害抗性並提高全部輸出傷害。"
+  },
+  "Improvised Explosives": {
+    "nameZh": "土製炸藥",
+    "descriptionZh": "盤子消耗手榴彈充能，並在撞擊時爆炸。"
+  },
+  "Nice Catch": {
+    "nameZh": "接得漂亮",
+    "descriptionZh": "手持 Plate Launcher 時提高傷害與移速，但接住或轉向盤子會傷害自己；彈匣容量越大，自傷越低。"
+  },
+  "Vector Interdiction": {
+    "nameZh": "向量攔截",
+    "descriptionZh": "發射盤子後按下或按住轉向鍵，使盤子改向；最多只能持有一個盤子。（來源未標示按鍵。）"
+  },
+  "Eye in the Sky": {
+    "nameZh": "空中之眼",
+    "descriptionZh": "將 Grapple Pole 變成懸浮眼球，可按鍵將眼球移往新位置。（來源未標示按鍵。）"
+  },
+  "Jetpack": {
+    "nameZh": "噴射背包",
+    "descriptionZh": "按住跳躍向上升高。"
+  },
+  "On The Go": {
+    "nameZh": "隨行攜帶",
+    "descriptionZh": "將 Grapple Pole 接到玩家身上，使其成為鉤索節點；鉤向玩家時能量消耗較慢。"
+  },
+  "Vending Machine": {
+    "nameZh": "自動販賣機",
+    "descriptionZh": "放置 Grapple Pole 時生成生命碎塊，使用鉤索期間還會生成小碎塊；耗盡立柱能量時生成一批生命碎塊。"
+  },
+  "Illegal Pocket Grenade": {
+    "nameZh": "非法口袋手榴彈",
+    "descriptionZh": "大幅縮小手榴彈範圍並降低傷害，但大幅加快充能。"
+  },
+  "Auger Subroutine": {
+    "nameZh": "鑽孔子程式",
+    "descriptionZh": "按住 R 為 Shocklance 蓄力，放開後向前衝出，持續鑽擊路徑上的目標；多份此配件可提高傷害與衝刺時間。"
+  },
+  "Crescendo": {
+    "nameZh": "漸強",
+    "descriptionZh": "換彈前每射一發，傷害就進一步提高。"
+  },
+  "Laying Cable": {
+    "nameZh": "鋪設電纜",
+    "descriptionZh": "按 E 連結另一位員工；連結期間獲得傷害抗性並提高傷害，對方的移動技能也更快充能。"
+  },
+  "Ready and Waiting": {
+    "nameZh": "蓄勢待發",
+    "descriptionZh": "Shocklance 隨時間自動充能；收起武器時，充能較慢。"
+  },
+  "A Serious Squall": {
+    "nameZh": "狂風暴雪",
+    "descriptionZh": "雪球會追蹤敵人，繞行並造成傷害。"
+  },
+  "Cold Call": {
+    "nameZh": "冰冷來電",
+    "descriptionZh": "提高與此手榴彈相同元素的所有輸出傷害。"
+  },
+  "Cryogenic Cooling": {
+    "nameZh": "低溫冷卻",
+    "descriptionZh": "縮短冷卻時間。"
+  },
+  "Cryogenic Oven": {
+    "nameZh": "低溫烤箱",
+    "descriptionZh": "自己被凍結時，提高射速與傷害。"
+  },
+  "Dolphin Dive": {
+    "nameZh": "海豚躍擊",
+    "descriptionZh": "手動引爆範圍縮小，且不摧毀雪球，改為將其轉向下方。"
+  },
+  "Flash Freeze": {
+    "nameZh": "急速冷凍",
+    "descriptionZh": "對凍結目標造成更多指定元素傷害。"
+  },
+  "Frozen Assets": {
+    "nameZh": "凍結資產",
+    "descriptionZh": "靠近自己的雪球時恢復生命。"
+  },
+  "Glacial Blast": {
+    "nameZh": "冰川爆破",
+    "descriptionZh": "提高爆炸範圍，但延長冷卻時間。"
+  },
+  "Hailstorm": {
+    "nameZh": "冰雹風暴",
+    "descriptionZh": "同時投出多顆較小雪球。"
+  },
+  "Hard Freeze": {
+    "nameZh": "深度凍結",
+    "descriptionZh": "手動引爆不再摧毀雪球，並提高下一次爆炸傷害。"
+  },
+  "Ice Armor": {
+    "nameZh": "冰甲",
+    "descriptionZh": "自己被凍結時獲得傷害抗性。"
+  },
+  "Pocket Blizzard": {
+    "nameZh": "口袋暴風雪",
+    "descriptionZh": "雪球行進時會傷害附近目標。"
+  },
+  "Polar Pet": {
+    "nameZh": "極地寵物",
+    "descriptionZh": "雪球跟隨準星移動。"
+  },
+  "Severed Snowman": {
+    "nameZh": "斷頭雪人",
+    "descriptionZh": "雪球沿地面滾動，行進越遠，體積越大。"
+  },
+  "Shardburst": {
+    "nameZh": "碎冰爆發",
+    "descriptionZh": "凍結目標時生成一簇可造成傷害的冰晶。"
+  },
+  "Slicing Follow-up": {
+    "nameZh": "斬擊追擊",
+    "descriptionZh": "粉碎目標後短暫提高近戰傷害。"
+  },
+  "Slippery Ice": {
+    "nameZh": "滑冰",
+    "descriptionZh": "提高投擲手榴彈的力量。"
+  },
+  "Slushy": {
+    "nameZh": "雪泥",
+    "descriptionZh": "自己被凍結時獲得手榴彈充能。"
+  },
+  "Tightly Packed": {
+    "nameZh": "緊密壓實",
+    "descriptionZh": "提高爆炸範圍，但延長冷卻時間。"
+  },
+  "Guidance Array": {
+    "nameZh": "導引陣列",
+    "descriptionZh": "彈丸朝前方散射並完整追蹤目標；大幅增加彈匣與備彈容量。"
+  },
+  "High Caliber Pellets": {
+    "nameZh": "大口徑彈丸",
+    "descriptionZh": "發射速度更慢、傷害更高的彈丸。"
+  },
+  "Munition Siphon": {
+    "nameZh": "彈藥虹吸",
+    "descriptionZh": "按住 R 消耗備彈，為目前裝備的手榴彈充能。"
+  },
+  "Overload Contingency": {
+    "nameZh": "過載備案",
+    "descriptionZh": "按住 R 為高威力近戰攻擊蓄力。"
+  },
+  "Portable Solar Array": {
+    "nameZh": "攜帶式太陽能陣列",
+    "descriptionZh": "按住 R 消耗備彈，恢復生命。"
+  },
+  "Discount Marksman": {
+    "nameZh": "廉價神射手",
+    "descriptionZh": "提高瞄準放大倍率。"
+  },
+  "Gunner's Precision": {
+    "nameZh": "砲手的精準",
+    "descriptionZh": "提高傷害但降低射速，並取消全自動射擊。"
+  },
+  "Plasma Arc": {
+    "nameZh": "電漿弧",
+    "descriptionZh": "發射一道電漿弧，在小範圍內造成傷害。"
+  },
+  "Plunder": {
+    "nameZh": "掠奪",
+    "descriptionZh": "擊殺核心時，有機率退還大量彈藥。"
+  },
+  "Spyglass": {
+    "nameZh": "望遠鏡",
+    "descriptionZh": "提高瞄準倍率；瞄準時降低射速與散布，並提高射程。"
+  },
+  "Tailwind": {
+    "nameZh": "順風",
+    "descriptionZh": "用另一把武器使目標觸電會獲得 Tailwind 層數；Trident 射擊時消耗層數，提高移動速度。"
+  },
+  "Air Dash": {
+    "nameZh": "空中衝刺",
+    "descriptionZh": "滯空時再跳躍可向前衝刺。"
+  },
+  "Eyes Up Here": {
+    "nameZh": "看這裡",
+    "descriptionZh": "擊殺的目標有機率長出眼球；摧毀眼球可恢復生命，並獲得可疊加的傷害與移速加成。"
+  },
+  "In For A Pound": {
+    "nameZh": "做就做到底",
+    "descriptionZh": "發射手榴彈改為消耗生命，並取消冷卻時間。"
+  },
+  "Greedy Fuck": {
+    "nameZh": "貪婪混帳",
+    "descriptionZh": "提高彈匣與備彈容量，但另一把武器造成傷害時，恢復的彈藥較少。"
+  },
+  "Hot Swap": {
+    "nameZh": "熱切換",
+    "descriptionZh": "雷射改為預設模式；雷射造成傷害時，為威力更強的 DMR 模式生成彈藥。"
+  },
+  "Glorb": {
+    "nameZh": "黏球",
+    "descriptionZh": "換彈速度降低，但提高 Globblometer。"
+  },
+  "Replicator Resistance": {
+    "nameZh": "複製器抗性",
+    "descriptionZh": "酸球傷害到自己時，短暫獲得傷害抗性；Globblometer 會延長持續時間。"
+  },
+  "Higher Caliber": {
+    "nameZh": "更大口徑",
+    "descriptionZh": "提高爆炸範圍，但降低射速。"
+  },
+  "Multithread": {
+    "nameZh": "多執行緒",
+    "descriptionZh": "與其他玩家同時使用鉤索立柱時，降低立柱能量消耗。"
+  },
+  "System Overload": {
+    "nameZh": "系統超載",
+    "descriptionZh": "被手榴彈爆炸擊中的玩家，短暫提高移動速度。"
+  },
+  "Skewer": {
+    "nameZh": "串刺",
+    "descriptionZh": "降低基礎傷害，但每貫穿一個目標，就提高該發射擊的傷害。"
+  },
+  "Ungovernable": {
+    "nameZh": "不受控制",
+    "descriptionZh": "提高射速、後座力與散布。"
+  },
+  "Momentum Transfer": {
+    "nameZh": "動量轉移",
+    "descriptionZh": "以足夠的力量落地時，部分垂直動量會轉成水平速度。"
+  }
+}

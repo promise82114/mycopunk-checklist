@@ -2,6 +2,7 @@ import { storageKey, beforeImportKey, maxBackupBytes, rarities, rarityLabels, ta
 import { validateRecommendations, renderRecommendations } from './recommendations.js';
 import { escapeHtml, dual, wikiCategories, categoryArt, sourceAnchor, validateFieldGuide, renderUpgrade, upgradeHeader } from './wiki.js';
 import { validateHiddenPaths, renderHiddenPaths } from './hidden-paths.js';
+import { createBuildPlanner } from './build-planner.js';
 
 const $ = selector => document.querySelector(selector);
 let dataset, fieldGuide, recommendations, recommendationIndex, profiles, ownersById, searchIndex, upgradeIds;
@@ -10,11 +11,12 @@ let recommendationError = '';
 let collection = emptyCollection();
 let storageBlocked = false, storageWritable = true, rawStorage = null, pendingImport = null, toastTimer;
 let wikiError = '';
+let buildPlanner;
 const defaults = { view: 'home', category: 'all', owner: '', query: '', rarity: '', tag: '', status: 'all', sort: 'source' };
 const filters = { ...defaults };
 const recommendationState = { source: 'both', tier: 'top', missing: false, comparisonOpen: false };
 const categoryName = id => wikiCategories.find(([key]) => key === id) || [id, 'General upgrades', '通用升級'];
-const scopeUpgrades = () => dataset.upgrades.filter(u => (filters.category === 'all' || u.category === filters.category) && (!filters.owner || u.ownerId === filters.owner));
+const scopeUpgrades = () => dataset.upgrades.filter(u => !u.archived && (filters.category === 'all' || u.category === filters.category) && (!filters.owner || u.ownerId === filters.owner));
 const countCollected = upgrades => upgrades.filter(u => collection.records[u.id]?.collected).length;
 
 function showToast(message) {
@@ -59,7 +61,7 @@ function readUrl() {
   Object.assign(filters, defaults);
   const params = new URLSearchParams(location.search);
   const view = params.get('view');
-  if (['home', 'library', 'collection', 'recommendations', 'unlocks'].includes(view)) filters.view = view;
+  if (['home', 'library', 'collection', 'recommendations', 'unlocks', 'planner'].includes(view)) filters.view = view;
   const category = params.get('category');
   if (['all', 'general', ...wikiCategories.map(([id]) => id)].includes(category)) filters.category = category;
   if (ownersById.has(params.get('owner'))) { filters.owner = params.get('owner'); filters.category = ownersById.get(filters.owner).category; }
@@ -70,6 +72,7 @@ function readUrl() {
   if (['all', 'missing', 'collected', 'tracked'].includes(params.get('status'))) filters.status = params.get('status');
   if (['source', 'name', 'rarity', 'size', 'missing'].includes(params.get('sort'))) filters.sort = params.get('sort');
   if (filters.view === 'recommendations') { filters.category = 'weapons'; if (!recommendationIndex?.owners.has(filters.owner) && !dataset.owners.some(o => o.id === filters.owner && o.category === 'weapons')) filters.owner = ''; }
+  if (filters.view === 'planner' && filters.owner && !['characters','weapons','grenades','heavy'].includes(ownersById.get(filters.owner)?.category)) { filters.owner = ''; filters.category = 'all'; }
 }
 function navigate(patch, scroll = true) {
   Object.assign(filters, defaults, patch);
@@ -90,6 +93,7 @@ function renderHeading() {
   if (home) { title = 'Know your gear.<span>從裝備開始，快速看懂 Mycopunk。</span>'; description = 'Characters, weapons, upgrades and the conditions behind them.<br>角色能力、裝備特性、升級效果與隱藏解鎖，整理在一起。'; }
   if (filters.view === 'collection') { title = 'Collection checklist <span>收集清單</span>'; description = 'A separate checklist for completionists. / 專為查漏與獎盃收集整理，不代表已核對遊戲完整獎盃需求。'; }
   if (filters.view === 'unlocks') { title = 'Hidden paths & unlocks <span>隱藏路徑與解鎖</span>'; description = 'Understand the unlock condition before moving upgrades around.<br>先釐清觸發方式，區分面板路徑、等級獎勵與配件增幅。'; }
+  if (filters.view === 'planner') { title = 'Build planner <span>配裝模擬</span>'; description = 'Choose the upgrades you want. Find a layout that fits.<br>挑選想裝的配件，自動排放並清楚列出未裝入的項目。'; }
   if (filters.view === 'recommendations') { title = 'Weapon tier guides <span>武器分級與搭配</span>'; description = 'Community rankings with their original sources. / 保留作者、版本與來源；搭配方向為效果整理。'; }
   if (filters.view === 'library' && filters.category === 'all' && !owner) { title = 'Upgrade reference <span>升級資料總覽</span>'; description = 'Effects, statistics and patterns in one list. / 效果、數值與形狀直接展開，無須逐一開啟詳情。'; }
   $('#page-title').innerHTML = title;
@@ -104,11 +108,11 @@ function categoryCard([id, en, zh, detailEn, detailZh], index) {
   return `<button type="button" class="category-card category-${id}" data-category="${id}"><div class="card-top"><span>0${index + 1}</span><span>${profiles.filter(p => p.category === id).length} entries / 項</span></div><div class="category-art">${categoryArt(id)}</div><div class="card-bottom"><h2>${en}<span>${zh}</span></h2><span class="card-arrow">↗</span></div>${dual(detailEn, detailZh)}</button>`;
 }
 function gearCard(profile) {
-  const count = dataset.upgrades.filter(u => u.ownerId === profile.ownerId).length;
-  return `<button type="button" class="gear-card" data-owner="${profile.ownerId}"><div class="gear-card-icon">${categoryArt(profile.category)}</div><div><h2>${escapeHtml(profile.nameEn)}<span>${escapeHtml(profile.nameZh)}</span></h2>${dual(profile.summaryEn, profile.summaryZh)}<span class="gear-card-foot">${count ? `${count} workbook upgrades / 筆升級` : 'Gear introduction / 裝備介紹'} <b>↗</b></span></div></button>`;
+  const count = dataset.upgrades.filter(u => u.ownerId === profile.ownerId && !u.archived).length;
+  return `<button type="button" class="gear-card" data-owner="${profile.ownerId}"><div class="gear-card-icon">${categoryArt(profile.category)}</div><div><h2>${escapeHtml(profile.nameEn)}<span>${escapeHtml(profile.nameZh)}</span></h2>${dual(profile.summaryEn, profile.summaryZh)}<span class="gear-card-foot">${count ? `${count} upgrades / 筆升級` : 'Gear introduction / 裝備介紹'} <b>↗</b></span></div></button>`;
 }
 function renderHome() {
-  return `<form id="site-search" class="home-search" role="search"><label for="home-query">Find an upgrade <span>查找升級效果</span></label><div><input id="home-query" name="query" type="search" placeholder="Try: ricochet, Heated Battery, 跳彈…" maxlength="500"><button type="submit">Search / 搜尋 →</button></div></form><section class="category-grid" aria-label="四大裝備分類">${wikiCategories.map(categoryCard).join('')}</section><section class="home-quick-links"><a href="${urlFor({view:'unlocks'})}" data-route="unlocks"><span class="quick-icon">⌘</span><div><span class="eyebrow">UPGRADE BOARD</span><h2>Hidden paths <span>面板裡的隱藏解鎖</span></h2><p>What triggers them, and what is still unknown.<br>怎樣觸發、與一般升級有何不同、哪些資訊仍待確認。</p></div><span>→</span></a><a href="${urlFor({view:'library'})}" data-route="library"><span class="quick-icon">≡</span><div><span class="eyebrow">QUICK REFERENCE</span><h2>Upgrade index <span>升級資料總表</span></h2><p>All ${dataset.upgrades.length} workbook records, fully readable.<br>英文與繁中效果、數值並列，支援分類搜尋。</p></div><span>→</span></a></section><div class="home-source-note"><p>Based on <strong>Mycopunk Wiki</strong> and <strong>Mycopunk Upgrades v1.6</strong>.</p><p>裝備介紹與舊工作簿分開註明來源；未記載的取得條件與形狀不猜測。<button type="button" data-action="about">Read source notes / 來源說明 ↗</button></p></div>`;
+  return `<form id="site-search" class="home-search" role="search"><label for="home-query">Find an upgrade <span>查找升級效果</span></label><div><input id="home-query" name="query" type="search" placeholder="Try: ricochet, Heated Battery, 跳彈…" maxlength="500"><button type="submit">Search / 搜尋 →</button></div></form><section class="category-grid" aria-label="四大裝備分類">${wikiCategories.map(categoryCard).join('')}</section><section class="home-quick-links"><a href="${urlFor({view:'unlocks'})}" data-route="unlocks"><span class="quick-icon">⌘</span><div><span class="eyebrow">UPGRADE BOARD</span><h2>Hidden paths <span>面板裡的隱藏解鎖</span></h2><p>What triggers them, and what is still unknown.<br>怎樣觸發、與一般升級有何不同、哪些資訊仍待確認。</p></div><span>→</span></a><a href="${urlFor({view:'library'})}" data-route="library"><span class="quick-icon">≡</span><div><span class="eyebrow">QUICK REFERENCE</span><h2>Upgrade index <span>升級資料總表</span></h2><p>Wiki-first upgrade records, fully readable.<br>英文與繁中效果、數值並列，支援分類搜尋。</p></div><span>→</span></a></section><div class="home-source-note"><p>Based on <strong>Mycopunk Wiki</strong> and <strong>Mycopunk Upgrades v1.6</strong>.</p><p>升級內容以 Wiki 最新查核修訂為主，舊工作簿作補充；每項保留來源。<button type="button" data-action="about">Read source notes / 來源說明 ↗</button></p></div>`;
 }
 function renderGearProfile(profile) {
   const acquisitionSource = profile.acquisition.sourceUrl || profile.sourceRevisionUrl || profile.sourceUrl;
@@ -118,11 +122,11 @@ function renderGearProfile(profile) {
   const perks = profile.traits.map(trait => `<li><h3>${escapeHtml(trait.labelEn)} <span class="zh-copy">${escapeHtml(trait.labelZh)}</span></h3>${dual(trait.textEn, trait.textZh)}</li>`).join('');
   const stats = profile.stats.map(stat => `<div><dt>${escapeHtml(stat.labelEn)}<span class="zh-copy">${escapeHtml(stat.labelZh)}</span></dt><dd>${escapeHtml(stat.value)}</dd></div>`).join('');
   const rewards = profile.levelUnlocks?.length ? `<section class="gear-levels"><h2>Level rewards <span>裝備等級獎勵</span></h2><div>${profile.levelUnlocks.map(reward => `<span><b>Lv.${escapeHtml(reward.level)}</b>${escapeHtml(reward.rewardEn)}<small class="zh-copy">${escapeHtml(reward.rewardZh)}</small></span>`).join('')}</div></section>` : '';
-  return `<section class="gear-overview"><div class="gear-overview-art category-${profile.category}">${categoryArt(profile.category)}<span>${categoryName(profile.category)[1].toUpperCase()}</span></div><div class="gear-overview-content"><span class="eyebrow">OVERVIEW / 裝備簡介</span>${dual(profile.summaryEn, profile.summaryZh, 'gear-summary')}${alias}<div class="gear-profile-source">${sourceAnchor(profile.sourceRevisionUrl || profile.sourceUrl, 'Wiki revision / 來源修訂 ↗')}<span>Checked ${profile.checkedOn} · Game version not stated / 版本未註明</span></div></div></section><div class="gear-facts"><section><h2>Traits & abilities <span>特色與能力</span></h2><ul>${perks || '<li class="muted">No additional traits documented / 來源未列其他特性</li>'}</ul></section><section class="acquisition"><h2>How to get <span>取得方式</span></h2><span class="evidence-label">${profile.acquisition.status === 'legacy-guide' ? 'LEGACY GUIDE / Historical route' : profile.acquisition.status === 'not-documented' ? 'NOT DOCUMENTED / 待補證據' : 'SOURCE NOTE / 來源記載'}</span>${dual(profile.acquisition.textEn, profile.acquisition.textZh)}${acquisitionVersion}${sourceAnchor(acquisitionSource, 'Acquisition source / 查看來源 ↗')}</section></div>${stats ? `<section class="base-stats"><h2>Base statistics <span>裝備基礎數值</span></h2><dl>${stats}</dl><p class="data-note">Wiki base values, separate from upgrade ranges below. / Wiki 基礎數值，與下方升級範圍分開呈現。</p></section>` : ''}${rewards}<div class="gear-section-links"><a href="#catalogue-view">Upgrades ↓ <span>升級列表</span></a>${recommendationIndex?.guides.has(profile.ownerId) ? `<button type="button" data-recommend-owner="${profile.ownerId}">Tier & pairing guide → <span>分級與搭配</span></button>` : ''}<button type="button" data-view="unlocks">Hidden paths → <span>隱藏解鎖</span></button></div>`;
+  return `<section class="gear-overview"><div class="gear-overview-art category-${profile.category}">${categoryArt(profile.category)}<span>${categoryName(profile.category)[1].toUpperCase()}</span></div><div class="gear-overview-content"><span class="eyebrow">OVERVIEW / 裝備簡介</span>${dual(profile.summaryEn, profile.summaryZh, 'gear-summary')}${alias}<div class="gear-profile-source">${sourceAnchor(profile.sourceRevisionUrl || profile.sourceUrl, 'Wiki revision / 來源修訂 ↗')}<span>Checked ${profile.checkedOn} · Game version not stated / 版本未註明</span></div></div></section><div class="gear-facts"><section><h2>Traits & abilities <span>特色與能力</span></h2><ul>${perks || '<li class="muted">No additional traits documented / 來源未列其他特性</li>'}</ul></section><section class="acquisition"><h2>How to get <span>取得方式</span></h2><span class="evidence-label">${profile.acquisition.status === 'legacy-guide' ? 'LEGACY GUIDE / Historical route' : profile.acquisition.status === 'not-documented' ? 'NOT DOCUMENTED / 待補證據' : 'SOURCE NOTE / 來源記載'}</span>${dual(profile.acquisition.textEn, profile.acquisition.textZh)}${acquisitionVersion}${sourceAnchor(acquisitionSource, 'Acquisition source / 查看來源 ↗')}</section></div>${stats ? `<section class="base-stats"><h2>Base statistics <span>裝備基礎數值</span></h2><dl>${stats}</dl><p class="data-note">Wiki base values, separate from upgrade ranges below. / Wiki 基礎數值，與下方升級範圍分開呈現。</p></section>` : ''}${rewards}<div class="gear-section-links"><a href="#catalogue-view">Upgrades ↓ <span>升級列表</span></a>${recommendationIndex?.guides.has(profile.ownerId) ? `<button type="button" data-recommend-owner="${profile.ownerId}">Tier & pairing guide → <span>分級與搭配</span></button>` : ''}<button type="button" data-view="unlocks">Hidden paths → <span>隱藏解鎖</span></button>${['characters','weapons','grenades','heavy'].includes(profile.category)?`<button type="button" data-build-owner="${escapeHtml(profile.ownerId)}">Build planner → <span>配裝模擬</span></button>`:''}</div>`;
 }
 function renderCollection() {
   const upgrades = scopeUpgrades(); const count = countCollected(upgrades);
-  return `<section class="collection-summary"><div><span class="eyebrow">WORKBOOK RECORDS / 原表收錄進度</span><p><b>${count}</b> / ${upgrades.length}<span>${(100 * count / (upgrades.length || 1)).toFixed(1)}%</span></p><progress max="${upgrades.length || 1}" value="${count}" aria-label="收集進度"></progress></div><div><p>Progress is stored in this browser. / 紀錄僅儲存於此瀏覽器。</p><button id="export-button" type="button">Export backup / 匯出備份</button><button id="import-button" type="button">Import backup / 匯入備份</button></div></section><div class="collection-groups">${[['all','All','全部'],...wikiCategories.filter(([id])=>id!=='heavy'),['general','General','通用']].map(([id,en,zh])=>`<button type="button" data-collection-category="${id}" aria-pressed="${filters.category===id}">${en} <span>${zh}</span></button>`).join('')}</div><p class="data-note">660 records are not a verified trophy total. Newer gear has no complete upgrade list yet. / 原表收錄筆數不等於獎盃所需總數；新版裝備升級仍待補齊。</p>`;
+  return `<section class="collection-summary"><div><span class="eyebrow">CATALOGUE RECORDS / 圖鑑收集進度</span><p><b>${count}</b> / ${upgrades.length}<span>${(100 * count / (upgrades.length || 1)).toFixed(1)}%</span></p><progress max="${upgrades.length || 1}" value="${count}" aria-label="收集進度"></progress></div><div><p>Progress is stored in this browser. / 紀錄僅儲存於此瀏覽器。</p><button id="export-button" type="button">Export backup / 匯出備份</button><button id="import-button" type="button">Import backup / 匯入備份</button></div></section><div class="collection-groups">${[['all','All','全部'],...wikiCategories,['general','General','通用']].map(([id,en,zh])=>`<button type="button" data-collection-category="${id}" aria-pressed="${filters.category===id}">${en} <span>${zh}</span></button>`).join('')}</div><p class="data-note">Catalogue counts are not a verified trophy total. Two archived Workbook entries are retained for existing saves. / 圖鑑筆數不等於獎盃總數；兩筆舊表項目另行保留，不計入進度，並於列內標註。</p>`;
 }
 function renderUnlocks() {
   if (!fieldGuide?.hiddenPaths) return '<p class="data-note">Hidden paths could not load. Please reload. / 隱藏路徑未能載入，請重新整理。</p>';
@@ -135,11 +139,11 @@ function renderRow(upgrade) {
   return renderUpgrade(upgrade, ownersById.get(upgrade.ownerId), collection.records[upgrade.id], { storageBlocked, checklist:filters.view==='collection', showOwner:!filters.owner, unlock, shape });
 }
 function renderResults() {
-  const rows = sortUpgrades(filterUpgrades(dataset.upgrades,filters,collection.records,searchIndex),filters.sort,collection.records);
+  const rows = sortUpgrades(filterUpgrades(dataset.upgrades.filter(u=>filters.view==='collection'||!u.archived),filters,collection.records,searchIndex),filters.sort,collection.records).sort((a,b)=>Number(Boolean(a.archived))-Number(Boolean(b.archived)));
   $('#result-count').textContent = `${rows.length} upgrades / 筆升級資料`;
   $('#table-header').innerHTML = rows.length ? upgradeHeader : '';
-  $('#upgrade-list').innerHTML = rows.map(renderRow).join('') || `<div class="empty-state"><h3>${scopeUpgrades().length ? 'No matching upgrades / 沒有符合條件的升級' : 'Upgrade data not yet recorded / 尚未收錄升級資料'}</h3><p>${scopeUpgrades().length ? 'Adjust the search or filters. / 可清除關鍵字或調整篩選。' : 'This gear is in the Wiki index, but not in Workbook v1.6. / 此裝備已列入 Wiki 索引，但工作簿 v1.6 未提供升級清單。'}</p></div>`;
-  $('#upgrade-data-note').textContent = 'Upgrade effects and ranges: Workbook v1.6 (dataset version, not game version). Pattern sources are labelled separately; cell count does not determine a shape. / 升級效果與數值來自工作簿 v1.6；這是資料表版本。占格數無法推算格形，未收錄的形狀不以示意圖代替。';
+  $('#upgrade-list').innerHTML = rows.map(renderRow).join('') || `<div class="empty-state"><h3>${scopeUpgrades().length ? 'No matching upgrades / 沒有符合條件的升級' : 'Upgrade data not yet recorded / 尚未收錄升級資料'}</h3><p>${scopeUpgrades().length ? 'Adjust the search or filters. / 可清除關鍵字或調整篩選。' : 'No upgrades found in the checked Wiki revision. / 本次查核的 Wiki 修訂未列出升級。'}</p></div>`;
+  $('#upgrade-data-note').textContent = 'Wiki-first · checked 2026-10-24. Each row links its source revision; file versions are shown beside patterns. / 以 Wiki 為主，2026-10-24 查核；每列附固定修訂來源，格形另標圖檔版本。Wiki 未註明的遊戲版本不推定。';
 }
 function renderRecommendationPage() {
   const root = $('#recommendations-view');
@@ -156,6 +160,7 @@ async function loadRecommendations() {
   if(filters.view==='recommendations')renderRecommendationPage();
 }
 function refresh() {
+  document.body.classList.toggle('is-planner', filters.view === 'planner');
   renderDirectory(); renderHeading();
   const owner=ownersById.get(filters.owner);const profile=profiles.find(p=>p.ownerId===filters.owner);
   let content='';
@@ -168,12 +173,17 @@ function refresh() {
   $('#page-content').innerHTML=content;
   $('#catalogue-view').hidden=!showCatalogue;
   $('#recommendations-view').hidden=filters.view!=='recommendations';
+  $('#build-view').hidden=filters.view!=='planner';
   $('#collection-status-label').hidden=filters.view!=='collection';
   for(const [selector,key]of[['#search','query'],['#rarity-filter','rarity'],['#tag-filter','tag'],['#sort-filter','sort'],['#status-filter','status']])$(selector).value=filters[key];
   if(showCatalogue)renderResults();
   else { $('#upgrade-list').innerHTML=''; $('#table-header').innerHTML=''; }
   if(filters.view==='recommendations')renderRecommendationPage();
   else { $('#recommendations-view').innerHTML=''; $('#recommendations-view').setAttribute('aria-busy','false'); }
+  if(filters.view==='planner') {
+    if(!buildPlanner)buildPlanner=createBuildPlanner($('#build-view'),dataset,fieldGuide,()=>collection.records,id=>{filters.owner=id;filters.category=ownersById.get(id)?.category||'all';history.replaceState(null,'',urlFor(filters));renderHeading();renderDirectory();});
+    buildPlanner.show(filters.owner);
+  } else buildPlanner?.hide();
 }
 function showUpgrade(id) {
   const upgrade=dataset.upgrades.find(u=>u.id===id);if(!upgrade)return;
@@ -181,7 +191,7 @@ function showUpgrade(id) {
   const row=document.getElementById('upgrade-'+id);row.tabIndex=-1;row.focus({preventScroll:true});row.scrollIntoView({block:'center'});
 }
 function openAbout() {
-  $('#about-content').innerHTML=`<dl class="source-list"><dt>Equipment / 裝備介紹</dt><dd>${sourceAnchor('https://mycopunk.miraheze.org/wiki/Main_Page')} · checked ${fieldGuide?.equipment?.checkedOn || '—'}<br>改寫、繁中翻譯：本站。Wiki contributors 原文與改作文字依 CC BY-SA 4.0 提供。裝備頁列出個別修訂來源與未記載的取得條件。</dd><dt>Upgrade dataset / 升級資料</dt><dd>${escapeHtml(dataset.source.filename)} · ${dataset.upgrades.length} records / ${dataset.counts.distinctNames} names<br>v1.6 是資料表版本，並非遊戲版本。正式版與獎盃需求未完整核對。數值正負與上下界按原表保留。</dd><dt>Unlocks & patterns / 解鎖與格形</dt><dd>Wiki 與玩家資料分開標示來源、版本與限制。占格數不等於形狀，不以猜測補圖；未找到完整 Hidden Paths 路徑座標時會明示。</dd><dt>Collection / 收集資料</dt><dd>紀錄只存在此網址的瀏覽器，不會上傳。穩定 ID、舊追蹤與筆記均保留，攻略已移除筆記編輯介面；備份仍包含舊資料。網址、裝置或瀏覽器不同時需匯出／匯入。</dd><dt>Import / 匯入</dt><dd>同一 ID 以更新時間較新的整筆紀錄為準；時間相同保留本機。未對應 ID 不刪除，匯入前先保存原始備份。</dd></dl>`;
+  $('#about-content').innerHTML=`<dl class="source-list"><dt>Equipment / 裝備介紹</dt><dd>${sourceAnchor('https://mycopunk.miraheze.org/wiki/Main_Page')} · checked ${fieldGuide?.equipment?.checkedOn || '—'}<br>改寫、繁中翻譯：本站。Wiki contributors 原文與改作文字依 CC BY-SA 4.0 提供。裝備頁列出個別修訂來源與未記載的取得條件。</dd><dt>Upgrade dataset / 升級資料</dt><dd>Mycopunk Wiki · checked ${dataset.primarySource.checkedOn} · ${dataset.counts.wikiRecords} Wiki records<br>以 Wiki 升級清單、品質、效果、數值為主，列內附來源修訂。未標示遊戲版本時不推定；來源空白格形會明示。${escapeHtml(dataset.source.filename)} 保留為補充及舊存檔相容，兩筆舊項目只列於收集清單。</dd><dt>Unlocks & patterns / 解鎖與格形</dt><dd>Wiki 與玩家資料分開標示來源、版本與限制。占格數不等於形狀，不以猜測補圖；未找到完整 Hidden Paths 路徑座標時會明示。</dd><dt>Collection / 收集資料</dt><dd>紀錄只存在此網址的瀏覽器，不會上傳。穩定 ID、舊追蹤與筆記均保留，攻略已移除筆記編輯介面；備份仍包含舊資料。網址、裝置或瀏覽器不同時需匯出／匯入。</dd><dt>Import / 匯入</dt><dd>同一 ID 以更新時間較新的整筆紀錄為準；時間相同保留本機。未對應 ID 不刪除，匯入前先保存原始備份。</dd></dl>`;
   $('#raw-export').hidden=rawStorage===null;
   try{$('#previous-export').hidden=localStorage.getItem(beforeImportKey)===null;}catch{$('#previous-export').hidden=true;}
   $('#about-dialog').showModal();
@@ -211,7 +221,8 @@ function setupEvents() {
     if(data.route){event.preventDefault();navigate({view:data.route});}
     if(data.view)navigate({view:data.view,category:data.view==='recommendations'?'weapons':'all'});
     if(data.category)navigate({view:'library',category:data.category});
-    if(data.owner){const owner=ownersById.get(data.owner);navigate({view:filters.view==='recommendations'&&recommendationIndex?.owners.has(data.owner)?'recommendations':'library',category:owner.category,owner:data.owner});}
+    if(data.owner){const owner=ownersById.get(data.owner);navigate({view:filters.view==='planner'&&['characters','weapons','grenades','heavy'].includes(owner.category)?'planner':filters.view==='recommendations'&&recommendationIndex?.owners.has(data.owner)?'recommendations':'library',category:owner.category,owner:data.owner});}
+    if(data.buildOwner)navigate({view:'planner',owner:data.buildOwner,category:ownersById.get(data.buildOwner)?.category||'all'});
     if(data.collectionCategory)navigate({view:'collection',category:data.collectionCategory});
     if(data.recommendOwner){Object.assign(recommendationState,{tier:'top',missing:false,comparisonOpen:false});navigate({view:'recommendations',category:'weapons',owner:data.recommendOwner==='all'?'':data.recommendOwner});}
     if(data.detail)showUpgrade(data.detail);
@@ -243,7 +254,7 @@ function setupEvents() {
 }
 async function start() {
   try {
-    const response=await fetch('data/upgrades.json');if(!response.ok)throw new Error('HTTP '+response.status);dataset=await response.json();
+    const response=await fetch('data/catalogue.json');if(!response.ok)throw new Error('HTTP '+response.status);dataset=await response.json();
     if(dataset.schemaVersion!==1||!Array.isArray(dataset.upgrades)||!dataset.upgrades.length)throw new Error('升級資料格式不支援');
     try{const response=await fetch('data/field-guide.json');if(!response.ok)throw new Error('HTTP '+response.status);const incoming=await response.json();validateHiddenPaths(incoming.hiddenPaths);fieldGuide=validateFieldGuide(incoming,dataset);}catch(error){wikiError=error.message;}
     profiles=fieldGuide?.equipment?.items||dataset.owners.filter(o=>o.category!=='general').map(o=>({ownerId:o.id,...o,summaryEn:'Workbook upgrade list',summaryZh:'工作簿升級列表',traits:[],stats:[],acquisition:{status:'not-documented',textEn:'Not documented',textZh:'取得方式未記載'}}));

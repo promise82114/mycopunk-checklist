@@ -6,7 +6,7 @@
 
 ## GitHub Pages 部署
 
-推送至 `main` 後，`.github/workflows/pages.yml` 會檢查 JavaScript、圖鑑與推薦資料，確認三個匯入器可以重現提交內容，再發布 `prototype/`。也可在 GitHub Actions 手動執行 `Deploy GitHub Pages`。
+推送至 `main` 後，`.github/workflows/pages.yml` 會檢查 JavaScript、圖鑑與推薦資料，確認各匯入器可以離線重現提交內容，再發布 `prototype/`。也可在 GitHub Actions 手動執行 `Deploy GitHub Pages`。
 
 Pages 的發布來源使用 **GitHub Actions**。網站發布內容僅包含 `prototype/`，Excel、翻譯來源與匯入腳本留在 repo 供重建，不會放入網站部署包。
 
@@ -34,20 +34,20 @@ node scripts/serve.mjs
 ## 攻略介面
 
 - 首頁四分類卡片：5 位角色、13 把武器、5 種投擲物、4 把重武器，共 27 件 Wiki 裝備。
-- 每件裝備先呈現雙語簡介、特色／技能、已知取得方式、基礎數值及其個別等級獎勵，再列升級資料。Wiki 未列出的取得條件明示待查；新版裝備缺少工作簿升級時保留介紹，不補造升級。
-- 660 筆工作簿升級的品質、英文／繁中效果、已收錄的 Turbocharge、全部數值與格形直接展開，不再有配件詳情視窗或筆記編輯。
+- 每件裝備先呈現雙語簡介、特色／技能、已知取得方式、基礎數值及其個別等級獎勵，再列升級資料。升級以 Wiki 最新查核清單為主，包含真菌學家 36 筆及四種重武器各 10 筆。
+- Wiki 的 840 筆升級品質、英文／繁中效果、取得方式、數值與格形直接展開；另外保留兩筆舊工作簿項目於 checklist，以維持舊存檔相容。不再有配件詳情視窗或筆記編輯。
 - 品質、效果、裝備、中英關鍵字搜尋；同一頁直接閱覽全部符合資料，不需要逐筆點開或分批載入。
-- 格形由 JSON 的六角格 axial 座標繪製，605 種形狀對應 658 筆升級。未收錄的 2 筆不猜圖；格數與原表不同時並列來源版本與兩者格數。
+- 格形由 JSON 的六角格 axial 座標繪製，768 個 Wiki 圖檔來源對應 837 筆升級。另有三個來源圖檔為空；兩筆舊表保留項目仍待補。格數與原表不同時並列來源版本與兩者格數。
 - Hidden paths／隱藏解鎖專頁區分隱藏路徑、Pattern Infusion 與裝備等級獎勵。七條 Hidden Paths 直接顯示六角格路徑圖、必填格位、品質限制及資料列獎勵，並分開標示 PC v2.0.2 與舊版影片的適用版本。
 - Checklist／收集清單是獨立頁面；裝備資料列旁僅放小型收集勾選。沿用原有穩定 ID、儲存鍵、追蹤與備份格式，舊筆記保留於資料與匯出檔，不再顯示編輯欄位。
 - 亮色底、四分類淡色卡片、窄螢幕直向資料列；桌面保留欄名和分類導覽。
 - Tier guides／分級搭配保留兩榜對照、364 筆配件分級及 20 條雙語搭配方向。配件連結會導向完整攻略資料列，不開啟對話框。
 
-棋盤配裝模擬尚未加入。`prototype/patterns.js` 已共用座標繪圖、60 度旋轉與格子重疊判斷，可供後續模擬使用；目前不宣稱任何搭配一定裝得下。
+配裝模擬可從主導覽或四類裝備頁進入。挑選卡片只顯示名稱、品質色與格形；選擇後以座標自動排放，結果分開顯示已裝入、單獨放不下、此最大配置未裝入、搜尋尚未完成及無法計算的項目。`prototype/patterns.js` 的六角格旋轉與繪圖沿用。
 
 ## Wiki、格形與解鎖來源
 
-主要來源：[Mycopunk Wiki](https://mycopunk.miraheze.org/wiki/Main_Page)，核對日期 **2026-10-23**。每筆介紹保存個別永久修訂連結；Wiki 文字經改寫與繁中翻譯，依 **CC BY-SA 4.0** 提供，網站頁尾與來源說明保留貢獻者署名與授權。
+主要來源：[Mycopunk Wiki](https://mycopunk.miraheze.org/wiki/Main_Page)，升級清單核對日期 **2026-10-24**，裝備介紹為 2026-10-23。每筆保存永久修訂連結；Wiki 文字經繁中翻譯，依 **CC BY-SA 4.0** 提供，網站頁尾與來源說明保留貢獻者署名與授權。
 
 - `research/wiki-equipment.json`：27 件雙語裝備介紹與來源；`wiki-equipment-snapshot.json` 保存已讀修訂摘錄。工作簿的 Shock／Acid Grenade 分別沿用原 ID 對應 Wiki 的 Voltaic／Caustic Grenade。
 - `research/wiki-unlocks.json`：Wiki 機制、Hidden Paths 資料匯出及玩家補充分開標示，不混同配件相鄰增幅。
@@ -77,10 +77,11 @@ node scripts/serve.mjs
 離線重建網站攻略資料：
 
 ```powershell
+python scripts/import_wiki_catalogue.py
 python scripts/import_wiki.py
 ```
 
-`research/collect-wiki-shapes.py` 預設只從已保存的 API 與座標 JSON 快照離線重建研究資料；`--refresh-missing-index` 以精確檔名補查未收錄名稱，`--fetch-missing-coordinates` 只讀未嘗試的新來源。兩者才會連外，每份一次、最多 4 個並行；不重抓原有 445 份。原 `--fetch-coordinates` 是重讀模式，一般修補不使用。一般開站、檢查及 CI 都不執行連外抓取。網站只帶必要的介紹、機制與座標 JSON，約 585 KB，不包含研究索引或圖檔。
+`research/collect-wiki-shapes.py` 預設只從已保存的 API 與座標 JSON 快照離線重建研究資料；`--refresh-missing-index` 以精確檔名補查未收錄名稱，`--fetch-missing-coordinates` 只讀未嘗試的新來源。兩者才會連外，每份一次、最多 4 個並行；不重抓原有 445 份。原 `--fetch-coordinates` 是重讀模式，一般修補不使用。一般開站、檢查及 CI 都不執行連外抓取。網站只帶必要的介紹、機制與座標 JSON，不包含研究快照或來源 SVG。
 
 ## 第二階段：推薦來源與版本
 
@@ -100,16 +101,16 @@ python scripts/import_wiki.py
 python scripts/import_recommendations.py
 ```
 
-更新 Excel、榜單快照或搭配說明後，依序重跑 Excel、推薦與 Wiki 匯入器，再執行 `npm run check`。配件檔名無法精確對應時，推薦匯入器會停止，須人工核對。收集紀錄的穩定 ID、儲存鍵及備份格式沿用第一階段。
+更新資料後依序執行 Excel、推薦、Wiki 圖鑑、Wiki 攻略及配裝匯入器，再執行 `npm run check`。推薦仍明示沿用舊工作簿的效果整理與榜單適用版本，不能當作新版 Wiki 的實測推薦。收集紀錄的穩定 ID、儲存鍵及備份格式沿用第一階段。
 
 ## 資料範圍與限制
 
-- 檔名的 v1.6 是資料表版本，不等同遊戲版本。正式版新增角色、武器、手榴彈及配件變更仍需補齊與核對。
-- 660 筆是「裝備＋配件」紀錄，共 607 個不同英文名稱。同名項目跨裝備分開保留，收集狀態互不影響；不能將兩個數字當作獎盃需求總數。
+- 檔名的 v1.6 是舊資料表版本，不等同遊戲版本。Wiki 清單為本次查核的固定修訂，不會隨開站即時更新；遊戲內效果仍待實機核對。
+- 新圖鑑共 842 筆，其中 840 筆來自 Wiki，兩筆為舊表保留。同名項目跨裝備分開記錄；不能將圖鑑筆數當作獎盃需求總數。
 - 中文由 AI 輔助翻譯並修飾，角色與武器中文名稱也屬暫譯，尚未與遊戲內用詞核對。英文原文與數字始終保留。
 - 效果分類使用英文關鍵字多標籤，僅供查找，不是實測推薦；例如裝填速度不會自動被分類為移動速度。
 - 數值、負號與上下界順序依來源保留，不自行交換看似反向的 Min/Max。描述與數值矛盾、疑似誤植或殘文也不憑空修補。
-- 升級列表只展開原表有記載且非 n/a 的 Turbocharge；空白不補寫效果，`[Redacted]` 保留隱去狀態。
+- Wiki 未列的 Turbocharge 不沿用舊表數值；空白不補寫效果，`[Redacted]` 保留隱去狀態。
 - 舊 Build 與參考輔助分頁不納入配件清單；原表中的失效引用不會當作正式推薦匯入。
 - 配件圖示來自使用者提供的工作簿；首頁分類線圖為本站自繪。格形以資料產生向量六角格，不複製第三方求解器。
 
@@ -173,3 +174,66 @@ python scripts/import_excel.py --strict
 - 179 份來源 SVG 只在記憶體解析，新增資料仍僅包含座標、雜湊與來源；不保存、不部署來源圖檔。已保留各圖檔明示版本，沒有以新版資料覆寫原 Excel 的占格數。
 
 修補驗證：全站實際呈現 660 筆升級，其中 658 筆有程式繪製的格形、2 筆顯示座標待補；四個 Prism 共 12 個六角格，Corrode Siphon 為來源 v2.0 的 4 格並另列 Excel 6 格。桌面與 390px 無水平溢出、無 JavaScript 錯誤。離線重建結果可重現，沿用舊收集資料與備份格式。
+
+## 配裝模擬（2026-10-24）
+
+- 選角色、武器、手榴彈或重武器，列出其專屬配件與來源確認適用的通用配件。同名專屬／通用紀錄不重複列入。支援中英名稱／效果搜尋、品質與僅已收集篩選，不更動收集勾選或備份。
+- 使用目前 837 筆已收錄格形；幾何運算、旋轉和碰撞都以 axial 座標完成，不使用來源貼圖。可疊加配件可選多份，最多共 40 份；一般配裝與任務內疊加分開處理。
+- 自動排放先最大化裝入數量，同數量時再最大化使用格數；不計算傷害、加成或相鄰收益。以分支限界、合法配置種子、占用格位快取搜尋，透過 module Web Worker 在背景執行。
+- 一般搜尋上限為 250,000 節點／約 2.5 秒；延長搜尋為 1,500,000 節點／約 10 秒。達上限只回報目前最佳配置，不宣稱已證明無解。可取消；更換裝備、配件或面板會停止舊搜尋並清除不再適用的結果。
+- 配置圖以編號和顏色對應配件，逐件列出旋轉角度與占用格位。未裝入摘要直接顯示在面板上方；可匯出配置 JSON。本次開啟期間保留各裝備選擇，重整後重設。
+
+面板與旋轉門檻取自同一份固定修訂的 [PC v2.0.2 / Build 26120128 資料](https://github.com/Vilsol/mycopunk-data/blob/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz)。`research/build-board-evidence.json` 僅保存所需欄位與來源雜湊，完整 gzip 匯出只在記憶體分析；`scripts/import_build_rules.py` 離線生成 `prototype/data/build-rules.json`。
+
+`DefaultGridProfile` 列出一般面板等級 0 / 3 / 6 / 10 的 5×5 / 6×5 / 6×6 / 7×6 面板；介面把來源等級 0 的基礎階段標為 Lv.1–2。角色隨玩家等級，武器與手榴彈隨裝備等級；重武器使用 `HeavyGridProfile` 固定 5×5。可自訂 1–12 欄列、以滑鼠或鍵盤切換不可用格，讓玩家對照自己的面板。
+
+玩家旋轉門檻為 Standard Lv.3、Rare Lv.8、Epic Lv.16、Exotic Lv.30；與裝備等級分開。Oddity／Contraband 沒有已取得的旋轉門檻，採來源方向；不提供鏡射。旋轉依 Wiki 列出的品質套用規則，格形版本逐項標示，跨來源相容性與實際遊戲觸發仍待實測。
+
+目前不自動處理 Edge Fault、Boundary Incursion、Multiversal Thievery、Handheld Pocket Universe 的擴格／跨面板／改形效果；選入時明示未計算，不能算入成功安裝。特殊限制以小型驚嘆號提示，模式限定於所選清單列明，計算結果只代表格位能容納，不代表取得、模式、屬性或遊戲內資格已驗證。
+
+離線更新規則：
+
+```powershell
+python scripts/import_build_rules.py
+```
+
+驗證沿用 `scripts/validate_site.mjs`：小面板以完整窮舉對照最大裝入數與占格數，檢查旋轉門檻、非原點格形對位、不可用格、碰撞、缺失格形、擴格項目、重複 ID 與搜尋上限，並維持既有收藏與備份相容檢查。
+
+本機介面驗證：四件配件在 7×6 面板放入 20 格、無重疊；改為 2×2 時只裝入一件並直接列出三件未裝入。角色通用配件、僅已收集的空清單、缺少格形、擴格未計算、鍵盤切換不可用格、裝備頁入口與離頁返回保留選擇均已核對。1280px、390px、320px 無水平溢出，無 JavaScript 錯誤。
+
+## Wiki 優先與精簡配裝介面（2026-10-24）
+
+`research/wiki-catalogue-snapshot.json` 保存本次查核的裝備清單與升級必要文字、修訂 ID、日期及雜湊；`localization/wiki-upgrades-zh-Hant.json` 補上新增及變更效果的繁中。`scripts/import_wiki_catalogue.py` 離線生成主要的 `prototype/data/catalogue.json`，原 `upgrades.json` 維持 Excel 原始匯入結果。
+
+- 842 個唯一 ID，840 筆 Wiki 資料；全部原 660 個 ID 保留。Wiki 將 Nutrition Sampler 重新導向 Nutritious Cores，沿用原 ID；兩筆無法確認重新命名關係的舊項目僅保留於 checklist，不計入收集進度。
+- 真菌學家 36 筆、Diffraction Driver 31 筆、Photon Disc 30 筆、Snowball Grenade 26 筆、四把重武器各 10 筆，均含英文、繁中、品質、數值及來源修訂。各筆取得方式也直接列出。
+- 依升級來源實際引用的 771 個圖檔名稱對應，不靠名稱猜測。新增來源在記憶體分析，768 個來源提供有效格點，837 筆升級有座標；Nose Dive、Jetpack、Air Dash 的來源圖檔確實沒有多邊形，保留空圖證據，不推斷占格或可安裝性。
+- `research/wiki-catalogue-coordinates.json` 只保存座標、圖檔中繼資料與雜湊；沒有來源 SVG。初次解析遇空圖格式中斷，補做格式診斷後改為逐批保存座標與錯誤進度，避免中斷後重抓。
+- 模擬器的卡片只呈現品質色、名稱與格形，專屬配件排在通用配件之前；詳細效果與取得方式在圖鑑查閱。來源與運算限制收在可展開的說明中。
+
+完整離線重建順序：
+
+```powershell
+python scripts/import_excel.py --strict
+python scripts/import_recommendations.py
+python scripts/import_wiki_catalogue.py
+python scripts/import_wiki.py
+python scripts/import_build_rules.py
+npm run check
+```
+
+`research/collect-wiki-catalogue.py` 與 `collect-wiki-catalogue-shapes.py` 是明確連外的研究工具，不由網站、測試或 CI 執行。後者使用最多四個並行讀取；解析出座標後即丟棄來源內容，遇拒絕、限流或 HTTP 錯誤停止，不重試。
+
+本輪驗證：五個匯入器連續離線重建，所有部署 JSON 位元組一致；既有驗證器涵蓋 660 個舊 ID、842 個合併 ID、837 筆格形、收藏備份、推薦資料及七條 Hidden Paths。瀏覽器中真菌學家圖鑑顯示 36 筆，模擬器三件配件放入 10 格；重武器三件配件放入 12 格，改為 1×1 後逐項列出三件未裝入。雪球手榴彈可排放，角色面板會隨玩家等級更新。1280px、390px 模擬器與 320px 模擬器／圖鑑無水平溢出；主測試頁無 JavaScript 錯誤。收集頁保留 842 列，進度分母為 840，未寫入使用者收集資料。
+
+## 同款多份配件（2026-10-24）
+
+- 依每筆 Wiki 修訂的完整旗標區分：`CanStack` 開放一般配裝多份，僅 `CanStackInMission` 則在「任務內疊加」情境開放。這是技術旗標的解讀，適用模式未實機核對；不因效果描述出現 stack 字樣，就推定能重複安裝。來源摘錄見 `research/upgrade-stacking-evidence.json`。
+- 60 筆為一般可重複、628 筆為任務內可疊加，另 152 筆按單件安裝處理；兩筆舊表項目沒有旗標，顯示未記載。圖鑑直接標示，名稱／效果搜尋也可查找「可重複安裝」「任務內可疊加」。
+- 挑選卡片保留品質色、名稱與格形；已選的可疊加配件出現 `−／份數／＋`。每份有獨立 instance ID、面板編號與未裝入原因，可個別移除，也可整種取消選擇。
+- 情境切回一般配裝時保留額外副本，排放時明示其不符目前疊加規則。40 份是模擬器總運算上限，並非宣稱遊戲疊加上限；每份共用該類型收錄的格形，不計算疊加數值或各副本的個別變形。
+- 配置匯出升為 schema 2：`selected` 保留配件 ID，可重複；`instances` 將獨立 ID 對應回圖鑑，`result` 引用 instance ID，並保存情境、圖鑑版本與疊加來源。原 schema 1 配置檔未改寫；原本就未提供配置檔匯入功能。收集備份仍為 schema 1，穩定 ID 與資料完全沿用。
+
+沿用既有驗證器檢查旗標精確解析、份數與總上限、刪減後保留其他副本 ID、同款碰撞及放不下的原因、切換情境不丟失選擇。瀏覽器實測三份 Auger Subroutine 分別放入共 12 格，Bigazine 在任務內可放三份，切回一般配裝保留三份並明示兩份受限；單份移除、加減及 schema 2 匯出通過。1280px、390px、320px 無水平溢出。
+
+發布前重新驗證五個離線匯入器：部署 JSON、圖示與翻譯鍵的位元組完全一致。格形研究腳本也會沿用已完成快照，包括三個空圖來源；禁止網路存取的執行檢查確認不會重讀既有圖檔。

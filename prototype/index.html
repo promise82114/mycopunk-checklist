@@ -8,13 +8,14 @@
   <title>Mycopunk Field Guide — 裝備與升級攻略</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="recommendations.css">
+  <link rel="stylesheet" href="build-planner.css">
   <script src="app.js" type="module"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content / 跳至內容</a>
   <header class="site-header">
     <a class="brand" href="./" data-home><span class="brand-mark" aria-hidden="true">M<span>✳</span></span><span><strong>MYCOPUNK</strong><span class="brand-sub">FIELD GUIDE <span>攻略手冊</span></span></span></a>
-    <nav class="primary-nav" aria-label="主要導覽"><button type="button" data-view="home">Explore <span>裝備索引</span></button><button type="button" data-view="unlocks">Hidden paths <span>隱藏解鎖</span></button><button type="button" data-view="recommendations">Tier guides <span>分級搭配</span></button><button type="button" data-view="collection">Checklist <span>收集清單</span></button></nav>
+    <nav class="primary-nav" aria-label="主要導覽"><button type="button" data-view="home">Explore <span>裝備索引</span></button><button type="button" data-view="planner">Build planner <span>配裝模擬</span></button><button type="button" data-view="unlocks">Hidden paths <span>隱藏解鎖</span></button><button type="button" data-view="recommendations">Tier guides <span>分級搭配</span></button><button type="button" data-view="collection">Checklist <span>收集清單</span></button></nav>
     <button id="language-toggle" type="button" aria-pressed="true">EN + 繁中</button>
   </header>
   <div id="storage-notice" class="storage-notice" role="alert" hidden></div>
@@ -27,12 +28,13 @@
       <div id="page-content"></div>
       <section id="catalogue-view" hidden>
         <div class="section-heading"><h2 id="upgrades-title">Upgrades <span>升級配件</span></h2><span class="muted">EN original · 繁中輔助</span></div>
-        <form id="filters" class="filter-panel" role="search"><label class="search-field">Search upgrades <span>搜尋名稱、效果、屬性</span><input id="search" type="search" placeholder="Name, effect, stat… / 名稱、效果、數值" autocomplete="off"></label><label>Quality / 品質<select id="rarity-filter"><option value="">All qualities / 全部品質</option></select></label><label>Effect / 效果<select id="tag-filter"><option value="">All effects / 全部效果</option></select></label><label>Sort / 排序<select id="sort-filter"><option value="source">Workbook / 原表順序</option><option value="name">Name / 名稱</option><option value="rarity">Quality / 品質</option><option value="size">Cells / 占格數</option><option value="missing">Missing first / 未收集優先</option></select></label><label id="collection-status-label">Collection / 收集狀態<select id="status-filter"><option value="all">All / 全部</option><option value="missing">Missing / 未取得</option><option value="collected">Collected / 已取得</option><option value="tracked">Tracked / 追蹤</option></select></label><button id="clear-filters" type="button" class="text-button">Reset / 清除</button></form>
+        <form id="filters" class="filter-panel" role="search"><label class="search-field">Search upgrades <span>搜尋名稱、效果、屬性</span><input id="search" type="search" placeholder="Name, effect, stat… / 名稱、效果、數值" autocomplete="off"></label><label>Quality / 品質<select id="rarity-filter"><option value="">All qualities / 全部品質</option></select></label><label>Effect / 效果<select id="tag-filter"><option value="">All effects / 全部效果</option></select></label><label>Sort / 排序<select id="sort-filter"><option value="source">Index / 圖鑑順序</option><option value="name">Name / 名稱</option><option value="rarity">Quality / 品質</option><option value="size">Cells / 占格數</option><option value="missing">Missing first / 未收集優先</option></select></label><label id="collection-status-label">Collection / 收集狀態<select id="status-filter"><option value="all">All / 全部</option><option value="missing">Missing / 未取得</option><option value="collected">Collected / 已取得</option><option value="tracked">Tracked / 追蹤</option></select></label><button id="clear-filters" type="button" class="text-button">Reset / 清除</button></form>
         <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite"></p><span>✓ <span class="zh-copy">旁側勾選僅供個人收集</span></span></div>
         <div id="table-header"></div><div id="upgrade-list" aria-label="Upgrade reference / 升級資料列表"></div>
         <p id="upgrade-data-note" class="data-note"></p>
       </section>
       <section id="recommendations-view" aria-label="武器分級與配件搭配" hidden></section>
+      <section id="build-view" aria-label="配裝模擬" hidden></section>
       <footer class="page-footer"><div><strong>MYCOPUNK FIELD GUIDE</strong><p>Unofficial reference · 非官方攻略整理</p></div><div><p>Wiki text adapted from <a href="https://mycopunk.miraheze.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Mycopunk Wiki contributors</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></p><p>English source first. Chinese translations are provisional. / 英文原文為準，繁中為輔助暫譯。</p><button type="button" data-action="about">Source notes / 來源說明</button></div></footer>
     </main>
   </div>

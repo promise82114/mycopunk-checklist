@@ -1,0 +1,7535 @@
+{
+  "checkedOn": "2026-10-24",
+  "source": {
+    "commit": "a63cb1a6064030f77fc602e6d00b83dd967208aa",
+    "commitUrl": "https://github.com/Vilsol/mycopunk-data/commit/a63cb1a6064030f77fc602e6d00b83dd967208aa",
+    "committedOn": "2026-10-22T21:04:13Z",
+    "fileUrl": "https://github.com/Vilsol/mycopunk-data/blob/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+    "immutableDataUrl": "https://raw.githubusercontent.com/Vilsol/mycopunk-data/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+    "method": "Public GitHub commit history for this exact versioned file; its content was separately verified against the version manifest SHA256."
+  },
+  "gameVersion": {
+    "Version": "v2.0.2",
+    "BuildID": "26120128",
+    "DumpedAt": "2026-10-22T21:03:57Z"
+  },
+  "sha256": "70eda67bddb8313f68cbe45702e0e6ff9d3fc84cefb6845351ad6a69a6a9b4c0",
+  "definitions": {
+    "gears": {
+      "accelerator": {
+        "ID": "169124",
+        "Name": "The Accelerator",
+        "APIName": "accelerator",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "acidgrenade": {
+        "ID": "32168",
+        "Name": "Caustic Grenade",
+        "APIName": "acidgrenade",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "blitseg": {
+        "ID": "440632",
+        "Name": "Blitseg",
+        "APIName": "blitseg",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "bounceshotgun": {
+        "ID": "32218",
+        "Name": "Au-Si Jackrabbit",
+        "APIName": "bounceshotgun",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "brokeframe": {
+        "ID": "412852",
+        "Name": "Broken Frame",
+        "APIName": "brokeframe",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 6,
+            "Height": 3
+          },
+          {
+            "Width": 6,
+            "Height": 3
+          }
+        ]
+      },
+      "carver": {
+        "ID": "336704",
+        "Name": "The Carver",
+        "APIName": "carver",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "cryogrenade": {
+        "ID": "1376190",
+        "Name": "Snowball Grenade",
+        "APIName": "cryogrenade",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "cycler": {
+        "ID": "31816",
+        "Name": "The Cycler",
+        "APIName": "cycler",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "dmlr": {
+        "ID": "32880",
+        "Name": "DMLR",
+        "APIName": "dmlr",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "droppod": {
+        "ID": "155012",
+        "Name": "Drop Pod",
+        "APIName": "droppod",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "firegrenade": {
+        "ID": "32232",
+        "Name": "Incendiary Grenade",
+        "APIName": "firegrenade",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "globbler": {
+        "ID": "32276",
+        "Name": "Globbler",
+        "APIName": "globbler",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "grapplepole": {
+        "ID": "-5362554",
+        "Name": "Grapple Pole",
+        "APIName": "grapplepole",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "gunshipcannon": {
+        "ID": "31890",
+        "Name": "Gunship Cannon",
+        "APIName": "gunshipcannon",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "heavylaser": {
+        "ID": "3137224",
+        "Name": "Laser Cannon",
+        "APIName": "heavylaser",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "heavynuke": {
+        "ID": "1073408",
+        "Name": "The Last Argument",
+        "APIName": "heavynuke",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "heavyshotgun": {
+        "ID": "32900",
+        "Name": "G6 Street Sweeper",
+        "APIName": "heavyshotgun",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "heavysniper": {
+        "ID": "32434",
+        "Name": "A16 Beam Ripper",
+        "APIName": "heavysniper",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "kart": {
+        "ID": "-656808",
+        "Name": "D-19 Dart",
+        "APIName": "kart",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "leadflinger": {
+        "ID": "32282",
+        "Name": "Lead Flinger",
+        "APIName": "leadflinger",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "monovan": {
+        "ID": "2722484",
+        "Name": "Monovan",
+        "APIName": "monovan",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "mycogear": {
+        "ID": "178822",
+        "Name": "Sporelift",
+        "APIName": "mycogear",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "photondisc": {
+        "ID": "490498",
+        "Name": "Photon Disc",
+        "APIName": "photondisc",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "platelauncher": {
+        "ID": "32288",
+        "Name": "FR.15833 Plate Launcher",
+        "APIName": "platelauncher",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "rocketlasso": {
+        "ID": "32746",
+        "Name": "Rocket Lasso",
+        "APIName": "rocketlasso",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "scanner": {
+        "ID": "32146",
+        "Name": "Scanner",
+        "APIName": "scanner",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      },
+      "scattergun": {
+        "ID": "1898524",
+        "Name": "Diffraction Driver",
+        "APIName": "scattergun",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "shieldprojector": {
+        "ID": "31852",
+        "Name": "Hard-Light Projector",
+        "APIName": "shieldprojector",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "shockgrenade": {
+        "ID": "31872",
+        "Name": "Voltaic Grenade",
+        "APIName": "shockgrenade",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "shocklance": {
+        "ID": "468258",
+        "Name": "Shocklance",
+        "APIName": "shocklance",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "swarmgun": {
+        "ID": "31990",
+        "Name": "Swarm Launcher",
+        "APIName": "swarmgun",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "trident": {
+        "ID": "31846",
+        "Name": "Trident S2",
+        "APIName": "trident",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "wingsuitsalvo": {
+        "ID": "117792",
+        "Name": "Rocket Salvo",
+        "APIName": "wingsuitsalvo",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "wrench": {
+        "ID": "798044",
+        "Name": "Wrench",
+        "APIName": "wrench",
+        "HasUpgradeGrid": false,
+        "GridSizes": [
+          {
+            "Width": 0,
+            "Height": 0
+          },
+          {
+            "Width": 0,
+            "Height": 0
+          }
+        ]
+      }
+    },
+    "characters": {
+      "Bruiser": {
+        "ID": "32958",
+        "Name": "Bruiser",
+        "APIName": "Bruiser",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "Glider": {
+        "ID": "31598",
+        "Name": "Glider",
+        "APIName": "Glider",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "Mycologist": {
+        "ID": "178746",
+        "Name": "Mycologist",
+        "APIName": "Mycologist",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "Scrapper": {
+        "ID": "32592",
+        "Name": "Scrapper",
+        "APIName": "Scrapper",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      },
+      "Wrangler": {
+        "ID": "32460",
+        "Name": "Wrangler",
+        "APIName": "Wrangler",
+        "HasUpgradeGrid": true,
+        "GridSizes": [
+          {
+            "Width": 5,
+            "Height": 5
+          },
+          {
+            "Width": 5,
+            "Height": 5
+          }
+        ]
+      }
+    }
+  },
+  "gridProfiles": {
+    "BrokenFrameGrid": {
+      "GridSizes": [
+        {
+          "Level": 0,
+          "Width": 6,
+          "Height": 3
+        }
+      ]
+    },
+    "DefaultGridProfile": {
+      "GridSizes": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "HeavyGridProfile": {
+      "GridSizes": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        }
+      ]
+    }
+  },
+  "levelMilestones": [
+    {
+      "Level": 3,
+      "Items": [
+        {
+          "Label": "New Weapon",
+          "Icon": "Resource Consumable Icons"
+        },
+        {
+          "Label": "Rotate Standard upgrades",
+          "Icon": "Hex Icons"
+        }
+      ]
+    },
+    {
+      "Level": 4,
+      "Items": [
+        {
+          "Label": "New Weapon",
+          "Icon": "Resource Consumable Icons"
+        },
+        {
+          "Label": "Backlog",
+          "Icon": "Torso-Rez-Sharp-Full"
+        }
+      ]
+    },
+    {
+      "Level": 5,
+      "Items": [
+        {
+          "Label": "New Weapon",
+          "Icon": "Resource Consumable Icons"
+        },
+        {
+          "Label": "Mission: <color=#FF2951>Ouroboros</color>",
+          "Icon": "Mission Icons"
+        },
+        {
+          "Label": "Weapon Focusing",
+          "Icon": "Hex Icons"
+        },
+        {
+          "Label": "Heavy Weapon Upgrades",
+          "Icon": "The Carver Upgrade Icons"
+        }
+      ]
+    },
+    {
+      "Level": 6,
+      "Items": [
+        {
+          "Label": "New Weapon",
+          "Icon": "Resource Consumable Icons"
+        },
+        {
+          "Label": "Mission: <color=#84D9FF>Oxythane Breach</color>",
+          "Icon": "Oxythane-Logo-(White)"
+        }
+      ]
+    },
+    {
+      "Level": 7,
+      "Items": [
+        {
+          "Label": "New Weapon",
+          "Icon": "Resource Consumable Icons"
+        },
+        {
+          "Label": "Mission: <color=#FF82B4>The Perfect Fit</color>",
+          "Icon": "Mission and Object Icons"
+        }
+      ]
+    },
+    {
+      "Level": 8,
+      "Items": [
+        {
+          "Label": "Rotate Rare upgrades",
+          "Icon": "Hex Icons"
+        },
+        {
+          "Label": "Mission: <color=#FF694F>Amalgamation Hunt</color>",
+          "Icon": "m_amalgamation icon"
+        }
+      ]
+    },
+    {
+      "Level": 9,
+      "Items": [
+        {
+          "Label": "Upgrade Crafting",
+          "Icon": "Torso-Rez-Sharp-Full"
+        }
+      ]
+    },
+    {
+      "Level": 10,
+      "Items": [
+        {
+          "Label": "Mission: <color=#DC51FF>Expedition Alpha</color>",
+          "Icon": "Pathfinder Icons"
+        }
+      ]
+    },
+    {
+      "Level": 12,
+      "Items": [
+        {
+          "Label": "Mission: Overtime Assignment",
+          "Icon": "quip wheel icons"
+        }
+      ]
+    },
+    {
+      "Level": 15,
+      "Items": [
+        {
+          "Label": "Mission: <color=#FF4C34>Abomination Assault</color>",
+          "Icon": "Mission Modifier Icons"
+        }
+      ]
+    },
+    {
+      "Level": 16,
+      "Items": [
+        {
+          "Label": "Rotate Epic upgrades",
+          "Icon": "Hex Icons"
+        }
+      ]
+    },
+    {
+      "Level": 20,
+      "Items": [
+        {
+          "Label": "Mission: <color=#9281FF>Incursion</color>",
+          "Icon": "Encounter Map Icons"
+        },
+        {
+          "Label": "Pattern Infuser",
+          "Icon": "antimass"
+        }
+      ]
+    },
+    {
+      "Level": 25,
+      "Items": [
+        {
+          "Label": "X11-B",
+          "Icon": "Pathfinder Icons"
+        }
+      ]
+    },
+    {
+      "Level": 30,
+      "Items": [
+        {
+          "Label": "Rotate Exotic upgrades",
+          "Icon": "Hex Icons"
+        }
+      ]
+    }
+  ],
+  "upgradeRules": {
+    "Glider Hat": {
+      "id": "1004796",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Wrangler Hat": {
+      "id": "1005014",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Bruiser Hat": {
+      "id": "1005020",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Hypersprint": {
+      "id": "1005878",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Globblin": {
+      "id": "-1007096",
+      "flags": "CanStack",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Disarmament": {
+      "id": "1010046",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Plasma Arc": {
+      "id": "1013744",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Eyeball Hat": {
+      "id": "1018248",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Explosive Packing": {
+      "id": "1018402",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Railgun Hat": {
+      "id": "1019696",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Micro Detonators": {
+      "id": "1034646",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Backboost": {
+      "id": "-1034838",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Boresight": {
+      "id": "1036532",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Boundary Incursion": {
+      "id": "1042560",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "photondisc",
+        "scattergun",
+        "cryogrenade",
+        "player"
+      ],
+      "descriptionEn": "Increases the size of your upgrade grid."
+    },
+    "Dolphin Dive": {
+      "id": "1044406",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Extra Capacitors": {
+      "id": "1047462",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Gunpowder Packing": {
+      "id": "1048084",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Pack Eater": {
+      "id": "1048106",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Shrunken Container": {
+      "id": "1048110",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Patient Gambler": {
+      "id": "1052858",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "One-Two Punch": {
+      "id": "1063448",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission, CanCleanseBeforeDiscovered",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Gambler's Bargain": {
+      "id": "1069144",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Cross-Deck": {
+      "id": "1074108",
+      "flags": "CanStack",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Tungsten Cube": {
+      "id": "1085632",
+      "flags": "None",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Factory": {
+      "id": "97324",
+      "flags": "ExcludeFromWorldPool, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Quickswap Cartridge": {
+      "id": "1089332",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Aux Reserves": {
+      "id": "1089924",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Angler Hat": {
+      "id": "1096928",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Charge Recycling": {
+      "id": "1099070",
+      "flags": "CanStack",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Green Prism": {
+      "id": "1101976",
+      "flags": "IsSpatial",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Blue Prism": {
+      "id": "1101988",
+      "flags": "IsSpatial",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Purple Prism": {
+      "id": "1101992",
+      "flags": "IsSpatial",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Yellow Prism": {
+      "id": "1101996",
+      "flags": "IsSpatial",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Polar Pet": {
+      "id": "1102788",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Virtual Muscle Memory": {
+      "id": "1112338",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Severed Snowman": {
+      "id": "1127476",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Blink": {
+      "id": "1131598",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Stolen Nanites": {
+      "id": "1133958",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Munition Siphon": {
+      "id": "1135240",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Drones Hat": {
+      "id": "1139866",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Aerial Refueling": {
+      "id": "1141470",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Firecracker": {
+      "id": "1142032",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "System Overload": {
+      "id": "-114492",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Tool for the Job": {
+      "id": "1148232",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Salad Plates": {
+      "id": "1149918",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Adaptive Stabilizers": {
+      "id": "1151702",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Full-Auto Trigger": {
+      "id": "1155430",
+      "flags": "None",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Pocket Blizzard": {
+      "id": "1165428",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Auxiliary Chargers": {
+      "id": "1189484",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Heavy Globs": {
+      "id": "1190614",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Double Loading": {
+      "id": "-1197674",
+      "flags": "CanStack, NoRandom",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Turkey's Bloodlust": {
+      "id": "1200166",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Crown Hat": {
+      "id": "1201988",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Gust": {
+      "id": "-1206316",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Deliberate Mistake": {
+      "id": "-1209072",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Subzero Energy": {
+      "id": "1211980",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Feedback Relay": {
+      "id": "1216136",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Fulmination Core": {
+      "id": "1216140",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Comet Splash": {
+      "id": "12163312",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Pole Alignment": {
+      "id": "1220620",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Cold Call": {
+      "id": "1223614",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Cryogenic Cooling": {
+      "id": "1223630",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Frantic Fingers": {
+      "id": "1225154",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Cheap Material": {
+      "id": "1241560",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Weapon Module 88B4": {
+      "id": "1246526",
+      "flags": "ExcludeFromWorldPool, CraftLocked, DisableScrap, CantCraftBeforeCollected, AllowCraftingWhenNotWorldPool, CantBoost",
+      "applicableTo": [
+        "brokeframe"
+      ]
+    },
+    "Weapon Module 2A30": {
+      "id": "1246530",
+      "flags": "ExcludeFromWorldPool, CraftLocked, DisableScrap, CantCraftBeforeCollected, AllowCraftingWhenNotWorldPool, CantBoost",
+      "applicableTo": [
+        "brokeframe"
+      ]
+    },
+    "Weapon Module 89J2": {
+      "id": "1246534",
+      "flags": "ExcludeFromWorldPool, CraftLocked, DisableScrap, CantCraftBeforeCollected, AllowCraftingWhenNotWorldPool, CantBoost",
+      "applicableTo": [
+        "brokeframe"
+      ]
+    },
+    "The Big Spin": {
+      "id": "1250698",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "The Hive Must Grow": {
+      "id": "1251404",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Hornet Interference": {
+      "id": "125354",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Charging Port": {
+      "id": "1259084",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Kaleidoscopic Retort": {
+      "id": "1267716",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStack",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Black Market Battery": {
+      "id": "1269904",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Cross Pollination": {
+      "id": "1275220",
+      "flags": "Coop, CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Tiedye": {
+      "id": "913874",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Pocket Rocket": {
+      "id": "1280312",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom, Coop",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Elemental Infusion": {
+      "id": "1281876",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Party Trick": {
+      "id": "1287820",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Globulous Excitement": {
+      "id": "1288902",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Slipper Shoes": {
+      "id": "1288906",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Tread the Line": {
+      "id": "1291070",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Blood, Sweat, Tears": {
+      "id": "1294076",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Compressor": {
+      "id": "-130900",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Pulverizer": {
+      "id": "1323700",
+      "flags": "SkillTreeUpgrade, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Battery Recursion": {
+      "id": "1332618",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Miniaturized Warp Core": {
+      "id": "1336088",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Pocket Sniper": {
+      "id": "1338130",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Caked": {
+      "id": "1338814",
+      "flags": "None",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Skewer": {
+      "id": "1343852",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Edge Fault": {
+      "id": "1346750",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "photondisc",
+        "scattergun",
+        "cryogrenade",
+        "player"
+      ],
+      "descriptionEn": "Increases the size of your upgrade grid."
+    },
+    "In For A Pound": {
+      "id": "1346790",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "photondisc",
+        "cryogrenade"
+      ]
+    },
+    "Overheat System": {
+      "id": "1353570",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Saxonite Shackles": {
+      "id": "1353714",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Cooling Vents": {
+      "id": "1354196",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Pressure Increase": {
+      "id": "1354202",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Aft Thrusters": {
+      "id": "1354228",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Scrapper Hat": {
+      "id": "1356566",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Jamming": {
+      "id": "136420",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Tailwind": {
+      "id": "1373804",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Demonstrator's Trick": {
+      "id": "137890",
+      "flags": "None",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Line er' Up": {
+      "id": "1382876",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Stream Jets": {
+      "id": "1386476",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Terminal Velocity": {
+      "id": "1388512",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Excited Plasma": {
+      "id": "1392388",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Overcharge": {
+      "id": "1398798",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Cooling System": {
+      "id": "1398810",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "I'll Take That": {
+      "id": "1401454",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Hover Precision": {
+      "id": "140500",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Improvised Explosives": {
+      "id": "1405736",
+      "flags": "CanStack",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Nutritious Cores": {
+      "id": "-1406794",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Loyalty": {
+      "id": "140838",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "droppod"
+      ]
+    },
+    "Arc Lightning": {
+      "id": "1414306",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Knee-Dive": {
+      "id": "142532",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Heavy Support": {
+      "id": "1427372",
+      "flags": "CanTurbocharge",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Freak": {
+      "id": "1882880",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Nerfed": {
+      "id": "1882888",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Breeding Season": {
+      "id": "1447490",
+      "flags": "Coop, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Gun Crab - Gilded Roach": {
+      "id": "1451350",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "scattergun"
+      ]
+    },
+    "Slap-Job": {
+      "id": "1464232",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Fuel Injection": {
+      "id": "147536",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Photon Lattice": {
+      "id": "1476024",
+      "flags": "CanStack",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Rearm Mechanism": {
+      "id": "148156",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Attrition Supply": {
+      "id": "148182",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Mag Extender": {
+      "id": "1482420",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Heavy": {
+      "id": "1482424",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Tropical": {
+      "id": "1483496",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Replicator Resistance": {
+      "id": "1489186",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Shell Packer": {
+      "id": "149298",
+      "flags": "CanStack",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "To Dust": {
+      "id": "149324",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Marathon": {
+      "id": "1494928",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Beehive!": {
+      "id": "1495998",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Firestorm": {
+      "id": "309188",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Hull Piercer": {
+      "id": "1499842",
+      "flags": "None",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Bottom Heavy": {
+      "id": "150080",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Gladiator's Pockets": {
+      "id": "1501068",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Triple A": {
+      "id": "1501072",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Squire Supplier": {
+      "id": "1501076",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Auger Subroutine": {
+      "id": "1501106",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Number 5, To Go": {
+      "id": "150160",
+      "flags": "CanStack, NoRandom",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Kinetic Impossibility": {
+      "id": "151982",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Full Spectrum": {
+      "id": "152402",
+      "flags": "IsSpatial",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "The Glob": {
+      "id": "152408",
+      "flags": "None",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Awaken The Hive": {
+      "id": "152700",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Hailstorm": {
+      "id": "152916",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Requeening": {
+      "id": "153580",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Delirium": {
+      "id": "1550660",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Fresh Bullet Frenzy": {
+      "id": "1550692",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Third Arm": {
+      "id": "155810",
+      "flags": "ApplyStatUpgrades, CanStack",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Fwoosh": {
+      "id": "1561150",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Auto-Demolition": {
+      "id": "1564124",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Bloody Jumping": {
+      "id": "156442",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Gun Crab - Eye": {
+      "id": "1564466",
+      "flags": "ExcludeFromWorldPool, NoRandom, GearDupeProtection",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "scattergun"
+      ]
+    },
+    "Get Off Me": {
+      "id": "-1564540",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Leopard": {
+      "id": "308716",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "USB C": {
+      "id": "1576122",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Quick Knot": {
+      "id": "157682",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Double Lasso": {
+      "id": "157694",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Synthetic Adrenaline": {
+      "id": "157712",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission, CanCleanseBeforeDiscovered",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "In For A Penny": {
+      "id": "1588074",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "photondisc",
+        "cryogrenade"
+      ]
+    },
+    "Solar Panel": {
+      "id": "159344",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Live Wire": {
+      "id": "159650",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Harmonizer": {
+      "id": "159716",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Erratic Systems": {
+      "id": "159724",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Fuel Rations": {
+      "id": "159758",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Defensive Spurt": {
+      "id": "1597784",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Hot Boxing": {
+      "id": "160076",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Fester": {
+      "id": "1601558",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Fungal Skewer": {
+      "id": "160462",
+      "flags": "None",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "The Ole One-Two": {
+      "id": "1604692",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "On The Go": {
+      "id": "160606",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom, Coop, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Forward Charge": {
+      "id": "160776",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Brawler": {
+      "id": "309268",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Globulous Siphon": {
+      "id": "161468",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "In For A Penny, In For A Pound": {
+      "id": "1635992",
+      "flags": "SkillTreeUpgrade, CanStackInMission, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "photondisc",
+        "cryogrenade"
+      ]
+    },
+    "Static Charge": {
+      "id": "1645496",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Autoswarm": {
+      "id": "1648200",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Cloud Skip": {
+      "id": "1648778",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Half Cocked": {
+      "id": "1651710",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Instant Detonation": {
+      "id": "165460",
+      "flags": "None",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Ball Hat": {
+      "id": "1658112",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Fish Hat": {
+      "id": "1659452",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Parasite Hat": {
+      "id": "1659458",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Friend Hat": {
+      "id": "1659462",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Spongy Hat": {
+      "id": "1659466",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Juiced Up": {
+      "id": "1661612",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Frantic Mechanism": {
+      "id": "166178",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Volatile Acid": {
+      "id": "166216",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Oxythane Obedience": {
+      "id": "1678826",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Sunset": {
+      "id": "1686740",
+      "flags": "None",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Flurry": {
+      "id": "169274",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Exothermic Reaction": {
+      "id": "1700620",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Connected Systems": {
+      "id": "1714262",
+      "flags": "NoRandom, CanTurbocharge",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Heavy Hitting": {
+      "id": "1717790",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Guidance Array": {
+      "id": "1721606",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Heated Charge": {
+      "id": "1724106",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Glub Glub": {
+      "id": "1724512",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Quick Release": {
+      "id": "173492",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Overload Contingency": {
+      "id": "173504",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Safety Warning": {
+      "id": "173656",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Uniform": {
+      "id": "633312",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Aim For The Liver": {
+      "id": "174598",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Peaceful Resolution": {
+      "id": "1750732",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Dash Immunity": {
+      "id": "1751540",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Moonlit": {
+      "id": "1752934",
+      "flags": "None",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Pesticide": {
+      "id": "175644",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Painter's Attachment": {
+      "id": "1758016",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Glacial": {
+      "id": "1767962",
+      "flags": "SkillTreeUpgrade",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Tight Planting": {
+      "id": "177214",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Stimulus Package": {
+      "id": "1779052",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Hold the Line": {
+      "id": "1780108",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Dead or Alive": {
+      "id": "178246",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Pigeon Hat": {
+      "id": "1783490",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Magnetized": {
+      "id": "1792842",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Blaze of Glory": {
+      "id": "1796502",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Violent Reaction": {
+      "id": "1803300",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Thunder Pressure": {
+      "id": "180710",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Double Action": {
+      "id": "1810400",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Vacuum Tube": {
+      "id": "181170",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Crowd Control": {
+      "id": "181562",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Cryogenic Skewer": {
+      "id": "1823366",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "For Good Measure": {
+      "id": "1828314",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Skeletal Ghost": {
+      "id": "474890",
+      "flags": "ExcludeFromWorldPool, CantRollAtLarry",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Delicious Cores": {
+      "id": "1844096",
+      "flags": "CanStack",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Recycled Fuel": {
+      "id": "1850550",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Nice Catch": {
+      "id": "1852576",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Multiversal Thievery": {
+      "id": "185736",
+      "flags": "CanStackInMission, OnlyInOuroboros, IsSpatial",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "photondisc",
+        "cryogrenade",
+        "player"
+      ],
+      "descriptionEn": "Commandeers 1 column from each of your other upgrade grids."
+    },
+    "Cyclotron": {
+      "id": "186348",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Reflex Override": {
+      "id": "1865122",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Blood-Rush": {
+      "id": "1865628",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Storm's Eye": {
+      "id": "186866",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Shocking Adrenaline": {
+      "id": "186902",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Structural Survey": {
+      "id": "187224",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Gas Valves": {
+      "id": "1875668",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Repairing Exhaust": {
+      "id": "187670",
+      "flags": "Coop, CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Inferno": {
+      "id": "1882756",
+      "flags": "None",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Tanker": {
+      "id": "1882814",
+      "flags": "None",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Checkmate": {
+      "id": "1882894",
+      "flags": "None",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Gun Crab - Pumpkin": {
+      "id": "188746",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap, GearDupeProtection",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "scattergun"
+      ]
+    },
+    "Fred Lamb": {
+      "id": "1889188",
+      "flags": "None",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Bailing Water": {
+      "id": "1902500",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Friction Compensators": {
+      "id": "1905302",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Leaky Hat": {
+      "id": "1908048",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Unstable Recursion": {
+      "id": "1920696",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Kernel Rerouter": {
+      "id": "192208",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Gearshift": {
+      "id": "192692",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Ready and Waiting": {
+      "id": "192812",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Laying Cable": {
+      "id": "1931514",
+      "flags": "Coop, CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Office Birthday": {
+      "id": "195290",
+      "flags": "ExcludeFromWorldPool, NoRandom, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Fire In My Heart": {
+      "id": "1954938",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Splinter": {
+      "id": "1964458",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Domed": {
+      "id": "1966046",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Honeycomb": {
+      "id": "1966326",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Shockwave": {
+      "id": "1986860",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Running Hot": {
+      "id": "201990",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Kinetic Absorbers": {
+      "id": "202152",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Pumpkin Patch": {
+      "id": "2030908",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Lightspeed Material Transfer": {
+      "id": "2031206",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Propulsion Drive": {
+      "id": "203376",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Welding Heat": {
+      "id": "2036678",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Two's Company": {
+      "id": "2036684",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Striking Distance": {
+      "id": "2068798",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Saxonite Coating": {
+      "id": "2090112",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "All Powdered Up": {
+      "id": "2094262",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Linked List": {
+      "id": "209842",
+      "flags": "CanStack, CantBoost",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Frozen Assets": {
+      "id": "210574",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Jungle Jim": {
+      "id": "2112466",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Flash Charge": {
+      "id": "2117892",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Rail-Tuning": {
+      "id": "2118410",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Faradics Fealty": {
+      "id": "228650",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Magnetic Shard": {
+      "id": "2136692",
+      "flags": "CanStack",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Ice Armor": {
+      "id": "214284",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Remote Charging": {
+      "id": "215932",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Thrill of the Fight": {
+      "id": "217474",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Ghosting": {
+      "id": "2175502",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Wait Charging": {
+      "id": "218174",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Flash Storm": {
+      "id": "2184842",
+      "flags": "CanTurbocharge",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Deteriorate": {
+      "id": "2191342",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Odd Cocktail": {
+      "id": "2195024",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Pummeler": {
+      "id": "2202890",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Universal Solvent": {
+      "id": "2208160",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Higher Voltage": {
+      "id": "2208166",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Napalm": {
+      "id": "2208170",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Base Coating": {
+      "id": "2208226",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Fire Gel": {
+      "id": "2208234",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Space Elevator": {
+      "id": "220964",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStack, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Overclock": {
+      "id": "2215790",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Bottle": {
+      "id": "222622",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Burst Release": {
+      "id": "2233062",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Toilet": {
+      "id": "223488",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Double Dash": {
+      "id": "224782",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Grenade Belt": {
+      "id": "224932",
+      "flags": "CanStack",
+      "applicableTo": [
+        "firegrenade",
+        "shockgrenade",
+        "acidgrenade",
+        "photondisc",
+        "cryogrenade"
+      ]
+    },
+    "Slide Deflector": {
+      "id": "225110",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Chemical Reaction": {
+      "id": "225164",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Slideshot": {
+      "id": "2253980",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Chrome": {
+      "id": "4273910",
+      "flags": "None",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Reactive Overload": {
+      "id": "226212",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Deflector": {
+      "id": "230318",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Dynamite on a String": {
+      "id": "231080",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Gunship": {
+      "id": "231784",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "ERROR Hat": {
+      "id": "232582",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Angelic": {
+      "id": "233406",
+      "flags": "None",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Reinforced Plating": {
+      "id": "2347286",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Inertial Conductors": {
+      "id": "2347522",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Improved Refueling": {
+      "id": "2347550",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Eyes Up Here": {
+      "id": "235728",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Flurrying Configuration": {
+      "id": "236354",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Switcheroo": {
+      "id": "236616",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "_test_final_v2.skinasset": {
+      "id": "242610",
+      "flags": "ExcludeFromWorldPool, NoRandom",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Coronal Ejection": {
+      "id": "237500",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Slicing Follow-up": {
+      "id": "239334",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Splash Zone": {
+      "id": "2407548",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Polymer Coating": {
+      "id": "2420814",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Iridescent": {
+      "id": "2426316",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Cryogenic Firing Chamber": {
+      "id": "242700",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Mycorrhizal Rush": {
+      "id": "243368",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Double Time": {
+      "id": "2435418",
+      "flags": "None",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Bruise Protection": {
+      "id": "2436722",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Thermal Paste": {
+      "id": "2437094",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Liquid Cooling": {
+      "id": "2437110",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Nanite Breeding": {
+      "id": "2445888",
+      "flags": "ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Cannonball": {
+      "id": "244760",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Hazmat Hat": {
+      "id": "244876",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Heavy Pockets": {
+      "id": "245288",
+      "flags": "CanStack",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Panic Systems": {
+      "id": "2465340",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Tether Battery": {
+      "id": "246566",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Spare Cable": {
+      "id": "246570",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "With Me": {
+      "id": "2470728",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom, Coop",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "With You": {
+      "id": "2470732",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom, Coop",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Kinetic Optimization": {
+      "id": "247468",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Formicidae Magnifier": {
+      "id": "248510",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Greased Mixture": {
+      "id": "2511110",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Kinetic Effect": {
+      "id": "2515500",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Elemental Health": {
+      "id": "2515504",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Elemental Regeneration": {
+      "id": "2515512",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Sporadic Sprouting": {
+      "id": "251620",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Slushy": {
+      "id": "253938",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Brain Freeze": {
+      "id": "256996",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanStackInMission, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Force Redistribution": {
+      "id": "2579122",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Sloth's Day Out": {
+      "id": "2592536",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Redline": {
+      "id": "64994",
+      "flags": "ExcludeFromWorldPool, NoRandom",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Lucky Harvest": {
+      "id": "261192",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Super Magnet": {
+      "id": "262648",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Hearth & Home": {
+      "id": "2630934",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Gyrocopter": {
+      "id": "263174",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Resonance Catapult": {
+      "id": "263178",
+      "flags": "CanStack, CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Prismatic Sharpeners": {
+      "id": "263758",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Wrecking Ball": {
+      "id": "2639884",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Hard-Light Coating": {
+      "id": "2644586",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Becall": {
+      "id": "267450",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Magboots": {
+      "id": "268552",
+      "flags": "ApplyStatUpgrades, CanTurbocharge",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Splinter Virus": {
+      "id": "269562",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanStackInMission, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Sweet Heavens": {
+      "id": "2720356",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Payback": {
+      "id": "272148",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Beezia Hat": {
+      "id": "272362",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Mutualistic Locomotion": {
+      "id": "272852",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStack, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Power Redistribution": {
+      "id": "273160",
+      "flags": "CanStack",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Melodramatic Hero": {
+      "id": "274626",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Pardoned": {
+      "id": "276106",
+      "flags": "None",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Pocket Grenade (Wait Why is This One Legal?)": {
+      "id": "2766736",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Concussive Wave": {
+      "id": "278698",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Ammo Continuity": {
+      "id": "279562",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Coated Coils": {
+      "id": "279680",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Crescendo": {
+      "id": "280770",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Brisk Hypochondriac": {
+      "id": "280900",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Soul Reaper": {
+      "id": "282480",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Parallel Wiring": {
+      "id": "283406",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Extra Rope": {
+      "id": "2843610",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Soybean Hull Paste": {
+      "id": "284610",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Structural Support": {
+      "id": "284804",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Lead Poisoning": {
+      "id": "2851806",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Electromagnet": {
+      "id": "2854936",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Fire in the Hold": {
+      "id": "286156",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Energy Injection": {
+      "id": "286512",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Self Storage": {
+      "id": "2883722",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Romphus Hat": {
+      "id": "288500",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "yueco": {
+      "id": "288958",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Gussula Hat": {
+      "id": "288964",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Blast Chamber": {
+      "id": "2904690",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom, Coop",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Bandolier": {
+      "id": "2927910",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Home Cooking": {
+      "id": "2936804",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Drag Caps": {
+      "id": "2939344",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Optical Attraction": {
+      "id": "294152",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Splatter": {
+      "id": "294414",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Fire Hat": {
+      "id": "294640",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Handspring": {
+      "id": "2958622",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Scoundrel Hat": {
+      "id": "298180",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Lucky Bastard": {
+      "id": "3001248",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Cargo Storage": {
+      "id": "3001254",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Thumper": {
+      "id": "3001260",
+      "flags": "None",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Swinging Technique": {
+      "id": "300350",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Blade Extenders": {
+      "id": "300360",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Rainbow": {
+      "id": "727012",
+      "flags": "None",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Return to Receiver": {
+      "id": "3025420",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Shaved Projectiles": {
+      "id": "303232",
+      "flags": "CanStack, CantBoost",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Three-In-One": {
+      "id": "303236",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Ballistic Charger": {
+      "id": "303418",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Overgrowth": {
+      "id": "303992",
+      "flags": "None",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Triagon": {
+      "id": "3056494",
+      "flags": "None",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Shocker": {
+      "id": "3059456",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Rapid Cultivation": {
+      "id": "306534",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Inertia Accelerant": {
+      "id": "3068456",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Organic Pressure": {
+      "id": "307350",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Shock Funnel": {
+      "id": "308186",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Hold-Plating": {
+      "id": "309402",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Fake ID (Biologicals Only)": {
+      "id": "310014",
+      "flags": "CanStackInMission, OnlyInOuroboros",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Arise": {
+      "id": "310754",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Backblast": {
+      "id": "312150",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Where Did This Come From": {
+      "id": "312326",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "To Pieces": {
+      "id": "313486",
+      "flags": "NoRandom, CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Streamlined": {
+      "id": "3138548",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Weight Reduction": {
+      "id": "3138560",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "From Down Town": {
+      "id": "3139336",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Give and Take": {
+      "id": "3143606",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Hair Trigger": {
+      "id": "3147342",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Hard-Light Prison": {
+      "id": "314736",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Controlled Substance": {
+      "id": "3152854",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Practice Makes Perfect": {
+      "id": "3160344",
+      "flags": "None",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Improved Replication": {
+      "id": "3174310",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Auto-Replicator": {
+      "id": "3174316",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Nose Bounce": {
+      "id": "317720",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Brittle Battery": {
+      "id": "31930",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Blowback Redirect": {
+      "id": "3196910",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Upside Down": {
+      "id": "3200916",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Unarmored": {
+      "id": "3202686",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Grenade Recycling": {
+      "id": "32074",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Star Fuel": {
+      "id": "3208462",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Size Them Up": {
+      "id": "3213546",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Knee Slide": {
+      "id": "322508",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Thorny": {
+      "id": "323000",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Exotic Flora": {
+      "id": "323004",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Cryo Hat": {
+      "id": "323054",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Combustive Rounds": {
+      "id": "3234906",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Frantic Greed": {
+      "id": "3235536",
+      "flags": "ApplyStatUpgrades",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Home Brew Combustion": {
+      "id": "323728",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Punch Punch": {
+      "id": "32376",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Acid Hat": {
+      "id": "323820",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Shock Hat": {
+      "id": "323910",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Decay Hat": {
+      "id": "323948",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Nanite Return": {
+      "id": "3247930",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Momentum Impact": {
+      "id": "3258194",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Icicle": {
+      "id": "327590",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Pressure Cooker": {
+      "id": "331170",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Tinderbox": {
+      "id": "3312726",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Subway": {
+      "id": "3313540",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Radiant Prism": {
+      "id": "332106",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Core Repurposing": {
+      "id": "33216",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Scrap Repurposing": {
+      "id": "33242",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Additional RAM Stick": {
+      "id": "334554",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "RAM Storage": {
+      "id": "334558",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Greedy Fuck": {
+      "id": "334562",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Boost Buffer": {
+      "id": "33542",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Yank em!": {
+      "id": "3371042",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Fire Resistance": {
+      "id": "33734",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Beam Amplifier": {
+      "id": "337524",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Kinetic Amplifier": {
+      "id": "337530",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Organic Motility": {
+      "id": "337702",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Leap the Gap": {
+      "id": "3435716",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Bunny Hat": {
+      "id": "346614",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Unconditional Protector": {
+      "id": "3473226",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Enhanced Spooling": {
+      "id": "347504",
+      "flags": "CanStack",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Perfectly Attuned": {
+      "id": "347508",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Thermal Vent Override": {
+      "id": "3479800",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Sweetie": {
+      "id": "351220",
+      "flags": "None",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Aerodynamic Plates": {
+      "id": "352944",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "The Royal Jelly of Hazaran": {
+      "id": "3533686",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Oxythane": {
+      "id": "356348",
+      "flags": "ExcludeFromWorldPool, NoScrapRewards",
+      "applicableTo": [
+        "droppod"
+      ]
+    },
+    "Volatile Element": {
+      "id": "3563612",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Faradics": {
+      "id": "356544",
+      "flags": "ExcludeFromWorldPool, NoScrapRewards",
+      "applicableTo": [
+        "droppod"
+      ]
+    },
+    "Fueling Station": {
+      "id": "356624",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Multithread": {
+      "id": "3575164",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Marketplace": {
+      "id": "3579956",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Ocean": {
+      "id": "3579964",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Volcanic": {
+      "id": "3579968",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Hold Onto Your Hats": {
+      "id": "3589320",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Illegal Pocket Grenade": {
+      "id": "359186",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Generative Ions": {
+      "id": "359392",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Phantom Limb": {
+      "id": "3597888",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Coil Springs": {
+      "id": "360208",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Elemental Obsession": {
+      "id": "361824",
+      "flags": "None",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Crafting Table": {
+      "id": "361962",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Quick Grouping": {
+      "id": "3630444",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Amethyst": {
+      "id": "36572",
+      "flags": "None",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Quadrabarrel": {
+      "id": "366188",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Slingshot": {
+      "id": "3665522",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Flood": {
+      "id": "3680862",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Glorb": {
+      "id": "368254",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Full Potential": {
+      "id": "368982",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Course Correction": {
+      "id": "3690588",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Corn All Around The Cob": {
+      "id": "369892",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Railshot": {
+      "id": "372400",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Gluttonous Vulture": {
+      "id": "374208",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Bad Bunny": {
+      "id": "376566",
+      "flags": "None",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Rabbit Cream": {
+      "id": "376572",
+      "flags": "None",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Umbrella Hat": {
+      "id": "376660",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Penguin": {
+      "id": "381984",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Carcinization": {
+      "id": "381992",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Aurora": {
+      "id": "382084",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "A Safe Place": {
+      "id": "382472",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Gun Crab - Roachard": {
+      "id": "-3857082",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "scattergun"
+      ]
+    },
+    "Through Hell": {
+      "id": "3865330",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Crow's Nest": {
+      "id": "387226",
+      "flags": "CanStack",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Force Projection": {
+      "id": "38886",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Photon Disc Hat": {
+      "id": "390314",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Portable Solar Array": {
+      "id": "3907546",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Swamp": {
+      "id": "39252",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Decay Infusion": {
+      "id": "392720",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Mycologist Hat": {
+      "id": "3936106",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Normal Hat": {
+      "id": "394196",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Hard Freeze": {
+      "id": "395372",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Spliced Coilgun": {
+      "id": "395476",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Capacity Waiver, Section B": {
+      "id": "395866",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "A Serious Squall": {
+      "id": "399472",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Loose Rope": {
+      "id": "401630",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Charge Thief": {
+      "id": "4024286",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Beedazzled": {
+      "id": "4041756",
+      "flags": "None",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Polychrome": {
+      "id": "4041762",
+      "flags": "None",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Momentum Transfer": {
+      "id": "404816",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Syzygy": {
+      "id": "405594",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Weapon Module 1A7B": {
+      "id": "40688",
+      "flags": "ExcludeFromWorldPool, CraftLocked, DisableScrap, CantCraftBeforeCollected, AllowCraftingWhenNotWorldPool, CantBoost",
+      "applicableTo": [
+        "brokeframe"
+      ]
+    },
+    "Data Log Hat": {
+      "id": "407680",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Sleepy Hat": {
+      "id": "409208",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Adrenaline Reload": {
+      "id": "40966",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Compact Cartridge": {
+      "id": "40968",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Focused Lenses": {
+      "id": "40970",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Corrode Siphon": {
+      "id": "40972",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Corrosive Plasma": {
+      "id": "40974",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Decay Energy": {
+      "id": "40976",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Elemental Discharge": {
+      "id": "40978",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Double Shot": {
+      "id": "40980",
+      "flags": "CanStack",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Charged Cartridges": {
+      "id": "40982",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Energy Convergence": {
+      "id": "40984",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Extralight Frame": {
+      "id": "40986",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Infinity Burn": {
+      "id": "40988",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Momentum Overload": {
+      "id": "40990",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Intense Reaction": {
+      "id": "40992",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Overclocked Firing Mechanism": {
+      "id": "40994",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Heated Battery": {
+      "id": "40996",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Shock Recursion": {
+      "id": "40998",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Condensed Ejection": {
+      "id": "41000",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Equipment Siphon": {
+      "id": "41002",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Precision Fire": {
+      "id": "41004",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Ricochet": {
+      "id": "41006",
+      "flags": "NoRandom, CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Rocket Burst": {
+      "id": "41008",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Scorching Detonation": {
+      "id": "41010",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Smart Slide": {
+      "id": "41012",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Doublestack Cartridge": {
+      "id": "41014",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Dump Charge": {
+      "id": "41016",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Toxin Recycling": {
+      "id": "41018",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Violent Ignition": {
+      "id": "41020",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Cycling Repairs": {
+      "id": "41022",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Superheat Reaction": {
+      "id": "41024",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Mass Acceleration": {
+      "id": "41026",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Charge Shield": {
+      "id": "41028",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Full Range": {
+      "id": "41030",
+      "flags": "CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Bigazine": {
+      "id": "41032",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Stability Module": {
+      "id": "41034",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Stun": {
+      "id": "410360",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Fastball": {
+      "id": "410364",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Engorge": {
+      "id": "410368",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Electrified Pellets": {
+      "id": "41126",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Large Energy Storage": {
+      "id": "41128",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Rapid Pollination": {
+      "id": "41130",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Scatterburst": {
+      "id": "41132",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Precise Targeting": {
+      "id": "41134",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Remote Control": {
+      "id": "41136",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "High Caliber Pellets": {
+      "id": "41138",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Explosive Pellets": {
+      "id": "41140",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Damage Arc": {
+      "id": "41168",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Decay Plates": {
+      "id": "41170",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Power Recall": {
+      "id": "41172",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Electrified Plates": {
+      "id": "41174",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Compressed Plate Storage": {
+      "id": "41176",
+      "flags": "NoRandom, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Bouncy Plates": {
+      "id": "41178",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Impulse Redirection": {
+      "id": "41180",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Storage Surplus": {
+      "id": "41182",
+      "flags": "NoRandom, IsSpatial",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Corrosive Laser": {
+      "id": "41214",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Two Way Charging": {
+      "id": "41216",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Incendiary Laser": {
+      "id": "41218",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Shocking Laser": {
+      "id": "41220",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Tainted Exhaust": {
+      "id": "41222",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Engineering Nanites": {
+      "id": "41224",
+      "flags": "Coop, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Assist Charge": {
+      "id": "41226",
+      "flags": "CanStack, Coop",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Hot Swap": {
+      "id": "41228",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Shredder": {
+      "id": "41230",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Reactive Coating": {
+      "id": "41356",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Hot Reload": {
+      "id": "41358",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Immolator": {
+      "id": "41360",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Stand the Heat": {
+      "id": "41362",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Power Ricochet": {
+      "id": "41364",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Slam Fire": {
+      "id": "41366",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Reinforced Coating": {
+      "id": "41368",
+      "flags": "NoRandom, CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Stable Grip": {
+      "id": "41370",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Focus Spread": {
+      "id": "41372",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Wild Fire": {
+      "id": "41374",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Blood Lightning": {
+      "id": "4144596",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Sprinkler": {
+      "id": "415866",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Crop Duster": {
+      "id": "415870",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Volatile Packaging": {
+      "id": "417026",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Hard Ricochet": {
+      "id": "41750",
+      "flags": "NoRandom, CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Firmly Planted": {
+      "id": "41752",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Heavy Munitions": {
+      "id": "41754",
+      "flags": "CanStack",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Overclocked Firing Chamber": {
+      "id": "41756",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Industrial Feed Mechanism": {
+      "id": "41758",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Elemental Munitions": {
+      "id": "41760",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Higher Caliber": {
+      "id": "41762",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Point Demolition": {
+      "id": "41764",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Sawed Off": {
+      "id": "41766",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Stabilizers": {
+      "id": "41768",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Molotov": {
+      "id": "418850",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Cluster Bomb": {
+      "id": "41986",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Heat Sink": {
+      "id": "41990",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Large Ignition": {
+      "id": "41992",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Maniac Maneuver": {
+      "id": "41994",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Outlaw": {
+      "id": "42030",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Fan Fire": {
+      "id": "42032",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Feeling Lucky": {
+      "id": "42034",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Burning Tips": {
+      "id": "42036",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Residue": {
+      "id": "42038",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Unnatural Focus": {
+      "id": "42040",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Shrapnel Loading": {
+      "id": "42042",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Big Fat Doobie": {
+      "id": "42044",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Volatile Munitions": {
+      "id": "42046",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Ride the High": {
+      "id": "42048",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Lucky Last": {
+      "id": "42050",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Chemical Symbiosis": {
+      "id": "42052",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Just Add More Gunpowder": {
+      "id": "42054",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Ralph's Conundrum": {
+      "id": "42056",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Broadside": {
+      "id": "42146",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Energy Condenser": {
+      "id": "42148",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Gunner's Precision": {
+      "id": "42150",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Fire Shot": {
+      "id": "42152",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Acid Shot": {
+      "id": "42154",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Lone Cannoneer": {
+      "id": "42156",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Discount Marksman": {
+      "id": "42158",
+      "flags": "NoRandom, CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Mycelial Battery": {
+      "id": "421608",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStack, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Rocket Jump": {
+      "id": "42308",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Secret Pocket": {
+      "id": "423608",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Internal Combustion": {
+      "id": "424840",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Ignition Recharge": {
+      "id": "4258120",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Inertial Overload": {
+      "id": "426056",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Fusillade": {
+      "id": "427894",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Corrosive Coating": {
+      "id": "4300792",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Simple Inertia": {
+      "id": "4305498",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Catapult": {
+      "id": "-4323718",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Basket Hat": {
+      "id": "434184",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Energy Cohesion": {
+      "id": "4359246",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Payload Amplifier": {
+      "id": "4359250",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Supernova": {
+      "id": "436542",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Molecular Inversion": {
+      "id": "438294",
+      "flags": "None",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Elemental Cocktail": {
+      "id": "439932",
+      "flags": "ApplyStatUpgrades",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Eye of the Storm": {
+      "id": "440194",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Modular Construction": {
+      "id": "4415916",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Ice Skates": {
+      "id": "444272",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanStackInMission, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Saxonite Dampeners": {
+      "id": "447692",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "High Ground": {
+      "id": "4505966",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "All the Time in the World": {
+      "id": "450924",
+      "flags": "CanStack",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Solar Flare": {
+      "id": "451984",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Compressed Ammunition": {
+      "id": "455392",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Mitosis": {
+      "id": "455572",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Dynamite Deployment": {
+      "id": "4575968",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Proprietary Packing Algorithm": {
+      "id": "4577524",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Biofuel": {
+      "id": "4577578",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Conduit": {
+      "id": "458540",
+      "flags": "None",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Mushroom Cap": {
+      "id": "458618",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Impact Funnel": {
+      "id": "461892",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Blood Rampage": {
+      "id": "463180",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "One-Liner": {
+      "id": "4643382",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Second Wind": {
+      "id": "4643484",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Ruptured Spleen": {
+      "id": "4666604",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Corrosive Reaction": {
+      "id": "466688",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Big Deflector": {
+      "id": "470756",
+      "flags": "None",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Bioelectrical Connections": {
+      "id": "473150",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStack, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Growth Spurt": {
+      "id": "473176",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Ice Pick": {
+      "id": "476478",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Atmospheric Energizers": {
+      "id": "4794352",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Splintered Lance": {
+      "id": "479630",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Hometown Hero": {
+      "id": "480716",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Throw Away": {
+      "id": "483404",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Grapple Pole Hat": {
+      "id": "484154",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Speed Halo Hat": {
+      "id": "485940",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Shared Processing Array": {
+      "id": "486148",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Shredify": {
+      "id": "486166",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Angry Outburst": {
+      "id": "486528",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Fencing Construction": {
+      "id": "486742",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Rage": {
+      "id": "489056",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Bullet Time": {
+      "id": "489128",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Disc Array": {
+      "id": "489140",
+      "flags": "CanStack",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Powder Player": {
+      "id": "489442",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Oxythane's Promise": {
+      "id": "492286",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Clearing Plasma": {
+      "id": "4935924",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Scrap Funnel": {
+      "id": "493636",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Graffiti": {
+      "id": "496454",
+      "flags": "None",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Seafloor": {
+      "id": "496460",
+      "flags": "None",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Bees Hat": {
+      "id": "498426",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Decorated": {
+      "id": "499232",
+      "flags": "None",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Broadcast": {
+      "id": "499242",
+      "flags": "None",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Straggler's Revenge": {
+      "id": "500934",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Centripetal Cornering": {
+      "id": "500954",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Double A": {
+      "id": "502490",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Motion Compensators": {
+      "id": "502838",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Heat Pump": {
+      "id": "502844",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Core Dump": {
+      "id": "502912",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Frostbiter": {
+      "id": "503186",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Fisticuffs": {
+      "id": "507198",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Repair Siphon": {
+      "id": "511302",
+      "flags": "ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Shock Resistance": {
+      "id": "511402",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Acid Resistance": {
+      "id": "511406",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Fire Affinity": {
+      "id": "511426",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Shock Affinity": {
+      "id": "511430",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Acid Affinity": {
+      "id": "511434",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Focus Prism": {
+      "id": "511446",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Surge Protector": {
+      "id": "511458",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Ammo Processor": {
+      "id": "511488",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Steady Aim": {
+      "id": "5126304",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Steadier Aim": {
+      "id": "5126764",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Plate Hat": {
+      "id": "514858",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Driver Update": {
+      "id": "519280",
+      "flags": "CanStack",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Bulging Cartridge": {
+      "id": "519496",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Double Barrel": {
+      "id": "520196",
+      "flags": "None",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Rush": {
+      "id": "52360",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Cargo Hold": {
+      "id": "525246",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Increased Load": {
+      "id": "525250",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Sturdy": {
+      "id": "5268164",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Triple": {
+      "id": "5268170",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Launch Charge": {
+      "id": "5268192",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Wasted Mag": {
+      "id": "526838",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Flash Freeze": {
+      "id": "527538",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Tightly Packed": {
+      "id": "527600",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Spooky": {
+      "id": "528656",
+      "flags": "ExcludeFromWorldPool",
+      "applicableTo": [
+        "droppod"
+      ]
+    },
+    "Recycling": {
+      "id": "529916",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Power Core": {
+      "id": "5339530",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Overcharge Cycling": {
+      "id": "5339540",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Slippery Ice": {
+      "id": "534088",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Rapid Charge": {
+      "id": "5352138",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Energy Inversion": {
+      "id": "536002",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Quite the Tussle": {
+      "id": "538510",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Leafy Hat": {
+      "id": "539302",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Twang!": {
+      "id": "540678",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Quick Reset": {
+      "id": "-541346",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Charge Rerouting": {
+      "id": "548196",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Hazard Recycling": {
+      "id": "5495844",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Hard-Light Bypass": {
+      "id": "5495848",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Slippery Blood": {
+      "id": "550924",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Elemental Overheat": {
+      "id": "-5517100",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "High-Velocity Targeting": {
+      "id": "5518532",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "DiscWorld": {
+      "id": "552616",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Adrenaline Rush": {
+      "id": "554718",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Swing Through": {
+      "id": "555762",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Breathe Deep": {
+      "id": "559798",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Confident Queen": {
+      "id": "560576",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Ideal Conditions": {
+      "id": "560720",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Migration": {
+      "id": "563098",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Branches": {
+      "id": "563838",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Reorganized Reserves": {
+      "id": "5639302",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Cranius Hat": {
+      "id": "564570",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Defaced": {
+      "id": "5658670",
+      "flags": "None",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Colin Hat": {
+      "id": "567902",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Spore Release": {
+      "id": "569842",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Bubbles": {
+      "id": "571976",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap, GearDupeProtection, CantRollAtLarry",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "scattergun"
+      ]
+    },
+    "Gravity Well": {
+      "id": "572088",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom, CanCleanseBeforeDiscovered",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Cryogenic Oven": {
+      "id": "579444",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Honey Sweet": {
+      "id": "581260",
+      "flags": "CanStack, Coop",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Steel Frame": {
+      "id": "582160",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "photondisc"
+      ]
+    },
+    "Quack": {
+      "id": "583758",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Standard Hat": {
+      "id": "584602",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Rare Hat": {
+      "id": "584634",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Epic Hat": {
+      "id": "584638",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "M.I.R.V.": {
+      "id": "585184",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Autocycler": {
+      "id": "587750",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Blood Coating": {
+      "id": "588422",
+      "flags": "None",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Exotic Hat": {
+      "id": "591236",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Oddity Hat": {
+      "id": "591242",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Explosive Personality": {
+      "id": "592632",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Sharper Edges": {
+      "id": "598190",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Lateral Thrusters": {
+      "id": "-6019606",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Button Hat": {
+      "id": "602384",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Telepathic Charging": {
+      "id": "606022",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Lockdown": {
+      "id": "608380",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Livelier": {
+      "id": "608924",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Magnetic Loader": {
+      "id": "613166",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Lagrange Halo": {
+      "id": "621770",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Constellation": {
+      "id": "629810",
+      "flags": "ExcludeFromWorldPool, NoRandom, GearDupeProtection",
+      "applicableTo": [
+        "cycler",
+        "bounceshotgun",
+        "swarmgun",
+        "dmlr",
+        "leadflinger",
+        "platelauncher",
+        "gunshipcannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "scattergun"
+      ]
+    },
+    "G6 Choke": {
+      "id": "635048",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Skull Cracker": {
+      "id": "63582",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Voltaic Battery": {
+      "id": "636570",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Glacial Blast": {
+      "id": "63952",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Third Law": {
+      "id": "642930",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Playground": {
+      "id": "661030",
+      "flags": "None",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "High Caliber": {
+      "id": "643386",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Whack It In": {
+      "id": "651091",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Shardburst": {
+      "id": "661510",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "cryogrenade"
+      ]
+    },
+    "Quick Charge": {
+      "id": "663804",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Battery Extension": {
+      "id": "663808",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Packed Payload": {
+      "id": "663974",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Decaying Warhead": {
+      "id": "663978",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Battery Siphon": {
+      "id": "664766",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Quickfire": {
+      "id": "665202",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Bruce Hat": {
+      "id": "668430",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "TV Hat": {
+      "id": "67326",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Gunpowder Finale": {
+      "id": "674906",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Hot Potato": {
+      "id": "678112",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Vending Machine": {
+      "id": "678158",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission, CanCleanseBeforeDiscovered",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Flamer Hat": {
+      "id": "681958",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Flamingo Camo": {
+      "id": "686286",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Vanilla": {
+      "id": "686292",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Slipspace Bullet Transfer": {
+      "id": "688226",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Photon Surge": {
+      "id": "692924",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Shish Kebab": {
+      "id": "692986",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Bone": {
+      "id": "694956",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Bloodgod": {
+      "id": "694964",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Vapor": {
+      "id": "694972",
+      "flags": "None",
+      "applicableTo": [
+        "cycler"
+      ]
+    },
+    "Kevlar": {
+      "id": "700732",
+      "flags": "None",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Lined": {
+      "id": "701644",
+      "flags": "None",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Top Deck Storage": {
+      "id": "701834",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Rot Advantage": {
+      "id": "701848",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Candy Queen": {
+      "id": "70558",
+      "flags": "None",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Hallucinated Space": {
+      "id": "706658",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Mycelial Network": {
+      "id": "706666",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Eye on You": {
+      "id": "715350",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Killing Field": {
+      "id": "715354",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Shelf Hat": {
+      "id": "717470",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "License to Kill": {
+      "id": "726304",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Wasp Gun": {
+      "id": "728858",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Blood Bucket": {
+      "id": "731544",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Blood Efficiency": {
+      "id": "731548",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Cauldron Hat": {
+      "id": "735060",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Adrenaline Cultivation": {
+      "id": "737240",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Feedback Loop": {
+      "id": "738826",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Out of Thin Air": {
+      "id": "740540",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Saxonite Power Cell": {
+      "id": "741112",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Unchained": {
+      "id": "741394",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Pseudo Science": {
+      "id": "741420",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Twirl": {
+      "id": "741560",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Flash Flood": {
+      "id": "7454988",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Forceful Expulsion": {
+      "id": "7455188",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Aztec": {
+      "id": "755668",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Engineered Infection": {
+      "id": "756260",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Clearing Charge": {
+      "id": "756716",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Mr. Bruiser": {
+      "id": "7578890",
+      "flags": "None",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Phase Housing": {
+      "id": "773590",
+      "flags": "NoRandom",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Queen's Cannons": {
+      "id": "775292",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Modded Auto": {
+      "id": "778304",
+      "flags": "None",
+      "applicableTo": [
+        "leadflinger"
+      ]
+    },
+    "Glob Balloons": {
+      "id": "778316",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Emergency Evac": {
+      "id": "779076",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Roach Mask": {
+      "id": "781814",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Coil Extension": {
+      "id": "790560",
+      "flags": "CanStack",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Impulse Vault": {
+      "id": "792266",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Weight Rebalanced": {
+      "id": "793668",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    },
+    "Trifecta": {
+      "id": "7972698",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Gas Puddle": {
+      "id": "-803104",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "acidgrenade"
+      ]
+    },
+    "Hornet Hunting": {
+      "id": "804374",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Scorched Earth": {
+      "id": "804832",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Swarm Reserves": {
+      "id": "8052906",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Oxy-Fan Hat": {
+      "id": "807464",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Plunder": {
+      "id": "808178",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Compatible Ammunition": {
+      "id": "808184",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Flick": {
+      "id": "813200",
+      "flags": "ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Handheld Pocket Universe": {
+      "id": "813230",
+      "flags": "OnlyInOuroboros, IsSpatial",
+      "applicableTo": [
+        "player"
+      ],
+      "descriptionEn": "Standard upgrades are 1 cell.\r\nRare upgrades are 2 cells.\r\nEpic upgrades are 3 cells.\r\nExotic upgrades are 4 cells."
+    },
+    "Interim Manager": {
+      "id": "816438",
+      "flags": "CanStackInMission, OnlyInOuroboros",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Acerbic Flush": {
+      "id": "819248",
+      "flags": "None",
+      "applicableTo": [
+        "heavyshotgun"
+      ]
+    },
+    "Static Reload": {
+      "id": "832814",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Tuck'n'Roll": {
+      "id": "836854",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Dust Kick": {
+      "id": "836866",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Missile Bay": {
+      "id": "836970",
+      "flags": "None",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Killcode": {
+      "id": "8372238",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Inverted Spear of Hell": {
+      "id": "838580",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Heat Exchange": {
+      "id": "840420",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Insulated Gloves": {
+      "id": "845256",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "shockgrenade"
+      ]
+    },
+    "Princess": {
+      "id": "845440",
+      "flags": "None",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Cosmic Microwave": {
+      "id": "849084",
+      "flags": "OnlyInOuroboros",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Squadron": {
+      "id": "857262",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Ungovernable": {
+      "id": "857270",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Centrifugal Contraption": {
+      "id": "863192",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Eye in the Sky": {
+      "id": "864790",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Sophisticated Task Manager": {
+      "id": "866292",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Frog Legs": {
+      "id": "866890",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Spyglass": {
+      "id": "873154",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Point Detonators": {
+      "id": "8769086",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Solidified Acid": {
+      "id": "879348",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "One For All": {
+      "id": "879360",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, Coop, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Polished Chassis": {
+      "id": "886066",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Pigeon": {
+      "id": "886526",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Thunder": {
+      "id": "886544",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Autumnaton": {
+      "id": "890466",
+      "flags": "SkillTreeUpgrade",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Growth Hormones": {
+      "id": "890812",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Mycologist"
+      ]
+    },
+    "Pocket Replication": {
+      "id": "890874",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "globbler"
+      ]
+    },
+    "Illegal Sprinting Technique": {
+      "id": "892266",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Safety \\\"Regulations\\\"": {
+      "id": "896476",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "gunshipcannon"
+      ]
+    },
+    "Opening Charge": {
+      "id": "902908",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Simplest Solution": {
+      "id": "902912",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Slide Buffer": {
+      "id": "903072",
+      "flags": "ApplyStatUpgrades, CanStackInMission, IsSpatial",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Reserve Material": {
+      "id": "9048192",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Blitz Planting": {
+      "id": "905864",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Notched Breakpoint": {
+      "id": "905894",
+      "flags": "None",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Impact Cascade": {
+      "id": "906206",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Feedback Amplifier": {
+      "id": "9150198",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Heaven's Fury": {
+      "id": "915474",
+      "flags": "CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "trident"
+      ]
+    },
+    "Fuel Reserves": {
+      "id": "915526",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Wireless Extenders": {
+      "id": "9170872",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Crystalline": {
+      "id": "91872",
+      "flags": "None",
+      "applicableTo": [
+        "shocklance"
+      ]
+    },
+    "Restoration Protocol": {
+      "id": "9260246",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Over Extended": {
+      "id": "933816",
+      "flags": "CanStack",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Upset Stomach": {
+      "id": "936514",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Melting Point": {
+      "id": "942908",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "bounceshotgun"
+      ]
+    },
+    "Shake The Nest": {
+      "id": "943336",
+      "flags": "CanStack",
+      "applicableTo": [
+        "accelerator"
+      ]
+    },
+    "Ionic Overfill": {
+      "id": "943356",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Kinetic Boosters": {
+      "id": "943432",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "scattergun"
+      ]
+    },
+    "Efficient Storage": {
+      "id": "948734",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Elemental Tips": {
+      "id": "948750",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CantBoost",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Sharing Lunch": {
+      "id": "949800",
+      "flags": "NoRandom, Coop",
+      "applicableTo": [
+        "carver"
+      ]
+    },
+    "Stormcloud Accumulator": {
+      "id": "950462",
+      "flags": "CanStack",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Springboard": {
+      "id": "955962",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStack, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Launch Reserves": {
+      "id": "955966",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Volatile Explosives": {
+      "id": "9591886",
+      "flags": "NoRandom, CanStackInMission",
+      "applicableTo": [
+        "firegrenade"
+      ]
+    },
+    "Unruly Crowd": {
+      "id": "968270",
+      "flags": "None",
+      "applicableTo": [
+        "heavylaser"
+      ]
+    },
+    "Walk Cycle": {
+      "id": "968278",
+      "flags": "None",
+      "applicableTo": [
+        "heavynuke"
+      ]
+    },
+    "Safety Override": {
+      "id": "970488",
+      "flags": "None",
+      "applicableTo": [
+        "heavysniper"
+      ]
+    },
+    "Software Assisted Slide": {
+      "id": "97704",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Fara-Fanatic Hat": {
+      "id": "980900",
+      "flags": "SkillTreeUpgrade, ExcludeFromWorldPool, NoRandom, DisableScrap",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Toy": {
+      "id": "983658",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Egg": {
+      "id": "983664",
+      "flags": "None",
+      "applicableTo": [
+        "swarmgun"
+      ]
+    },
+    "Permafrost Wave": {
+      "id": "989710",
+      "flags": "ApplyStatUpgrades, ExcludeFromWorldPool, CanStackInMission, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "player"
+      ]
+    },
+    "Tumbleweed": {
+      "id": "99070",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Air Dash": {
+      "id": "99200",
+      "flags": "None",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Nose Dive": {
+      "id": "99308",
+      "flags": "None",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Lightning Dive": {
+      "id": "99532",
+      "flags": "SkillTreeUpgrade, ApplyStatUpgrades, CanTurbocharge, CanStackInMission",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Long Scope": {
+      "id": "99552",
+      "flags": "CanStackInMission",
+      "applicableTo": [
+        "dmlr"
+      ]
+    },
+    "Landing Roll": {
+      "id": "99666",
+      "flags": "ApplyStatUpgrades, CanStackInMission",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Deadeye": {
+      "id": "99672",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Wrangler"
+      ]
+    },
+    "Jetpack": {
+      "id": "99696",
+      "flags": "None",
+      "applicableTo": [
+        "Scrapper"
+      ]
+    },
+    "Dive Interrupt": {
+      "id": "99770",
+      "flags": "ApplyStatUpgrades, NoRandom",
+      "applicableTo": [
+        "Bruiser"
+      ]
+    },
+    "Wingsuit": {
+      "id": "99792",
+      "flags": "None",
+      "applicableTo": [
+        "Glider"
+      ]
+    },
+    "Vector Interdiction": {
+      "id": "999962",
+      "flags": "ExcludeFromWorldPool, CantDropInOuroBeforeDiscovered",
+      "applicableTo": [
+        "platelauncher"
+      ]
+    }
+  },
+  "methodZh": "已知固定修訂的公開資料於記憶體解壓與 SHA256 核對；只保留面板、升級旋轉里程碑與配件適用範圍／旗標，未保存完整資料匯出或任何圖檔。",
+  "limitsZh": "DefaultGridProfile 為來源預設，未確認每件裝備的動態面板指定；使用者需核對並可自訂。裝備等級與玩家旋轉等級分開。鏡射未支援；擴格、跨面板及整體改形效果不在目前求解範圍。"
+}

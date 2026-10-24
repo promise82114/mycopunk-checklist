@@ -1,0 +1,5998 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "url": "https://github.com/Vilsol/mycopunk-data/blob/a63cb1a6064030f77fc602e6d00b83dd967208aa/data/v2.0.2/data.json.gz",
+    "gameVersion": "v2.0.2",
+    "buildId": "26120128",
+    "sha256": "70eda67bddb8313f68cbe45702e0e6ff9d3fc84cefb6845351ad6a69a6a9b4c0",
+    "checkedOn": "2026-10-24"
+  },
+  "boardProfile": [
+    {
+      "Level": 0,
+      "Width": 5,
+      "Height": 5
+    },
+    {
+      "Level": 3,
+      "Width": 6,
+      "Height": 5
+    },
+    {
+      "Level": 6,
+      "Width": 6,
+      "Height": 6
+    },
+    {
+      "Level": 10,
+      "Width": 7,
+      "Height": 6
+    }
+  ],
+  "boardProfiles": {
+    "cycler": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "jackrabbit": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "swarm-launcher": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "dmlr": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "lead-flinger": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "plate-launcher": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "gunship-cannon": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "trident": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "globbler": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "carver": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "shocklance": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "accelerator": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "diffraction-driver": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "wrangler": {
+      "levelSource": "player",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "bruiser": {
+      "levelSource": "player",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "scrapper": {
+      "levelSource": "player",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "glider": {
+      "levelSource": "player",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "mycologist": {
+      "levelSource": "player",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "incendiary-grenade": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "shock-grenade": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "acid-grenade": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "photon-disc": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "snowball-grenade": {
+      "levelSource": "gear",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        },
+        {
+          "Level": 3,
+          "Width": 6,
+          "Height": 5
+        },
+        {
+          "Level": 6,
+          "Width": 6,
+          "Height": 6
+        },
+        {
+          "Level": 10,
+          "Width": 7,
+          "Height": 6
+        }
+      ]
+    },
+    "g6-street-sweeper": {
+      "levelSource": "fixed",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        }
+      ]
+    },
+    "a16-beam-ripper": {
+      "levelSource": "fixed",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        }
+      ]
+    },
+    "laser-cannon": {
+      "levelSource": "fixed",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        }
+      ]
+    },
+    "last-argument": {
+      "levelSource": "fixed",
+      "stages": [
+        {
+          "Level": 0,
+          "Width": 5,
+          "Height": 5
+        }
+      ]
+    }
+  },
+  "rotationUnlocks": {
+    "Standard": 3,
+    "Rare": 8,
+    "Epic": 16,
+    "Exotic": 30
+  },
+  "rules": {
+    "a16-beam-ripper:arise": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:battery-extension": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:energy-inversion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:inertial-overload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:inverted-spear-of-hell": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:quick-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:running-hot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:safety-override": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:straggler-s-revenge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "a16-beam-ripper:third-law": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "accelerator:awaken-the-hive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:combustive-rounds": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:confident-queen": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:energy-cohesion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:explosive-bullets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "unknown"
+    },
+    "accelerator:feedback-loop": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:flash-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:full-auto-trigger": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "accelerator:hair-trigger": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:honey-sweet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:inertia-accelerant": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:kinetic-optimization": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:miniaturized-warp-core": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:momentum-impact": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:number-5-to-go": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:oxythane-s-promise": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:payback": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:payload-amplifier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:queen-s-cannons": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:quick-reset": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:remote-charging": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "accelerator:requeening": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:ruptured-spleen": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "accelerator:shake-the-nest": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:shaved-projectiles": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:shocker": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:size-them-up": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:slipspace-bullet-transfer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:sweet-heavens": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "accelerator:the-royal-jelly-of-hazaran": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:three-in-one": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:unstable-recursion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "accelerator:wasp-gun": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "acid-grenade:base-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:connected-systems": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "acid-grenade:cooling-system": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:defensive-spurt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:deteriorate": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "acid-grenade:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:exothermic-reaction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "acid-grenade:gas-puddle": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:gas-valves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:glub-glub": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:greased-mixture": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:grenade-belt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "acid-grenade:heavy-support": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "acid-grenade:in-for-a-penny": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:in-for-a-penny-in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:lightspeed-material-transfer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "acid-grenade:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:odd-cocktail": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:overcharge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:overclock": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:polymer-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:saxonite-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:sloth-s-day-out": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:universal-solvent": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "acid-grenade:vacuum-tube": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:backboost": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:blast-chamber": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:bruise-protection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:cannonball": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:comet-splash": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:dive-interrupt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:domed": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:force-projection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:force-redistribution": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:for-good-measure": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:frog-legs": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:get-off-me": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:hard-light-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:hard-light-prison": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:hold-the-line": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:improved-refueling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:killcode": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:knee-dive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:launch-reserves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:lightning-dive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:liquid-cooling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:modular-construction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:nose-bounce": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:nose-dive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:one-for-all": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:one-two-punch": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:optical-attraction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:sophisticated-task-manager": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:splash-zone": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:springboard": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "bruiser:striking-distance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:thermal-paste": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "bruiser:to-dust": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:unconditional-protector": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:with-me": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "bruiser:with-you": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "carver:additional-ram-stick": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:aim-for-the-liver": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:big-deflector": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "carver:blade-extenders": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:blood-bucket": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:blood-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "carver:blood-efficiency": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:blood-lightning": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:blood-rampage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:bloody-jumping": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:corrosive-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:deflector": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:greedy-fuck": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:heavy-pockets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "carver:ignition-recharge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:lockdown": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:nutrition-sampler": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:overheat-system": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:rage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:ram-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:repairing-exhaust": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:rush": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:safety-warning": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:sharing-lunch": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "carver:shocking-adrenaline": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:slippery-blood": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:super-magnet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:swinging-technique": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "carver:turkey-s-bloodlust": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:adrenaline-reload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:bigazine": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:bulging-cartridge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:charged-cartridges": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:charge-shield": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:compact-cartridge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:condensed-ejection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:corrode-siphon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:corrosive-plasma": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:cycling-repairs": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:cyclotron": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "cycler:decay-energy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:double-shot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "cycler:doublestack-cartridge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:dump-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "cycler:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:elemental-discharge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:energy-convergence": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:equipment-siphon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:extralight-frame": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "cycler:focused-lenses": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:full-range": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:heated-battery": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:infinity-burn": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:intense-reaction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:mass-acceleration": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:momentum-overload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:overclocked-firing-mechanism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:precision-fire": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:ricochet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:rocket-burst": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:scorching-detonation": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:shock-recursion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:smart-slide": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:stability-module": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:subzero-energy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:superheat-reaction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:toxin-recycling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "cycler:violent-ignition": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:aerial-refueling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:a-safe-place": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:capacity-waiver-section-b": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:centrifugal-contraption": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:cryogenic-firing-chamber": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:disarmament": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:elemental-infusion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:firecracker": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:frostbiter": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:full-potential": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:generative-ions": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:gyrocopter": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:ice-pick": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:illegal-sprinting-technique": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:ionic-overfill": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:kinetic-boosters": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:patient-gambler": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:pocket-sniper": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:quadrabarrel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:quite-the-tussle": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:radiant-prism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:resonance-catapult": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "diffraction-driver:saxonite-dampeners": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:skull-cracker": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:spliced-coilgun": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:terminal-velocity": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:to-pieces": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "diffraction-driver:virtual-muscle-memory": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "diffraction-driver:volatile-packaging": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:arc-lightning": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:assist-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "dmlr:autocycler": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:aux-reserves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:beam-amplifier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:concussive-wave": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:coronal-ejection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:corrosive-laser": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:demonstrator-s-trick": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "dmlr:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:engineering-nanites": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:feedback-amplifier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:hard-light-bypass": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "dmlr:hazard-recycling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:heavy-hitting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:hot-swap": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:incendiary-laser": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:kinetic-amplifier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:kinetic-impossibility": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "dmlr:long-scope": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:overcharge-cycling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:photon-surge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:power-core": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:pulverizer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:quickswap-cartridge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:rapid-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:reorganized-reserves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:shocking-laser": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:shredder": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:stormcloud-accumulator": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "dmlr:sturdy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:tainted-exhaust": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:trifecta": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:triple": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:two-way-charging": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "dmlr:voltaic-battery": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "g6-street-sweeper:acerbic-flush": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:corn-all-around-the-cob": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:crowd-control": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:double-loading": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "g6-street-sweeper:driver-update": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "g6-street-sweeper:g6-choke": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:kinetic-absorbers": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:license-to-kill": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:melodramatic-hero": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "g6-street-sweeper:secret-pocket": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "general:acid-affinity": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:acid-resistance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:ammo-processor": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:blink": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:boost-buffer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "cycler",
+        "jackrabbit",
+        "swarm-launcher",
+        "dmlr",
+        "lead-flinger",
+        "plate-launcher",
+        "gunship-cannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "diffraction-driver",
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist",
+        "incendiary-grenade",
+        "shock-grenade",
+        "acid-grenade",
+        "photon-disc",
+        "snowball-grenade"
+      ],
+      "stacking": "mission"
+    },
+    "general:brittle-battery": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:core-repurposing": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:cosmic-microwave": {
+      "geometryModifier": false,
+      "ouroborosOnly": true,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "cycler",
+        "jackrabbit",
+        "swarm-launcher",
+        "dmlr",
+        "lead-flinger",
+        "plate-launcher",
+        "gunship-cannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "diffraction-driver",
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist",
+        "incendiary-grenade",
+        "shock-grenade",
+        "acid-grenade",
+        "photon-disc",
+        "snowball-grenade"
+      ],
+      "stacking": "mission"
+    },
+    "general:elemental-cocktail": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:elemental-health": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:elemental-regeneration": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:fake-id-biologicals-only": {
+      "geometryModifier": false,
+      "ouroborosOnly": true,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:fire-affinity": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:fire-resistance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:focus-prism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:frantic-greed": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:grenade-recycling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:handheld-pocket-universe": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:inertial-conductors": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:interim-manager": {
+      "geometryModifier": false,
+      "ouroborosOnly": true,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:kinetic-effect": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:magboots": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "single"
+    },
+    "general:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [
+        "cycler",
+        "jackrabbit",
+        "swarm-launcher",
+        "dmlr",
+        "lead-flinger",
+        "plate-launcher",
+        "gunship-cannon",
+        "trident",
+        "globbler",
+        "carver",
+        "shocklance",
+        "accelerator",
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist",
+        "incendiary-grenade",
+        "shock-grenade",
+        "acid-grenade",
+        "photon-disc",
+        "snowball-grenade"
+      ],
+      "stacking": "mission"
+    },
+    "general:polished-chassis": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:punch-punch": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:reinforced-plating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:repair-siphon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:scrap-repurposing": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:shock-affinity": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:shock-resistance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:slide-buffer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:slide-deflector": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:software-assisted-slide": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:structural-survey": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:surge-protector": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "mission"
+    },
+    "general:third-arm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [
+        "wrangler",
+        "bruiser",
+        "scrapper",
+        "glider",
+        "mycologist"
+      ],
+      "stacking": "always"
+    },
+    "glider:attrition-supply": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:battery-siphon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:biofuel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:charge-rerouting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:clearing-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:course-correction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:efficient-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:elemental-tips": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "glider:energy-injection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:eye-on-you": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:from-down-town": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:fuel-injection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:fuel-reserves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:gravity-well": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "glider:heat-exchange": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:high-velocity-targeting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:hover-precision": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:kernel-rerouter": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:knee-slide": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:lateral-thrusters": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "glider:m-i-r-v": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:nanite-breeding": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:nanite-return": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:panic-systems": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:pocket-rocket": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "glider:point-detonators": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:proprietary-packing-algorithm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:quickfire": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:rearm-mechanism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:reserve-material": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:saxonite-shackles": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:star-fuel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:streamlined": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:thermal-vent-override": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:weight-reduction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "glider:wingsuit": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "globbler:auto-replicator": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:flash-flood": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:flood": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:forceful-expulsion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:full-spectrum": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "globbler:glob-balloons": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:globblin": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "globbler:globulous-excitement": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:globulous-siphon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:glorb": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:gunpowder-packing": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:heavy-globs": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:impact-funnel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:improved-replication": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:improve-replication": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "unknown"
+    },
+    "globbler:instant-detonation": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "globbler:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:pack-eater": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:pocket-replication": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:pressure-cooker": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:replicator-resistance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:shrunken-container": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:slipper-shoes": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:solidified-acid": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:the-glob": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "globbler:triagon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "globbler:volatile-acid": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "globbler:volatile-element": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:adaptive-stabilizers": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:ballistic-charger": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:blowback-redirect": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:blue-prism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "gunship-cannon:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:cargo-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:drag-caps": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:elemental-munitions": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:firmly-planted": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:frantic-fingers": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:green-prism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "gunship-cannon:gunship": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:hard-ricochet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:heavy-munitions": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "gunship-cannon:higher-caliber": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:hold-plating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:hull-piercer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "gunship-cannon:industrial-feed-mechanism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:lagrange-halo": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:magnetic-loader": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:missile-bay": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "gunship-cannon:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:overclocked-firing-chamber": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:point-demolition": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:purple-prism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "gunship-cannon:safety-regulations": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:sawed-off": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:stabilizers": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:thumper": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "gunship-cannon:tinderbox": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:unarmored": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "gunship-cannon:yellow-prism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "incendiary-grenade:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:cheap-material": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:cluster-bomb": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:fire-gel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:gambler-s-bargain": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:give-and-take": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:grenade-belt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "incendiary-grenade:hearth-home": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:heated-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:heat-sink": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:home-brew-combustion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:hot-boxing": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:impact-cascade": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:in-for-a-penny": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:in-for-a-penny-in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:internal-combustion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:large-ignition": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:maniac-maneuver": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "incendiary-grenade:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:napalm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:restoration-protocol": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:two-s-company": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:violent-reaction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:volatile-explosives": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "incendiary-grenade:welding-heat": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:all-powdered-up": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:delicious-cores": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "jackrabbit:double-barrel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "jackrabbit:double-time": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "jackrabbit:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:fire-in-my-heart": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:focus-spread": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:friction-compensators": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "jackrabbit:ghosting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "jackrabbit:heavy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:hot-potato": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:hot-reload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:immolator": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:mag-extender": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:melting-point": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:molotov": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:opening-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:pesticide": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:power-ricochet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:pummeler": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:reactive-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "jackrabbit:reinforced-coating": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:shell-packer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "jackrabbit:simplest-solution": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:slam-fire": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:slideshot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:stable-grip": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:stand-the-heat": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:steadier-aim": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:steady-aim": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "jackrabbit:wild-fire": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "laser-cannon:core-dump": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:formicidae-magnifier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:heat-pump": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:motion-compensators": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:prismatic-sharpeners": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:scorched-earth": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:shared-processing-array": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:solar-flare": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:supernova": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "laser-cannon:unruly-crowd": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:all-the-time-in-the-world": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "last-argument:crafting-table": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:crow-s-nest": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "last-argument:decaying-warhead": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:fusillade": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:gluttonous-vulture": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:packed-payload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:soul-reaper": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:walk-cycle": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "last-argument:where-did-this-come-from": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "lead-flinger:adrenaline-rush": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:bandolier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:big-fat-doobie": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:blood-rush": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:breathe-deep": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:burning-tips": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:chemical-symbiosis": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:controlled-substance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:delirium": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:double-action": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:fan-fire": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:feeling-lucky": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:fresh-bullet-frenzy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:hallucinated-space": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:high-caliber": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:home-cooking": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:juiced-up": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:just-add-more-gunpowder": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:lead-poisoning": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:lucky-bastard": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:lucky-last": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:modded-auto": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "lead-flinger:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:outlaw": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:phantom-limb": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:practice-makes-perfect": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "lead-flinger:ralph-s-conundrum": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:residue": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:ride-the-high": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:self-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:shrapnel-loading": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:unnatural-focus": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "lead-flinger:volatile-munitions": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:adrenaline-cultivation": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:angry-outburst": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:backblast": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:bioelectrical-connections": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "mycologist:boresight": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:branches": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:brisk-hypochondriac": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:catapult": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:chemical-reaction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:cryogenic-skewer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:decay-infusion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:engineered-infection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:exotic-flora": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:eye-of-the-storm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:fungal-skewer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:growth-hormones": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:growth-spurt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:hypersprint": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:i-ll-take-that": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:kaleidoscopic-retort": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "mycologist:lucky-harvest": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:mushroom-cap": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:mutualistic-locomotion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "mycologist:mycelial-battery": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "mycologist:mycelial-network": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:mycorrhizal-rush": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:organic-motility": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:organic-pressure": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:peaceful-resolution": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:rapid-cultivation": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:soybean-hull-paste": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "mycologist:space-elevator": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "mycologist:sporadic-sprouting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:spore-release": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:structural-support": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "mycologist:thorny": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:bullet-time": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:disc-array": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "photon-disc:discworld": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "photon-disc:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:elemental-obsession": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "photon-disc:enhanced-spooling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "photon-disc:erratic-systems": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "photon-disc:explosive-packing": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:flurry": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:grenade-belt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "photon-disc:harmonizer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:in-for-a-penny": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:in-for-a-penny-in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:linked-list": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "photon-disc:magnetic-shard": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "photon-disc:molecular-inversion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "photon-disc:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:perfectly-attuned": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:photon-lattice": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "photon-disc:pocket-grenade-wait-why-is-this-one-legal": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:propulsion-drive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:reactive-overload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:reflex-override": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:splinter": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:steel-frame": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:stimulus-package": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "photon-disc:syzygy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "photon-disc:usb-c": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:aerodynamic-plates": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:auto-demolition": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:becall": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:bouncy-plates": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:charge-recycling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "plate-launcher:charging-port": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:clearing-plasma": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:compressed-plate-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:damage-arc": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:decay-plates": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:double-a": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:electrified-plates": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:fencing-construction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:high-ground": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:improvised-explosives": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "plate-launcher:impulse-redirection": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:nice-catch": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:painter-s-attachment": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:pole-alignment": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:power-recall": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:rail-tuning": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:return-to-receiver": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:salad-plates": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:sharper-edges": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:shish-kebab": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:shockwave": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:simple-inertia": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:slap-job": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "plate-launcher:storage-surplus": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:tungsten-cube": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:vector-interdiction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "plate-launcher:weight-rebalanced": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:aft-thrusters": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:beehive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:burst-release": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:coil-springs": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:cooling-vents": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:deliberate-mistake": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "scrapper:dynamite-deployment": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:elemental-overheat": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:explosive-personality": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:eye-in-the-sky": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:feedback-relay": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:frantic-mechanism": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:fueling-station": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:fuel-rations": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:fulmination-core": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:ideal-conditions": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:impulse-vault": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:jetpack": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "scrapper:jungle-jim": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:multithread": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:on-the-go": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:parallel-wiring": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:pressure-increase": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:recycled-fuel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:saxonite-power-cell": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:scrap-funnel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "scrapper:solar-panel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:spare-cable": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:stolen-nanites": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:stream-jets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:tether-battery": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:upset-stomach": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:upside-down": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "scrapper:vending-machine": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:wireless-extenders": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "scrapper:wrecking-ball": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:cloud-skip": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:electromagnet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:emergency-evac": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:engorge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:excited-plasma": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:fastball": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:flash-storm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shock-grenade:grenade-belt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shock-grenade:higher-voltage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:illegal-pocket-grenade": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:in-for-a-penny": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:in-for-a-penny-in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:insulated-gloves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:launch-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:livelier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:live-wire": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:marathon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:phase-housing": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shock-grenade:shock-funnel": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:static-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shock-grenade:stun": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shock-grenade:system-overload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shock-grenade:thunder-pressure": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:auger-subroutine": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:auxiliary-chargers": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:battery-recursion": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shocklance:black-market-battery": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:centripetal-cornering": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:coated-coils": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:coil-extension": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:compressor": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:crescendo": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:extra-capacitors": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:fester": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shocklance:fisticuffs": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:flurrying-configuration": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:forward-charge": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:fwoosh": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shocklance:gearshift": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:gladiator-s-pockets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:half-cocked": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:killing-field": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:laying-cable": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:micro-detonators": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:notched-breakpoint": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "shocklance:railshot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:ready-and-waiting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:skewer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:splintered-lance": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:squire-supplier": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "shocklance:storm-s-eye": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:subway": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:swing-through": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "shocklance:triple-a": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "snowball-grenade:a-serious-squall": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:cold-call": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:cryogenic-cooling": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:cryogenic-oven": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:dolphin-dive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:flash-freeze": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:frozen-assets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:glacial-blast": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:grenade-belt": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "snowball-grenade:hailstorm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:hard-freeze": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:ice-armor": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:in-for-a-penny": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:in-for-a-penny-in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:in-for-a-pound": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:pocket-blizzard": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:polar-pet": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:severed-snowman": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:shardburst": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:slicing-follow-up": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:slippery-ice": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:slushy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "snowball-grenade:tightly-packed": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:atmospheric-energizers": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:autoswarm": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "swarm-launcher:blitz-planting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:breeding-season": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:crop-duster": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:cross-pollination": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:electrified-pellets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "swarm-launcher:explosive-pellets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "swarm-launcher:guidance-array": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:high-caliber-pellets": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:large-energy-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:migration": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "swarm-launcher:mitosis": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:munition-siphon": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:over-extended": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "swarm-launcher:overload-contingency": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:portable-solar-array": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:power-redistribution": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "swarm-launcher:precise-targeting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:quick-grouping": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:quick-release": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:rapid-pollination": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:remote-control": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "swarm-launcher:scatterburst": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "swarm-launcher:sprinkler": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:static-reload": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:swarm-reserves": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:the-hive-must-grow": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:tight-planting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:tool-for-the-job": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "swarm-launcher:wait-charging": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:acid-shot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:bailing-water": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:bottom-heavy": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:boundary-incursion": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:broadside": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:cargo-hold": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:compatible-ammunition": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:compressed-ammunition": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:corrosive-reaction": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:cross-deck": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "always"
+    },
+    "trident:discount-marksman": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:edge-fault": {
+      "geometryModifier": true,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:energy-condenser": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:fire-in-the-hold": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:fire-shot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:gunner-s-precision": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:gunpowder-finale": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:heaven-s-fury": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:hornet-hunting": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:increased-load": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:line-er-up": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:lone-cannoneer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:multiversal-thievery": {
+      "geometryModifier": true,
+      "ouroborosOnly": true,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:plasma-arc": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:plunder": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:rot-advantage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:shredify": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:spyglass": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:squadron": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:tailwind": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:thrill-of-the-fight": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:top-deck-storage": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:tread-the-line": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "trident:ungovernable": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:air-dash": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:ammo-continuity": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:blood-sweat-tears": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:charge-thief": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:dash-immunity": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:deadeye": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:dead-or-alive": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:double-dash": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:double-lasso": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:dust-kick": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:dynamite-on-a-string": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:extra-rope": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:eyes-up-here": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:gust": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:handspring": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:hold-onto-your-hats": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:hometown-hero": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:hornet-interference": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:landing-roll": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:leap-the-gap": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:loose-rope": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:momentum-transfer": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:one-liner": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:powder-player": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:pseudo-science": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:quick-knot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:rocket-jump": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:second-wind": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:slingshot": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:switcheroo": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:synthetic-adrenaline": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:the-ole-one-two": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:through-hell": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:tuck-n-roll": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:tumbleweed": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    },
+    "wrangler:unchained": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "single"
+    },
+    "wrangler:yank-em": {
+      "geometryModifier": false,
+      "ouroborosOnly": false,
+      "genericOwners": [],
+      "stacking": "mission"
+    }
+  },
+  "notesZh": "角色面板隨玩家等級，武器及手榴彈隨裝備等級；重武器固定使用 HeavyGridProfile 5×5。旋轉門檻為玩家等級。Oddity／Contraband 無已知旋轉門檻，保留來源方向。擴格、跨面板徵用與整體改形效果尚未模擬。",
+  "stackingSource": {
+    "kind": "wiki",
+    "url": "https://mycopunk.miraheze.org/wiki/Main_Page",
+    "checkedOn": "2026-10-24",
+    "license": "CC BY-SA 4.0",
+    "interpretationZh": "依各配件 Wiki 修訂的 CanStack／CanStackInMission 技術旗標區分情境，適用模式與效果疊加數值未實機核對。"
+  }
+}

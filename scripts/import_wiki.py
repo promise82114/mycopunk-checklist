@@ -41,7 +41,11 @@ for item in equipment['items']:
     item['levelUnlocks'] = rewards
 # 網站只帶繪圖座標與必要來源，不打包完整索引、原始 SVG 或抓取紀錄。
 patternFields = ['nameEn', 'upgradeIds', 'cells', 'cellCount', 'sourceUrl', 'gameVersion', 'checkedOn', 'author', 'license', 'licenseUrl', 'coordinateSystem']
-sitePatterns = [{key: pattern[key] for key in patternFields if key in pattern} for pattern in shapes['patterns']]
+catalogueIndex = read('wiki-catalogue-index.json')
+sitePatterns = [{key: pattern[key] for key in patternFields if key in pattern} for pattern in catalogueIndex['shapes']]
+catalogue = json.loads((repoRoot / 'prototype/data/catalogue.json').read_text(encoding='utf-8'))
+coveredIds = {id for pattern in sitePatterns for id in pattern['upgradeIds']}
+shapes['coverage'] = {'coveredUpgradeRecords': len(coveredIds), 'totalUpgradeRecords': len(catalogue['upgrades'])}
 output = {'schemaVersion': 1, 'equipment': equipment, 'unlocks': {'checkedOn': unlocks['checkedOn'], 'mechanics': unlocks['mechanics'], 'upgrades': unlocks['upgrades']}, 'shapes': {'patterns': sitePatterns, 'coverage': shapes['coverage'], 'compatibilityNote': shapes['compatibilityNote']}, 'hiddenPaths': hiddenPaths}
 text = json.dumps(output, ensure_ascii=False, indent=2) + '\n'
 destination = repoRoot / 'prototype/data/field-guide.json'

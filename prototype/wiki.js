@@ -1,4 +1,4 @@
-import { rarityLabels } from './model.js';
+import { rarityLabels, upgradeStacking } from './model.js';
 import { renderHexPattern } from './patterns.js';
 
 export const escapeHtml = text => String(text ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -60,10 +60,11 @@ export function validateFieldGuide(data, catalogue) {
   return data;
 }
 
-export function renderShape(shape, size) {
+export function renderShape(shape, size, workbookSize = size, emptyPattern = false) {
   if (shape?.cells?.length) {
-    return `${renderHexPattern(shape.cells)}<span>${shape.cells.length} cells / 六角格</span><span class="shape-unknown">Wiki ${escapeHtml(shape.gameVersion || 'version not stated')}<br>Excel: ${size} cells / 格${shape.cells.length !== size ? '<br><strong>Count differs / 格數不同</strong>' : ''}</span>${sourceAnchor(shape.sourceUrl, 'Source / 來源 ↗')}`;
+    return `${renderHexPattern(shape.cells)}<span>${shape.cells.length} cells / 六角格</span><span class="shape-unknown">Wiki ${escapeHtml(shape.gameVersion || 'version not stated')}${workbookSize != null && workbookSize !== shape.cells.length ? `<br>Excel: ${workbookSize} cells / 格<br><strong>Count differs / 格數不同</strong>` : ''}</span>${sourceAnchor(shape.sourceUrl, 'Source / 來源 ↗')}`;
   }
+  if (emptyPattern) return '<span class="shape-unknown">Source pattern is empty<br><span class="zh-copy">來源圖檔為空，未推測占格</span></span>';
   return `<span class="cell-count">${size ?? '—'} <small>cells / 格</small></span><span class="shape-unknown">Workbook cell count only<br><span class="zh-copy">僅原表占格數</span><br>Coordinates pending<br><span class="zh-copy">格形座標待補；不代表 Wiki 無圖</span></span>`;
 }
 
@@ -72,12 +73,15 @@ export function renderUpgrade(upgrade, owner, record, options = {}) {
   const stats = upgrade.stats.map(stat => `<div class="stat"><span>${escapeHtml(stat.nameEn)}<small class="zh-copy">${escapeHtml(stat.nameZh)}</small></span><b>${escapeHtml(stat.display || [stat.minRaw, stat.maxRaw].filter(Boolean).join(' → ') || '—')}</b></div>`).join('');
   const turbo = upgrade.turbochargeEn && upgrade.turbochargeEn !== 'n/a' ? `<div class="inline-turbo"><span class="cell-label">TURBOCHARGE / 增幅</span>${dual(upgrade.turbochargeEn, upgrade.turbochargeZh)}</div>` : '';
   const unlockMarkup = unlock ? `<div class="inline-unlock"><span class="cell-label">${escapeHtml(unlock.kindEn || 'Unlock condition')} / ${escapeHtml(unlock.kindZh || '解鎖條件')}</span>${dual(unlock.conditionEn, unlock.conditionZh)}${sourceAnchor(unlock.sourceUrl, 'Condition source / 條件來源 ↗')}</div>` : '';
+  const acquisitionMarkup = upgrade.acquisitionEn ? `<div class="inline-unlock"><span class="cell-label">ACQUISITION / 取得方式</span>${dual(upgrade.acquisitionEn, upgrade.acquisitionZh)}</div>` : '';
+  const stacking = upgradeStacking(upgrade);
+  const stackingMarkup = `<small class="upgrade-stacking">${{ always: 'Stackable / 可重複安裝', mission: 'In-mission stacking / 任務內可疊加', single: 'Single copy / 單件安裝', unknown: 'Stacking not recorded / 疊加規則未記載' }[stacking]}</small>`;
   return `<article class="upgrade-row ${record?.collected ? 'is-collected' : ''}" id="upgrade-${upgrade.id}" data-upgrade="${upgrade.id}">
     <label class="collect-control" title="Mark collected / 標記已收集"><input type="checkbox" data-collect="${upgrade.id}" ${record?.collected ? 'checked' : ''} ${storageBlocked ? 'disabled' : ''} aria-label="Collected / 已取得：${escapeHtml(upgrade.nameEn)}"></label>
-    <div class="upgrade-identity"><div class="upgrade-icon"><img src="${escapeHtml(upgrade.icon)}" alt="" loading="lazy" width="38" height="38"></div><div><h3>${escapeHtml(upgrade.nameEn)}</h3><p class="zh-copy">${escapeHtml(upgrade.nameZh)}</p><span class="rarity rarity-${upgrade.rarity.toLowerCase()}">${upgrade.rarity} <span class="zh-copy">${rarityLabels[upgrade.rarity]}</span></span>${options.showOwner ? `<button type="button" class="owner-link" data-owner="${owner.id}">${escapeHtml(owner.nameEn)} →</button>` : ''}${rating || ''}${checklist ? `<button type="button" class="track-button ${record?.tracked ? 'is-tracked' : ''}" data-track="${upgrade.id}" aria-pressed="${Boolean(record?.tracked)}">${record?.tracked ? '★ Tracked / 追蹤中' : '☆ Track / 追蹤'}</button>` : ''}</div></div>
-    <div class="upgrade-effect"><span class="cell-label mobile-label">EFFECT / 效果</span>${dual(upgrade.descriptionEn, upgrade.descriptionZh)}${turbo}${unlockMarkup}<div class="upgrade-source">${sourceAnchor(upgrade.wikiUrl, 'Wiki ↗')}<span>${escapeHtml(upgrade.source.sheet)} · row ${upgrade.source.row}</span></div></div>
+    <div class="upgrade-identity">${upgrade.icon ? `<div class="upgrade-icon"><img src="${escapeHtml(upgrade.icon)}" alt="" loading="lazy" width="38" height="38"></div>` : ''}<div><h3>${escapeHtml(upgrade.nameEn)}</h3><p class="zh-copy">${escapeHtml(upgrade.nameZh)}</p><span class="rarity rarity-${upgrade.rarity.toLowerCase()}">${upgrade.rarity} <span class="zh-copy">${rarityLabels[upgrade.rarity]}</span></span>${stackingMarkup}${upgrade.archived ? '<small class="data-note">Archived Workbook entry / 舊表保留項目</small>' : ''}${options.showOwner ? `<button type="button" class="owner-link" data-owner="${owner.id}">${escapeHtml(owner.nameEn)} →</button>` : ''}${rating || ''}${checklist ? `<button type="button" class="track-button ${record?.tracked ? 'is-tracked' : ''}" data-track="${upgrade.id}" aria-pressed="${Boolean(record?.tracked)}">${record?.tracked ? '★ Tracked / 追蹤中' : '☆ Track / 追蹤'}</button>` : ''}</div></div>
+    <div class="upgrade-effect"><span class="cell-label mobile-label">EFFECT / 效果</span>${dual(upgrade.descriptionEn, upgrade.descriptionZh)}${turbo}${acquisitionMarkup}${unlockMarkup}<div class="upgrade-source">${sourceAnchor(upgrade.wikiUrl, 'Wiki revision ↗')}<span>${upgrade.source.kind === 'wiki' ? `Checked ${escapeHtml(upgrade.source.checkedOn)} · 遊戲版本未註明` : `${escapeHtml(upgrade.source.sheet)} · row ${upgrade.source.row}`}</span></div></div>
     <div class="upgrade-stats"><span class="cell-label mobile-label">STATISTICS / 數值</span>${stats || '<span class="muted">Not listed / 原表未列數值</span>'}</div>
-    <div class="upgrade-shape"><span class="cell-label mobile-label">PATTERN / 形狀</span>${renderShape(shape, upgrade.size)}</div>
+    <div class="upgrade-shape"><span class="cell-label mobile-label">PATTERN / 形狀</span>${renderShape(shape, upgrade.size, Object.hasOwn(upgrade, 'workbookSize') ? upgrade.workbookSize : upgrade.size, upgrade.emptyPattern)}</div>
   </article>`;
 }
 

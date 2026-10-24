@@ -29,13 +29,18 @@ jobs:
           node --check prototype/wiki.js
           node --check prototype/patterns.js
           node --check prototype/hidden-paths.js
+          node --check prototype/build-planner.js
+          node --check prototype/build-solver.js
+          node --check prototype/build-worker.js
           node --check scripts/serve.mjs
           node scripts/validate_site.mjs
       - name: Verify reproducible data imports
         run: |
           python3 scripts/import_excel.py --strict
           python3 scripts/import_recommendations.py
+          python3 scripts/import_wiki_catalogue.py
           python3 scripts/import_wiki.py
+          python3 scripts/import_build_rules.py
           if [ -n "$(git status --porcelain -- prototype/data prototype/assets/icons localization/phrases.json)" ]; then
             echo "Generated data differs from committed files. Run the data importers and commit their output."
             exit 1

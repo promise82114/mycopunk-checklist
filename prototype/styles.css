@@ -20,3 +20,4 @@
 @media(min-width:1600px){.hidden-path-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:780px){.hidden-path-grid{grid-template-columns:1fr}.path-instructions{grid-template-columns:1fr;gap:12px}.path-version{flex-direction:column;gap:16px}.path-version>div:last-child{max-width:none}.path-version>div:last-child p{margin-top:5px}.path-version h2{font-size:23px}.path-diagram{height:300px}.path-version-notes{padding:20px}}
 @media(max-width:360px){.path-version{padding:19px}.path-version h2{font-size:21px}.path-diagram{height:260px}.hidden-path-card>header,.path-facts,.hidden-path-card footer{padding-left:16px;padding-right:16px}.path-coordinates{padding-left:16px;padding-right:16px}}
+.upgrade-stacking{display:block;font-size:10px;line-height:1.6;color:var(--muted);margin-top:7px}
